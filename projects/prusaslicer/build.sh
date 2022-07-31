@@ -22,7 +22,7 @@
 # make -j$(nproc) all
 
 # create seed_corpus.zip
-zip -r $OUT/prusaslicer_seed_corpus.zip $SRC/seed_corpus/*
+zip -r $OUT/prusaslicer_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 
 
 # build fuzzers
@@ -30,4 +30,4 @@ zip -r $OUT/prusaslicer_seed_corpus.zip $SRC/seed_corpus/*
 # $CXX $CXXFLAGS -std=c++11 -Iinclude \
 #     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
 #     $LIB_FUZZING_ENGINE /path/to/library.a
-$CXX $CXXFLAGS $SRC/wrapper.cpp $SRC/GCodeReader.cpp -o $OUT/prusaslicer $LIB_FUZZING_ENGINE
+$CXX $CXXFLAGS $SRC/wrapper.cpp $SRC/GCodeReader.cpp -o $OUT/prusaslicer_$FUZZING_ENGINE $LIB_FUZZING_ENGINE

@@ -22,8 +22,8 @@
 # make -j$(nproc) all
 
 # create seed_corpus.zip
-zip -r $OUT/repetier_firmware_binary_seed_corpus.zip $SRC/seed_corpus_binary/*
-zip -r $OUT/repetier_firmware_ascii_seed_corpus.zip $SRC/seed_corpus/*
+zip -r $OUT/repetier_firmware_binary_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus_binary/*
+zip -r $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 
 # build fuzzers
 # e.g.
@@ -32,7 +32,7 @@ zip -r $OUT/repetier_firmware_ascii_seed_corpus.zip $SRC/seed_corpus/*
 #     $LIB_FUZZING_ENGINE /path/to/library.a
 
 # parseBinary build
-$CXX $CXXFLAGS -DFUZZ_TARGET=1 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_binary $LIB_FUZZING_ENGINE
+$CXX $CXXFLAGS -DFUZZ_TARGET=1 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_binary_$FUZZING_ENGINE $LIB_FUZZING_ENGINE
 
 # parseAscii build
-$CXX $CXXFLAGS -DFUZZ_TARGET=0 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_ascii $LIB_FUZZING_ENGINE
+$CXX $CXXFLAGS -DFUZZ_TARGET=0 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_ascii_$FUZZING_ENGINE $LIB_FUZZING_ENGINE
