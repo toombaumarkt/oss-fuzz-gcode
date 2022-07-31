@@ -17,8 +17,13 @@
 FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && apt-get install -y make autoconf automake libtool
 #RUN git clone --depth 1 <git_url> repetier-firmware     # or use other version control
+
+# get common testcases
+RUN git clone --depth 1 https://github.com/toombaumarkt/gcode-fuzzing-testcases.git
+RUN cp -r gcode-fuzzing-testcases/seed_corpus $SRC/
+
 COPY parser/ $SRC/
-ADD seed_corpus_ascii/ $SRC/seed_corpus_ascii
+ADD seed_corpus/ $SRC/seed_corpus
 ADD seed_corpus_binary/ $SRC/seed_corpus_binary
 #WORKDIR repetier-firmware
 COPY build.sh $SRC/

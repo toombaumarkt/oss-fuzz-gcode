@@ -23,7 +23,7 @@
 
 # create seed_corpus.zip
 zip -r $OUT/repetier_firmware_binary_seed_corpus.zip $SRC/seed_corpus_binary
-zip -r $OUT/repetier_firmware_ascii_seed_corpus.zip $SRC/seed_corpus_ascii
+zip -r $OUT/repetier_firmware_ascii_seed_corpus.zip $SRC/seed_corpus
 
 # build fuzzers
 # e.g.
