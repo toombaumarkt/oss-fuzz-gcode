@@ -22,7 +22,7 @@
 # make -j$(nproc) all
 
 # create seed_corpus.zip
-zip -r $OUT/marlin_seed_corpus.zip $SRC/seed_corpus
+zip -r $OUT/marlin_seed_corpus.zip $SRC/seed_corpus/*
 
 # build fuzzers
 # e.g.
