@@ -18,5 +18,6 @@ FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && apt-get install -y make autoconf automake libtool
 #RUN git clone --depth 1 <git_url> repetier-firmware     # or use other version control
 COPY parser $SRC/
-WORKDIR prusaslicer
+ADD seed_corpus/ $SRC/seed_corpus
+#WORKDIR prusaslicer
 COPY build.sh $SRC/
