@@ -231,7 +231,7 @@ void simulate_serial_transmission(const uint8_t * Data, size_t length) {
 
 extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size){
     if (! SizeIsOk(Size)) {
-        return -1;
+        return 0;
     }
 
     simulate_serial_transmission(Data, Size);  
