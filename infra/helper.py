@@ -301,6 +301,10 @@ def get_parser():  # pylint: disable=too-many-statements
   run_fuzzer_parser.add_argument('fuzzer_args',
                                  help='arguments to pass to the fuzzer',
                                  nargs='*')
+  run_fuzzer_parser.add_argument('--print_out',
+                                  action='store_true',
+                                  default=False,
+                                  help='enable or disable container output')                                 
 
   coverage_parser = subparsers.add_parser(
       'coverage', help='Generate code coverage report for the project.')
@@ -939,7 +943,7 @@ def run_fuzzer(args):
       args.fuzzer_name,
   ] + args.fuzzer_args)
 
-  return docker_run(run_args)
+  return docker_run(run_args, args.print_out)
 
 
 def reproduce(args):
