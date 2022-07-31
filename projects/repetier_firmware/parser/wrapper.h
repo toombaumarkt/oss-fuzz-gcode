@@ -9,7 +9,7 @@
 #define DEBUG_OUTPUT 0
 #define FUZZ_TARGET_1_EASY_SANITY_CHECK 0
 #define FUZZ_TARGET_1_HARD_SANITY_CHECK 0
-#define ENABLE_CHECKSUM_CALC 1
+#define ENABLE_CHECKSUM_CALC 0
 
 // define target function to fuzz
 // 0 -> parseAscii
