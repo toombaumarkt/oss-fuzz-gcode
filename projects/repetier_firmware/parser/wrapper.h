@@ -14,7 +14,7 @@
 // define target function to fuzz
 // 0 -> parseAscii
 // 1 -> parseBinary
-#define FUZZ_TARGET 0
+//#define FUZZ_TARGET 1
 
 
 

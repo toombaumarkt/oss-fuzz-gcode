@@ -17,6 +17,8 @@
 FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && apt-get install -y make autoconf automake libtool
 #RUN git clone --depth 1 <git_url> repetier-firmware     # or use other version control
-COPY parser $SRC/
-WORKDIR repetier-firmware
+COPY parser/ $SRC/
+ADD seed_corpus_ascii/ $SRC/seed_corpus_ascii
+ADD seed_corpus_binary/ $SRC/seed_corpus_binary
+#WORKDIR repetier-firmware
 COPY build.sh $SRC/

@@ -21,9 +21,18 @@
 # ./configure
 # make -j$(nproc) all
 
+# create seed_corpus.zip
+zip -r $OUT/repetier_firmware_binary_seed_corpus.zip $SRC/seed_corpus_binary
+zip -r $OUT/repetier_firmware_ascii_seed_corpus.zip $SRC/seed_corpus_ascii
+
 # build fuzzers
 # e.g.
 # $CXX $CXXFLAGS -std=c++11 -Iinclude \
 #     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
 #     $LIB_FUZZING_ENGINE /path/to/library.a
-$CXX $CXXFLAGS -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier-firmware $LIB_FUZZING_ENGINE
+
+# parseBinary build
+$CXX $CXXFLAGS -DFUZZ_TARGET=1 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_binary $LIB_FUZZING_ENGINE
+
+# parseAscii build
+$CXX $CXXFLAGS -DFUZZ_TARGET=0 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_ascii $LIB_FUZZING_ENGINE
