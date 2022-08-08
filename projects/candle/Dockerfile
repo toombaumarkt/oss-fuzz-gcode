@@ -41,21 +41,21 @@ RUN \
 RUN \
     set -eux && \
     cd /opt && \
-    wget -q https://download.qt.io/official_releases/qt/6.2/6.2.4/submodules/qtbase-everywhere-src-6.2.4.tar.xz && \
-    tar xf qtbase-everywhere-src-6.2.4.tar.xz && \
-    rm qtbase-everywhere-src-6.2.4.tar.xz && \
+    wget -q https://download.qt.io/official_releases/qt/5.15/5.15.5/single/qt-everywhere-opensource-src-5.15.5.tar.xz && \
+    tar xf qt-everywhere-src-5.15.5.tar.xz && \
+    rm qt-everywhere-src-5.15.5.tar.xz && \
     exit 0
     
     
     
 RUN \
-    cd /opt/qtbase-everywhere-src-6.2.4 && \
-    ./configure -opensource -prefix /usr/local/Qt-6.2.4 -confirm-license -platform linux-clang-libc++ -release -static -nomake tests -nomake examples -skip qtwebengine \
+    cd /opt/qt-everywhere-src-5.15.5 && \
+    ./configure -opensource -prefix /usr/local/Qt-5.15.5 -confirm-license -platform linux-clang-libc++ -release -static -nomake tests -nomake examples -skip qtwebengine \
     -qt-zlib -qt-libjpeg -qt-libpng -qt-freetype -qt-pcre -qt-harfbuzz && \
     cmake --build . --parallel && \
     cmake --install . && \
     cd /opt && \
-    rm -rf qtbase-everywhere-src-6.2.4 && \
+    rm -rf qt-everywhere-src-5.15.5 && \
     exit 0
 
 # build qtbase
@@ -80,4 +80,4 @@ ADD seed_corpus/ $SRC/seed_corpus
 #WORKDIR grbl
 COPY build.sh $SRC/
 
-ENV PATH="${PATH}:/usr/local/Qt-6.2.4/bin"
+ENV PATH="${PATH}:/usr/local/Qt-5.15.5/bin"
