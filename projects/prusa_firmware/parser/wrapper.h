@@ -25,14 +25,11 @@
 #define MAX_DATA_SIZE 1000
 #define MIN_DATA_SIZE 1
 
-#define DEBUG_OUTPUT 1
+#define DEBUG_OUTPUT 0
 
 
 
-#define USE_GCODE_SUBCODES 1
-#define GCODE_MOTION_MODES 1
-#define FASTER_GCODE_PARSER 1
-#define DEBUG_GCODE_PARSER 0
+#define DEBUG_DCODES
 
 
 // copied from eeprom.h

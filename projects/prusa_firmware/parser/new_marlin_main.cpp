@@ -1,6 +1,7 @@
 
 #include "wrapper.h"
 #include "new_marlin_main.h"
+#include "Dcodes.h"
 
 M500_conf cs;
 
@@ -178,55 +179,149 @@ enum class ClCheckVersion:uint_least8_t
 };
 ClCheckVersion oCheckVersion=ClCheckVersion::_None;
 
-int parse_hex(char* hex, uint8_t* data, int count)
-{
-	int parsed = 0;
-	while (*hex)
-	{
-		if (count && (parsed >= count)) break;
-		char c = *(hex++);
-		if (c == ' ') continue;
-		if (c == '\n') break;
-		uint8_t val = 0x00;
-		if ((c >= '0') && (c <= '9')) val |= ((c - '0') << 4);
-		else if ((c >= 'a') && (c <= 'f')) val |= ((c - 'a' + 10) << 4);
-		else return -parsed;
-		c = *(hex++);
-		if ((c >= '0') && (c <= '9')) val |= (c - '0');
-		else if ((c >= 'a') && (c <= 'f')) val |= (c - 'a' + 10);
-		else return -parsed;
-		data[parsed] = val;
-		parsed++;
-	}
-	return parsed;
-}
 
-void dcode_core(daddr_t addr_start, const daddr_t addr_end,/* const dcode_mem_t type,*/
-                uint8_t dcode, const char* type_desc)
-{
-    ;//KEEPALIVE_STATE(NOT_BUSY);
-    ;//DBG(_N("D%d - Read/Write %S\n"), dcode, type_desc);
-    daddr_t count = -1; // RW the entire space by default
-    if (code_seen('A'))
-        addr_start = (strchr_pointer[1] == 'x')?strtol(strchr_pointer + 2, 0, 16):(int)code_value();
-    if (code_seen('C'))
-        count = code_value_long();
-    if (addr_start > addr_end)
-        addr_start = addr_end;
-    if ((addr_start + count) > addr_end || (addr_start + count) < addr_start)
-        count = addr_end - addr_start;
-    if (code_seen('X'))
-    {
-        uint8_t data[16];
-        count = parse_hex(strchr_pointer + 1, data, 16);
-        ;//write_mem(addr_start, count, data, type);
-#if DADDR_SIZE > 16
-        DBG(_N("%lu bytes written to %S at address 0x%04lx\n"), count, type_desc, addr_start);
-#else
-        ;//DBG(_N("%u bytes written to %S at address 0x%08x\n"), count, type_desc, addr_start);
+
+/**
+ * @brief FUZZING -- added reset function to assign initial values to static members
+ * 
+ */
+void reset(){
+  min_pos[0] = X_MIN_POS;
+  min_pos[1] = Y_MIN_POS;
+  min_pos[2] = Z_MIN_POS;
+
+  max_pos[0] = X_MAX_POS;
+  max_pos[1] = Y_MAX_POS;
+  max_pos[2] = Z_MAX_POS;
+
+  axis_known_position[0] = false;
+  axis_known_position[1] = false;
+  axis_known_position[2] = false;
+
+  memset(current_position, 0, sizeof(current_position));
+  
+  extruder_multiplier[0] = {1.0};
+  #if EXTRUDERS > 1
+    extruder_multiplier[1] = 1.0;
+    #if EXTRUDERS > 2
+      extruder_multiplier[2] = 1.0;
+    #endif
+  #endif
+
+  active_extruder = 0;
+  fanSpeed= 0;
+  newFanSpeed = 0;
+
+  memset(fan_state, 0, sizeof(fan_state));
+  fan_edge_counter[0] = 0;
+  fan_edge_counter[1] = 0;
+  fan_speed[0] = 0;
+  fan_speed[1] = 0;
+
+  starttime=0;
+  stoptime=0;
+
+  cancel_heatup = false;
+
+  #ifdef PS_DEFAULT_OFF
+    powersupply = false;
+  #else
+	  powersupply = true;
+  #endif
+
+  #ifdef FWRETRACT
+  retracted[0]= false;
+    #if EXTRUDERS > 1
+    retracted[1]= false;
+     #if EXTRUDERS > 2
+      retracted[2]= false;
+     #endif
+  #endif
+  
+  retracted_swap[0]= false;
+    #if EXTRUDERS > 1
+    retracted_swap[1]= false;
+     #if EXTRUDERS > 2
+      retracted_swap[2]= false;
+     #endif
+  #endif
+  
+
+  retract_length_swap = RETRACT_LENGTH_SWAP;
+  retract_recover_length_swap = RETRACT_RECOVER_LENGTH_SWAP;
 #endif
-    }
-    ;//print_mem(addr_start, count, type);
+
+  axis_relative_modes = 0;
+
+  feedmultiply=100; //100->1 200->2
+  extrudemultiply=100; //100->1 200->2
+  extruder_multiply[0] = 100;
+  #if EXTRUDERS > 1
+    extruder_multiply[1] = 100;
+    #if EXTRUDERS > 2
+      extruder_multiply[1] = 100;
+    #endif
+  #endif
+
+  max_inactive_time = 0;
+  stepper_inactive_time = DEFAULT_STEPPER_DEACTIVE_TIME*1000l;
+  safetytimer_inactive_time = DEFAULT_SAFETYTIMER_TIME_MINS*60*1000ul;
+
+  saved_feedmultiply_mm = 100;
+
+  memset(destination, 0, sizeof(destination));
+
+// For tracing an arc
+  memset(offset, 0, sizeof(offset));
+
+// Current feedrate
+  feedrate = 1500.0;
+
+// Feedrate for the next move
+  next_feedrate = 0;
+
+// Original feedrate saved during homing moves
+  saved_feedrate = 0;
+
+  status_number = 0;
+
+  total_filament_used = 0;
+  memset(&heating_status, 0, sizeof(heating_status));
+  heating_status_counter = 0;
+  loading_flag = false;
+
+  PingTime = millis();
+  no_response = false;
+  gcode_in_progress = 0;
+  mcode_in_progress = 0;
+
+  M500_conf cs;
+
+  farm_mode = 0;
+
+// copied from cardreader.cpp
+  Stopped=false;
+
+//copied from planner.h
+// Use M203 to override by software
+  max_feedrate = cs.max_feedrate_normal;
+// Use M201 to override by software
+  max_acceleration_units_per_sq_second = cs.max_acceleration_units_per_sq_second_normal;
+  memset(axis_steps_per_sqr_second, 0, sizeof(axis_steps_per_sqr_second));
+
+
+  IP_address = 0;
+  isPrintPaused = false;
+
+// storing estimated time to end of print counted by slicer
+  print_percent_done_normal = PRINT_PERCENT_DONE_INIT;
+  print_percent_done_silent = PRINT_PERCENT_DONE_INIT;
+  print_time_remaining_normal = PRINT_TIME_REMAINING_INIT; //estimated remaining print time in minutes
+  print_time_remaining_silent = PRINT_TIME_REMAINING_INIT; //estimated remaining print time in minutes
+  print_time_to_change_normal = PRINT_TIME_REMAINING_INIT; //estimated remaining time to next change in minutes
+  print_time_to_change_silent = PRINT_TIME_REMAINING_INIT; //estimated remaining time to next change in minutes
+
+  oCheckVersion=ClCheckVersion::_None;
 }
 
 
@@ -491,30 +586,6 @@ lcd_update_enable(true);           // display / status-line recovery
 }
 
 
-    /*!
-    ### D2 - Read/Write RAM <a href="https://reprap.org/wiki/G-code#D2:_Read.2FWrite_RAM">D3: Read/Write RAM</a>
-    This command can be used without any additional parameters. It will read the entire RAM.
-    #### Usage
-
-        D2 [ A | C | X ]
-
-    #### Parameters
-    - `A` - Address (x0000-x21ff)
-    - `C` - Count (1-8704)
-    - `X` - Data
-
-	#### Notes
-	- The hex address needs to be lowercase without the 0 before the x
-	- Count is decimal
-	- The hex data needs to be lowercase
-
-    */
-void dcode_2()
-{
-  daddr_t addr = 0x0000;
-  daddr_t addr_end = 0xffff;
-    dcode_core(addr, addr_end/*, dcode_mem_t::sram*/, 2, _N("SRAM"));
-}
 
 // G92 - Set current position to coordinates given
 static void gcode_G92()
@@ -5855,7 +5926,7 @@ Sigma_Exit:
     ### D-1 - Endless Loop <a href="https://reprap.org/wiki/G-code#D-1:_Endless_Loop">D-1: Endless Loop</a>
     */
 	case -1:
-		;//dcode__1(); 
+		;//dcode__1(); -- We Don't want an endless loop when fuzzing 
     break;
 #ifdef DEBUG_DCODES
 

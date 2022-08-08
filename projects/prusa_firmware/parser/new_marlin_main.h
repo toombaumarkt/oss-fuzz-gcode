@@ -41,4 +41,6 @@ void process_commands();
 
 void get_coordinates();
 
+void reset();
+
 #endif
