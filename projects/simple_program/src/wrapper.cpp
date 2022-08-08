@@ -94,19 +94,18 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size){
     if (! SizeIsOk(Size)) {
         return 0;
     }
-	
-    char test[4] = "hi!";
+
+    char test[100];
+    
     #if DEBUG_OUTPUT
         std::cout << "Fuzzed Input: " << "Size: " << Size << "\n";
     #endif
-
-    if(Size > 0 && Data[0] == 'H'){
-    	if(Size > 1 && Data[1] == 'i'){
-    	    if(Size > 2 && Data[2] == '!'){
-    	    	test[5] = 0;
-    	    }
-    	}
-    }
+    uint8_t* line = new uint8_t[Size];
+    memcpy(line, Data, Size);
+    line[Size - 1] = 0;
+	
+    strcpy(test, (char*) line);
     
+    delete[]line;
     return 0;
 }
