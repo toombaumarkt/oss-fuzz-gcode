@@ -30,4 +30,10 @@ zip -r $OUT/candle_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 # $CXX $CXXFLAGS -std=c++11 -Iinclude \
 #     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
 #     $LIB_FUZZING_ENGINE /path/to/library.a
-$CXX $CXXFLAGS $SRC/wrapper.cpp $SRC/gcodeviewparse.cpp $SRC/gcodepreprocessorutils.cpp $SRC/linesegment.cpp $SRC/pointsegment.cpp $SRC/arcproperties.cpp $SRC/tables/gcodetablemodel.cpp $SRC/moc_gcodeviewparse.cpp $SRC/moc_gcodetablemodel.cpp $SRC/moc_gcodeparser.cpp -o $OUT/candle_$FUZZING_ENGINE $LIB_FUZZING_ENGINE
+#export QMAKE_CXX=$CXX
+#export QMAKE_CXXFLAGS=$CXXFLAGS
+#export QMAKE_CFLAGS=$CFLAGS
+#export QMAKE_CC=$CC
+
+echo $CXXFLAGS
+$CXX -O1 -fno-omit-frame-pointer -gline-tables-only -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -fsanitize=address -fsanitize-address-use-after-scope -fsanitize=fuzzer-no-link -stdlib=libc++ $SRC/parser/*.cpp $SRC/parser/tables/gcodetablemodel.cpp -o $OUT/candle_$FUZZING_ENGINE -I $SRC/Qt-5.15.5/include/QtCore/ -I $SRC/Qt-5.15.5/include/QtGui/ -I $SRC/Qt-5.15.5/include/QtWidgets/ -I $SRC/Qt-5.15.5/include/ $SRC/Qt-5.15.5/plugins/imageformats/libqgif.a $SRC/Qt-5.15.5/plugins/imageformats/libqico.a $SRC/Qt-5.15.5/plugins/imageformats/libqjpeg.a $SRC/Qt-5.15.5/lib/libqtlibjpeg.a $SRC/Qt-5.15.5/lib/libQt5Widgets.a $SRC/Qt-5.15.5/lib/libQt5Gui.a $SRC/Qt-5.15.5/lib/libqtlibpng.a $SRC/Qt-5.15.5/lib/libqtharfbuzz.a $SRC/Qt-5.15.5/lib/libQt5Core.a $SRC/Qt-5.15.5/lib/libqtpcre2.a $LIB_FUZZING_ENGINE -lpthread -fPIC
