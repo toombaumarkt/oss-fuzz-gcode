@@ -27,7 +27,10 @@ zip -r $OUT/camotics_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 
 
 # build fuzzers
-$CXX $CXXFLAGS -I$SRC/camotics/src -I$SRC/camotics/cbang/src -Wall $SRC/parser/wrapper.cpp -o $OUT/camotics_$FUZZING_ENGINE $LIB_FUZZING_ENGINE $SRC/camotics/build/libGCode.a -L$SRC/camotics/cbang/lib -pthread
+$CXX $CXXFLAGS -I$SRC/camotics/src -I$SRC/camotics/cbang/src \
+		-Wall $SRC/parser/wrapper.cpp \
+		-o $OUT/camotics_$FUZZING_ENGINE $LIB_FUZZING_ENGINE \
+		$SRC/camotics/build/libGCode.a -L$SRC/camotics/cbang/lib -pthread
 
 
 # build fuzzers
