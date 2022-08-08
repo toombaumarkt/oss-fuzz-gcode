@@ -50,10 +50,10 @@ RUN \
     
 RUN \
     cd /opt/qtbase-everywhere-src-6.2.4 && \
-    ./configure -opensource -confirm-license -platform linux-clang-libc++ -release -static -nomake tests -nomake examples -skip qtwebengine \
-    -qt-zlib -qt-libjpeg -qt-libpng -xcb -qt-freetype -qt-pcre -qt-harfbuzz && \
-    make -j $(($(nproc)+4)) && \
-    make install && \
+    ./configure -opensource -prefix /usr/local/Qt-6.2.4 -confirm-license -platform linux-clang-libc++ -release -static -nomake tests -nomake examples -skip qtwebengine \
+    -qt-zlib -qt-libjpeg -qt-libpng -qt-freetype -qt-pcre -qt-harfbuzz && \
+    cmake --build . --parallel && \
+    cmake --install . && \
     cd /opt && \
     rm -rf qtbase-everywhere-src-6.2.4 && \
     exit 0
