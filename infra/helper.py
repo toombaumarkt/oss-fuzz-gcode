@@ -301,7 +301,7 @@ def get_parser():  # pylint: disable=too-many-statements
   run_fuzzer_parser.add_argument('fuzzer_args',
                                  help='arguments to pass to the fuzzer',
                                  nargs='*')
-  run_fuzzer_parser.add_argument('--print_out',
+  run_fuzzer_parser.add_argument('--no-print',
                                   action='store_true',
                                   default=False,
                                   help='enable or disable container output')                                 
@@ -529,7 +529,7 @@ def _workdir_from_dockerfile(project):
   return workdir_from_lines(lines, default=os.path.join('/src', project.name))
 
 
-def docker_run(run_args, print_output=True):
+def docker_run(run_args, no_print=False):
   """Calls `docker run`."""
   command = ['docker', 'run', '--rm', '--privileged']
 
@@ -541,7 +541,7 @@ def docker_run(run_args, print_output=True):
 
   logging.info('Running: %s.', _get_command_string(command))
   stdout = None
-  if not print_output:
+  if no_print:
     stdout = open(os.devnull, 'w')
 
   try:
@@ -943,7 +943,7 @@ def run_fuzzer(args):
       args.fuzzer_name,
   ] + args.fuzzer_args)
 
-  return docker_run(run_args, args.print_out)
+  return docker_run(run_args, args.no_print)
 
 
 def reproduce(args):
