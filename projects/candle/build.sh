@@ -21,6 +21,8 @@
 # ./configure
 # make -j$(nproc) all
 
+$SRC/qtbase-everywhere-src-5.15.5/configure -v -platform linux-clang-libc++ -prefix $SRC/Qt-5.15.5/ -static -opensource -confirm-license -release -no-compile-examples -nomake examples -nomake tests -qt-pcre -qt-zlib -qt-freetype -qt-harfbuzz -xcb -qt-libpng -qt-libjpeg -qt-sqlite && make -j $(($(nproc)+4)) && make install
+
 # create seed_corpus.zip
 zip -r $OUT/candle_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 
