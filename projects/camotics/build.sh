@@ -24,13 +24,11 @@
 # create seed_corpus.zip
 zip -r $OUT/camotics_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 
-
-
 # build fuzzers
-$CXX $CXXFLAGS -I$SRC/camotics/src -I$SRC/camotics/cbang/src \
-		-Wall $SRC/parser/wrapper.cpp \
-		-o $OUT/camotics_$FUZZING_ENGINE $LIB_FUZZING_ENGINE \
-		$SRC/camotics/build/libGCode.a -L$SRC/camotics/cbang/lib -pthread
+#$CXX $CXXFLAGS -I$SRC/camotics/src -I$SRC/camotics/cbang/src \
+#		-Wall $SRC/parser/wrapper.cpp \
+#		-o $OUT/camotics_$FUZZING_ENGINE $LIB_FUZZING_ENGINE \
+#		$SRC/camotics/build/libGCode.a -L$SRC/camotics/cbang/lib -pthread
 
 
 # build fuzzers
@@ -38,4 +36,4 @@ $CXX $CXXFLAGS -I$SRC/camotics/src -I$SRC/camotics/cbang/src \
 # $CXX $CXXFLAGS -std=c++11 -Iinclude \
 #     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
 #     $LIB_FUZZING_ENGINE /path/to/library.a
-#$CXX $CXXFLAGS -static -std=c++11 $SRC/parser/wrapper.cpp -I $SRC/parser -I $SRC/camotics/cbang/src/ $LIB_FUZZING_ENGINE $SRC/camotics/cbang/lib/libcbang.a $SRC/camotics/cbang/lib/libcbang-boost.a $SRC/camotics/build/libGCode.a $SRC/camotics/cbang/lib/*.a -o $OUT/camotics_$FUZZING_ENGINE -ldl -lstdc++ -pthread
+$CXX $CXXFLAGS -DUSING_CBANG -DFIX_BUG_1 -I $SRC/parser -I $SRC/cbang/src/ $SRC/parser/wrapper.cpp $SRC/parser/gcode/*.cpp $SRC/parser/gcode/parse/*.cpp $SRC/parser/gcode/ast/*.cpp -o $OUT/camotics_$FUZZING_ENGINE $LIB_FUZZING_ENGINE $SRC/cbang/lib/libcbang.a $SRC/cbang/lib/libcbang-boost.a $SRC/cbang/lib/liblz4.a $SRC/cbang/lib/libbz2.a $SRC/cbang/lib/libz.a

@@ -6,9 +6,8 @@
 // fuzzing parameters
 #define MAX_DATA_SIZE 1000
 #define MIN_DATA_SIZE 1
-#define DEBUG_OUTPUT 1
+#define DEBUG_OUTPUT 0
 
-#define USING_CBANG
 
 #define false 0
 #define true 1
