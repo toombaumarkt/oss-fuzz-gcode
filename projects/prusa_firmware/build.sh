@@ -29,6 +29,6 @@ zip -r $OUT/prusa_firmware_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 # $CXX $CXXFLAGS -std=c++11 -Iinclude \
 #     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
 #     $LIB_FUZZING_ENGINE /path/to/library.a
-$CXX $CXXFLAGS $SRC/wrapper.cpp $SRC/cmdqueue.cpp $SRC/new_marlin_main.cpp $SRC/Dcodes.cpp -o $OUT/prusa_firmware_$FUZZING_ENGINE $LIB_FUZZING_ENGINE $(pkg-config --variable=libdir libbsd)/libbsd.a
+$CXX $CXXFLAGS $SRC/wrapper.cpp $SRC/cmdqueue.cpp $SRC/new_marlin_main.cpp $SRC/Dcodes.cpp -o $OUT/prusa_firmware_$FUZZING_ENGINE\_$SANITIZER $LIB_FUZZING_ENGINE $(pkg-config --variable=libdir libbsd)/libbsd.a
 
 

@@ -36,4 +36,4 @@ zip -r $OUT/camotics_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 # $CXX $CXXFLAGS -std=c++11 -Iinclude \
 #     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
 #     $LIB_FUZZING_ENGINE /path/to/library.a
-$CXX $CXXFLAGS -DUSING_CBANG -DFIX_BUG_1 -I $SRC/parser -I $SRC/cbang/src/ $SRC/parser/wrapper.cpp $SRC/parser/gcode/*.cpp $SRC/parser/gcode/parse/*.cpp $SRC/parser/gcode/ast/*.cpp -o $OUT/camotics_$FUZZING_ENGINE $LIB_FUZZING_ENGINE $SRC/cbang/lib/libcbang.a $SRC/cbang/lib/libcbang-boost.a $SRC/cbang/lib/liblz4.a $SRC/cbang/lib/libbz2.a $SRC/cbang/lib/libz.a
+$CXX $CXXFLAGS -DUSING_CBANG -DFIX_BUG_1 -I $SRC/parser -I $SRC/cbang/src/ $SRC/parser/wrapper.cpp $SRC/parser/gcode/*.cpp $SRC/parser/gcode/parse/*.cpp $SRC/parser/gcode/ast/*.cpp -o $OUT/camotics_$FUZZING_ENGINE\_$SANITIZER $LIB_FUZZING_ENGINE $SRC/cbang/lib/libcbang.a $SRC/cbang/lib/libcbang-boost.a $SRC/cbang/lib/liblz4.a $SRC/cbang/lib/libbz2.a $SRC/cbang/lib/libz.a

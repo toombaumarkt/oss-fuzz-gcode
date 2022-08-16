@@ -30,4 +30,4 @@ zip -r $OUT/grbl_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 # $CXX $CXXFLAGS -std=c++11 -Iinclude \
 #     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
 #     $LIB_FUZZING_ENGINE /path/to/library.a
-$CXX $CXXFLAGS $SRC/wrapper.cpp $SRC/protocol.cpp $SRC/gcode.c $SRC/nuts_bolts.c -o $OUT/grbl_$FUZZING_ENGINE $LIB_FUZZING_ENGINE
+$CXX $CXXFLAGS $SRC/wrapper.cpp $SRC/protocol.cpp $SRC/gcode.c $SRC/nuts_bolts.c -o $OUT/grbl_$FUZZING_ENGINE\_$SANITIZER $LIB_FUZZING_ENGINE

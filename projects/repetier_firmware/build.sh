@@ -32,7 +32,7 @@ zip -r $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_c
 #     $LIB_FUZZING_ENGINE /path/to/library.a
 
 # parseBinary build
-$CXX $CXXFLAGS -DFUZZ_TARGET=1 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_binary_$FUZZING_ENGINE $LIB_FUZZING_ENGINE
+$CXX $CXXFLAGS -DFUZZ_TARGET=1 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_binary_$FUZZING_ENGINE\_$SANITIZER $LIB_FUZZING_ENGINE
 
 # parseAscii build
-$CXX $CXXFLAGS -DFUZZ_TARGET=0 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_ascii_$FUZZING_ENGINE $LIB_FUZZING_ENGINE
+$CXX $CXXFLAGS -DFUZZ_TARGET=0 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_$SANITIZER $LIB_FUZZING_ENGINE
