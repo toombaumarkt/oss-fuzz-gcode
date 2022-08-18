@@ -8,6 +8,9 @@
 #define MIN_DATA_SIZE 1
 #define DEBUG_OUTPUT 0
 
+// fix bugs
+// Tokenizer.cpp:166
+#define FIX_BUG_1 1
 
 #define false 0
 #define true 1

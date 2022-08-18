@@ -8,7 +8,7 @@
 #ifndef POINTSEGMENT_H
 #define POINTSEGMENT_H
 
-#include <QVector3D>
+#include <QVector>
 
 #include "arcproperties.h"
 

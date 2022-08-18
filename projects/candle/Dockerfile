@@ -21,14 +21,23 @@ RUN apt-get update && apt-get install -y build-essential cmake make autoconf aut
 RUN cp /etc/apt/sources.list /etc/apt/sources.list~ && sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list && apt-get update
 RUN apt-get build-dep -y qtbase5-dev
 
+#RUN apt-get install -y libfontconfig1-dev libfreetype6-dev libx11-dev libx11-xcb-dev libxext-dev libxfixes-dev libxi-dev libxrender-dev libxcb1-dev libxcb-glx0-dev libxcb-keysyms1-dev libxcb-image0-dev libxcb-shm0-dev libxcb-icccm4-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0-dev libxcb-util-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev
+
+# install qt dependencies
+RUN apt-get install -y bison build-essential clang flex gperf libatspi2.0-dev libbluetooth-dev libclang-dev libcups2-dev libdrm-dev libegl1-mesa-dev libfontconfig1-dev libfreetype6-dev libgstreamer1.0-dev libhunspell-dev libnss3-dev libopengl-dev libpulse-dev libssl-dev libts-dev libx11-dev libx11-xcb-dev libxcb-glx0-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-keysyms1-dev libxcb-randr0-dev libxcb-render-util0-dev libxcb-shape0-dev libxcb-shm0-dev libxcb-sync-dev libxcb-util-dev libxcb-xfixes0-dev libxcb-xinerama0-dev libxcb-xkb-dev libxcb1-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxext-dev libxfixes-dev libxi-dev libxkbcommon-dev libxkbcommon-x11-dev libxkbfile-dev libxrandr-dev libxrender-dev libxshmfence-dev libxshmfence1 llvm ninja-build nodejs python-is-python2 python2
+
+
+# build cmake 3.21
+#RUN wget https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2.tar.gz && tar xf cmake-3.21.2.tar.gz && cd cmake-3.21.2 && ./configure && make && make install && cd .. && rm -rf cmake-3.21.2
 
 # build qtbase
 RUN wget https://download.qt.io/archive/qt/5.15/5.15.5/submodules/qtbase-everywhere-opensource-src-5.15.5.tar.xz
-COPY qtbase-everywhere-opensource-src-5.15.5.tar.xz .
-#ADD qtbase-everywhere-src-5.15.5 $SRC/qtbase-everywhere-src-5.15.5
-RUN tar -xvf qtbase-everywhere-opensource-src-5.15.5.tar.xz
 
-#RUN $SRC/qtbase-everywhere-src-5.15.5/configure -v -platform linux-clang -prefix $SRC/Qt-5.15.5/ -static -opensource -confirm-license -release -no-compile-examples -nomake examples -nomake tests -qt-pcre -qt-zlib -qt-freetype -qt-harfbuzz -xcb -qt-libpng -qt-libjpeg -qt-sqlite && make -j $(($(nproc)+4)) && make install
+RUN tar -xvf qtbase-everywhere-opensource-src-5.15.5.tar.xz
+RUN cd $SRC/qtbase-everywhere-src-5.15.5/mkspecs && sed -i -e "s/QMAKE_CXXFLAGS    += -stdlib=libc++/QMAKE_CXXFLAGS    += -stdlib=libc++  \nQMAKE_CFLAGS += /g" linux-clang-libc++/qmake.conf && sed -i -e "s/QMAKE_LFLAGS      += -stdlib=libc++/QMAKE_LFLAGS      += -stdlib=libc++ -lpthread/g" linux-clang-libc++/qmake.conf
+
+RUN mkdir qt-build
+RUN cd qt-build && $SRC/qtbase-everywhere-src-5.15.5/configure -confirm-license -opensource -platform linux-clang-libc++ -release -static -qt-zlib -qt-libjpeg -qt-libpng -qt-freetype -qt-pcre -qt-harfbuzz && make -j8 && make install
 
 
 # get common testcases
@@ -37,7 +46,6 @@ RUN cp -r gcode-fuzzing-testcases/seed_corpus $SRC/
 
 ADD parser $SRC/parser
 ADD seed_corpus/ $SRC/seed_corpus
-#WORKDIR grbl
 COPY build.sh $SRC/
 
-ENV PATH="${PATH}:/src/Qt-5.15.5/bin"
+ENV PATH="${PATH}:/usr/local/Qt-5.15.5/bin"
