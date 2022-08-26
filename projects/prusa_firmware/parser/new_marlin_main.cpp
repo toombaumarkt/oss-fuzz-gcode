@@ -11,7 +11,10 @@ uint8_t farm_mode = 0;
 bool Stopped=false;
 
 // copied from Configuration.cpp
-PGM_P sPrinterName;
+const char _sPrinterName[] = PRINTER_NAME;
+PGM_P sPrinterName = _sPrinterName;
+// fixes SIGSEGV in printer_smode_check()
+
 
 //copied from planner.h
 // Use M203 to override by software
@@ -1793,12 +1796,26 @@ if(eSoundMode!=e_SOUND_MODE_SILENT)
       long home_y_value = 0;
       long home_z_value = 0;
       // Which axes should be homed?
+
+      // BUG!!
+      #if defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+      bool home_x = code_seen(axis_codes[X_AXIS]);
+      if (home_x) home_x_value = code_value_long();
+
+      bool home_y = code_seen(axis_codes[Y_AXIS]);
+      if (home_y) home_y_value = code_value_long();
+
+      bool home_z = code_seen(axis_codes[Z_AXIS]);
+      if (home_z) home_z_value = code_value_long();
+      #else
       bool home_x = code_seen(axis_codes[X_AXIS]);
       home_x_value = code_value_long();
       bool home_y = code_seen(axis_codes[Y_AXIS]);
       home_y_value = code_value_long();
       bool home_z = code_seen(axis_codes[Z_AXIS]);
       home_z_value = code_value_long();
+      #endif
+
       bool without_mbl = code_seen('W');
       // calibrate?
 #ifdef TMC2130

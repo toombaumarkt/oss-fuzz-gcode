@@ -1,0 +1,6 @@
+le heater
+G28 X; Home the X axis
+G0 Y280 F600; Bring the bed to the front for easy print removal
+M84; Turn off the motors
+M82 ;absolute extrusion mode
+M104 S0

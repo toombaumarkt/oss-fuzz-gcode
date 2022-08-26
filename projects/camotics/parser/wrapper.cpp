@@ -22,9 +22,8 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size){
     }
 
     bool annotate = false;
-
     cb::InputSource *input = new InputSource((const char*) Data, Size);
-    
+
     #if not DEBUG_OUTPUT
         std::ostream null_output(nullptr);
     #endif

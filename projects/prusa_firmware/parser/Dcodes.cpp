@@ -242,7 +242,7 @@ void dcode_0()
 	else //reset
 	{
 #ifndef _NO_ASM
-		asm volatile("jmp 0x00000");
+		//asm volatile("jmp 0x00000");
 #endif //_NO_ASM
 	}
 }

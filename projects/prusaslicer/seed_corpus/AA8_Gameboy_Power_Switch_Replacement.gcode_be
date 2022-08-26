@@ -1,0 +1,26 @@
+.28 Y109.106
+G1 F600 X109.28 Y106.524 E24.85415
+G1 X110.88 Y106.524 E24.88076
+G1 X110.88 Y109.106 E24.9237
+G1 X109.28 Y109.106 E24.9503
+G0 F9000 X109.28 Y108.906
+G0 X109.72 Y108.666
+G0 X110.07 Y108.316
+G1 F600 X110.07 Y107.314 E24.96697
+G1 X110.09 Y107.314 E24.9673
+G1 X110.09 Y108.316 E24.98396
+G1 X110.07 Y108.316 E24.9843
+G0 F9000 X109.88 Y108.316
+G1 F1500 E18.9843
+M140 S0
+M204 S500
+M107
+G91; Set relative positioning mode
+G1 E-5 F600; retract filament slightly
+M140 S0; Turn off the bed heater
+M104 S0; Turn off the nozzle heater
+G28 X; Home the X axis
+G0 Y280 F600; Bring the bed to the front for easy print removal
+M84; Turn off the motors
+M82 ;absolute extrusion mode
+M104 S0

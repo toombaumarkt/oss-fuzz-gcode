@@ -1,0 +1,26 @@
+G1 F1500 X172.813 Y94.183 E443.44282
+G0 F7200 X172.813 Y93.617
+G1 F1500 X170.8 Y91.604 E443.52847
+G0 F7200 X171.365 Y91.604
+G1 F1500 X172.813 Y93.051 E443.59006
+G0 F7200 X172.813 Y92.486
+G1 F1500 X171.931 Y91.604 E443.62759
+G0 F7200 X172.497 Y91.604
+G1 F1500 X172.813 Y91.92 E443.64103
+G0 F7200 X173.586 Y91.92
+G1 F1500 E440.64103
+M140 S0
+M107
+M104 S0  ;extruder heater off
+M140 S0  ;heated bed heater off (if you have it)
+
+G91  ;relative positioning
+G1 E-1 F300 ;retract the filament a bit before lifting the nozzle, to release some of the pressure
+G1 Z+0.5 E-5 X-20 Y-20 F120.0 ;move Z up a bit and retract filament even more
+G28 X0 Y0    ;move X/Y to min endstops, so the head is out of the way
+G1 Y220
+
+M84  ;steppers off
+G90  ;absolute positioning
+M82 ;absolute extrusion mode
+M104 S0

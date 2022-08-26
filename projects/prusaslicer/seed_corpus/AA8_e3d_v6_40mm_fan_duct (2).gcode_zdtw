@@ -1,0 +1,8 @@
+d retract filament even more
+G28 X0 Y0    ;move X/Y to min endstops, so the head is out of the way
+G1 Y220
+
+M84  ;steppers off
+G90  ;absolute positioning
+M82 ;absolute extrusion mode
+M104 S0
