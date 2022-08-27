@@ -25,7 +25,7 @@
 cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/camotics_$FUZZING_ENGINE\_$SANITIZER.dict
 
 # create seed_corpus.zip
-zip -r $OUT/camotics_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
+zip -r $OUT/camotics_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus/*
 
 # build fuzzers
 #$CXX $CXXFLAGS -I$SRC/camotics/src -I$SRC/camotics/cbang/src \

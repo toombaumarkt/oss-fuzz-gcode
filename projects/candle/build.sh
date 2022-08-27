@@ -20,7 +20,7 @@ cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/candle_$FUZZING_ENGINE\_$SANITIZ
 
 
 # create seed_corpus.zip
-zip -r $OUT/candle_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
+zip -r $OUT/candle_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus/*
 
 
 # build fuzzers

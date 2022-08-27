@@ -26,7 +26,7 @@ cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/prusa_firmware_$FUZZING_ENGINE\_
 
 
 # create seed_corpus.zip
-zip -r $OUT/prusa_firmware_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
+zip -r $OUT/prusa_firmware_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus/*
 
 # build fuzzers
 # e.g.
