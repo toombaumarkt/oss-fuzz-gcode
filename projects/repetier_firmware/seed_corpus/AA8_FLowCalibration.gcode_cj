@@ -1,6 +1,0 @@
-move X/Y to min endstops, so the head is out of the way
-
-M84  ;steppers off
-G90  ;absolute positioning
-M82 ;absolute extrusion mode
-M104 S0
