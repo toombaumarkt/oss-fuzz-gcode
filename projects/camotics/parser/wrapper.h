@@ -6,7 +6,7 @@
 // fuzzing parameters
 #define MAX_DATA_SIZE 1024
 #define MIN_DATA_SIZE 1
-#define DEBUG_OUTPUT 1
+#define DEBUG_OUTPUT 0
 
 // fix bugs
 // Tokenizer.cpp:166

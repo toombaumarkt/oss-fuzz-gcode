@@ -6,6 +6,7 @@
 
 #include <gcode/Printer.h>
 #include <gcode/parse/Parser.h>
+#include <cbang/Exception.h>
 
 using namespace std;
 using namespace cb;
@@ -45,15 +46,14 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size){
         Parser(*input).parse(printer);
         //std::cout << "END \n";
     }
-    catch(const std::exception& e)
+    catch(const Exception &e)
     {
         #if DEBUG_OUTPUT
-            std::cerr << e.what() << '\n';
+            std::cerr << e.getMessage() << '\n';
         #endif
     }
     
     delete(input);
-
 
     return 0;
 }

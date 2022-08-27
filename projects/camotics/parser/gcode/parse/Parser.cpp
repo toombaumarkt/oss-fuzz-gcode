@@ -417,7 +417,7 @@ SmartPointer<Entity> Parser::reference() {
   if (tokenizer->consume(TokenType::OANGLE_TOKEN)) {
     string id;
 
-    while (tokenizer->getType() != TokenType::CANGLE_TOKEN)
+    while (tokenizer->hasMore() && tokenizer->getType() != TokenType::CANGLE_TOKEN)
       id += tokenizer->advance().getValue();
 
     tokenizer->match(TokenType::CANGLE_TOKEN);
