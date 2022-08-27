@@ -21,6 +21,9 @@
 # ./configure
 # make -j$(nproc) all
 
+# copy gcode dictionary to OUT directoy
+cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/camotics_$FUZZING_ENGINE\_$SANITIZER.dict
+
 # create seed_corpus.zip
 zip -r $OUT/camotics_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
 

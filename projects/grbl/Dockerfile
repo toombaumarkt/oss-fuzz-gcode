@@ -16,9 +16,11 @@
 
 FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && apt-get install -y make autoconf automake libtool
+
 # get common testcases
-RUN git clone --depth 1 https://github.com/toombaumarkt/gcode-fuzzing-testcases.git
+RUN git clone https://github.com/toombaumarkt/gcode-fuzzing-testcases.git
 RUN cp -r gcode-fuzzing-testcases/seed_corpus $SRC/
+RUN cp gcode-fuzzing-testcases/gcode.dict $SRC/
 
 COPY parser $SRC/
 ADD seed_corpus/ $SRC/seed_corpus

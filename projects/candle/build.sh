@@ -15,6 +15,9 @@
 #
 ################################################################################
 
+# copy gcode dictionary to OUT directoy
+cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/candle_$FUZZING_ENGINE\_$SANITIZER.dict
+
 
 # create seed_corpus.zip
 zip -r $OUT/candle_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*

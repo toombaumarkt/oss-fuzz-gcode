@@ -31,8 +31,9 @@ ADD SConstruct-cbang $SRC/cbang/SConstruct
 RUN cd cbang && scons compiler=clang
 
 # get common testcases
-RUN git clone --depth 1 https://github.com/toombaumarkt/gcode-fuzzing-testcases.git
+RUN git clone https://github.com/toombaumarkt/gcode-fuzzing-testcases.git
 RUN cp -r gcode-fuzzing-testcases/seed_corpus $SRC/
+RUN cp gcode-fuzzing-testcases/gcode.dict $SRC/
 
 ADD parser $SRC/parser
 ADD seed_corpus/ $SRC/seed_corpus

@@ -21,6 +21,10 @@
 # ./configure
 # make -j$(nproc) all
 
+# copy gcode dictionary to OUT directoy
+cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_$SANITIZER.dict
+
+
 # create seed_corpus.zip
 zip -r $OUT/repetier_firmware_binary_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus_binary/*
 zip -r $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
