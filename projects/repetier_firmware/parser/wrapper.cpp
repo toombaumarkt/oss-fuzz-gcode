@@ -105,20 +105,13 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size){
     GCode::reset();
 
     // set gcode source
-    FuzzingGCodeSource *fuzzSource = new FuzzingGCodeSource(Data, Size);
-    GCodeSource::activeSource = fuzzSource;
+    GCodeSource::activeSource = new FuzzingGCodeSource(Data, Size);
 
     // calling parser to read from serial input, in this case the FuzzingGCodeSource
     GCode* act = new GCode();
-    size_t BytesReadLastRound = 0;
-    while (GCodeSource::activeSource->dataAvailable()){
-        BytesReadLastRound = fuzzSource->BytesRead;
-        act->readFromSerial();
-        act->popCurrentCommand();
-        if (BytesReadLastRound == fuzzSource->BytesRead) {
-            return 0;
-        }
-    }
+
+    act->readFromSerial();
+    act->popCurrentCommand();
 
     delete(act);
     delete(GCodeSource::activeSource);

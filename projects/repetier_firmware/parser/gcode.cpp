@@ -380,6 +380,7 @@ bool GCode::parseBinary(uint8_t* buffer, fast8_t length, bool fromSerial) {
     return true;
 }
 
+#if DEBUG_OUTPUT
 /** \brief Print command on serial console */
 void GCode::printCommand() {
     if (hasN()) {
@@ -453,6 +454,7 @@ void GCode::printCommand() {
     }
      std::cout << "\n";
 }
+#endif
 
 void GCode::requestResend() {
     commandsReceivingWritePosition = 0;
@@ -1313,7 +1315,7 @@ int FuzzingGCodeSource::readByte() {
         return -1;
     }
     uint8_t byte;
-    byte = this->Data[BytesRead++];
+    byte = this->Data[this->BytesRead++];
     #if DEBUG_OUTPUT
         std::cout << "Read Byte: " << std::hex << unsigned(byte) << "\n";
     #endif
