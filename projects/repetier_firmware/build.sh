@@ -26,8 +26,8 @@ cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/repetier_firmware_ascii_$FUZZING
 
 
 # create seed_corpus.zip
-zip -r $OUT/repetier_firmware_binary_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus_binary/*
-zip -r $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_seed_corpus.zip $SRC/seed_corpus/*
+zip -r $OUT/repetier_firmware_binary_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus_binary/*
+zip -r $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus/*
 
 # build fuzzers
 # e.g.
