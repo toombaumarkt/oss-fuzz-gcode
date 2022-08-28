@@ -3781,7 +3781,7 @@ Sigma_Exit:
         {
           if(i == E_AXIS) { // E
             float value = code_value();
-            if(value < 20.0) {
+            if(value < 20.0 && value > 0) {
               float factor = cs.axis_steps_per_unit[i] / value; // increase e constants if M92 E14 is given for netfab.
               cs.max_jerk[E_AXIS] *= factor;
               max_feedrate[i] *= factor;
