@@ -922,10 +922,10 @@ void gcode_G28(bool home_x_axis, bool home_y_axis, bool home_z_axis)
 
 
 long millis() {
-    auto now = std::chrono::system_clock::now();
-    auto now_ms = std::chrono::time_point_cast<std::chrono::milliseconds>(now);
-    auto value = now_ms.time_since_epoch();
-    return value.count();
+    //auto now = std::chrono::system_clock::now();
+    //auto now_ms = std::chrono::time_point_cast<std::chrono::milliseconds>(now);
+    //auto value = now_ms.time_since_epoch();
+    return 0l;//value.count();
 }
 
 void get_arc_coordinates()
