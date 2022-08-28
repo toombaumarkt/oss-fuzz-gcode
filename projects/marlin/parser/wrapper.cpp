@@ -98,7 +98,7 @@ inline void process_stream_char(const char c, uint8_t &sis, char (&buff)[MAX_CMD
 
 void simulate_serial_transmission(const uint8_t * Data, size_t length) {
     int index = 0;
-    long last_N;
+    long last_N = 0;
     GCodeQueue::SerialState serial =  {0};
 
     for (int index = 0; index < length; index++) {
