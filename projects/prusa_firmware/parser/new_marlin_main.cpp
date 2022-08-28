@@ -11,8 +11,13 @@ uint8_t farm_mode = 0;
 bool Stopped=false;
 
 // copied from Configuration.cpp
+#if FIX_BUG_1 or defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
 const char _sPrinterName[] = PRINTER_NAME;
 PGM_P sPrinterName = _sPrinterName;
+#else
+PGM_P sPrinterName;
+#endif
+
 // fixes SIGSEGV in printer_smode_check()
 
 
@@ -298,7 +303,11 @@ void reset(){
   gcode_in_progress = 0;
   mcode_in_progress = 0;
 
+  #if FIX_BUG_2 or defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+
+  #else
   M500_conf cs;
+  #endif
 
   farm_mode = 0;
 
@@ -1798,7 +1807,7 @@ if(eSoundMode!=e_SOUND_MODE_SILENT)
       // Which axes should be homed?
 
       // BUG!!
-      #if defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+      #if FIX_BUG_3 or defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
       bool home_x = code_seen(axis_codes[X_AXIS]);
       if (home_x) home_x_value = code_value_long();
 

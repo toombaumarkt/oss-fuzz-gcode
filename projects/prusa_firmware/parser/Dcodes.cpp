@@ -242,7 +242,11 @@ void dcode_0()
 	else //reset
 	{
 #ifndef _NO_ASM
-		//asm volatile("jmp 0x00000");
+		#if FIX_BUG_4 or defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+		
+		#else
+			asm volatile("jmp 0x00000");
+		#endif
 #endif //_NO_ASM
 	}
 }
