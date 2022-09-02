@@ -446,6 +446,7 @@ void get_command(const char * line, size_t length)
 				  char *p = cmdbuffer+bufindw+CMDHDRSIZE;
 				  while (p != strchr_pointer)
 					  checksum = checksum^(*p++);
+                  #if not defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
 				  if (code_value_short() != (int16_t)checksum) {
 					  ////SERIAL_ERROR_START;
 					  ////SERIAL_ERRORRPGM(_n("checksum mismatch, Last Line: "));////MSG_ERR_CHECKSUM_MISMATCH
@@ -454,6 +455,7 @@ void get_command(const char * line, size_t length)
 					  serial_count = 0;
 					  return;
 				  }
+                  #endif
 				  // If no errors, remove the checksum and continue parsing.
 				  *strchr_pointer = 0;
 			  }

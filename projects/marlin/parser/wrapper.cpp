@@ -152,7 +152,9 @@ void simulate_serial_transmission(const uint8_t * Data, size_t length) {
           if (gcode_N != last_N + 1 && !M110) {
             // In case of error on a serial port, don't prevent other serial port from making progress
             //gcode_line_error(F(STR_ERR_LINE_NO), p);
-            break;
+            #if not defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+                break;
+              #endif
           }
 
           char *apos = strrchr(command, '*');
@@ -162,13 +164,17 @@ void simulate_serial_transmission(const uint8_t * Data, size_t length) {
             if (strtol(apos + 1, nullptr, 10) != checksum) {
               // In case of error on a serial port, don't prevent other serial port from making progress
               //gcode_line_error(F(STR_ERR_CHECKSUM_MISMATCH), p);
-              break;
+              #if not defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+                break;
+              #endif
             }
           }
           else {
             // In case of error on a serial port, don't prevent other serial port from making progress
             //gcode_line_error(F(STR_ERR_NO_CHECKSUM), p);
-            break;
+            #if not defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+              break;
+            #endif
           }
 
           last_N = gcode_N;

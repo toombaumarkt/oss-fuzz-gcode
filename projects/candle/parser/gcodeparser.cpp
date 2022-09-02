@@ -91,8 +91,9 @@ void GcodeParser::setTruncateDecimalLength(int truncateDecimalLength) {
 // Resets the current state.
 void GcodeParser::reset(const QVector3D &initialPoint)
 {
+    #if not defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
     qDebug() << "reseting gp" << initialPoint;
-
+    #endif
     foreach (PointSegment *ps, this->m_points) delete ps;
     this->m_points.clear();
     // The unspoken home location.

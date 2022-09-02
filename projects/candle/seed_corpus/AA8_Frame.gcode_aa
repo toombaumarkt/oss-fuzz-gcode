@@ -1,0 +1,30 @@
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+
+G28 ;Home
+G0 X10 Y15 F9000 ; Go to front
+G0 Z0.2 ; Drop to bed
+G92 E0 ; zero the extruded length
+G1 X50 E25 F500 ; Extrude 25mm of filament in a 4cm line
+G92 E0 ; zero the extruded length
+G1 E-1 F500 ; Retract a little
+G1 X80 F4000 ; Quickly wipe away from the filament line
+G1 Z0.35 ; Raise and begin printing.
+G92 E0
+G92 E0
+G1 F2100 E-8
+M107
+M204 S1000
+G0 F6000 X57.87 Y101.077 Z0.2
+G1 F2100 E0
+G1 F1200 X58.537 Y100.843 E0.01645
+G1 X59.637 Y100.588 E0.04273
+G1 X60.282 Y100.506 E0.05787
+G1 X61.063 Y100.487 E0.07605
+G1 X61.173 Y100.486 E0.07861
+G1 X61.657 Y100.491 E0.08988
