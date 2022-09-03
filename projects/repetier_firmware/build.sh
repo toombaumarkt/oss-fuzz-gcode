@@ -15,11 +15,6 @@
 #
 ################################################################################
 
-# build project
-# e.g.
-# ./autogen.sh
-# ./configure
-# make -j$(nproc) all
 
 # copy gcode dictionary to OUT directoy
 cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_$SANITIZER.dict
@@ -27,14 +22,10 @@ cp $SRC/gcode-fuzzing-testcases/gcode.dict $OUT/repetier_firmware_ascii_$FUZZING
 
 # create seed_corpus.zip
 zip -r $OUT/repetier_firmware_binary_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus_binary/*
-zip -r $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus/*
+zip -r $OUT/repetier_firmware_ascii_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus_ascii/*
+
 
 # build fuzzers
-# e.g.
-# $CXX $CXXFLAGS -std=c++11 -Iinclude \
-#     /path/to/name_of_fuzzer.cc -o $OUT/name_of_fuzzer \
-#     $LIB_FUZZING_ENGINE /path/to/library.a
-
 # parseBinary build
 $CXX $CXXFLAGS -DFUZZ_TARGET=1 -std=c++17 $SRC/wrapper.cpp $SRC/gcode.cpp -o $OUT/repetier_firmware_binary_$FUZZING_ENGINE\_$SANITIZER $LIB_FUZZING_ENGINE
 

@@ -1228,9 +1228,11 @@ bool GCode::parseAscii(char* line, bool fromSerial) {
 #if FEATURE_CHECKSUM_FORCED
             Printer::flag0 |= PRINTER_FLAG0_FORCE_CHECKSUM;
 #endif
-            if (checksum != checksum_given) {
-                return false; // mismatch
-            }
+            #if not defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)              
+                if (checksum != checksum_given) {
+                    return false; // mismatch
+                }
+            #endif
             hasChecksum = true;
             break;
         }
