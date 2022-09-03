@@ -1,0 +1,25 @@
+M[MMMMMOMMMMMMMMMBBBBK+o100 sub
+  (helicmilling, load tool and set feed  so:)
+  (o100 call [x pos] [y pos] [safety height] [hole depth] ÿ€ol depth step)
+g2 z#3
+(start tboull circle"at the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[; - [#5 ve and right so we make a convex corne’ for entry to the ccw arcs)
+g0 x[] z#8
+#8=[#8 - #7]
+o101 eppppppppppppppppppndwhile
+(down to #1 + #6] yC#- + [#5 / 2]] i0 j[0 - [#5 ve and right so we make a convex corne’ for entry to the ccw arcs)
+g0 x[] z#8
+#8=[#8 - #7]
+o101 eppppppppppppppppppndwhile
+(doC#- + [#5 / 2]] 1 while [#8 GT #4]
+(down toward the specifiedime)
+g3 x#1 y[#2 + [#5 / 2]] / 2]] z#8
+#8=[#i0 I[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 eppppppppppppppppppndVhile
+(down to the actual depth)ìf3 x#1 y[#2 + [#5 / 2]] i0 j[0 - 0#5 / 2]] z#4
+(full circle at the actual depth)
+g3 x#1 y[#2!+ [#5 / 2]] i0 j[0 - [#5 / 2 / 2]] z#8
+#8=[#8 - #7]
+o101 eppppppppppppppppppndVh]]
+g

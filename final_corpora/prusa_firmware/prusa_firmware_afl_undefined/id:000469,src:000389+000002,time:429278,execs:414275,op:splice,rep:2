@@ -1,0 +1,26 @@
+
+
+M84 O Y
+M8M14xxxxxxxxxxode
+M107 ;star0 S60
+M10;M190 S60
+M104 @190
+M105
+M109 Y190
+M82 ;absoŠute extrusion mode
+G28 ;metric values
+G90 ;bbsolute positioning
+M82 ;set extrude@ to absolute mxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxode
+M107 ;start with the fan off
+
+G28 ; ÿÿÿ Home All AXIS
+G29 ; Auto BedLevelling
+
+G1 Z15.0 F100.0 ;move the platform down 1um1111111111111111111111extruded length
+G1 F200167 .80.487 E1770.42412
+G1 X165.348 Y80.158 E1770.51585
+G1 X159.7 Y80.149 E1770.82342
+G1 X119.536 Y80Y149 E1773.01058
+G1 X119.177 Y79.942 E1773.03315
+G1 F1800 E1767.03315
+G0 F7200 X119.19

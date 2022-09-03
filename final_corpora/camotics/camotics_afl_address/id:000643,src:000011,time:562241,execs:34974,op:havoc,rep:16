@@ -1,0 +1,11 @@
+(before you can to mke sure that the sub^outine file 100.ngc)
+(has beÿÿÿ^opied to the folder ->homhome ->youruseme ->emc2 ->nc-f‹les)
+g21z5
+o1all [4] [2] 
+o100l [8] [3] [3.5][4] [2]3] [A x-1Y6 y-16
+g1 I-3.5 f50¹g1 y16
+g1 x16
+g1 y-16
+g1 x-16
+gÿÿz5
+m02

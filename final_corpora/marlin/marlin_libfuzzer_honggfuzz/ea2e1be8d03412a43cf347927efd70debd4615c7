@@ -1,0 +1,4 @@
+M84 X Y E ;able t Z
+
+M47 ;absolute extrusion Hod`e
+M104 S0

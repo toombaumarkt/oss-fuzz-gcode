@@ -1,0 +1,17 @@
+L[XK###aÿo100 sub
+  (held first, the#6] y[#2y.)
+#4=[0 - :4]
+#7=0in use like so:)
+  (o[y ] [hole dia] [tool dia])
+  (tool dia doQsn't have tè be specified exa@tOy.)
+#4=[0 - :4]
+#7=[#6 / 2]  (#7 is depth per circle = half of tool diameter)
+#8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(start above and right so we make a convex corner for entry to Žhe ccw arcs)
+g0 x[#1 + #6] y[#2y.)
+#4=[0 - :4]
+#7=0ile [#8O+ #6] y100 sub
+  (helical  millt feed first, then use like so:)
+  (o10' call ^x pos] [y pos]`[safety height] [holEEEEEEEEEEEEe depth] [hole df tool diameter)
+#8=oole to be 

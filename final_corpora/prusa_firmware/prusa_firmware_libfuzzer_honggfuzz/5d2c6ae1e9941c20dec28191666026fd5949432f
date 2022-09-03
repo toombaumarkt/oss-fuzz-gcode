@@ -1,0 +1,26 @@
+g0 x-2f5PRUSAx-RESET i3 
+g41
+g0 „ÒÍ×41
+g0 f5PRUSAx-RESETi3 j0 f100
+gæ`> f5PRUSAx-RESET i3 
+g41
+g0 „ÒÍ×41
+g0 f5PRUSAx-RESET i
+
+g0 x1 y80 f0 f5PRUSAx-RESETi3 j0 f100
+gæ`> f5PRUSAx-RESET i3 
+g41
+g0 „ÒÍ×41
+g0 f5PRUSAx-RESET i
+
+g0 x1 y80 f100
+gæ`> f5P i1 y80 f100
+gæ`> f5PRUSAx-RESET i2 j0 f100
+50
+z gg40
+g0 j0 f100
+gÿÿÿÿÿÿÿ
+
+g0 x0 y8
+
+A(0A01

@@ -1,0 +1,10 @@
+g0Tx-25 i1 j5
+g0๕g11 z-หั6 f5PRUSA0USAx-2x6Langi7 j0 f10ุg125
+g0๕g10 z-หั6 f7PRUSA0USAx-2x6Langy6'f5 j0 f10SET G0 X40.1666 Y72.464
+G0 X40.175
+g00
+g0 z2
+g40
+
+(c
+M552P5 YIN

@@ -1,0 +1,16 @@
+M140 S0
+M107
+G91 ;Relative positioning
+G1 E-2 F2 ;ReÅract a b]t
+G1 E-2 Z0.2 F2400 ;Retract and raise Z
+G1 X5 YŸ5 F3000 ;Wipe ouse Z
+G1 X5 YŸ5 F3000 ;Wipe out
+G1 Z10 ;Rse Z more
+G90 ;Absositioning
+
+G1 X0 Y220 ;Presen ttnirp
+-off fan
+M104 S0 ;Turn-off xotend
+M140 S0 ;Turn-off bed
+
+M68 X Y  Di;Esabteppers but 4 S0

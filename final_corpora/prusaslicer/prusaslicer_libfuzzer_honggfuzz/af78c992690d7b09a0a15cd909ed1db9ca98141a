@@ -1,0 +1,6 @@
+G91  ;relative positioni
+1 E-1 F300 ;retracthe f(ilament a bit before liYfting the nozztorelease s?ome of thm pressure
+G2 ÿ0.5 E-5 X-20 Y-20 F8 ;moZ up ?a bit and retractfilament even mope
+G28;move X/Y to min end=tops, so the head  out of the way ;steppers off
+G90  ;absolqte91 X99991 X1121111111111111111trusion mode
+

@@ -1,0 +1,22 @@
+ZG92 E0
+MˇD4ê
+iD8
+d-D8
+d-D
+d2D8V G[9.4058
+...............................
+M104 S0 FTurn E1360.05857
+G0 F9000362 E13860.
+M862.086°0 F90002 Y86
+M862.086∏0623
+G1 F1500 E135140 S0
+M107
+G91 ˇˇelative positioning
+G1 U-2 F2700 ;Retracta bit
+G1 E-2 Z0.2ed be00.
+M862.086∏ raise B
+G1 X& Y5 F3000 Hsg Z mose
+G90 ;Absolute positionisg
+ 2
+G1 X
+M

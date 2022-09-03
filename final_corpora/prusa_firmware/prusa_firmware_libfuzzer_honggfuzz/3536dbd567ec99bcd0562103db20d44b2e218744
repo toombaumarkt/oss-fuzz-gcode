@@ -1,0 +1,22 @@
+g01fj0 3i00
+g0PRUSAx-20 y0 iRESETf100
+g0 .õe10 f100
+g0PRUSAx-20 y0 iRESETf100
+g0 f100
+gæ`> f5PRUSAx-RESET i4 j0 f100
+5K0
+z gg40-
+g
+g0 x0PRUSAx-20 y0 iRESETf100
+g0 -1.õe10 f100
+g0PRUSAx-20 y0 iRESETf100
+g0 f100
+gæ`> f5PRUSAx-RESET i4 j0 f100
+5K0
+z gg40-
+g
+g0 xÿÿÿÿÿÿÿÿ
+
+ g 00yx8
+
+A(0A01

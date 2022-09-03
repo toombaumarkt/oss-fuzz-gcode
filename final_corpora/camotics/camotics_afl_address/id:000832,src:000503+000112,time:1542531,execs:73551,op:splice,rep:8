@@ -1,0 +1,20 @@
+L[0 clU sto100 sub
+  (hel hoed first, then use like so:)
+  (o100 call [x }os] [y pos] [safety height] [hole depth] [hole dia] [tool dia])
+  (tool dia doesn'cified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2]  (#7 istep)
+g0 z#3
+(scle = half of tool diameter)
+#8=[#3 - #7] (#8 is current depth s depth per cirtart above and right so we make a convex corner for entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101 e [#8 GT #4]
+(down toward the specified depth a bit at a time)
+g3 x#1 y[#2 + [#5  hav/ 2]] i0 j[0 - [#5 cal ling, load tool andwhile
+(down to the actu depth)
+g3 x#1 y[#2 + [#wn toward the specified de5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(full circle at the actual depth)
+g3 x#1 y[#2 + [#5"/ 2]] i0 j[0 - [#5 / 2]]Xg0 z#3
+g40
+o10

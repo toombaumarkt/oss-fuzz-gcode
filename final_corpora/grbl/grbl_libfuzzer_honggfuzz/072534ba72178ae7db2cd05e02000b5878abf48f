@@ -1,0 +1,31 @@
+t.2m
+g2 z-1. f50g2 z-1 f5
+g2 z-1.6f5x
+g2 z-1 f5p5
+g2 z-1 f5g2 z-1.6f5x
+g2 z-6 f55
+g2 z-0.f.6
+g2 z.6 f5x
+g2 z-16f5
+g2 z-6f51
+G2 Z1 f7g2z-1.6f5x
+g2 z-.2 F3
+G21 f5
+g2 z-1.6f5x
+g2 z-1 f5p5
+g2 z-1 f5g2 z-1.6f5x
+g2 z-6 f55
+g2 z-0f.6
+g2 z.6 f5x
+g2 z-16f5
+g2 z-6f51
+G2 Z0 f7g2z-1.6f5x
+g2 z-.2 F3
+G2 Z2 F3
+
+g2 z-1 f5
+g2 z.6f5
+gx
+g2 z6 f52à
+g2 z-1.6 f505
+g2 z-1f5

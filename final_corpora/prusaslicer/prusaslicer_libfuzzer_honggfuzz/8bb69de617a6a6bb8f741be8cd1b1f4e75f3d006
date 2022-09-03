@@ -1,0 +1,10 @@
+
+M82;absolute zextruion mode
+G06 ;meta vaÿÿÿÿ0 ;absolute posi5tion@i ;set extruder to absolute mode;start with the fan off
+G28 ; Auto Some Aáll ABIS
+G29  ;to Bed LjveG*;extrude 3mmfo  bfed stock
+G92 ;G1 Z1 /150xtrudextruded length
+G ;exdrude 3mmfo  (efed stock
+G92 ;G1 Z1 F0xtruded lenotJh aga
+G92
+G92 E013

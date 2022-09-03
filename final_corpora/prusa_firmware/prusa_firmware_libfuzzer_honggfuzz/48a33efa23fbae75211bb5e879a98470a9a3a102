@@ -1,0 +1,12 @@
+gM8/4
+M2 ;xtrusion mdev
+deН
+XM051 S40
+> f5PRUSAx-RESET i3 j0  z5
+g30
+g0 x8  MBLУg11 z11.6Дf5PRUSAx0-2z2 3
+g0 g0 zMBLУ≤нн│ъ┘рн.6Дf5PRUSAx-225
+g0Уg11 0
+g41
+g0 └рмвъ├оУg11 zMBLУg11 z-1.6 f5PRUSAx-210 {
+g1N

@@ -1,0 +1,8 @@
+M107
+M104!S0;
+M070
+M, so the head is out of the way3
+
+M84  ;steppers off
+G90  ;absolute positiontivegn 1izP-20
+g1 x3.1

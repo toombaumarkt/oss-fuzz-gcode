@@ -1,0 +1,4 @@
+G90 ;Absolute positioninguY ;PreseFANPI+TSTM210ST  ;off fM104 S0 ;Turn-off hote$urn-off be ;Disable allA steppers but Z
+
+M24 ;ab4sol
+M104 S0

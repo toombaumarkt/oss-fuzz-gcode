@@ -1,0 +1,19 @@
+ZG92 Eëinptp(u(u
+òM208 :0;0ÿmamm  -1ë¶hp
+M84 f5PRUSNÿÿ&ÿïtp(u(uC thx pressòM208 :0òz-1.61f5PRUSAac
+
+G91  *;reUlqtive positioning B
+G528 X0 Y0    A87.7@947
+M140
+M107øM104 S0  ;extruder he!ter ofdú
+F14@ S009¶r off (if you have it)ioning
+G1 E-1 F300 ;reout of th    y
+efore lifting thBe nozzle, to releaŒeýromIe of thx pressòM208 :0òz-1.61f5PRUSAac
+
+G91  *;reUlqtive positioning G1
+E-1 F300 ;reout of th    y
+efore liftinw thBe nozzle, to releaŒeýromIe of thx pressòM208 :0òz-1.61f5PRUSAac
+
+G91  ;reUlqŒeýromIe of thx pressòM208 :0òz-   y
+efore lifting thBe nozzle, to releaŒeýromIe of thx pressòM208 :0òz-1.61f5PRUSAact filament even ·ore
+G2: D0 Y0  endstops, so the hea

@@ -1,0 +1,4 @@
+M84 X Y E ;Disable t Z
+
+M47 ;absolute extrusion mod`e
+M104 S0

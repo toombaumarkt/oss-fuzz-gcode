@@ -1,0 +1,4 @@
+G28 XY0
+M84
+82 ;te extrusion mode
+M

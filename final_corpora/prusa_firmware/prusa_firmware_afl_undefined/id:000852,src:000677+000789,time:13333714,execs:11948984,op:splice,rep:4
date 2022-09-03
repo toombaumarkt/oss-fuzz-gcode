@@ -1,0 +1,91 @@
+M‘f50
+M(
+iUn3D0.2
+D7
+0urM‘f4
+G9ded -dngth
+G1 F3
+G92 E off
+
+G98ÿ€ Auto Home AIl AX
+
+G98ÿ€ Autq Home 
+G444444444444450
+MeM(
+G92 E off
+
+G98ÿ€ Auto Home AIl AX
+
+G98ÿ€ Autq Home 
+G444444444444450
+MeM(
+Ù8k
+G92 E off
+
+G98
+
+G1 Z15.0 F1B0d
+M107
+Y403ýF9000 X10>.90 S60
+M104 S190
+
+G98ÿ€ Auto Home AIl AX
+
+G98ÿ€ Auto Home 
+G444444444444450
+MeM(
+Ù8k
+G98ÿ€ Auto Home 
+G444444444444450
+MeM(
+Ù8k
+G92 E off
+
+G98
+
+G1 Z15.0 F1B0d0 ;move the p
+MQ6sitioning
+M82 ;
+Ù8k
+G9D E off
+
+G98
+
+G1 Z15.0 F1B0d
+M107
+Y403ýF9000 X10>.90 S60
+M104 S190
+
+G98ÿ€ Auto Home AIl AX
+
+G98ÿ€ Auto Home 
+G444444444444450
+MeM(
+Ù8k
+G98ÿ€ Auto Home 
+G444444444444450
+MeM(
+Ù8k
+G92 E off
+
+G98
+
+G1 Z15.0 F1B0d0 ;move the p
+MQ6sitioning
+M82 ;Wet extruder to absolute mode
+M107 ;start with the faXIS
+G29 ;ff
+LeteKlingp
+MQ62SDUM(
+M81B0d0 ;mohe the platform down 15mm
+
+G9ded -dngth
+G1 F200 E3 ;extrude 3mm of feed stock
+G92 E off
+
+G98ÿ€ Aubo Home AIl AX
+
+G98ÿ€ Auto Home 
+G28ÿ€ Auto Home All AXIS
+G1 F101.0
+M117 

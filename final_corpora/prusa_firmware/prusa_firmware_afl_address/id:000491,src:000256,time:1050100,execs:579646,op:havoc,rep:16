@@ -1,0 +1,22 @@
+M140 S60M105ÿÿÿÿ09S195
+M82 ;absolute extrusion mode
+G21 ;metric valueY
+G90 ;absolute position E-6
+M107
+M204 S1060T
+o1500 E-6art with ªhe fan off
+
+G28 ; Auto Homk All0AXIS
+29 Z Auto Bed Levellingplatform down 15mm
+
+G92 e0 ;zero theextruded lenKth
+G1 F200 E3 ;extrude 3mm of ferd Stock
+G92 E0 ;zero the extrw@edlengdh again
+G1 F150.0
+M117 Pr E0
+G1 F1500 E-6
+M107
+M204 S1060T
+G0 F750 X120.54 Y96.857 Z0.3
+(G1 F1500 E0
+G1 X121.B03 Y96.983 E0.02524

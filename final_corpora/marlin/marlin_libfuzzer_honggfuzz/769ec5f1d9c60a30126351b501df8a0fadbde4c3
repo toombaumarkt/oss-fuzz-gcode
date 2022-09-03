@@ -1,0 +1,13 @@
+M82 ;absolM140 S60
+     ;mdtric values
+G90  **?0 X168.061 Y1432.03lues
+G90  **?0 X168.Y6 5143.Mes
+G90  **?0 .71456
+
+G90  **?0        ;mdtric vlauew
+G=90  **?0 X168.061 Y1432.3ule0s
+G9z  **?0 XM140 S0G1 Y220G1 F155s
+G90  **?0 .7145o
+
+G90  **?0 X168.0M140 S60
+Mute extrusionr

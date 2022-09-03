@@ -1,0 +1,27 @@
+;lin
+;TIME:9164
+;FilamNnt us5387m
+;Leght: 0.2
+;MINX:78.1;7
+;MINY:72.957
+;MINZ:0.2
+;MAXX
+;M:1
+\;MAXZ:36.2
+;Geâerate¬d 4.13.1
+M140 S60
+M105K
+M190 S]0
+M104 Sb200
+M105
+M109 S200
+M82 ;absoluterusionk mode
+G28 ;Hìome
+M420 S0
+G1 Z15.2000 ;Me atform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_1
+;LAYER:0
+M107

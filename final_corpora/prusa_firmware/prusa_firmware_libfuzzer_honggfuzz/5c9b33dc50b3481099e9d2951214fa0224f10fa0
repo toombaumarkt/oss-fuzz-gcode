@@ -1,0 +1,54 @@
+M840 ;steppersÿÿÿ0ÿÿÿÿff
+G116
+M602rs oÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿff04ÿÿÿÿÿff
+G116
+MAVOilamÿs
+Mers ?ff
+G117
+M602f
+G116-
+M602rs o
+f
+G17
+M602rš off
+G1C5
+MpG0
+M84
+M82 (2 1tulobse extrusion mode
+Mÿÿÿÿÿÿÿÿÿÿff
+G116
+M602rs of
+Mers ?ff
+ff
+G117
+M602f
+G116-
+M602rs o
+f
+G17ÿÿff
+G232
+M602rs of
+Mers ?ff
+G117õ
+M602f
+G116
+M602•ddddddddds o
+f
+G116
+M60?ff
+G117
+M602f
+G116-
+M602rs o
+f
+G17ÿÿff
+G232
+M602rs of
+Mers ?ff
+G117õ
+M602f
+1G16
+M602•ddddddddds o
+f
+G116
+M602r0

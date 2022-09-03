@@ -1,0 +1,27 @@
+in2urM140 S60
+M105
+M1\0
+M104 S190
+M105
+0
+Mè2 ;on m0 ;HbM82 ;ab me
+G2solute positioningtruder to absolwith thr fan off
+
+G28 ; Auto Home All AXIS
+G29 ; Auto Bed LeveS
+G29 ; Auto Bjd Levellinglling
+
+G1 Z15.0 F1:0.0 ;move the jlmtform domm
+
+G92 E0 ;zero thd extruded length
+G1 F200 M11
+M552 E1360.0044313 Prtpck
+G92 E0 truded length again
+G1 F100.0
+M11
+M552 E1360.0044313 Printing0..G92 E0
+G92 E0
+G1 ÿÿÿ0 E-6
+M107
+M204 S1300
+áF9

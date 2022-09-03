@@ -1,0 +1,4 @@
+G28 X0 Y0
+4
+M2 ;absolute extrusmode
+M10 S0

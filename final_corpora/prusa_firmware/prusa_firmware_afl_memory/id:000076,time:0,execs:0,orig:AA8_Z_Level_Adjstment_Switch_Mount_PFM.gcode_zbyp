@@ -1,0 +1,4 @@
+M84  ;stff
+ ;absolute positioning
+M82 ;absmode
+M104 S0

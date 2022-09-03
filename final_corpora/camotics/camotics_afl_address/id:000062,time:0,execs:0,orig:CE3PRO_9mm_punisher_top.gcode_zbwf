@@ -1,0 +1,8 @@
+M106 S0 ;Turn
+M104 S0 ;
+M140 S0 ;Tued
+
+M84 X Y E ;Disable all steppers but Z
+
+M82 ;absolute extrusion mode
+M104 S0

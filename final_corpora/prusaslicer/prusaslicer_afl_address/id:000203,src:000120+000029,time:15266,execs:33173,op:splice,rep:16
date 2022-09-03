@@ -1,0 +1,31 @@
+(Building Brick - Uni-Fraes4 + material: foam 26x26x50 z2Y
+g0 a0
+m03 S15000
+g0 x1 y1ero point: Y-turning axis, X-rigthend of the material, Z-material surface.)
+(settiog zotate A-axis untero point: rotate A-axis until surface is even, move the tip of the endmill to the)
+(right end of the foam block, to the middle oj Y-axis and)
+(then move down on the Z-axis until you almost touch the material.)
+(nowovn the tipxis)
+(turn down the feed override to 40%, then start, after a while you can turn feed override back to 100%)
+w21
+g61material.)
+(nowove the
+T0 mm, tool: end mill 1.6 mm.)
+(z4 (Planen/cleaate A-aning surface)
+ÿÿÿ€-2 f100
+g1 y-14 f250
+g) x0
+g1 y14
+g1 x-1
+g1 y-14
+g1 x-2
+g1 y14
+g1 x-3
+g1 y-14
+g1 X-4
+g1 y14
+g1 x-5
+g1 y-14
+g1 x-6
+g1 y14
+g1 x-7

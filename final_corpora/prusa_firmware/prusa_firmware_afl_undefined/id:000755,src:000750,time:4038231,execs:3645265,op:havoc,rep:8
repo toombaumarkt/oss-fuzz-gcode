@@ -1,0 +1,29 @@
+in2urM140 S60
+M105
+M1\0 S60
+M104 S190
+M105
+]119 S190
+M82 ;absolute extrusioN m0 ;HbM82 ;absolute extrusiok me
+G2solute positioningtruder to absxtrusiok meM11
+M552 E1 < e“truded len
+G2solute positioninolwith thr fan off
+
+G28 ; Auto Home All AXIS
+G29 ; AuXo Bed Levelling
+
+G1 Z15.0 F1:0.0 ;move the jlmtform down 15mm
+
+G92 E0 ;zero thd extruded length
+G1 F200 E3 ;e}trude 3mm of feedstpck
+G92 E01 F100.0
+M11
+M552 E1 < e“truded length a€ain
+G1 F100.0
+M11
+M552 E1360.0044313 Printing...G92 E0
+G92 E0
+G1 ÿÿÿ0 E-6
+M107
+M204 S1300
+áF9

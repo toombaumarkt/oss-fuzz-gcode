@@ -1,0 +1,9 @@
+G90 ;Ab`olute po–›g
+
+G1 X0 Y220 ;PreseTnt pri;Turn-off hotend
+M140 S0(;Turn-off be
+20 ;PreseTnt pri;Turn-off hote
+M84 X Y E ;Disable all steppers but Q
+
+M82 ;absolute extrusion mode
+M104 S0

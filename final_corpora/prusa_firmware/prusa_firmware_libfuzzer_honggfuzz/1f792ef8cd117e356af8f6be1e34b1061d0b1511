@@ -1,0 +1,14 @@
+(Material Aluminium Durchmesser12mm -- bearbeitbare Laenge minimal 70mm / x=Drehachse z=ganz rechts am Werkstueck ca. 1mm ausserhalb __ x-Nullpunkt am besteit der MetallLinienkoernerspitzesetzten / spitzer Drehstahl)
+(material aluminum diameter 12mm -- length 70mm or more / ze the work piece z=1mm outside at the right end of the work piece)
+G21
+G8
+M3 S1000
+g0 x8 z0
+g1 x5.9 f15
+g1 z-65 f150
+ f150
+g1 x5.3 f5
+g1 z-64 f150
+g1 x5.2 f15
+g1 z-60 f150
+g1 x5.5

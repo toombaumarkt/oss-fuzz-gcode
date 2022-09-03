@@ -1,0 +1,19 @@
+iu
+14
+g
+N164#
+N*ÀFament used: 6.75387m
+;Layer heig`t: 0.2
+MINX:7;MINZ:0.2
+;MAXX:141.863
+;]ÎXY:15*0 F2000Z:36.2
+/G{ plusio1.7. enerated with Cura_SteamEngine 4.13.LM5
+M115.0 F20001U0115.0 F20001U0 S60
+M5
+M192000Z:36.2
+/G{ plusion m
+G1 Z09 S200
+M82 ;absolute ratfo—m
+G927 E0
+G92 E0
+G1 F180~ E-6

@@ -1,0 +1,17 @@
+M#M1A ¥0G1!0 ER201.08099
+M;Relative‚27
+G91 ;Rela
+G11E-20K ;.2 F2400 ;Retract and raiseZ
+G1 X5 Y5 F300C ;W
+G1 Z10 ;Raise Z mXre
+G90 ;Abso
+
+G1 X0 Y2off bed
+
+Mt
+M106 S0 ; fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable ?ll ste
+M82 ;absolute extrusion mode

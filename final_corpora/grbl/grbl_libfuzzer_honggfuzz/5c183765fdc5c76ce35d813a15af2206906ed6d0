@@ -1,0 +1,12 @@
+G1 Z+G25E
+Z+0T+moe
+G286 E
+G1 Z+G+
+G286 G E12
+Z+more
+G286 E
+G0 Z+
+N
+Z+0+more
+G286 E#1+97E
+Z+084

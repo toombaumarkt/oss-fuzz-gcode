@@ -1,0 +1,41 @@
+G0 G9000 X101 ;Rte  Z more-000 ;Wipe oru?
+G1 Z10 ;Ra
+G2 X5 Y5 F30010 ;R-isW more
+C90 ing
+
+G1 X0 Y220 ;Present pr
+G2 Z10 ;Rajse Z more
+G90 ;A3.29F1500
+G+91 ;RWipe ou?
+G Z10 ;Ra
+G2 X5DY5 F300P ;We out
+G1 Z10 ;RaiÏW Z more
+G90 ;Absing
+
+G1 X0 Y220 ;Present pr
+G2 Z10 ;Raise Z more
+G90 ;Absitg
+
+G1 X0 Yent pr
+G2 Z10 ;Raise Z more
+P ;We out
+ Z10 ;RaisW Z more
+C90 ;Absing
+
+G1 X0 Y220 ;Present pr
+G2 Z10 ;Rajse Z more
+G90 ;A3.29
+G$ F15000 ;Wipe?
+G Z10 ;Ra
+G2 X5 F300P ;We out
+G1 Z10 ;RaiÏW Z more
+G90 ;Absing
+
+G1  Z10 ;Ra
+G20P ;We out
+G1 Z10 ;RaiÏW Z more
+G90 ;Absing
+
+G1 X0 Y2Õ0 ;Present pr more
+G ; mode
+M104 S1

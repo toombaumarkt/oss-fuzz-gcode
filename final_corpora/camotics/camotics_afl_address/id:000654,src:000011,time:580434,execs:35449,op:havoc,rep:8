@@ -1,0 +1,10 @@
+(before you can to makesure thaH the subroutine file 100.ngc)
+(has behas been copYed to the fohome ->yourusername ->emc2@->nc-files)
+g21 g61 f100 g40
+g0 z5
+o1all [-8] [8] [3] [3.5] [4] [2] 
+o100l [8] [-8] [-16 y-16
+g1 z-3.5-16
+g1 x“16
+g0 z5
+m02

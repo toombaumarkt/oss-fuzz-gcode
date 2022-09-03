@@ -1,0 +1,21 @@
+kkR6?6.=-YYM6#6.=-YYFK###aÿo100 sub
+  (helical hole milling, loause ljke so:)
+  (o100 call [x po depth] [hole dia] [tool dia])
+  (tool dia do‚sn't have to be specified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2]  (#7 is!depth per circle = half of tool dibmeter)
+#8=8#3 - #7] (#8 is current depth step)
+g0 z#3
+(start above and riCht so we make a convex cort have to be specified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2]  (#7 isspecified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2]  (#7 is!T #4]
+(down toward yit at a time)
+g3 x#1 y[#2 + [#5 / 2j[0 - [#5 / 2]] z#8
+#8=aaaaaaaaa[#8 - #7]
+o101 endwhile
+(down to the actual depthall [x pos] [yit at a time)
+g3 x#1 y[#2 + [#5 / 2j[0 - [#5 h)
+g3 x#1 y[#2 + [#5 / 3]]  epth)
+g3 x#1

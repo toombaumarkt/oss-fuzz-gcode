@@ -1,0 +1,13 @@
+M40Q9 S0
+G90 X8 J
+G90 X8iu
+G90 XÍ
+G2 
+G21¢.0
+G90 X8iu
+G90 XÍ
+G2 EZ1.0
+G90 X.0
+G90 X8iu
+G90 Ï±6ÿ
+M

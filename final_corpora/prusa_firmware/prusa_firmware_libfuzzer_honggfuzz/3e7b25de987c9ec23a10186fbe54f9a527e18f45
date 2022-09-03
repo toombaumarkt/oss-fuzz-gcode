@@ -1,0 +1,30 @@
+N1şÿßÿ X2.3160 Z-4.11y4 A0R0000
+N1€€€€€€€€€x€€€€€€€€€€€€€€
+N1€€€€
+M304 0 S60
+M1B4 S195
+M11?00ù
+M301rs obf€€€-4.4086 A0M11?07
+M304 0 S60
+M1B4 S195
+M11?00ù
+M301rs off
+s off
+G11 ;steppers off
+M84xxxxxxxxxxxxx9xY120.387A
+M205 S586 E16.ß55!7N1
+M304 0 S60
+M1B4 S192
+M11?00ù
+M301rs 
+s off§G11 ;steppers off
+M84xxxxxxxxxxxY120.397A
+M205 S586 E16.ß5557N1 F600 X100 off
+M84xxxxxxxxxxxxxxY120.~97A
+M205 S521z5.ß557NS192
+M11?00ù
+M301rs 
+s off;Gs1
+1 teppers off
+M84xxxxxxxxxxxxxxY120.397A
+M205 S586 E16.ß55-4260

@@ -1,0 +1,22 @@
+M1xtr‘Œ X522mxkÌde
+M2mnd
+eM028 -10 F2001 4 YG0
+G00 Z xode
+M220 X53.M208 S0;0  -10 G200 A--10 F200 xode
+M221 z-400 X46.63 Y65.4
+F31.0208 S0;0  -10 G200 xode
+M221 z-4.6 fx-20 ÿS)0ý1.X0G00 
+46.63 Y65.4
+F34.9
+G01 X6ÍÎßËß¦ÂÏ
+G00 Z xode
+M220 X53.Mtearil ca. 23x24mm Länge 50mm, Nullpunkt: terial ca. 20 X-160
+G01 A0.000
+G01.000
+G1 4 Y=0
+G00 Z x. 24x0 X-160
+G01 A0.000
+G01.000
+G01 A--10 F200 xode
+M221 z-4.61 fx-20 ÿS)0ÿ1.0
+G00 X46440.000.

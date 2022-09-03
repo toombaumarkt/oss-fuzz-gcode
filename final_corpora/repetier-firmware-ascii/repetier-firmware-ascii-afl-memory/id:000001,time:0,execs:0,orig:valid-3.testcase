@@ -1,0 +1,29 @@
+;TYPE:SKIN
+G1 F600 X86.562 Y87.976 E2601.23389
+G1 X86.562 Y82.036 E2601.37799
+G1 X86.615 Y81.807 E2601.38369
+G0 F4200 X86.749 Y81.956
+;TIME_ELAPSED:9164.352354
+G1 F1800 E2595.38369
+M140 S0
+M107
+M104 S0
+M140 S0
+G92 E0
+G1 E-10 F2000
+G28 X0 Y0
+M84
+M82 ;absolute extrusion mode
+M104 S0
+;End of Gcode
+;SETTING_3 {"global_quality": "[general]\\nversion = 4\\nname = Draft #2\\ndefin
+;SETTING_3 ition = anet3d_a8\\n\\n[metadata]\\ntype = quality_changes\\nquality_
+;SETTING_3 type = draft\\nsetting_version = 19\\n\\n[values]\\nacceleration_enab
+;SETTING_3 led = False\\nadhesion_type = skirt\\nlayer_height_0 = 0.2\\n\\n", "e
+;SETTING_3 xtruder_quality": ["[general]\\nversion = 4\\nname = Draft #2\\ndefin
+;SETTING_3 ition = anet3d_a8\\n\\n[metadata]\\ntype = quality_changes\\nquality_
+;SETTING_3 type = draft\\nsetting_version = 19\\nposition = 0\\n\\n[values]\\nin
+;SETTING_3 fill_sparse_density = 15\\nmaterial_flow = 100.0\\nmaterial_flow_laye
+;SETTING_3 r_0 = 100.0\\nretraction_amount = 6\\nretraction_speed = 30.0\\nspeed
+;SETTING_3 _infill = 60.0\\nspeed_print = 60.0\\nspeed_travel = 70.0\\nwall_line
+;SETTING_3 _count = 3\\n\\n"]}

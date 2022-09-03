@@ -1,0 +1,16 @@
+
+G90
+G90 G28 
+G90
+G90 ;
+G90 G90Z
+G90orX
+G90 u
+G90 ;anwrm
+G90G90
+G90 ;
+G90a¨Æ Z
+G90or2
+G90s
+G90 ; anw
+M25M

@@ -1,0 +1,149 @@
+g
+g3 x3 r3.2g  20 f80s(3g28; ode
+om
+G28;Hoœ8
+G28; ode
+G28 ;o
+G28
+G28
+G28 
+
+G28;HISA0G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+G28
+G28
+G28 
+
+G28 ;G28 ;o
+G28
+G28
+G28 
+
+G280G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+G28
+G28
+G28 
+
+G28 ;G28 ;;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28 ;o
+GSA0G28 ;o
+G28G28 ;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+G28
+G28
+G28o
+G28
+G14
+G28 
+
+G28 ;G28 ;o
+G28SA0G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28?G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+G28
+G28
+G28 
+
+G28 ;G28 ;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28 ;o
+G2 
+
+G28 ;G28 ;o
+G28SA0G28 ;o
+G28
+G28
+G28 
+0
+G28 
+G28 ;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28?G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+G28
+G28
+G28 
+
+G28 ;G28 ;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28 ;o
+G2 
+
+G28 ;G28 ;o
+G28SA0G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28?G28 ;o
+G28
+G28
+G28 
+0
+G28 ;o
+z28
+G28
+G28 
+
+G28 ;G28 ;o
+G28
+G28
+G28 
+
+G28 ;HISA0G28 ;o
+G28
+G28
+g

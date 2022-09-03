@@ -1,0 +1,5 @@
+
+M84 X Y E ;Diss but Z
+
+M82 ;absolute extrusion mode
+M10

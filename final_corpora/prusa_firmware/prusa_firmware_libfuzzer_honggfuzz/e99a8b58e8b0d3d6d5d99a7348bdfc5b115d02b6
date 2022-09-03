@@ -1,0 +1,46 @@
+M11 7
+M30.4 S1000f¡š›‡=D
+M304 am‹Dt3
+M304 Dÿ8
+M304 S1000D
+M304@Rev-Dup1000feedx=D
+M304 am6+ Dt3
+M304 S1.ÿÿDVQ
+4 am Dt
+
+g-Nul0feedx=D
+M304 am Dt3
+M304 S1.ÿÿDVQ
+
+_-NulklnupRt3 7
+M304 S1000feedx=D
+M304 am D1500 NUxS103
+M304 am Dt3
+M304 S1.ÿÿTVQ
+4 am Dt
+
+g-Nul0feedx=D
+M304 am 2Dt3
+M304 S1.ÿÿDVQ
+
+_-N5lklnup -.ÿÿDÿ8?
+@-D8VM304÷ S1 -.ÿÿDÿ8?
+@-D8VM304÷ S1N000fen
+M30300F
+F
+¸ Mdx=D
+M304 am Dt3
+M304 S1.ÿÿDVQ
+
+_-Nulklnup3 7
+M304 S1000feedx=D
+M304 am Dt
+
+g-NuD
+M304 am 8Dt3
+M304 S1.ÿÿDV
+M304 am D1500 NUxS103›‡=D
+M304 am‹Dt3
+M304 Dÿ8
+M304 S1000D
+M304@Rev-Dup1000feed

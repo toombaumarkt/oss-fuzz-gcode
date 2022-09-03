@@ -1,0 +1,23 @@
+=86 E16.9529+7 Y71.ÿÿÿÿ6.37úÂõ+A00 Y0 5fPRUSAx-20  z3
+g40
+gÒ0 x0 yR¶¶¶D¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶6
+G0 G1fPRUS F600 X F2000
+G28 ÿX7M1  Y0
+M83
+M82 ;¶_¶¶a¶¶¶¶¶6
+g1 zMBLz-1õ g11.6 5fPRUSAx-20  z5
+g40
+gÒ96
+G1 F600 X F2000
+G28 ÿX0 Y0
+M83
+M82 ;¶_¶¶a¶¶¶¶¶6
+g11 zMBLz-1õ g11.6 5fPRUSAx-20  z5-10 F2000
+G28 ÿX0 Y0
+M83
+M82 ;¶_¶¶a¶¶¶¶¶6
+´g11 zMBLz-1õ g11.6 4fPRUSAx-20  z5
+g40
+gÒ0 x0 y0(
+A02
+82 ­Bbsolute extru6

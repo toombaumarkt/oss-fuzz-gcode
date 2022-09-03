@@ -1,0 +1,32 @@
+iéþÿÿŽ E-B%ÿÿþin9Ï032
+vt)
+
+G91  ;104 2
+M204M204 S108
+vt)
+
+G91  ;104 S0  2
+M204e it)
+
+G91  ;104 S0  2
+M204 S108
+ve it)
+
+G91  ;10;extruder heater off
+M140 S0 ;steppers off
+Gt)
+
+G91  ;relative positBioning
+G1 E-1 F300 ;me bitbeforeBlifting me od the pressure
+G15 E-5 ÿÿŽ E-B%.878 Y1ÿÿþin9Ï042
+M204 S108
+ve it)í
+G91  ;104 S0!2
+M204 S108
+ve it)
+
+G91  ;10;ext
+G1 Y220
+
+M84  ;steppers off
+G90  ÿÿÿ€olute posi

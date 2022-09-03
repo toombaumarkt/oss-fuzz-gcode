@@ -1,0 +1,10 @@
+G90 ;Abs
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0 ; hot
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Diss but Z
+
+M82 ;on mode
+M104 S0

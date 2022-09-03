@@ -1,0 +1,25 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.75387m
+;Layer height::78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated with CurŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽŽa_SteamEngine 4.13042
+;MAXZ:36.2
+;Gen90 S60
+M1000
+M105
+ S200
+M82 ;abfolute extrusion mode
+G28 ;Home
+M42
+G1 Z15.0 F2;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

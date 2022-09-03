@@ -1,0 +1,8 @@
+G06 t7 (Pt55 = 1. e mill in ool le)
+,,,,,,1 z1
+g1 z x y i0 [10 f10
+g0 |Í
+g28 x-1 y0
+G2 X-1. Y20 i5 j10 F1
+
+m02

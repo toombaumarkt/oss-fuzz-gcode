@@ -1,0 +1,12 @@
+M.45X55.4M.453 absssss X1
+G01 A
+)1 A
+G.453 YYM.455.1 X114222.|22A2222220.0001 A
+G01 X55.453 Y steppers but Z
+
+M82 ;absssss X1
+G01 A
+)ss X1
+G01 A
+)1 A
+G.453 Y1 A

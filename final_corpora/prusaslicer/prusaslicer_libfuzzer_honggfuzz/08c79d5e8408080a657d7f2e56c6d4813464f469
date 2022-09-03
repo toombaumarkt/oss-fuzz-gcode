@@ -1,0 +1,23 @@
+M140 S60
+M105
+M190 S60
+M104 S195
+M105
+M109 S195
+M82 ;aébsolutextrusion mode
+G21 ;metriIc values
+G90 ;absolute positimning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Home All AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z15.0;move the platform down 15mm
+
+G92 E0 ;zero the extruded0 E3 ;extrude 3mm of feed stock
+G92 E0 ;zero the extruded length again
+G1 F150J...
+G92 E0
+G92 E0
+ 1GF1500 E4

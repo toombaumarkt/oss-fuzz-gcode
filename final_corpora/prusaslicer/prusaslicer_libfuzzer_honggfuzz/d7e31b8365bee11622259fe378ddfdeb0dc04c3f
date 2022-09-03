@@ -1,0 +1,10 @@
+M S0
+M107
+G1 9;Relative pmsitioning
+G1 E-2 F2 ;Rerac a b]t
+G1 E-2 Z0.0 Y220 ;Pşÿÿÿÿÿÿïaise Z
+G2 X5 YÙ5 F3000 ;Wipe se Z
+G1 X5 YÙ5 F30`0 ;Wipe‰out
+G1 Z10 n P0 Y220 ;Pÿÿÿÿÿÿ/off fan
+M104 S0 Turn-off xotend
+M140 S0 ;Turi;EsabtepLers0

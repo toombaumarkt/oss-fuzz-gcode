@@ -1,0 +1,6 @@
+G1 Y220
+
+M8;steppers off
+G90  ;busaotle positioning
+M82 ;aon mode
+M104 S0

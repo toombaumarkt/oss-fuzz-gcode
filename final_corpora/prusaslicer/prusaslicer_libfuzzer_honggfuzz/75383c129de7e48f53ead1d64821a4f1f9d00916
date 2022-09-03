@@ -1,0 +1,6 @@
+G1 E-5 F600; retract filament slightly
+M140 S0; Turn off the bed heater
+M104 S0; Turn off the nozzle heater1111 E15.999999999999999119 E15.9999999999111 E15.999999999999999119 E15.99999999999999911999
+G28 X; Home the X axis
+G0 Y280 F600; Bring the 
+M104 S0

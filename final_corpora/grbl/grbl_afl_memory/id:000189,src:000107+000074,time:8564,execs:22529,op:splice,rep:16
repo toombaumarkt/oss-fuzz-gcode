@@ -1,0 +1,12 @@
+
+GMDF0 S0
+G9 aE-
+M8r
+M8ute extrusionext2Z;E0
+G1 E-
+M8r
+M8ute ex2Z;E0
+G1 E-
+M8r
+M8ute exttrusion todextrusion mode
+M104 S

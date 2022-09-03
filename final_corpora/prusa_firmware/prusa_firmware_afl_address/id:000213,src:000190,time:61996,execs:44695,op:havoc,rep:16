@@ -1,0 +1,13 @@
+G1 F1F5196
+L140 SDM107
+N
+M10Z
+N104 S0
+M1A0 S0
+G92 Z0
+G1 E-10 X200
+G10 F200
+G2828 X:84
+
+M Y0M82 ;abso[ute extrusi„n ’ode
+S0

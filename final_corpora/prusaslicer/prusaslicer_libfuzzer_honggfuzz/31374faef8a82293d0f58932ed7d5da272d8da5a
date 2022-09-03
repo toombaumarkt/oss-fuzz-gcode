@@ -1,0 +1,6 @@
+G1 Y220
+
+M84  ;stepperßf
+G90  ;Ÿ‹ute postioni
+M82 ;a o
+M208 S0%

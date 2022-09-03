@@ -1,0 +1,16 @@
+M104 S(3cles withçthe same diamter 6 mm)
+(1sompensation, 2ns with G42 right compensation, 3rd with G41 left compensati~n)
+
+g21
+g61
+g0 z2
+g////////////0 x0 y0
+
+m06 t@5 (1.6 mm diameter mi)lling head)
+
+m3 s0
+
+g0 x20 y0
+ f50
+g2 x14/////-3 j0 f100
+g2 x20 y0 i3le 2, one full cicle in one step - startpoint = endpoint -, with g42

@@ -1,0 +1,40 @@
+G0ÛË`00 ;ëÿÿÿÿÿÿÿut
+G1 Z10 ;RaiÏW Z more
+G90 ;Absing
+
+G0 X0 Yent pr
+G2 Z10 ;Raise Z more
+P ;We out
+ Z10 ;RaisW Z more
+C90 ;Abssng
+
+ X0 Y220 ;Presentpr
+G2 Z10 ;Rajse ZÐ m
+G90 ;A3.29
+G$ F15000 ;Wipe?
+G Z10 ;Ra
+G2 X5 F3 0P ; pr
+G2 Z10 ;Rajse ZÐ m
+G90 ;A3.29
+G$ F15000 ;Wipe?
+G Z10 ;Ra
+G2 X5 F3 0P ;We out
+G1 Z10 ;RaiÏW Z more
+G90 ;Absing
+
+G1  Z10 ;Ra
+G2P ;We out
+G1 Z10 ;more
+G90 ;Absing
+We out
+G1 Z10 ;Rai
+G90 ;Absing
+
+G1  Z10 ;Ra
+G20P ;We out
+G1 Z10 ;more
+G90 ;Absing
+
+G1 X0 Y2Õ0 ;Present pr more
+G ; mode
+M104 S1

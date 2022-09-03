@@ -1,0 +1,4 @@
+G1 ¬
+G2 E-9 F300 ;retract the f
+G1 Z+0.5 E-5 X-10 Y-20 F80.0 ;n more
+G14 X0 Y0    ;mven4 S0

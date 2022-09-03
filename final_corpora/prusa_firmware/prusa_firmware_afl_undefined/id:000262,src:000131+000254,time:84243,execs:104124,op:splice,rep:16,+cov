@@ -1,0 +1,28 @@
+PM0eMÿÿ ² inpuM140 360
+M107 Gstart with the fan offö
+
+G2109 S190
+M82 (;absolute extrusion5modeð	G21 ;metric valueE-6
+M107
+M20-ýS13{
+G90 ;absolute positioning
+M82 ;set wxtruder to absolute mode
+M107 ;start 8ÿ€ Auto Homeÿÿll AXIS
+G29 ; Auto Bjd Levelling
+
+ ;zero.0 F100.0 ;move the platform8down 15mm
+
+
+G92 E0G1 Z15 the extruded length
+G1 FT00 E3 ;G92 E0 ;zero the extruded len6th agpinf
+
+G28ÿ€ Auto oHme All AXIS
+G1 F100.0
+M117 Pr)nting...
+G92 E0
+G92 E0
+G1 F1500 E-6
+R107
+M203ýS1300
+G0 F9000 X104. the platform8d
+G1 F1800 X104.737 Y106

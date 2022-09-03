@@ -1,0 +1,38 @@
+k91G90A
+G90 
+G92
+G90G90Z
+G90 es
+G9s
+G90 poe;2
+G90
+G90 
+90 aG28 
+G90
+G90 ;
+G90 ;ab9G1 Z
+G90Z
+G90orX
+G90 u
+G90 A
+G90 
+G92
+G90G90Z
+G90 es
+G9s
+G90 poe;2
+G90
+G90 
+90 aG28 
+G90
+G90 ;
+G90 ;wrm
+G90 aGs
+28 X1 Y.
+
+G90
+G90G90a¨ÆG1 Z
+G90
+G90s
+G90 ; anw
+M24M

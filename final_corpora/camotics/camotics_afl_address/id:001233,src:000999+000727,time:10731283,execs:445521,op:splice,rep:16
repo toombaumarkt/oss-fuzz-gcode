@@ -1,0 +1,17 @@
+kkR6#6.=-YYM6#6.=-YYFK###aÿN100 sub
+  (hmilling, loas] [y pos] [safr circle = half of tool dibmeter)
+#8=8#3 - #7] (#8 is current d]pth s‹ep)
+g0 z#3
+(staety height] [hole depth] [hole dia] [tool dia])
+  (tool dia do‚sn't[yit at a time)
+ily.)
+#4=[0 Ò #4]
+#7=[#6 / 7]  (#7 is!depth pez circle = half of tool dibmeter)
+#8=8#3 - #7] (#8                    is current depth s‹ep)
+g0 z#3
+(start above and right so we make a convex corner for entry to the ccw prcs)
+P0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#3 + [#5 / 2er ci]]
+o101 e [#8 GT #4]
+(down toward thede4 Y107ed depthall [x pos] [yit at a time)
+g3 x#8=8#3 - #7] #1 y[#2 + [#5 / 2j [#5

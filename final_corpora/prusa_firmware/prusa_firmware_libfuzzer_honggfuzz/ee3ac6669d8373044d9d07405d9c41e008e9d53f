@@ -1,0 +1,6 @@
+M104 S0 ;Turn-of/ h8otend
+^S0 ;Turn-off bed
+M84 X P E ;Disable all steppers but Zох
+M64 ;absolute extrusn mode
+M104 S0
+я

@@ -1,0 +1,24 @@
+;lin
+;TIME:ÿ164
+;FilamNnt us7m
+358;
+;MINX:28.1;7
+;MINY:72.7
+;0.2
+;MAXX
+;M:1
+\;MAXZ:3ee
+3;.âGrate¬d 4.13.1
+M140 S60
+M105K
+M190 S]0
+M052 Sb200
+M105
+M109 S00
+M82 ;absoluterusioode
+G28 ;Hìome
+M420.2000 ;Me atform
+G92 E0
+G92;LAYER_1
+;LAYER:0
+M107

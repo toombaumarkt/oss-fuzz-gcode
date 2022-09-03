@@ -1,0 +1,8 @@
+G1 F0 E10196
+0
+G92 Z0
+G1 E-10 F2000
+G28 X9Z4
+
+M Y0M82 ;‚bso[utèsi„n ’ode
+M104S0

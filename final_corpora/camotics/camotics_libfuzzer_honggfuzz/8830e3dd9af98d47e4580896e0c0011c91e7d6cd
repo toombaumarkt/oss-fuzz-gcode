@@ -1,0 +1,3 @@
+M84; Táçotors
+M82 ;absolute extrusion mode
+M4 S0

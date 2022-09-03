@@ -1,0 +1,8 @@
+G0 F7.61 Y133. S0EX12 S0E
+G1
+ ;09C S0E
+G5 X125 X12~ S0E	G1
+ ;Relatiioning
+G1 G1 X5 Y5 F30 r{a1 X5X Y5 F3000 t
+G2 Z10o290of; hote7nd
+1«Î04 S0

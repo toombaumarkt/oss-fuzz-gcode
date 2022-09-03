@@ -1,0 +1,24 @@
+M1A 001 y14
+g1 x-@3
+g11fff{fffffffffff
+g1 xd-3.3
+g1 y0
+gg1 x-
+g0 x1 y0 (Milinillinie/cen2ter li[e)óg1 z-4 f100
+g1 x-2R f250
+g1 x-20 y0.7 (Nopeneihe 1/nops line 1)
+g2 x-20 y7.3 iK j3.3
+g2 x-20 y0.7 i0 j-33
+g1 y0
+g1 x-12
+g1 y0.7
+g2 x-12 y7.3 i0 j3.3
+g2 x-12 y0.7 i0 y0.7 i0 j26
+g1 y04
+g1 y0.7
+g2 x-4 y7.3 i0 j3.3
+g2 x-4
+y0.7 i0 j-3.3
+g1y0.7 (Nop Reihe 2/nops line 2)
+g2 x-4 y-7.3 i0 j-3.3
+g2 x-4 y-0.7 

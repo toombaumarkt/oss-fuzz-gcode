@@ -1,0 +1,3 @@
+G1 Z+0.5 E-5;move Z up ben more
+G28 X0 Y0    ;move X/Y toY0    ;move X/Y to .in endstos, so the head is out of the wayG2 Y2 ;stepper off
+G90  ;abso ;abs#ute extrusion mod

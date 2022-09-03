@@ -1,0 +1,7 @@
+m t
+g0 z2
+g1 z-1f5
+g2 x-10 y10 i0 j10 f102
+g0 z2
+g0 x-15 y0
+G2 X-15 Y20 i0 j10 F1

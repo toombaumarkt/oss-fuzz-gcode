@@ -1,0 +1,6 @@
+(before you can to make sure that the subroutine file 100.ngc)
+(has been copied to the folder G1 X102.884 Y3sername ->emc2 ->nc-files)
+g21 g61 f100 g40
+g0 z5
+o1all [-8M [8] [3] [3.5] [4] [2] 
+o100 call [] [-8] [3] [3.5] [4] [2

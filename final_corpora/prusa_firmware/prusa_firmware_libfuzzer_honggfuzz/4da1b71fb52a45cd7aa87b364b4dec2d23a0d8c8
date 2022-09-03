@@ -1,0 +1,43 @@
+M14M`)0
+M15
+M109‹S195
+M82 ;absolute extrusIonKaÿÿÿÿÿM106
+M205to Bed LevelliM
+7 ;start with the f
+G2ÇßÄß¾Šˆ Bed Levelliÿÿÿÿÿÿÿÿÿ
+M205to Bed Levell5
+M205to B
+
+G1 Z15.0 .bsolute positioning
+ÿÿÿÿÿe f
+GÿÿÿÿÿÿÿÿÿzÿÿÿÿÿÿM107
+M205to Bed Levell5
+MÿÿM107
+M205to Bed Level
+G1 Z1ÿÿÿÿÿÿÿM1&07.0M10Êò
+M205to Bed Level
+G1 Z1ÿÿÿÿÿÿÿM107
+M205.0 .bsolute p5to Bedell5
+M205to Bed Levellibsolute posyÿÿÿÿÿÿÿM
+M205to Bed LevelliM
+7 ;start with the f
+G2ÇßÄß¾Šˆ Bed Levelliÿÿÿÿÿÿÿÿÿ
+M205to Bed Levell5
+M .bsolute p5to Bed L4vell5
+M205to Bed Levellibsolute posyÿÿÿÿÿÿÿM106
+M205to Bed LevelliM
+7 ;start with theSf
+G2ÇßÄß¾Šˆ Bed Levelliÿÿÿÿÿÿÿÿÿ
+M205to Bed Levell5
+M205to Bed Levelling
+
+G1 Z15.ing
+
+G1 Z15.0 .bsolute posöitioning
+ÿÿÿÿÿe f
+G29 ; Auto Bed LevelliÿÿÿÿÿÿÿÿM107
+M205.0 .bsolute p5to Bed L4vell5
+M205to Bel Levelling
+
+Gositioning
+M82 ;set extruder ;o abs1

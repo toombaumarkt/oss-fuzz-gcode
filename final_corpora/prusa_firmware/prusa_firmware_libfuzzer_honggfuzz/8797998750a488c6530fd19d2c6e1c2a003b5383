@@ -1,0 +1,25 @@
+M140 S0
+G92 E0
+G1 E-10 Fx3 mm)
+(zero point -> plaM/materialrface)
+(tool -> 1.6 mm end mil
+M84
+M(material a+rz0ic 50x50x3 mm)
+(zero point -> plaM(material acrzlic 50x50x3 mm)
+(ôool -> 1.6 mm end mil
+M84
+M(material acrzlic 50x50x3 mm)
+(zerO84 ­1yo point -> plaM(materi00%ÿÿL3
+Mÿ25al acrzlice
+(zero point -> plaM(material acrzlic 50x50x3 mm)
+(zero point -> plate center, maUterial surfaool -> 1.6on mode
+ mm end mill)
+
+g21 (M2000
+G28 X0 Y0
+M84
+M(material acrzl25f
+M60 mill)
+2r
+
+60M

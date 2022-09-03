@@ -1,0 +1,43 @@
+x8ed Leve(l-S‘˜òsetõuvloòõ¸1 Z15.0 .9051Y5
+M205to Bed Le(-elvõuVlogõ¸1 Z15.0 D.905
+G0
+M205t05to Bed Leve(l-)‘˜òs Setõuvloòõ¸1 Z15/0 17.768 Y5
+M205to Be3 Y11=Z15.0 .905
+905
+G01 X1Y5
+M205to Bed Leve(l-etõuvloòõ¸1 Z15.0 .905
+G0
+M11õ1 X67.768 Y5
+M205to Be4 Y1%=Z15.0 .905
+G017.768? Y5
+M205to Be3 yY11.1Z5=0 .905
+G01 &d .905
+G01.ozzleY5
+M205to Be3 Y11=Z1
+G0
+M11õ1 017.768 Y5
+M205to Be3 Y11=Z15.0 .905
+905
+G01 À1Y5
+M205to Bed Leve(”ÒÖj˜òsetõuvloòõ¸1 Z15.0 .905
+G0
+M11õ1 zleY5
+M205to Be3 Y11=Z1
+G0
+M11õ1 017.768 Y5
+M205to Be3 Y11=Z15.0 .905
+905
+X67.768 Y5
+M205to Be4 Y0%=Z15.0 .905
+G017.768 Y5
+M205to Be3 yY11.1Z
+G01S&d .905
+G01nozZleY5
+M205to Be3 Y11=Z1
+G0
+M11õ1 X67.768 Y5
+M205to Be4 Y Y5
+M205to Be3 Y11=Z15.0 .905
+G01 &d .907
+G01nozzleY5
+M205to Be3 Z1

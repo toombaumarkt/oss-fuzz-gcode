@@ -1,0 +1,6 @@
+G1 Y420
+[
+A84  ;steppers
+G90  ;absolute pNsitoIg
+M82 ;
+M14 S0

@@ -1,0 +1,18 @@
+(maZic .#x50x3 lm)
+(zeo matial suŽface)
+(tool -> 1.6 mÜ
+
+g
+g21 (Millimeter)
+g 
+g0 z0.5
+g1 z -f30
+g1 y18
+8
+g1 y-18
+g1 x18
+g1 z-2.2 3)0
+g1
+g1ÝCx18
+g1 z-3.3 f30
+80

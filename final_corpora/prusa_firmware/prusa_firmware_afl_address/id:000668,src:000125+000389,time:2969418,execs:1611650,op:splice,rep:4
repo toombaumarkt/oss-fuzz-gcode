@@ -1,0 +1,26 @@
+G1 F0E1ççççççççççççç5@
+G28 X9Z4
+
+M Y0M82 ;‚bso[ŸŸ S60
+M104 S;e
+M42" S0
+G1 Z15.FLAVOR:Marlin
+;ent used: 6.7538LAXX:1e
+M42" S0
+G1 Z15.FLAVOR:Marlin
+41.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated with Cura_SteamEngine 4.13.1
+;Home
+M42" S0
+G1 Z15M140 S60
+M105
+M1ï0 S60
+M104 S200
+M105
+M109 S200
+M8" ;absolute ex7trusion mode
+G28 ;Home
+M42" S0
+G1 Z

@@ -1,0 +1,7 @@
+M84  ;steppers of S6
+M1B4 S195
+M1ÿÿÿÿÿÿ6off
+G117
+M301 YF547luÿÿÿÿÿÿÿÿte eÿÿFANP±INTSTÿ=‘rrrrrrrrrrrrrù
+M301rs  ofrrrrù
+M301rs  of

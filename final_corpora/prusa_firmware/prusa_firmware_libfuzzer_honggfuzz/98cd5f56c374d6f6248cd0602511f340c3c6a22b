@@ -1,0 +1,57 @@
+G01 6M110
+(I(M115.010E-6
+1xÖE;#
+G2 JEÿÿÿÿÿÿÿ6e«S0)se
+ÿ˜R5Pˆ
+$F˜ˆÆÍÖE;
+G2 JE- Y0
+ÍÖE;
+Ge
+J
+
+G2 JE- Y0
+M6
+G2 ÿ- Y0
+M6
+G2 ÿ;
+G2 J J
+
+G2 JE01 6
+(I(M115.010 F200E-6
+1xÖE;#
+G2 JEÿÿÿÿÿÿÿ6e«S0)se
+ÿ˜R5Pˆ
+$F˜ˆÆÍÖE;
+G2 JE- Y0
+ÍÖE;
+Ge
+J
+
+G2 JE
+45 Y1F200E-6
+1xÖE;#
+G2 JEÿÿÿÿÿÿÿ6e«S0Pse
+ÿ˜I5Pˆ
+$FˆÆÍÖE;
+G2 JE- Y0
+ÍÖE;
+G2 J
+
+G2 JE01 6
+(I(M115.010 F200E-6
+1xÖE;#
+G2 JEÿÿÿÿÿÿÿ6e«S0)se
+ÿ˜R5Pˆ
+$F˜ˆÆÍÖE;
+G2 JE- Y0
+ÍÖE;
+Ge
+J
+
+G2 JE- Y0
+M6
+G2 ÿ- Y0
+M6
+G2 ÿ;
+G2 J
+45 Y10.0

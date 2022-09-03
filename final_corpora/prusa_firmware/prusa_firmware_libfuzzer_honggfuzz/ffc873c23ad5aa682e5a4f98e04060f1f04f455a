@@ -1,0 +1,13 @@
+M84 S1y0 0תתתתת1 x5.J8
+M140 S60
+M;metr 1?2
+ש0 ig %
+01
+95
+M115.0ÿIÿÿÿÿÿÿTÿÿÿÿÿÿÿMMU65604;z0 ;zero the extrudn
+G1 F807.0
+m117 Printing...
+G92 E0
+G92 E0
+G1  length `uvlo1?00
+מ

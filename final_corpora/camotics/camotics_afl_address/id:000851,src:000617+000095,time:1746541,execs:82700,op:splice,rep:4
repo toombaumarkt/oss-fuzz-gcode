@@ -1,0 +1,15 @@
+ %
+Mÿ4,F#<3TG0 8.129
+G0 X109.799 q118.
+G1 F2100 E177.6
+M140 S0
+M204 S500
+M1G91; relative positioning`mode
+G1 E-5 F600;ract filament slightly,
+M140 S0; Turn off the bed heater
+M104 S0; Toff the nozzle heater
+G28 X; Hos
+G0 Y280 F600; Brifor easy print removal
+M84;n
+off the mo
+M82 ;a

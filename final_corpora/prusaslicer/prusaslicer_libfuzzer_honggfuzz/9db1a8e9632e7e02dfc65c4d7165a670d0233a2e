@@ -1,0 +1,8 @@
+M104 S0
+M14 S0
+G92 E0
+G1 E-10 F000
+G28 X0 Y0
+M4
+M88 ;absolute extrusode
+N S0

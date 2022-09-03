@@ -1,0 +1,8 @@
+מממממ11.6203 S00 Xy8.7 Y16
+M209.
+קקקקקקקקקק115
+M20 Xy8.7 Y100.962nozzle \\\\\\\ 5fPRU 5fPRUSAx-2M100  z3
+
+M140 Sp ;Turn-off bed
+M84 X Y E  S02nozzle 115
+*M20 Xy8.7 Y100.96220  14) 465.gÒ7

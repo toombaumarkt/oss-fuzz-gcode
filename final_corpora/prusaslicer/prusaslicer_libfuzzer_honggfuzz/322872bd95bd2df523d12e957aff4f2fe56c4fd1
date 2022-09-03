@@ -1,0 +1,19 @@
+;FLCR:Marlin
+;:4
+;Film
+;L.ayer e:ht2
+;37
+;Genera
+M90 S60
+M104 S200
+M1pM109 S200
+re 460
+M10 S60
+M0 S0
+Gÿm
+G92 E0
+G92 E0
+G1 F1
+;LAYE:18)
+;LAYE
+M

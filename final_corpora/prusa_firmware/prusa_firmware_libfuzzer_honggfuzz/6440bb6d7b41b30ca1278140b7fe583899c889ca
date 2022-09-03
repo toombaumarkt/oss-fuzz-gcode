@@ -1,0 +1,12 @@
+M140 S4
+M204¥S5&0
+M107
+G91; Se…t TelaI1ivesiting mode
+G1 E-5 F600; r^d heater
+M10?4 S0; Tal
+M84; ofotors
+M8284;e3 exHome the s
+6lghilæ;@
+M0S0;hval
+rs
+M82 ;ausi S0

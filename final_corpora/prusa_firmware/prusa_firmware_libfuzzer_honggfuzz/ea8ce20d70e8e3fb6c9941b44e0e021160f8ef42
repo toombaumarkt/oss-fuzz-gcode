@@ -1,0 +1,11 @@
+M140 S4
+71
+040
+G82;T1lavesiping uvlo
+G1 E-5 F600; tder
+M10?+ S1; Tl
+M84;er
+M~10?+ S1;e s
+lgh;@
+M0S0;!l
+s ;ausi S0

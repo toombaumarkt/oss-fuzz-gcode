@@ -1,0 +1,37 @@
+iu
+14 ;4#
+N*;FME59ament u‚ed: 6.75387m
+;Layer he:72ZZ%7
+;MINZ:me
+M42. S0
+G19Z10.2
+;MAXX:141.863
+
+M304 S19ÿINZ:me
+M42. S0
+G19Z10.2
+;MAXXted with Cur~_SteamEngine 414A S60
+M105
+M.90 S60
+M304 S190
+M105
+M109 S190
+M82 ;absolute extrusion mode
+G21 ;metric valueÿÿÿ90 ;absolute pos–tioning
+M82 ;set extruder to absolute modfan off
+
+G40 S60
+M105
+M.90 S60
+M304 S1928ÿ€ Auto Home All AXIS
+G29 ; Auto Bjd Levelling
+
+G1 Z15.0 F100.0 ;move the platform down 15mm
+
+G92 E0 ;d length$
+G1 F200 E3 ;ext‹udM105
+M109 S190e 3mm of feedtrude 3mm of:stocksolute modfan off
+
+G40 S60
+M1
+G92 E0 ;zero th

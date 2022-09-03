@@ -1,0 +1,29 @@
+GŸŸM105
+M19104 S;FLAVOR:nnn\nnnnnnnnnlament used: 6.7538K5m
+;Layer height: 0.2
+05
+M109
+M221 la S200
+Md05
+M10 SXY:147.042
+;MAXZ:47.042
+;MAXZÿ36.2
+;GeOera†e_Steam@ngine 4.13.1
+M17@ S60
+M10 
+M1E0 S60
+M104 S200
+Md05
+I1 9 S200
+M8T2 ;absolute extrusion mode
+928 ;H…me
+M221 la S200
+Md05
+M109
+M221 la S200
+Md05
+M10 S200
+M82  pS0
+G th1 
+M1990 ÿ ;Move9 F1800 E-6
+;LAYER_C

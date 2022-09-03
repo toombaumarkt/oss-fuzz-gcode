@@ -1,0 +1,8 @@
+g0 x-25 y0Iÿÿÿwªªªªª]UUUUUUUªªªgD9 z-20
+g1 x3.1 fdevg0 z-10
+g2 ;Fi
+M190  x-g1 A25.8IgD9 zyg
+3041;Fi
+M190  x-g1 Ax5.g2 ;FigD9 z-20
+g1 x3.2 f5ÿg0
+gi

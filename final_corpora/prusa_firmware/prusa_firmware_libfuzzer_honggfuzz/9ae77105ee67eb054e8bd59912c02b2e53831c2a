@@ -1,0 +1,78 @@
+M140 S60
+M105
+M11 FPMBLrinti..
+G92 ² E0
+G92 E0
+G1 F100 E-6
+M107
+M117 PMBLrinting...
+G92 E
+G9©2 E0
+M1175Printing...
+G92 E0
+G92 E0
+G1 MBLr:inti..
+G92 ² E0
+G92 E0
+G1 F1500 E-1M107
+M117 PMBLrinting...
+G92 E0
+G92 E0
+G16
+00 Z1$3
+G0 F š›ß“3¹Î50
+G92 E0
+G92 E0
+.0
+M117 Prinping...107
+M10
+M1175Printing...
+G92 E0
+G92 E0
+G1 F1549.0
+M1175Printing...
+G92 E0
+G92 E0
+
+M117 PMBLÊinting...
+G92 E0
+G92 EM900 E-6.0
+M1175Printing...
+G92 E0
+G92 
+G92 E0
+G92 E0
+G1 F1500 E-6
+M107
+M117 PM0BLr10Ù
+M10
+M1175Printing...
+G92 E0
+G92 E0
+G1 F1550.0
+...
+G92 E0
+G92 E0
+G1 7
+M117 PMBLÊinting...
+
+M1175Printing...
+G92 E0
+G92 7.4
+G1 F300 Z
+
+G28 in
+50.0
+M117 7
+M...
+G92 E0
+G92 EM90~ÿ0 E-6.0
+M1175Printing...
+G92 E0
+G75Printing. Ù1Ï.3
+G1 F300 Z
+
+G28 in
+50.0
+M117 4
+MÒ2 ;absolu

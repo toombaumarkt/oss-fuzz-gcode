@@ -1,0 +1,61 @@
+G1 +124.591 Y107.9091
+GF2000
+ ;00
+G28 X0 Y0
+M84
+M82asol;b ut990
+G28 X0 Y0
+M84
+0
+M84
+M82 ;absolu
+G04 S0
+52990
+G28 X0 Y0
+M84
+M82 ;abst0
+52990
+G28 X0ž Y0
+M84
+M82 ;absolute exF2000
+G28 X0 Y0
+M84
+M,2 ;absolute exur usiF1500 E1953.52990
+G28 X0 Y0
+G28 X0 Y0
+M84
+M86 ;absoluteMMURES exF2e exF2000
+G28 X0 Y0
+M84
+M82 ;absolute exurusi F3701 E1.52250
+G28 X0`Y0
+M84
+0
+M84
+M82 ;absolu
+G92 E04.51990
+ ;00
+G28 X0 Y0
+M84
+M82asol;b ut990
+G28 X0 Y0
+M84
+0
+M84
+M82 ;absolu
+G04 S0
+52990
+G28 X0 Y0
+M84
+M82 ;abst0
+52990
+G28 X0ž Y0
+M84
+M82 ;absolute exF2000
+G28 X0 Y0
+MG28 X0 Y0
+luteMMURES exF2000
+G28 X0 Y0
+M84
+M82 ;absolute exurusion mode
+M104 S0

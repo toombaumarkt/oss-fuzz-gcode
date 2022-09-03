@@ -1,0 +1,18 @@
+g1 z-25
+g1 x3..6)
+g1 x58
+g1 z-2 
+G90 ;R
+g1 z-2 
+G90 ;Absoioning
+
+B1
+M10 ;Turn-of
+g1 z-2 
+G90 ;8
+g1 z-2 
+G90f
+M104 S0 ;Turx-oAf hotend
+M140d
+
+M84

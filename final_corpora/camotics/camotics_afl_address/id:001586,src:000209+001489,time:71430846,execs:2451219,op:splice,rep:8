@@ -1,0 +1,21 @@
+O10M10m[[G1 F2276.4 X135 se some of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ;move Z up a bit andtic
+G1 Z+0. ;absolute extrusion m0 ;retract the filament a he nozzle, to release some of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ;move Z retract filament evenmore
+G2 ˆ0;move Xthk.3
+G1 X143 Y17 the head is out of the way
+A1 Y220
+
+M84  ;steppers off
+G90  ;absÜlute positie
+G1 Z+0. ;absolute1 Z+0. ;absolute exÿÿÿi0m[[G1 F2276.‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ome of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ;move Z up a bit andtie
+G1 Z+0. ;absolute extrusion m0 ;retract the filament a he nozzle, to release some of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ;move Z retract filament evenmore
+G2 ˆ0;move Xthk.3
+G1 X143out of the way
+G1 Y220
+
+M84  ;steppers off
+G90  ;absÜlute positie
+G1 Z+0. ;absolute1 Z+0. ;absolute extrusion modeon mode

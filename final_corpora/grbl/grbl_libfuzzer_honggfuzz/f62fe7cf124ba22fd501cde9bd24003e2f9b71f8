@@ -1,0 +1,11 @@
+01 .X
+g1 
+g3 x3 r3.2g 20 f801
+G
+g3 x3r3.g  20 f80
+g3 x3 r3.2g  20 f8
+g3 r3.2g  20 f801x4
+g3 x 4r32g 20 f8
+g3 x3 r3.2g  20 f8 1Rx3.H
+g3 x4 r3.2g  20 f8s3
+g3 x3 r2.2g 20 f8

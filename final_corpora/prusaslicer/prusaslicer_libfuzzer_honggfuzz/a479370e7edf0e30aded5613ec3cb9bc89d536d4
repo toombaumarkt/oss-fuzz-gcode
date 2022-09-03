@@ -1,0 +1,105 @@
+G1 YA4.15
+37 Y81.71
+G D.G0 X3.
+1 X3.8
+G00 X31   D.0 X2.
+G2 X.
+G0 X3. X2.
+G1 X.
+G X3.
+1  X3.7
+0 Y.0K H3.
+GG0 D.0
+&g X2.
+X1 X.
+G X3.
+1 X3.7
+0 Y.µ0K H3.
+G D.0 X2.
+G2 X.
+G0 X3. X2.
+G1 X.
+G X3.
+1  X3. X.
+G X3.
+1 X3.7
+0 Y.µ0K H3.
+G D.0
+g X2.
+G1 X.
+G  D.0 X2.
+G2 X.
+G0 X3.
+101 X3.7
+0 Y.µ0K H3.
+G D.0 X2.
+G2 X.
+G0 X3. X2.
+G1 X.
+G X3.
+1  X3.7
+0 Y.0K H3.
+GG0 D.0
+&g X2.
++1 X.
+G X3.
+1 X3.3
+0 Y.µ0K H3.
+G D.0
+g X2.
+G1 X.
+G  D.0 X2.
+G2 X.
+G0  X2.
+G7
+0 Y.0K H3.
+GG0 D.0
+&g X2.
+Xã1 X.
+G X3.
+1 X3.7
+0 Y.µ0K H3.
+G D.0
+g X2.
+G1 X.
+G  D.4 X3.
+101 X3.7
+0 Y.µ0K H3.
+G D.0 X2.
+G2 X.
+G0 X3. X2.
+G X3.
+1  X3.7
+0 Y.0K H3.
+GG0 D.0
+&g X2.
++1 X.
+G X3.
+1 X3.3
+0 Y.µ0K H3.
+G D.0
+g X2.
+G1 X.
+G  D.0 X2.
+G2 X.
+G0  X2.
+G7
+0 Y.0K H3.
+GG0 D.0
+&g X2.
+Xã1 X.
+G X3.
+1 X3.7
+0 Y.µ0K H3.
+G D.0
+g X2.
+G1 2.
+G2 X.
+G0 X3.
+10
+&g0 D.0
+&g X2.
+X1 X.G D.0
+g X2.
+G1 X.
+G  D.0 

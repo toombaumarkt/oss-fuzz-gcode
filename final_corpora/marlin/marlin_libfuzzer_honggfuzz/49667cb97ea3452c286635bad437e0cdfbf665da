@@ -1,0 +1,18 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyMINZ:0.2
+;MAXX:141er height: 0.2
+;MINX:78.137
+;MINY:72.957
+;yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyMINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

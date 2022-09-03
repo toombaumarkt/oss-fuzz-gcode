@@ -1,0 +1,31 @@
+M140 S60
+M10;
+M190 S60
+M104 @190
+M105
+M109 Y19M14' ÿçhBD3
+M22.
+M1ÿçPBD3
+M220
+M190µS60
+M104 @M140 S60
+M10;
+M190 S60
+M104 @190
+M105
+M109 Y190
+M82 ;1bsolute extrusion mode
+G28 ;metric values
+G90 ;absolute positionin7
+M214 SP13
+G1 F200 E3 absolute mode
+M10t7 ;star€ÿwthe eM107
+M214 SP1eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeePPPPPPPPPPPPPPPPPPin7
+M214 SP13
+G1 F200 EPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP;…ero the eM10g
+M82 ;set extruder to ;extrude 3mm o… feed stoco theextruded length agaio
+G1 F100.0
+M117 Prinzing...
+G92 E0
+G92
+M214 SP13

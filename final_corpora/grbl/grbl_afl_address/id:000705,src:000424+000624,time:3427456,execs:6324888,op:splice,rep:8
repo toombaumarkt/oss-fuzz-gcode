@@ -1,0 +1,40 @@
+g0¸x50
+g S0
+G92x4.5
+G92x4.5
+g f S0
+G92x4.5
+g0 x0 y0
+j0 f100
+.0 z5
+g4022g0 
+G92x4.5
+G92x4.1
+g1 60g1 x5.S0
+G92x4.5
+G92x4.5
+gg8
+ S0
+G92x4.5
+Gx
+g1 x5
+ U15-25-f150G92x4.5
+g2 x25 f5x35Ig4 –5.5G0 0<56 S0
+G92x4.5
+G92x4.5
+gg1 CxS.1 f S0
+G92x4.5
+g0 x0 y0
+j0 f100
+.0 z5
+g4022g0 gK9
+5.S0
+G92x4.5
+G92x4.5
+gg1 CxS.1 8
+ S0
+G92x4.5
+Gx
+g1 x5
+ U15-25-f150G92x4.5
+g2 x25 f5x35Ig

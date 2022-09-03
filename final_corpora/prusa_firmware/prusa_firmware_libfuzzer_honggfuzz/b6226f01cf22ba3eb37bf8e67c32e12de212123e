@@ -1,0 +1,58 @@
+0
+M85
+bsolute 0
+
+M84
+M8 ;absoLBL
+FWM22Í0Sš5MBÍ6
+FXM22Íjjjjjjjjjjjjjjjjjjjjjjjjj20 Y0
+M84
+ÿÿM862.17944
+´P F8ÿM862.379x44
+G0 F899FM1xtrus0
+M85
+M8o>2 luY0trus0
+M85
+M0 Yrg0 Y0
+794<(
+G20 Y0
+M84
+ÿÿM862.17944
+´P F8ÿM862.379x44
+G0 F899FM1xtrus0
+M85
+M8o>2 luY0
+M85
+M08trus0
+M85
+M0 Yrus0
+M85
+M82 ;ab
+M84
+ÿÿI1ivesiting uvlo
+G1 E-5 F600; tah eder
+M10?4 S1; TalM862.3 Yrg0 Y0
+794<(
+G20 Y0
+M84
+ÿÿM862.17944
+´P F8ÿM862.379x44
+G0 F899FM1xtrus0
+M85
+M8os2 luY0
+M85
+M08trus0
+M85
+M0 Yru´P F8ÿM862.379x44
+G0 FZ99FM1xtrus0
+M85
+M82rus0
+M85
+M82 ;absolute ext2 E3
+G F2002 ;absolute extrus0
+M85
+M8g0_ Y0
+M85`
+M82 ;abs_ 0 Y0
+M85
+M82  y

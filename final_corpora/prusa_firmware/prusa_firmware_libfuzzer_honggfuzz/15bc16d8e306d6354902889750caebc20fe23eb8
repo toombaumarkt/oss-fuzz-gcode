@@ -1,0 +1,8 @@
+m
+
+M208 -09 FяяMRG0 X114.381 Y70.055
+G1 F1500 X1/Y to min endstops, so the head is out of the way
+M84  ;steppers off
+G90  ;aсссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссссbsolute positioning
+M82 ;absolute extrusion mode
+M104ЅS0

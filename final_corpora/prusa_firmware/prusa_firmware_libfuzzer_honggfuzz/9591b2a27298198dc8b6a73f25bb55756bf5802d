@@ -1,0 +1,13 @@
+M140 S0
+M204 S500
+M10*7
+G91;Set Ýrel=tive posivioÿng mo 0GX96.80      40S SY00F
+100.3
+M204D`4RelatzP-V              0   egn 1izP-VV24Relativegn 1izP-VV
+20g1 x000
+G[28 X2
+g1 z-1850
+g1 x3.1
+gD [4RelativeÿÿÿÿÿÿÿŸgn 1izP-VV20
+g
+g S52 xò

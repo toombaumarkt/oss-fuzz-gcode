@@ -1,0 +1,30 @@
+M84  ;steppersÿÿÿ0 off
+GM105 S0
+M148 S0
+G98 X0 Y0
+M84
+M82 ;absoluteextrusion mode
+Mÿabsoluteextrusion mode
+Mÿÿÿÿÿÿÿÿÿÿff
+G117
+AM602rs off
+G1+5
+2MpG0 X90.251 YF2M139 S0
+MXr® o+ff
+G117
+M602rs offFAN
+G1 E-10 FG028 X0 Y0
+M84
+M82f
+G117
+M602rsode
+Mÿÿÿÿÿÿ90.251 YFS0
+Mers ?ff
+G118
+M602rs off
+G1+5
+MpG0 X90.251 YF210&0 .32647
+M139
+Mer
+M602rsS50ff
+Gh0

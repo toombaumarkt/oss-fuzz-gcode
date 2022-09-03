@@ -1,0 +1,8 @@
+G1 Z10 ;Rþise Z more
+G90 ;Absolu posit‘oning
+
+G1 X0 Y220 ;Presenti06 S0 ;S0 ;Turn-n-off140 S0 ;Turn-d
+
+;š4 X Y E ;Disable allut Z
+
+M82 ;olute extrusion modÿÿÿÿÿÿÿïS0

@@ -1,0 +1,6 @@
+6 S0 ;Turn-off fan
+M104 S0 ;Turn-offê'hotend
+M140 S0 YTurn-
+M84 X Y E ;Disable all stepperM110s but Zurn-of fan
+M104 S0 ;Turnn mode
+M104 S0

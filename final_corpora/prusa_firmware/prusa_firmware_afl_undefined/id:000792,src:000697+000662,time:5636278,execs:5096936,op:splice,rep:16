@@ -1,0 +1,45 @@
+M‘{7KÿDEM(
+R12@M862.3"g5içXçdÅ¼BM140 S600fŠn ’ff
+
+G28; AuB0!
+M105
+M1M82
+M25mwn 15mm105
+M1f82
+M25mngth
+G1F!00 E3 ;ex—rude 3mm of feed stock
+G92 E0 7
+M25m00
+G00682
+M25m00
+G006.847 Z08 ;m1500 E0
+G1 F1etric valpuM1Dÿr
+M84R SXz
+M84R07
+M25mm
+G00682
+M25
+M82 ;abte extrusiÿ1 F1500 E-6
+M107
+M25mm
+00
+G006.847 Z0.3$G1 F
+G90 ;a ;set extrudeo the fŠn ’ff
+
+G28; AuB0!
+M105
+M1M82
+M25mwn 15mm105
+M1f82
+M25mngth
+G1F!00 E3 ;ex—rude 3mm of feed stock
+G92 E0 Bzero thFe extruded lengomeagain
+H1 F100.0
+M117 Printing...
+G92 E0
+Gÿÿÿ0
+ÿ1 F1500 E-6
+M107
+M25mm
+00
+G006.847 Z0.3$G1 F1500 E

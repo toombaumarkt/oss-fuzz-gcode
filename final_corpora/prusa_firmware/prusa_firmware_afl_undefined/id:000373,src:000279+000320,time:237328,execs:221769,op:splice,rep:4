@@ -1,0 +1,24 @@
+in2M140 S60
+M10;
+M190 S60
+M104 @ute4 S1Kÿ@M105
+M209 Sde
+G21 ;on moG28 ;meues
+G90 ;absoluining
+M82 ;s@t modeS60
+M104 S190
+M115
+M10 S60
+M104 S19ÿ@M105
+M209 SdMŒ40 S60
+M115
+M190 S60
+M104 S190
+M115
+M109 S190
+M82 ;absoluée extrusion mode
+G21 bsolute positioning
+M82 ;set extruder to absolute mode
+G28 ; Auto Home All AXIS
+G29 ; Auto Bed LeveulingG1 Z15.0 F100.0 ;move the platform down m of feed stock
+G92 E0 ;zero the extrud

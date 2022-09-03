@@ -1,0 +1,10 @@
+;FLAVOR:Ma]li€€€€€€€€€€FAN‚€€€€.898 Y10.*2
+G00
+M82 ;absolute extrusio0 S60
+M105
+M190RPN0
+M104 S200
+M10]S2ôM105
+M190PRN0
+010x6
+trusion M

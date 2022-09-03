@@ -1,0 +1,34 @@
+##Ü#-G21 XL[M[0MMÿO<d>LhhhhhhhhhhhhhhhhhhhhhhhhhhG0 F90009.8 Y118.129
+G0 X109.799 Y118.192
+G1 F2100 E177.64172
+M140 S0
+M204 S500
+M107
+G91; Set relative positioniig mode
+G1 E-5 F600; retrbct filament slightly
+M140 S0; Turn off the bed heater
+M104 S0; Turn off the nozzl2
+M140 S0
+M204 S500
+M107
+G91; Set relative positioniig mode
+G1 E-5 F600; retract filament slightly
+M140 S0; xis
+G0 Y280 F600; Bring the bed to the fronh heater
+G28 X;  thexis
+G00Y280 F6MWMMÿO<d>LhhhhhhhhhhhhhhhhhhhhhhhhhhG0 F9000 X109.8 Y118.129
+G0 e heater
+G28 X; Home the X axis
+G0 Y280 F6MWMMÿO<d>LhhhhhhhhhhhhhhhhhhhhhhhhhhG0 F9000 X109.8 Y118.129
+G0 X109.799 Y118.192
+G1 F2100 E177.64172
+M14A S0
+M204 S500
+M107
+G91; Set relative positioning mode
+G1 E-5 F600; retract filament slightly
+M140 S0; Turn off the bed heater
+M104 S0; Turn off the nozzle heater
+G28 X; Home the X aTurn ofe bed heater
+M104 S0; Ttt for easy t removal
+M84; Turn o

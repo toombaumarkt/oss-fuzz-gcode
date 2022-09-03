@@ -1,0 +1,51 @@
+M.453 Y 74.5+9
+G< M140 S0
+M107
+G91 ;Relative posÿÿÿningG1 2 F2400 ;Reise Z
+G1 X5 Y5 F3000 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Presgnt print
+M1065 F3000 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Presgnt print
+M106 S0 ;
+M104 S0 ;Turn-off Wotend
+M140 S0 ;Turd
+
+M84 X Y E ; Z
+
+M82 ;abs
+G1 E-2
+F27F0 ;act a bit
+G1 2 F2400 ;Reise Z
+G1 X5 o5 F3000 ;Wipe out
+G1 Z ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Turn-off Wotend
+M140 S0 ;Turd
+
+M84 X Y E91 ;Relative posÿÿÿningG1 0 ;Wipe out
+G1 Z S0 ;
+M104 S0 ;Turn-off Wotend
+M140 S0 ;Turd
+
+M84 X Y E ; Z
+
+M82 ;abs
+G1 E-2
+F27F0 ;act a bit
+G1 2 F2400 ;Reise Z
+G1 X5 o5 F3000 ;Wipe out
+G1 Z ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y;Relative posÿÿÿningG1 0 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absol ; Z
+
+M82 ;absolute extrus

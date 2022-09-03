@@ -1,0 +1,28 @@
+ithBmter 6 mm)
+(1st mpensation)
+
+g21
+g61
+g0 z2
+g0 x0 y0
+
+m06 t55 (1.6 mm diameter milling head)
+
+m3 s14000
+
+g0 x20 y0
+g1 z-1.6 f50
+g2 x14 y0 i-& j0 f100
+g2 x20 y0 i3 j0 one fullcircle 2, one full cicle in one step - stand g2 -> right side cg, thereforX first positompensation seen
+g0 z2
+g40
+
+(cicle 3,ing, thereforX first poeeeeeesitioning inside of cicle required, then compensation on, then startpoint of circle)
+
+g0 x0 y0
+g42
+g0 x3 y0
+g1 z1.F6 f50
+g2 x3 y0 i-3 j0 f100
+g0z2
+one full cicle in one=step, with g41 and g2 -> left side compensation seen in direction of cutting, the€ÿfore first positioning outside of cicle required, then compensation on, then startpo

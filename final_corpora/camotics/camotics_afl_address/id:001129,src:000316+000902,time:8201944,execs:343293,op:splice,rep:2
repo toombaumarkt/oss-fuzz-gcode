@@ -1,0 +1,14 @@
+O124;ML[0K###aÿo100 sub
+ad t#4]
+#7=EE[#6 / 2]  (ool  depth] [hole dia] [tool dia])
+  (tool dia doesn't ecified exactly.)
+#4=[0 - #4]
+#7=EE[#6 / 2]  (#7 is depth per circle = half of tool diameter)
+#8=[#3 - #7] (#8 is current depth stend right so we make a convex corner for entry t theo the ccw arcs)
+g0 x[#1 + #6] y[#2 + [5 / 2]] 
+gÿÿÿ0 x#1 y[#2 + [#5 / 2]]
+o101 wh [#5 / 2]]
+o101 ard the specified de
+#7=EE[#6 / 2]  (ool and setÄfee100 all [x pos] [ [#5 / 2]] i0 j[0 - [#5 / 2]]le
+(down to the actual depth)
+g x#1 y[#2

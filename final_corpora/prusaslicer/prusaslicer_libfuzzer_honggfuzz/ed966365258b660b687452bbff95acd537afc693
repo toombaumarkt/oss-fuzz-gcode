@@ -1,0 +1,6 @@
+G1 Y220
+
+M ;
+G90  ;Ÿute postioni.
+2 ;
+2 S0

@@ -1,0 +1,25 @@
+;FLAVOR:Marlin
+;TIME:9164
+;sed: 6.75387m
+;Layer hei 0.2
+;MINX:78.137
+;MINY:722956
+;MINZ~:0.2
+;MAXX:141.8v3
+;MAØY:147.042
+;MAXZ:36.2
+;Geneted with Cura_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S6S200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the1 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COW
+;LAYER:0
+M107

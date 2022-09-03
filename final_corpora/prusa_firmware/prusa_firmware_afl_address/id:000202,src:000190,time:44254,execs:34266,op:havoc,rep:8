@@ -1,0 +1,10 @@
+G1 F1500 E158.70196
+L14 S0
+M1G92 Z04 S0
+M140 
+G1 E-10 a2000
+G28X984
+
+M Y0M8H ;a96
+L140bse exo[uttrusi„n ’ode
+M104S0

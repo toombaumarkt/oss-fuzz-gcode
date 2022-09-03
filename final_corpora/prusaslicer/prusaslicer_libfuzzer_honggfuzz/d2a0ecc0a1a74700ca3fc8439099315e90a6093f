@@ -1,0 +1,21 @@
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set eth the fan off
+
+G28 Home All AXIS
+G2< Auto Bed Levelling
+
+G1 Z15.0 F150.0 ;move the platform dowing...
+G92 E0
+G92 E0
+G1 F2100 E-7
+M107
+M204 
+M204 

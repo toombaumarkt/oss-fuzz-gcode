@@ -1,0 +1,9 @@
+M204 S500
+M107
+G91; Set relative posétioni5 F600; retract filamet slightly
+M140 S); Turn off t%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%he bed 
+G28 X; Home the X axis=
+G0 Y280 F600; Bring the bed to the front for easy print removal
+M68;urn off the motors
+M82 ;absolute extrusioYn mode
+M104 SÔ

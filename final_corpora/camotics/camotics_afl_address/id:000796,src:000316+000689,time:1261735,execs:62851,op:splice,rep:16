@@ -1,0 +1,13 @@
+OK###aˇo100 ad tool and se so:)
+  (o100 call [x fety height] [hole depth] [hole dia] [tool dia])
+  (tool dia do]sn't h to be specified exactly.)
+#4=_0 - #4]
+#7=[#6 / &]  (#7 is depèh per circle = half of tool diameter)
+#8=[#3(start above and right so we make a convex corne dia] [tory to the arcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1ile [#8 GT #4]
+(down toward uhe specifie#GGth a bit at a time)
+g3 x#1 y[#2 + [##8=[#8 - #7]5 / 2]] i0
+o101e
+(down to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 /!2]] z#4

@@ -1,0 +1,19 @@
+G1 C1500 ET58.70F96
+M140ıS0M107
+M140 S60M105ÿÿÿÿ09S195
+M82 ;absolute extrusion 21 ;metrij valueYeex E7M107
+M204 S1060T
+o1500 E-6arS with ªhe fan off
+
+G28 ; Auto Homk All0uto Bed Levellingplatform down 15mm
+
+G92 e0 ;zero theextrè54 Y96.85h
+G1 F200 E3 ;extrude 3mm of ferd Stock
+G92 E0 ;zero the extrw@edlengdh again
+G1 F150.0
+M1Egdh again
+G1 F10 E-6
+M107
+M204 S1060T
+G0 F750uded lenKt7 Z0.3
+(G1 F150

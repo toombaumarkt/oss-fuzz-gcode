@@ -1,0 +1,4 @@
+G1 :E-2 F2700 ;Retract a bti
+G1 E-2 Z0.2 ;Wed
+
+M84 X Y E

@@ -1,0 +1,52 @@
+ÿÿÿÿÿ Toff
+G11;7
+M301 NPINTSTrs off
+G11;·
+M301 YF4 exNPI
+G11
+G11;7
+M301 YF4 exNPI
+G117
+M301 ÿÿÿ¶¶A¶¶NP
+M301Toff
+G11;7
+M301 NPPI
+G117
+M301 ÿÿÿ¶¶A¶¶NP
+M301 YF4 ÿÿÿÿÿÿÿÿÿÿÿ¶¶¶¶NPINP o
+M301 YF4 exNPI
+G117
+M301 YÿÿÿÿÿÿÿPINP off
+G11;7
+M301 YF4 eÿÿÿÿÿ¶¶¶¶NPINPINK!Trs off
+Go YF4 ÿÿÿÿÿÿÿÿÿÿÿ¶¶¶¶NPI.NP o
+M301 YF4 exNP;7
+M301 NPINTSTrs off
+G11;·
+M301 YF4 exNPI
+G11
+G11;7
+M301 YF4 exNPI
+G117
+M301 ÿÿÿ¶¶A¶¶NP
+M301Toff
+G11;7
+M301 NPPI
+G117
+M301 ÿÿÿ¶¶A¶¶NP
+M301 YF4 ÿÿÿÿÿÿÿÿÿÿÿ¶¶¶¶NPINP o
+M301 YF4 exNPI
+G117
+M301 YÿÿÿÿÿÿÿPINP off
+G11;7
+M ÿÿÿÿÿÿÿÿÿÿÿ¶¶¶¶NPI.NP o
+M301 YF4 exNPI
+G117
+M301 YÿÿÿÿÿÿÿPINP opf
+G11;7
+M301 YF4 eÿÿÿÿÿ¶¶¶¶NPINPINK!Trs offI
+G117
+M301 YÿÿÿÿÿÿÿPINP opf
+G11;7
+M301 YF4 eÿÿÿÿÿ¶¶¶¶NPINPINK!Trs off
+Goff

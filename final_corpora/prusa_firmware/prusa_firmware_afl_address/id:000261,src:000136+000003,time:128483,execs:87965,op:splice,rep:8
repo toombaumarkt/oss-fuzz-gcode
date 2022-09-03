@@ -1,0 +1,28 @@
+ŸŸM105
+M190 S60
+M104 S;e
+M42
+G1 Z15.FLAVOR:Marlin
+;T
+;Filament used: 6.75387m
+;Layer height: 0.2
+;MIN2
+;LAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated with Cura_SteamEngine 4.13.1
+;Home
+M42" S0
+G1 Z15M1105
+M1ï0 S60
+M104 S200
+M105
+M109 S200
+M8" ;absolute extrusion mode
+G28 ;Home
+M42" S0
+G1 Z15.0 F2000 ;Move the platfprm
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_CO

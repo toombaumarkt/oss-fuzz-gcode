@@ -1,0 +1,42 @@
+G0 F9000 X107.61 Y133.29
+G$ F1500
+G91 ;Rte  Z more-000 ;Wipe ou?
+G1 Z10 ;Ra
+G2 X5 Y5 F300P ;We out
+G1 Z10 ;RaisW Z more
+C90 ;Absing
+
+G1 X0 Y220 ;Present pr
+G2 Z10 ;Raise Z more
+G90 ;A3.29
+G$ F1500
+G91 ;Rte  Z more-000 ;Wipe ou?
+G1 Z10 ;Ra
+G2 X5 Y5 F300P ;We out
+G1 Z10 ;RaisW Z more
+G90 ;Absing
+
+G1 X0 Y220 ;Present pr
+G2 Z10 ;Raise Z more
+G90 ;Absitioning
+
+G1 X0 Y20 ;Present print
+M1bsitioning
+
+G1 X0 Y20 ;Present print
+M106 S5 ;bsing
+G1 X0 Y20 ;Present pri10 ;Raise Z more
+G90 ;Absitioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;T.2
+3G1 F1000 ;Wipe outZe
+G90 ;Absolt seeuop Z mWipe ou?
+G1 Z10 ;Ra
+G2 X5 Y5 F300P ;Wi epout
+G0PZ10 ;Raise Z more
+G90 ;Ab
+G1ÿÿÿÿY220 ;Present pr
+G2 Z10 ;Raise Z more
+G ; mode
+M104 S1

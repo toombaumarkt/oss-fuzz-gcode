@@ -1,0 +1,14 @@
+M104            0RM84eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeMeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee  ;steiG1X10X Y5 M8N 40 S1y0 0ÿÜÿ
+
+g1eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee  ;steiG1ÿE899.3 X10X Y5 M8N  î40 S1y0 0ÿÿÿ
+
+g1 95
+M115.0ÿÿÿÿÿÿÿÿMMU3.10.362 E1360.004$3üG0 F0eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee  ;steiG1ÿE899.3 X10X Y5 M8N  î40 S1y0 0ÿÿÿ
+
+g1eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee  ;steiG1ÿE899.3 X10X Y5 M8N  î40 S1y0 0ÿÿÿ
+
+g1 95
+M115.ÿMMU3.10.362 E1360.00443üG0 F000 X10G1 X124.591 Y107.91910.0299
+G0 F9000 X124.511 Y10700 X10G1 X124.591 Y107.91910.0299
+G0 F9000 X124.511 Y107.949
+G1 F150

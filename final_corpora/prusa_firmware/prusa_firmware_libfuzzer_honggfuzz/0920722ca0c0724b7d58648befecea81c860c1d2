@@ -1,0 +1,11 @@
+G12 X119.8 Y118.991 E480.72352
+G1 X119. YMMURES119.157 E480.7263
+G1 X119.74 Y119.304 E48991 E480.1 X119.569 Y119.561 E480.73401ùGMBL1 X119.444 Y119.663 E4et relative positioning mode
+G1 E-5 F600;3ightly
+M140 S0; Turn o heater
+M104 S0; Turn off the n
+MD`4Relativegn 0izP-VV20
+g1 [4Â
+gD 4          ; Brieasy print rem
+M82 ;absolu½te extdevioode
+M104 S0

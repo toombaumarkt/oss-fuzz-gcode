@@ -1,0 +1,12 @@
+M140 S0
+M204 S500
+M107
+G91; Selative positioning mode
+G1 E-5 F600; retract filament slightly
+M140 S0; Turn off the bed heater
+M104 S0;n off the nozzle heater
+G28 X; xis
+G0 Y280 F600; Bringr easy print removal
+M84; Trs
+M82 ;absolute extrusion mode
+M104 S0

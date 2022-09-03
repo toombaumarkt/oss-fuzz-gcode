@@ -1,0 +1,7 @@
+##Ü#-G21 XL[M[MÅWMMÿO<d>L; Selative positioning mode
+G1 E-5 ¹600; retraœt filament slightly
+M10;
+TF600 X107.418 Y107.824G21 XL[M[MÅWMMÿO<d>L; Set relative positioni
+G1 E-5 ¹600; retraœt filament slightly
+M10; TF Y107.824 e the X axis
+G0 Y280ßF600; Bring the bed to the f

@@ -1,0 +1,24 @@
+;lin
+;TIM]ÿ164
+;Filas7m
+358;
+;MINX:28.1
+;7;.7
+;
+;MAXX
+;M:1
+\;MAXZ:3ee
+3;.âGrate¬d 4.13.1
+M10 S60
+M105K
+M190 S]0
+M052 S00
+M105
+M109 
+M82 ;absolut2
+G28 ;Hìome
+M420.2000 ;Meÿÿ atfm
+G92 E0
+G92;LAYER_1
+;LA ER:0
+M10õ

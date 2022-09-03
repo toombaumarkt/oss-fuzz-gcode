@@ -1,0 +1,17 @@
+
+G90
+G90 G28 
+G90
+G90 ;
+G90 G90Z
+G90orX
+G90 u
+
+G90G90
+G90 ;
+G90¨Æ Z
+G
+G90 G90Z
+G90orX
+G90 u
+M(2M

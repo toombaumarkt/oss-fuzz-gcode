@@ -1,0 +1,67 @@
+inpG01 X106.3812ié32
+vt)
+
+G91  ;1040S0  2
+M204M204 S108
+vt 2
+M204 S108
+ve it)
+
+G91  ;10;ex)
+
+G91  ;104 S0  2
+M204e it)
+
+G91  ;104 S0  2
+M204 S108
+ve it)
+
+G91  ;10;extruder heater off
+M140 042
+M204 S108
+ve it)í
+G91  ;104 S0!2
+M204 S108
+ve it)
+
+G91  ;ract the filame bitbeforeBlifting me od the pressure
+G15 E-5 ÿÿŽ E-B%.878 Y1ÿÿþin9ÏS0 ;steppers off
+Gt)
+
+G91  ;relative positBioning
+þÿÿŽ E-B%ÿÿþin9Ï032
+vt)
+
+G91  ;1040S0  2
+M204M204 S108
+vt 2
+M204 S108
+ve it)
+
+G91  ;10;ex)
+
+G91  ;104 S0  2
+M204e it)×
+
+G91  ;104 S0  2
+M204 S108
+ve it)
+
+G91  ;10;extruder heater off
+M140 042
+M204 S108
+ve it)í
+G91  ;104 S0!2
+M204 S108
+ve it)
+
+G91  ;ract the filame bitbeforeBlifting me od the pressure
+G15 E-5 ÿÿŽ E-B%.878 Y1ÿÿþin9ÏS0 ;steppers off
+Gt)
+
+G91  ;relative positBioning
+G1 E-1 F300 ;rÿ€10;ext
+G1 Y220
+
+M84  ;steppers off
+G90  ÿ

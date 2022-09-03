@@ -1,0 +1,36 @@
+iu
+14
+g
+N164#
+N*;FME:9;Filament used: 6.75387m
+;Layer height: 0.2
+;EINX:78/137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.5enerated with Cura_SteamEngine 4.J13.1
+M1U0 S60
+M5
+M190 S60
+M104 S200
+M105
+M10G92 E0 104.347 Y106.847 Z0.0 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusion mo;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Home All AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z15.0 F100.0 ;move them
+
+G92 E0 104.347Y106.8 platform down 15mm
+
+G92 E0 104.347 Y106.847 Z0.3
+G1 F15;zero the extruded length
+G1 F200 E3 ;extrude 3mm of feed stock
+G92 E0

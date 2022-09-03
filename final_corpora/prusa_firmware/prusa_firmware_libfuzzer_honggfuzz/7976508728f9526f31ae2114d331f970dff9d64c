@@ -1,0 +1,32 @@
+M140 S60
+MA1059
+M190 5!
+M1 mo›
+M208 05
+M109 S195
+M1 mo mo›
+M208 05
+M109 S195
+M1 mod!
+M1 mode
+M208 05
+M109 S1soel
+M208 095
+M82 d!
+M1 mode
+M208 05
+M109 S1soel
+M208 095
+M82 e
+M2 ;absoe!
+M1 8 +05
+M109 S
+M1 mode
+M208 05
+M82 ;ab4 S90 !
+M1 
+M1lode
+M208 05
+M1090
+g40ù
+g0

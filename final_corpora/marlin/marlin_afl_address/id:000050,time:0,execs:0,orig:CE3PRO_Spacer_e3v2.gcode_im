@@ -1,0 +1,6 @@
+M140 S0 ;Turf bed
+
+M84 X Y E ;Disa but Z
+
+M82 ;aextrusion mode
+M104 S0

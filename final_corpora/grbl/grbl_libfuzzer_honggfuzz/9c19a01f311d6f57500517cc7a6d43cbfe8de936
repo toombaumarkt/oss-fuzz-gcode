@@ -1,0 +1,14 @@
+g6
+g1z-10
+g1x1z2
+g0 z1g0 x1 z1
+g0 x1
+x1z2
+g0 z1g0 x1g1z-2
+g1 z20
+g1x1
+g0!x2z2
+g0 z1g0 x1g1z-2
+g1 z-20
+g1x1
+g0 x2f20 z20

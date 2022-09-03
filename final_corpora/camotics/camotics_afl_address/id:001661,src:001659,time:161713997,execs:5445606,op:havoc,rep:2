@@ -1,0 +1,14 @@
+MM[0K+o100 sub
+  (helicalilling,et feed first, then uóe like so:)
+  (oepth per circle = half of tool diameter)
+#8=[#3 - #7] (#8 is curren3t depth step)
+g z#3
+(start above and r<ght soÿwe make a convex cŽrner for entry to the ccw arcs)
+]] z#8
+#8=[# - #7]o10g0 Ax[#1 + #6] y[A[#5 / 2]] 
+g41 g0 x#1 y[#2 + [ wh[#8 GT #4] GT #4]
+(IoŒn toward the speche actual depth)
+g3 x#1 yZ#2 +[5 /
+g41 g0 x#1 y[#2 + [ wh[#8 GT #5] GT #4]
+(IoŒn toward the speche actual depth)
+g3 x#1 yZ#2 +[5 / 

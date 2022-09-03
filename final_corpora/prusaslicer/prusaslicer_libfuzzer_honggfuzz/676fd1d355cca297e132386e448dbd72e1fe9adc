@@ -1,0 +1,6 @@
+G1 Y220
+
+M84  ;stepperçﬂf
+G90  ;abolute postioni
+M82 ;a od;e	
+M104 S0

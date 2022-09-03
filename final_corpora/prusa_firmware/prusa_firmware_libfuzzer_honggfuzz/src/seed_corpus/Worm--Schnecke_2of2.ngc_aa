@@ -1,0 +1,30 @@
+(Schaummaterial ca. 24x24mm Länge 50mm, Nullpunkt: Drehachse Werkstück mitte, Werkzeug 1,6mm Fräser, maximale Vorschubübertacktung)
+(kann direkt nach file Worm--Schnecke_1of2.ngc gestartet werden)
+(Foam material ~24x24mm length 50 mm, zero point on turning axis - material middle, tool 1.6 mm milling pit, maximal feedrate override)
+(you can start this file directly after file Worm--Schnecke_1of2.ngc)
+G92 A0
+G00 X-16.600 Z18.500 A360.000
+G00 Z12.275
+G01 Z4.000 A360.000 F250
+G01 A0.000
+G01 X-16.433 A0.000
+G01 A-360.000
+G01 X-16.100 A-360.000
+G01 A-720.000
+G01 X-15.767 A-720.000
+G01 A-1080.000
+G01 X-15.433 A-1080.000
+G01 Z4.000 A-1083.462
+G01 Z4.650 A-1085.192
+G01 Z4.660 A-1086.923
+G01 Z4.871 A-1088.654
+G01 Z4.872 A-1090.385
+G01 Z4.865 A-1092.115
+G01 Z4.830 A-1093.846
+G01 Z4.801 A-1095.577
+G01 Z4.777 A-1097.308
+G01 Z4.757 A-1099.038
+G01 Z4.741 A-1100.769
+G01 Z4.730 A-1102.500
+G01 Z4.725 A-1104.231
+G01 Z4.733 A-1105.962

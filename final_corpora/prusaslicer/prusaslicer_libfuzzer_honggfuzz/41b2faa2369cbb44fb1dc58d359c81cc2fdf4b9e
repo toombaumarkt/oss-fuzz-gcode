@@ -1,0 +1,35 @@
+(mat(erial acrzlic 50;x.
+ g51z-1.1 f30
+g1 y18 f80
+g1 x-18
+g50 y10 f80
+D 1 x
+g0 z5
+
+g0 50 y0
+g1 x10
+g0 z5
+g0 x18 y-18
+g0 5
+g1 zY1
+g11 f30
+g1 y18 f80
+g1 x-18
+g50 y10 f80
+D 1 x
+g0 z5
+
+g0 50 y0
+g1 x10
+g0 z5
+g5
+g1 zY1
+g1 y18 f80
+g1 x-18
+g f80
+g1 x
+g0N z5
+gœıg1 y180
+g1 x-
+g1 y-18
+g1 x1

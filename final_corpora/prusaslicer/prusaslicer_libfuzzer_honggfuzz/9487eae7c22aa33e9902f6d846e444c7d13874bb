@@ -1,0 +1,32 @@
+0  ;
+G) ;Ø
+Gu ;R
+G ;LP
+E ; 
+G11 ; 
+G ;i
+90 ;
+10 ;ms ;
+G ;
+GA ;R
+W ;LP
+E ; 
+G11 ;i
+G90   ;
+G) ;Ø
+Gu ;R
+G ;LP
+E ; 
+G11 ; 
+G ;i
+90 ;
+s ;
+G ;
+GA ;R
+W ; ; 
+G ;i
+89 ;
+00 ;ms
+G ;
+G ;
+GA ;

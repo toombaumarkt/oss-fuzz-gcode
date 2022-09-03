@@ -1,0 +1,24 @@
+o100 sub
+  (helig, nd set feed' firike so:)
+  (o100 call [ afetyMhh] [hole dia] [tool dia])
+  (tool dia doesnt have to btly.)
+#4=[0 -#4]
+#7=[#6 / 2]  (#7cle = half of tool diameter)
+#8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(startcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o121 while [#8 GT #4]
+(down towa#·ecid depth a tie)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 endwhile
+(down to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(full circle at the actuh)
+g2 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+g40
+o100 endsub
+

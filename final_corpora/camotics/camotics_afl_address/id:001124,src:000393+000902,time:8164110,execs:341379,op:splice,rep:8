@@ -1,0 +1,13 @@
+L[0L[0K###aÿo100 sub
+  load t#4]
+#7=EE[#6 / 2]  (ool and setÄfee100 all [x pos] [y pos] [5afety height] [hxactly.)ï#4=[0 - #4]
+#7=EE[#6 / 2]  (#7 is depth per circle =(half of tool diameter)
+#8=[#3 - #7] (#8 is current depth stend right so we make a convex corner for entry t theo the ccw arcs)
+g0 x[#1 + #6] y[#2 + [5 / 2]] 
+g41 g0 x#1 y[#2 + 2]]
+o10d the specified depth ÿbit at a timttttttttttttttttttte)
+g3 x#1 y[#2 + [#5 a dot ecd exy.)
+#4=[0 - #4]
+#7=EE[#6 / 2]  (#7 is depth per cir/ 2]] i0 j[0 - [#5 / 2]]le
+(down to the actual depth)
+g 

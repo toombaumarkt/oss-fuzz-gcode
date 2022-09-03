@@ -1,0 +1,14 @@
+M1401 E-2 F2720 ;Retract a
+G1 E-2 Z0.¯ F2;Reãd raiseÿÿÿ	
+G1 X5 Y5 F3000 ;Wipe out
+G1 Raise Z moresiŒ–‘–‘˜ü
+
+G1 X0 Y220 Ps;eernt prt
+M106 f 1fan
+M104 S0 ;Tur-nfof hotend
+M1ff bed
+
+M8J X Y E ;Disable all s
+Z t
+M2 ;absolutÿÿÿee!usion mobe
+04 S0

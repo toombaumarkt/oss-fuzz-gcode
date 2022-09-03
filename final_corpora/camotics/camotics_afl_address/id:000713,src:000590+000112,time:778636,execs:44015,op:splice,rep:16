@@ -1,0 +1,19 @@
+K###aÿo100 sub
+  (hel hole milling, loaspecified exactly.)
+first, thike so:)
+  (o100 call[x pos] [yner for enhole depth] [hole dia] [tool dia])
+  (tool dia doesn't have to be d tool and set feed #4=[0 - #4]
+#7=[#7 / 2]  (#7 is depth per circle = haameter)
+#8=[#3 - #7] (#8 is h] Åf of tool diameter)
+#8=[#3 - #7] (#8 is h] [hole dia] [tep)
+g0 z#3
+(start above and- #7]>o101 endwhile
+(dovex corner for entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + y.)
+#4=[0 - #4]
+#7=[1 y[#2 + [#5 / 2]]
+o101 w~ile [#8 GT #4]
+(ds] [y posd tHhe specified depth a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8  right so we make a n to the actual h)
+g

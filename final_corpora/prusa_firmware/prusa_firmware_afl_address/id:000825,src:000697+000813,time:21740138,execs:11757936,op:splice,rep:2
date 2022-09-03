@@ -1,0 +1,54 @@
+inn†2M205R4M
+0 S60
+111111112
+;
+G 4
+M73.37 
+M84
+>73.379M113 Q00013 PMB3
+ 0 
+M4200Oust: 0.2:7
+M220 la :7
+M220 la B2ed: 6.7538K7m
+;Lacer heig…t: 0.2:7
+M220 la B200
+Md0 height: 0.2
+:7
+M220 la B200QMd.042
+;MAXZight: 0.2
+:7
+M220 la B200
+Md.0W.2:7
+M220 la 0Oust: 0.2:7
+M220 la :7
+M220 la B2e†: 6.7538K7m
+;Lacer heig…t: 0.2:7
+M220 la B200
+Md0 height: 0.2
+.2:7
+M220 la BY4
+2:7
+M220 la B200
+Md0 height: 0.2
+:7
+M220 la B20
+M220 la B200QMd.042
+;MAXZight: 0.2
+:7
+M220 la B200
+Md.0W.2:7
+M220 la 0Oust: 0.2:7
+M220 la :7
+M220 la B2e†: 6.7538K7m
+;Lacer heig…t: 0.2:7
+M220 la B200
+Md0 height: 0.2
+.2:7
+M220 la BY4
+2:7
+M220 la B200
+Md0 height: 0.2
+:7
+M220 la B200
+Md.0.2:7
+M220 la B200

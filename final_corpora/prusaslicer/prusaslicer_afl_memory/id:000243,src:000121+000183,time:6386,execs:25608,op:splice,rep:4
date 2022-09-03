@@ -1,0 +1,7 @@
++.4555.1 X114222.|2222222220.000
+G01 A
+G01 X55.453 Y steppers but Z
+
+M82 ;absssss X1
+G01 A
+G01 X55.453 Y step1

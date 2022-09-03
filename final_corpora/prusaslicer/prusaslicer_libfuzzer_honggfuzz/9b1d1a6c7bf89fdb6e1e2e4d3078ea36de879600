@@ -1,0 +1,8 @@
+04 S0
+4 S0
+G92 E0
+G1 E-10 F00
+G X0 Y0
+M4
+M88 ;absolute$e÷trusode
+N S0

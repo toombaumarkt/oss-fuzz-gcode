@@ -1,0 +1,11 @@
+*g1 x-18
+g1 y-18
+g1g1 y-18
+g1 x18
+gH z5
+m5
+g0 x0 T of  18
+g1g1 y      p x-18
+g1 y-18
+g1g1:yrogram)
+

@@ -1,0 +1,24 @@
+;Sin
+;4
+;Filas7
+358;
+;MIX:27.1
+;7;.7
+;
+;M
+;M
+\;MAXZ:3e
+3;te
+M10
+M105K
+M190 S]0
+M052 S00
+M105
+M109 
+M82 ;s
+G28;Home
+M4.2000 ;Meÿÿ atfm
+G92 E0
+G92;_1
+;LA ER:0
+M15õ

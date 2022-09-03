@@ -1,0 +1,12 @@
+g0x-25 y0
+g40
+g0 „ÒÍ×ß†Ïß†Ïõg31 zMBLÏõg11 zMBLõgi1 j5
+g0õg11 z-ËÑ6 f5PRUSA0USAx-2x6Langi7 j0 f10Øg125
+g0õg10 z-ËÑ6 f7PRUSA0USAx-2x6Langy6'f5 j0 f10SET G0 X40.1666 Y72.464
+G0 X40.175
+g00
+g0 z2
+g40
+
+(c
+M552P5 YIN

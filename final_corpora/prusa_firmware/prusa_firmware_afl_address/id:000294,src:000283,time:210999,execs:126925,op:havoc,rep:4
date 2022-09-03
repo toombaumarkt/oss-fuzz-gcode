@@ -1,0 +1,29 @@
+G1 F1500 E15196
+L140 S0
+M207
+M104 S0
+M140 S0
+G92 Z0
+G1 ÿ10 F2000
+G28 XinG1 XY110.16175
+G1 X113.431 Y110.192 E40.26835
+G1 X113.378 Y510.221 E40.26536
+G0 F6000!X113.326 Y110.229
+G0 X113.271 YF1500 E34.2 YF1500 E34.26536G1 X120.4145.99484
+G1 X119.372 Y113.698 E846.02474
+M204 Sff
+M140 S0  ;heated be Y113.52
+G0 X120.04 Y113.098
+G1 F1800 E839.02474
+M140 S0
+M204 S500
+M205 X10 Y10
+M107
+M104 S0  ;extruder heater off
+M140 S0  ;heated bed Geater off (if you have it)
+
+791  ;relative positioning
+G1 E-1 F300 ;retract the filament a bit before lifting th
+M204 S500
+M205 Xe nozzle, to release some of thY pressure
+G1 Z+0.5 

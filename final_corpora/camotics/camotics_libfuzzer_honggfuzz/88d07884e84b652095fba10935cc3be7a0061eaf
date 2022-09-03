@@ -1,0 +1,7 @@
+M204 S500
+M107
+G91; Set relative positioning mode
+ÿÿÿÿÿG1 E-5 F600; retract filament slightly
+Mter
+G28 Y280 F600; Bring the bed tsolute extrusion mode
+M104 S0

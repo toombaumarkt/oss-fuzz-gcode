@@ -1,0 +1,30 @@
+M140 S60
+M105
+M190 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolde
+G21        ;alues
+G90        ;absolute positioning
+M82        ;set extruder to absolute mode
+M107       ;start with the fan off
+
+G28 X0 Y0  ;move X/Y to min endstops
+G28 Z0     ;move Z to min endstops
+G29; autolevel
+M420 S ;bed level
+
+G92 E0
+G1 F300 Z15.56
+G92 E1527
+G1 F300 E1527.1
+
+G0 F300 X169.681 Y149.899 Z15.56
+G0 F7200 X169.301 Y143.203
+G0 X168.061 Y143.203
+G0 X149.56 Y143.203
+G1 F1500 E1527.21357
+G1 F3000 X155.975 Y149.618 E1527.43192
+G0 F7200 X156.056 Y149.618
+G1 F3000 X167.399 Y146.579 E1527.71456

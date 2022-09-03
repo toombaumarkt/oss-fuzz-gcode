@@ -1,0 +1,36 @@
+M106 S0 ;Turn-off fan586 E107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0j0 f00
+16.95557
+Gÿÿÿÿ5ÿÿÿ
+G1 F600 X107.
+M2,26 S0
+YM10X107.
+M226c0 z-1.6 f5P´¨¬¾‡zÒÍ0
+g0 6 f5PRUSAx-20 y0 Fi6 E107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0 6 f5PRUSAx-20 y0 Firj0 f00
+16.95557
+Gÿÿÿÿ5ÿÿÿ
+G1 F600 X107.
+M2,26 S0
+YM10X107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÌ0
+g0 6 f5PRUSAx-20 y6
+M104 -off hotenl
+M14086 E107.
+M226c0 9-1.6 f5P´ª¬¾‡zÒÍ0
+
+16.95557
+G[ÿÿÿÿ5ÿÿÿ
+G1 F600 X107.
+M2,26 S0
+YM10X107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0 6 f5PRUSAx-20 y0 Fi6 E107.
+MÑÍ6c0 z-1`6 f5P´ª¬¾‡zÒÍ5
+gS0
+YM10X107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0 6 f5PM84 X Y E ;Disable asion mode
+M487 40 S

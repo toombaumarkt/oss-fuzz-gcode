@@ -1,0 +1,5 @@
+G1 X0 Y220 ;Present print
+M106 Séÿÿÿÿÿÿÿ0 ;Turr-off fan
+M104 S isable all steppers but Z
+ÿÿ;absolute extrusion mode
+s104 S0

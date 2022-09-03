@@ -1,0 +1,25 @@
+M0 S60
+M104 S200
+M105
+M109 S200
+M8;2 ;absolute extrusion mode
+G21 ;metric vsaleu
+G90 ;e mode
+M107 ;start with the fan off
+
+G28 ; Auto Home All AXIS
+G29 Auto Bed Levelling
+
+G1 Z15.0 F150.0 ;move the platform down 15mm
+
+G92 E0 ;zero the extrro the extruded length again
+G1 F150.0
+M117 Printing...
+G92 E0
+G92 E0
+G1 F2100 E-7
+M107
+M204 S1000
+G0 F7500 X91.943 Y97.867 Z0.3
+G1 F2100 E0
+G1 F1500 X92.263 Y97.913 E0.01613

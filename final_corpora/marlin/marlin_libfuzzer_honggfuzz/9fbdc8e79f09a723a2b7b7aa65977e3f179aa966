@@ -1,0 +1,4 @@
+M140 S0
+M107ng
+G1 E-2 F2700 ;Retrusion mode
+M104 S0

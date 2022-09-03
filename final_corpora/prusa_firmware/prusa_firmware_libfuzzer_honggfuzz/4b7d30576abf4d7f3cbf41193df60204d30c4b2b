@@ -1,0 +1,16 @@
+G0 XM140 S8alpha
+G92 E0solute 4xt F4200 X1r0.2 Y94.7Q8
+
+
+
+
+
+
+
+
+0
+G92 E0solute 4xt X1r0.2 Y94.768
+G92  E0solute ext F200 X1r0.2›,Y¾ËÑ8
+G1 53
+M140 S0
+Mz20

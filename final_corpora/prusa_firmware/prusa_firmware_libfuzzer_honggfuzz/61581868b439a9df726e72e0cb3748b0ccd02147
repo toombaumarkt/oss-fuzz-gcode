@@ -1,0 +1,9 @@
+G mo¨de
+M207 S mode
+M207 S0 Zode
+M207S 0ÿ342
+G0ÿ³42
+G01 F300Ð8
+GeG mo¨de
+M207 S mode
+M207ÿ3420950 F

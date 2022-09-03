@@ -1,0 +1,35 @@
+(mrial arzlic 500x3 mm)
+(z
+o(t)l 
+g42 (18
+g1 x18
+g1 0
+m6 1 x18
+g1 0
+m6 t55 (loading t.5
+g1 z-1 f30
+g/ xf p10 
+g1 x-10 y0
+g1 x1z5y-10
+g1 x10
+g0 z
+ x18 y-18
+g0 z0.5
+Lg1 -1.1 f38
+g1 y18 f80
+g1 x-8
+g1 y-18
+Z1 x18
+g0 5
+m5
+g0 x0
+ÿÿÿÿý1 y-18
+g1 x1
+g18 /80
+g1 x-08
+g1 y-18
+g1 ;
+1 x18
+g z5
+mÿof pram)
+

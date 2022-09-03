@@ -1,0 +1,6 @@
+G1 Y220
+
+M8;teppoff
+G90  ;busaoe positioning
+M82 ;a
+M108 S0

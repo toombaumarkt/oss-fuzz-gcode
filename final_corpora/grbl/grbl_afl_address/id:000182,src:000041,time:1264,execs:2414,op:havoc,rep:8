@@ -1,0 +1,24 @@
+g1 z-25
+g1  f15
+g1 x5.5 z-60 f150
+g1 x3.  z-25 P60
+g1 i5.8
+g1 z-20
+g1 x3.1 f5
+g1 z-18 f150
+g1 x3 f15
+g1 z-20 f150
+g0
+g1 i5.
+g3 x5 r42.5 z-25 f10
+g1 x4.5
+g2 x4.5 r2.5 z-20±g1 x4
+g3 x4 r2.5 z-25
+g1 x3.5
+g2 x3.5 r2xxxxxxxxx.5 z-20 f8
+g1 x3
+g3 x3 r2.5 z-25 f5
+
+g1 x3.  z-25 P60g1 x6 z0
+M02
+ 

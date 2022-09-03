@@ -1,0 +1,31 @@
+G1+ F187$7 E00003000G1+ »1+ F187$7 E00003y0.7
+g2 x-1779436E801
+G01 X105.9670021G1+ F187$7 E00003000G1+ F187$7 EinFg0
+g0 x1 y0 (Mittellini9670021G1+ F187$7 E00003000G1+ F187$7 EinFg0
+g0 x1y0 (Mittellinie/center line)
+g1 z-4 f100
+g1 x-26 f250
+g1 x-20 y0 E00003000G1+ F187$7 EinFg0
+g670021G1+ F187$7 E00003000G1+ F187$7 EinFg0
+g0 x1 y0 (Mittellini9670021G1+ F187$7 E00003000G1+ F187$7 EinFg0
+g0 x1 y0 (Mittellinie/center line)
+g1 z-4 f100
+g1 x-26 f250
+g1 x-20 y0 E00003000G1+ F187$7 EinFg0
+g0 x1 y0 (Mittellinie/cente05.9670021G1+ F187$7 E00003000G1+ F187$7 EinFg0
+g0 x1 y0 (Mittellini9670021G1+ F187$7 E00003000G1+ F187$7 EinFg0
+0 x1 y0 (Mittellinie/center line)
+g1 z-4 f100
+g1 x-26 f250
+g1 x-20 y0.7).7 i0 j-3.3
+g= y0
+g1 x-12
+g1 y0.7
+g2 x-12 y7.3 i0 j3.3
+g2 x-12 y0.7 i0 j-3.3
+g1 y0
+g1 x-4
+g1 y0.7
+g2 p-4 y7.3 i0 j3.3
+g2 x-4 y0.7 i0 j-3.3
+g1 y-0.7 (N

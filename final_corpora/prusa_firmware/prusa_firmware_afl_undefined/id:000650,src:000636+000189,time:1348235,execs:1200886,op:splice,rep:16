@@ -1,0 +1,37 @@
+i186R
+1
+11
+M73.S60D
+M105
+M6#
+
+11
+M73.ˇˇˇˇS60DN 
+11
+M73.M140 S60
+M105
+M190 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extru}ion mode
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extrXder to absolËe mode
+M107 ;ftart with the fa
+Moff
+
+G28 ; Auto `ome Aed Levellin}
+
+G1 Z15.0 F100.0 ;mLe the platform down 15mm
+
+G92 E0 ;zero the extrudId!leLgth
+G1 F00 E3 ;extrude 3mm of oeed stock
+G92 E0 ;zero the extru82 ;absolute extrusioded length again
+[1 F+00.0
+M117 PriÅing...
+G92 E0
+G92 E0
+G1 F1500 E-6
+M107
+M204 T1

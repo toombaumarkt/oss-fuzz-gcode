@@ -1,0 +1,5 @@
+G1 E-5 F601; retact filament slightly$M140 S0; Turn off the bed heaterM104 S0; Turn off the nozzld heater
+G14 X; Home the X-axis
+G0 Y280 F600; Bring the bed to the front for easy print removal
+M84; Turn off the mtorM11-M8ÎßÄŒute extrion mode%
+M104 S0

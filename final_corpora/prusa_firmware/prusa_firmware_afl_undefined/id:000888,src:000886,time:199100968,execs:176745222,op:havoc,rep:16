@@ -1,0 +1,25 @@
+inMY4' ÿçhBD3
+M22.
+J1ÿ1 D15BDDóolute modW
+M107 ;st the fan off
+
+G28 ; Auto Home All AXIS107
+M226 SP13
+G1.347 Ye mDóolute modW
+M107 ;star€with the fan off
+
+G28 ; Auto Home All AXIS107
+M226 SP13
+G1.347 Y1ÿ1 D15BDDóolute modW
+M107 ;star€with the fan off
+
+G28 ; Auto Home All AXIS107
+M226 SP13
+G1.347 Y106.8414 S13
+G1 F200odW
+M107 ;star€with the fan off
+
+G28 ; Auto Home All AXIS107
+M226 SP13
+G1.347 Y106.8414 SP13
+G1 F200

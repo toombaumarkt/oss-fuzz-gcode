@@ -1,0 +1,20 @@
+iu
+14
+ ÿN164#
+N*;Fament used: 6.75387m
+;Layer heig`t:0.2
+MINX:78/137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.8)
+;MAXY:147. enerated with Cura_SteamEngine 4.13.1
+M5
+M115.0 F20001U4.13.
+M5
+M190 S60
+M10e S200
+M105
+M115*0 F2000Z:36.2
+;G0
+G1 Z09 S200
+M82 ;absolute  E-6

@@ -1,0 +1,17 @@
+ ;00
+G28 X0 Y
+G28 X0° Y0
+
+G28DX0 Y0
+
+G28 XY0
+Mbsol-G28 X0 8 X Y0
+
+G28 X0hYY0^8 X0
+G288 X0 Y0
+G28 X0 YÐòõFF2
+G28 YÐì
+
+
+G2
+G28 X. YYon 

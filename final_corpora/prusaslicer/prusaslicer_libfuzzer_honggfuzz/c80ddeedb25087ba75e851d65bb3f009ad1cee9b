@@ -1,0 +1,34 @@
+0 ;Ra
+G2P1 ;We 
+P1Z1j ;
+G90 ;Ø
+G5 ;R
+G20P’ ;,
+G!0) ;m
+G90 ;Ø
+G10 ;VPresore
+E ; 
+G11 ;i
+G90 ;Abing
+f ;
+G45 ;Ø
+G5 ;R
+G20P ;t
+G!0) ;m
+G90 ;Ø
+G10 ;VP
+E ; 
+G11 ;i
+G90 ;Abing
+10 ;mor
+G90 ;Abs
+G ;Ur
+GP ;
+G90 ;Absi
+G ;Ur
+GP ;"mt
+G1  ;+ai
+G90 ;Abg
+
+G2 õ0 ; 
+G

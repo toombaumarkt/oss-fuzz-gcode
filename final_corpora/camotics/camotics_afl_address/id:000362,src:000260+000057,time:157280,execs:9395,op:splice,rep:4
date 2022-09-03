@@ -1,0 +1,18 @@
+M1A ¥0G1 F1500 E1201.0
+M140 S0
+M107
+G91 ;Reioning
+G1 E-2 F2700 ;Rebit
+G1 E-2 Z0.2 F2400 ;eZ
+G1 X5 Y5 F300C ;Wipe out
+G1 Z10 ;RXre
+G90 ;Absoluioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all ste
+M82 ;absolute extrusion mode
+M

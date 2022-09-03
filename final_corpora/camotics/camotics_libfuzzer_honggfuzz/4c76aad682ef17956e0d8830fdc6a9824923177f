@@ -1,0 +1,17 @@
+M1q05
+M12 ;absolp%%%%%%uteÿÿÿrusde
+G21        ;mer:tic values
+98G90     !  ;abioning
+M782      ;set extruder to absol1te mode
+G28 X0 Y0  ;mov0  Ï  ;move Z to  ;aß“švel
+
+G92 pÆóÅ|0 ; Reseder
+G1 Z2.0 F3000 ; XORMtle )o preHa et Bed
+G2 X8 Y35000.; Move to start position
+22M330Œ0 P250 ; play dicate Š–‘t 9starting
+G70.0 Z0.6 F50015 ; Dre
+G170.0 Z0.3 F5000.0 ;de
+G1.3 Y30 E30 ; w tje s(econd l@²]§Œ·S§in³
+G92 E0 ; ReExtruder
+G1 Z2.0 F3000 ; MoQvs up litts#ı<=#ı<ed
+G1 70 Z0.3 F5000.0 ; over-0 t

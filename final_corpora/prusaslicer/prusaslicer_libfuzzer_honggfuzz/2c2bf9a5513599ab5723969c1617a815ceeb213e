@@ -1,0 +1,16 @@
+;CR
+;4
+;Film
+;t2
+;37
+;Genera
+M S60
+104 S200
+M1p S1
+MÐ0 S60
+0 S0
+G92 E0
+G92 E0
+G F1
+;36
+;LA

@@ -1,0 +1,9 @@
+G01 .?6120?*
+M204T chse 26.NTSf.T 605
+ M204T ehBchÂ(T3SN.1U.6 f50
+ 1 Y%2.*
+M204T e5hachse 13.JTSTü
+M204T ehBchÂ(T3SN.1U.6 f00
+ 1 Y%2.*.M204T02
+M20!T DrehRES8
+12

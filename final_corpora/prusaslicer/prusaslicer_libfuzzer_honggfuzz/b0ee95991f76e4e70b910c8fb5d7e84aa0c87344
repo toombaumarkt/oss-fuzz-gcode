@@ -1,0 +1,5 @@
+M106 S0 ;Turn-ÿÿÿ4off fanü
+M04 S0 ;Turn-off ˜‹š‘Î›ó
+M140 S0 ;T}rn- Z0000000000000050(000000eppers b
+M8ao ;2bslute extrusion mde
+M104 S0

@@ -1,0 +1,11 @@
+innm2M20”””€”””””””””””iiiiiiGiiiiiiiiiiiiiiiiiiiiiii0
+G1 E-10 F2000
+G28 X070196
+M140 S0
+;10$
+M1=4 S0ÿ€140 S0
+G9210 F2000
+G28 X0 Y0
+M84
+
+M8( ;

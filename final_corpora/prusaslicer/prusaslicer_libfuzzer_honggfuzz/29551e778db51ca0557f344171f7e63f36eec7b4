@@ -1,0 +1,8 @@
+G2 Z10 ; Zmore
+G90 ;Absolute positing
+
+ ;Pre¨sent` prÿÿÿÿÿ²ÿÿ6 S0 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+M84 XY E ;Dable all ptspees but Z
+
+M82 ;absoouegò (nol -> 0Ë (o

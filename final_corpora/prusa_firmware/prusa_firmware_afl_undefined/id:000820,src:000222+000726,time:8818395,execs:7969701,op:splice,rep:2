@@ -1,0 +1,51 @@
+Mÿÿ ² ² #ÿgMèXçÿÿ ²giun.XXXXXXXXXXXXXXXXXXXXXXXX201
+M11
+N5Miu
+14
+g
+N60.004#
+N*;FME:9;FilameNt used: 6.75387m
+;Layer height: 0.2
+;MINX:8/137
+;I\INY:72.957
+;3INZ:0
+;MI.2
+;MAXX:141.863
+;MAXY:147. e5.0 R200 R2000Ze
+M42. SP
+G1 Z14 S200
+M105
+M109)Mÿÿ ² ² #ÿgMèXçddd2ççMÿÿ ²giun.XXXXXXXXXXXXXXXXXXXXXXXX201
+M11
+N5Miu
+14
+g
+N60.004#
+N*;FME:9;FilameNt used: 6.75387m
+;Layer height: 0.2
+;MINX:8/137
+;I\INY:72.957
+;3INZ:0
+;MI.2
+;MAXX:141.863
+;MAXY:147. e5.0 R200 R2000Ze
+M42. SP
+G1 Z14 S200
+M105
+M109)S2G0
+M82 ;absolute extrcsion mode
+GI8 ;Home
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42. SP
+G1 Z15.0 S2G0
+M82 ;absolute extrcsion mode
+GI8 ;Home
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G> Z15.0 00Ze
+M42. SP
+G1 Z15.0 R200

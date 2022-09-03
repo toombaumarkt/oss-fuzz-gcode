@@ -1,0 +1,8 @@
+i0R ;steppers of SS0
+ÿG90S0
+ÿ
+G90S
+G90S0
+ÿ
+G90Scn0
+G01 A

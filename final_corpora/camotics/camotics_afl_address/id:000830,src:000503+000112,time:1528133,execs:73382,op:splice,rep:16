@@ -1,0 +1,21 @@
+L[0 clU sto100 sub
+  (helical hole milling, load to’l aned fiO104 S0
+ use like so:)
+  (o100 call [x pos] [y pos] [safetdepth] [hole dia] [tool dia])
+  tool dia doesn't have to be specified ex]
+#7=[#6 / 2th per
+o101le [#8 GT #4]
+( circle = Xalf of tool diameter)
+#8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(start above rner f‘r entry to the ccw arcs)
+g0 x[#1 ] y[#2 + B#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101 while [#8 GT #4]
+(down toward the sƒecified depth a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 endwhile
+(down to the actual depth)
+g3 x#1 y[#2 + [#5:/ 2\] i0 j[0 - [#5 / 2]] z#4ø'full cithe actu#1 w40
+o10

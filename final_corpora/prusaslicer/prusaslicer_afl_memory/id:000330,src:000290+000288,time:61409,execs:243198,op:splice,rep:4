@@ -1,0 +1,35 @@
+M.453 Y 74.5+000 A-3R28S
+G55.1 X114222222M.453 Y 74.5+9
+G0 X5M140 S60
+M105
+M190 S60ÿÿÿ04 S195
+M105
+M109 S195UM82 ;absolute extrusion node
+G21 ed stock
+G92 E0 ;z;metrii values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Home Alh
+G1 Fl AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z15.0 F150.0 >move..
+G92 E0-
+G92 E0
+G1 F1500 E-6 the platFoÿÿÿ€own 15mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;extruan off
+
+Gde 3mm of feed stock
+G92 E0 ;zero te ex0 E3 ;extruan off
+
+truded length aga117 Prin—‰92 E0
+G1 F1500 E-6 thng... E0-
+G92 E0
+G1
+G92 E0
+G92 E0
+G1 F1

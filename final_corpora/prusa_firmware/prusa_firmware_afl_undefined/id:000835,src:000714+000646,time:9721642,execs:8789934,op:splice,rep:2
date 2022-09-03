@@ -1,0 +1,44 @@
+Më{g5
+êuM
+êuMi16#
+4*;Fbme
+iu
+14
+g
+N160.004#
+N*;FME:9;Filament used: 6.75387m
+;Layerheight: 0.2
+;EINX:78/137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.5enerated with Cura_SteamEngine 4.J13.1
+M1U0 S200
+M105
+M10G92 E0 104.347 Y5
+M10G92 E0 104.347 Y106.847 Z0.0 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusion mo;metric values
+G90 ;absoled with Cura_SteamEngine 4.J13.1
+M1U0 S200
+M105
+M10G92 E0 104.347 Y5
+M10G92 E0 104.347 Y106.847 Z0.0 S60
+M104 ed with Cura_SteamEngine 4.J13.1
+M1U0 S200
+M105
+M10G92 E0 104.347 Y5
+M10G92 E0 104.347 Y106.847 Z0.0 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusion mo;metric values
+GZ15.0 F100.0 ;move them
+
+G92 E0 104.347Y106.8 platform down 15mm
+
+G92 E0 104.347 Y106.847 Z0.3
+G1 F15;zero the extruded length
+G1  E3 ;e

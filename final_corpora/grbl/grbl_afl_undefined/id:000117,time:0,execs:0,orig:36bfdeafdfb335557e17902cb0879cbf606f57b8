@@ -1,0 +1,34 @@
+M140 S02000G28 X0 G28 X0 Y S02000G28 X0 G28 X0 Y0
+M84
+M82 tu8 X00G28 X0 G28 X0 Y0
+M84
+M82 tuiexrsiY0
+M84
+ S02000¯
+G28 X0 G28 X0 Y2 ;lute tuexrsiY0
+M84
+ 3µ
+S02000¯
+G28 X0 G28 X0 Y0
+solute tuexrsiY0
+M84
+ Srusion moÿÿÿÿÿÿÿ de
+M
+G92 E0
+0 F²00002000
+G28 X00G28 X0 G28 X0 Y0
+M84
+M82 tuio€ mode
+M
+G92 E0
+G6 E-10 000
+G28 X0 G28 E0
+G1 E-10 F2000
+Gg56128 X0 Y0
+M84
+M82 ;absol´ute ext
+ÿÿÿÿÿÿÿÿÿÿÿ3ÿÿÿÿÿÿÿÿÿÿÿÿÿ 
+G28 X0 G28 X28 X0 Y0
+M84
+M82 ;absoode
+M104 S0

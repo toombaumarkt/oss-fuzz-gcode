@@ -1,0 +1,27 @@
+G1 F15(Material Aluminium Durchmesser12mm -- b arbeitbare LaengE minimal 70mm / Nullpunkt: x=Drehachse z=gjjjjjjjhts am Werk§tueck ca. 1mm ausserhalb __ x-Nullpunkt!am besten mit der MetaltLinienkoernerspitzesetzten / spdtzer Drehstal)
+(material aluminum diameter 12mm -- length 70mm or more / zero point: x=turning axis of the work ¸iece z=1mm outside at the right end of the work piece)
+G21
+G8
+M31 x5.3 f5
+g1 z-6
+g1 x5.9 f15
+g1 z-65 f150
+gx5.8 f15
+g1 z0 f150
+g1 x5.7 f15
+g1 z-65 f150
+g1 x5.g1 z0 f150
+g1 x5.5 f15
+g1ÿz-65 f150
+g1 x5.4 f15
+g1 z-0 f150 
+g1 x5.3 f15
+g1 z-20 
+g1 x5.5
+g1 x5.3 f15
+g1 x5.j z-60 f150
+g S1000
+g0 x8 z04 f150
+g1 x5.2 f15
+g1 z-60 f1<0
+g1 

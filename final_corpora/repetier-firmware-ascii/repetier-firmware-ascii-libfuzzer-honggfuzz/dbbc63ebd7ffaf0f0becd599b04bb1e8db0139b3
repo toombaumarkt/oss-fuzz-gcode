@@ -1,0 +1,5 @@
+G1 F1500 E158.70196
+M140 S0
+0
+G9extrusion mode
+M104 S0

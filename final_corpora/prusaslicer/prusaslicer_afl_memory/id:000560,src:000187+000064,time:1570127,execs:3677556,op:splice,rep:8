@@ -1,0 +1,45 @@
+M.453 Y 74.5+9
+G0 M140 S0
+M107
+G91 ;Relative positioning
+G1 
+M106 S0 ;
+M104 S0t
+G1 E-2 Z0.2 F2400 ;ROise Z
+G1 X5 Y5 F3000 ;Wipe out
+G Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 Xaaaaaaaaaaaaaaaaaaa0 Y220 ;Present print
+M106 S0 ;
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turd
+
+M06 S0 ;
+M104 S0 ;Turn-offhoten5+9
+G0 M140 S0
+M107
+G91 ;Relative positioning
+G1 
+M106 S0 ;
+M104 S0t
+G1 E-2 Z0.2 F2400 ;ROise Z
+G1 X5 Y5 F3000 ;Wipe out
+G Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 Xaaaaaaaa Y220 ;Present print
+M106 S0 ;
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turd
+
+106 S0 ;
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turd
+ X Y E ; Z
+
+M82 ;absolute extrus
+M140 S0 ;Turd
+ X Y E ; Z
+
+M82 ;absolute

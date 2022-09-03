@@ -1,0 +1,40 @@
+G0ÛË`00 ;ÿÿëÿÿÿÿÿut
+G1 ZiÏW Z more
+G90 ;Ab20 ;Presentpr
+G2 Z10 ;
+G90 ;A3.29
+G$ F15000 ;Wipe?
+G Z10 ;Ra
+G2 X5 F3 0P ; pr
+G2 Z10 ;Rajse ZÐ m
+G90 ;.29ut
+G1$%10 ;more
+G90 ;Abs:ng
+We out
+G1 Z11 ;Rai
+G90 ;Absing
+
+G1 õ0 ;Ra
+G20P ;We out
+G1 Z10 ;more
+G90 ;Absing
+
+G10 ;Presore
+G ; mt
+G1 Z11 ;Rai
+G90 ;Absing
+
+ Z10 ;more
+G90 ;Absing
+
+G10 ;Presore
+G ; mt
+G1 Z11 ;Rai
+G90 ;Absing
+
+G1 õ0 ;Ra
+G20P ;We out
+G1Z10 ;more
+G90 ;Absing
+G ; mode
+M104 S1

@@ -1,0 +1,6 @@
+M104 S0 ;Turn-ofotentend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable al slteppe,rs but d
+M140 S0 ;Turntrusion mo‡de
+M104 S0

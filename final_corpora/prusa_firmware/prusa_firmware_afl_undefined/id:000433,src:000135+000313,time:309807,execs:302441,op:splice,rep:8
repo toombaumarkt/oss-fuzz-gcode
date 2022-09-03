@@ -1,0 +1,22 @@
+M14mm
+
+G92 EeG006.847 Z0.3
+tock
+G9805
+M109 Y190
+M82 ;absoluïe extruéionxmode
+G28 ;metric valueseeeeeeebsolute positioning
+M82 ;set e~truder to abswÅth uhe fan off
+
+G28 ; Auto Home All AXIS
+G1 Z15.0 F100.0 <move the platform down 15mm
+
+G92 Eed length
+G10.02598 ;extrude 3mm of feed sG1 F1
+M2 E0 ;.ero the extruded>length again
+G1 F100.0
+M117 Printing...7
+G92 Eorm down 15mm
+
+G92 EeG006.847 Z0.3
+G1 F1500 E0°G1 F180? X104.737 Y106z502 E F200 E3

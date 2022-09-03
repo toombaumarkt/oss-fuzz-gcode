@@ -1,0 +1,19 @@
+Mûûûûûûûûûû; Set relative positioning mode
+G1 E-5 F600;ƒretract YilameghtlK
+M2J0 S0; Turn of the bedhng mo[e
+G1 E-5 F600; reYila
+M1J0 S0; Turno tff he bed heaterhtly
+M1J0 S0; Tu—n ofSr 0nøofoB heater
+M026 S0; Turn ÿÿÿÿoff the 
+G0 Y280 F600; Bri
+G1 E-5 F609; reYilamentslightly
+M1J0 S0; Turn off tater
+M052 S0; Turn  ax)s
+G0 Y280 F600; e
+G1 E-5 F600; retract Yilament slightl Turn off ther
+M551 S0; Turnff the 
+G0 Y600; Bri
+G1 E-5 F600; reYil slightly
+M1J0 S0; Turn oû205 S500
+M107
+

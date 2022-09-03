@@ -1,0 +1,9 @@
+;absolute 3mmfo  bfed stock
+G29;G1 Z1 /150xtrudextruded length
+G ;e3mmfo  bfef stock
+G92;G1 Z1 /150xtruzextruio mode
+G06;meta7vaa0ÿ; ÿÿÿbsolute posi5tion@i ;sGtAetruder tNo absolutI dmo;estart with the fan off
+G56; Auto So ;e3mmfo  bfef stock
+G92;G1 Z1 /150xtrudexxtruded lenotJh aga
+G92
+G92

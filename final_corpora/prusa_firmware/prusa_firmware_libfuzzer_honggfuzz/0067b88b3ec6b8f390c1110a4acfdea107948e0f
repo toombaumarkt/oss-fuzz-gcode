@@ -1,0 +1,7 @@
+M140 S6
+3 E0
+G9P20Ê
+Gint F150.0
+M117 2rinti
+ E0NPINTST
+M117 Print F150M

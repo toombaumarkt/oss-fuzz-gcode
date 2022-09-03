@@ -1,0 +1,24 @@
+G1 X109.7 Y68.586 E16.95557M1
+M104 S1109.7 Y71.286 E17.02697
+G0 F18
+G1 X108.51 Y69.776 2000
+G28 X0 Y0
+M84¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶D¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶5
+.56
+G0rt with the fan off
+
+G56 X0 Y1  ;mn endstops6
+G0 X108.51 Y7
+M104 S0
+M140 S0
+G9.
+M14p S0
+M107gx-RES3.nozzl09gfPRUSA!x-20  nozzlez
+M104 S0
+M140 S0
+G95Š1set
+X x-25a
+agÒ']2SA!x-21  noz‰zlez4Š1set
+0 13 thÄ ^G0Ex.
+Šö¨¾
+G28

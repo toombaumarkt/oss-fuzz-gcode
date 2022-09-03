@@ -1,0 +1,27 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Fila7m
+;La0.2
+;MINX:78.13(7+
+;MINY:72.957
+;MIN2
+;MA863
+;MAX*Y:147.042
+;MAXZ2
+;Generated Xith Cura_SteamEngjne 4.12.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 ╓моо
+M82 ;absolute extrusion mode
+G28 ;Home
+M420 S0
+G1 Z15 F2000 ;Move the platform
+G92 E
+G92 E0
+;G1 F18-6
+;LA:823
+;LAYER:0
+M107

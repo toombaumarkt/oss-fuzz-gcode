@@ -1,0 +1,21 @@
+M1 extrusIonKÿBÿM106
+M205to Bed LevelliM
+ÿÿÿÿÿÿÿ
+M205to Bed Ll5
+M205to B
+107
+M205to Bed Level
+G1 Z1ÿÿÿÿÊò
+M205to Bed Level
+G1 Z1ÿÿÿ6ÿÿÿM107
+M205.0 .bsolute p5to Bÿÿÿc
+
+rBed ÿÿÿÿÿ3ÿM106
+M205to Bed Le2dlliM
+7M205to Bed Levell5
+M205to Bed Levelliiÿÿÿÿÿÿ
+M205.0 .bsolute p5to Bed L4vel
+M205lo BelÙ³š‰elling
+
+Gosng
+M82 ;5to 

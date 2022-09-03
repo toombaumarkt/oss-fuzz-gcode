@@ -1,0 +1,36 @@
+0 ;Ra
+
+G11 ;iь
+G1
+
+G11 ;iь
+G10 ;VP
+EE ; 
+G11 ;i
+G90 ;
+10 ;mor
+G90 ;Abs
+G ;U
+G ;
+G!яж ;m
+G95 ;ь
+G10 ;V;A
+f ;
+G4 ;ь
+G5 ;R
+G ;VP
+EE ; 
+G11 ;i
+G90 ;:bing
+10 ;mor
+G90 ;Abs
+G ;U
+G ;
+G!0) ;m
+G95 ;ь
+G10 ;V;A
+f ;
+G4 ;ь
+G5 ;R
+G ; 
+G

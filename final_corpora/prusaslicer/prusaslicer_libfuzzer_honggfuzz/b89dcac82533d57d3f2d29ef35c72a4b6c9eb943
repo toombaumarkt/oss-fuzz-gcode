@@ -1,0 +1,5 @@
+G0 F Yd
+
+M84 X Y D				M0 S0 ;Tmrn Cb
+M'84 X Y E																																																																								M'84 X Y E																																																	4
+ S0

@@ -1,0 +1,18 @@
+M.453 Y 74.5+9
+G0 X53.0000000000400000077300000000000000000000000000022222222222222.9912.991 X112111.000M.453 Y 74.5+9
+G20 X53.000000000040000007734=20.000
+H01 A-3R280.0M140 S60
+M105
+M190 S60
+M104 S200
+M00
+M109 S200
+M82 <absolute extrusion mode
+õG28 ;Home
+G0 X10 Y15 F9000 ; Go to front.57 E0.00324
+G1 ed length
+G1 X50 E25 F500 ; Extrude ;5mm of filament in a 4cm line
+G92 E0 ; zero the extruded length
+G1 E-1 F5°0 ; Retract a little
+G1 X80 F4000 ; Quickly wipe away from the filament line
+G1 Z0.35 ; Raise an€ begin

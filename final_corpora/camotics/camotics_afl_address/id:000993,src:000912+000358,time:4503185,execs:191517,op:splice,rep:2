@@ -1,0 +1,14 @@
+O104 (bere that tZhe subroutine file 100.ngc)
+(has been copied to the foìder ->home ->yourusername ->emc2 ->nc-files)
+g2€ g61 f100 g40
+g0 z5
+o1all [-8] [8] [3] [3.5] 3o [3.5] +3o [3.5] [4] [2] [4] [2 [-8] [+3o [3.5] [4] [2] 
+g0 x-16 y-16
+M10M10g1 y14
+g1 x-23
+g. y-14
+g1x-24
+g1 y14
+g1ýw-25
+g1 prn
+g0 x1 y0 (Mitqellinie/`enter line)

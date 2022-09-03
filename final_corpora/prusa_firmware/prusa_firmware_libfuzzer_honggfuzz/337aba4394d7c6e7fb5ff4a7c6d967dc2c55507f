@@ -1,0 +1,7 @@
+G0 X9.64 9Xy.64 96
+G0 X9.753
+m140 S0-
+G2 E40 S0
+G92X1r0.2 E0solut2 E0solute 4xt F4200 X1r0.2 Y94.768
+G92 setolute ext F4200 X1r0.2 0M14M0 
+

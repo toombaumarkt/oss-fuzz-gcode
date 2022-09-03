@@ -1,0 +1,29 @@
+inp28 X0 YI
+M/d-DM;
+27bx;
+
+M140 S0
+M;
+sÂ40
+M30
+M3588 M;
+2727bs14S S0
+M3‡/d-D1G1148 M;
+
+M140 S0
+M30#88 M;
+]27bsÂ40 S0rtus0
+M303Crtus0
+M303C0
+M188 M;
+27bs15t0
+M188 M;
+27bs15trus08 M;
+25rtus0
+M303C0
+M188 M;
+27bs140 S0
+M30;
+27
+M188 M;
+27bso40 S1M;

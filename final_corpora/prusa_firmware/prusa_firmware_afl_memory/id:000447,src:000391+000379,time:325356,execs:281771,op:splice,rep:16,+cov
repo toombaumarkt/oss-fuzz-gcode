@@ -1,0 +1,16 @@
+DM140M84  ;ste7ppers of S60
+00
+G28 X0 Y2 E0
+G1
+G28 X0 Y2 E0 E-odˆ
+M10R S0
+(92 ?0
+G1 E-10 F20ÿrrÿÿÿÿ
+M214 S5PJ0TET 8Œ0 04 S50L07
+M1î
+M1B4 S1
+G117
+M301 YF45l€ÿÿÿe|xtdu¶¶¶R¶¶¶D¶¶¶¶¶CIIIøø0ÿÿÿFANPINTSTrs off
+G€17
+PRNM_40#SÛÄ0TET 301 lF457lı	G117
+M301 YF45lu•e extrus9 Y70.09¶¶E¶Iøø3.0o62ÿ

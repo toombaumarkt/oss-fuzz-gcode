@@ -1,0 +1,14 @@
+G1 F1500 E158.7019698F2000
+G2J X
+L1<0 4
+
+M Y0i82!;abe extru4G S0
+G92!Z0
+G" E-10 F2000
+G2J X
+L1<
+M17
+M10˜
+G24 S0
+Msi„n ’ode
+M104S0

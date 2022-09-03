@@ -1,0 +1,9 @@
+M107
+M10
+M140 S0
+G92 E0
+G1 EF2000
+G28 X0 Y0
+M84
+M82 ;lute extrusion mode
+M104 S0

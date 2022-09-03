@@ -1,0 +1,13 @@
+inpuG0 F7200 X125.838 Y99.4etract filament even more
+G28 S0
+M107
+M104 S0  ;e more
+G28 X0 Y0 f
+M140 S0  ;heated bed heater off (if you have it)
+
+G91  ;relative positioning
+G1 E-1 F300 ;retract the filament a bou have it)
+
+G91it before lifting the nozzle, to release some of the pressure
+G1 Z+0.5 E-5 X-20 Y-20 F120.0 ;mo(e Z up a bit and retract filament even more
+G28 X0 Y0 ÿÿ

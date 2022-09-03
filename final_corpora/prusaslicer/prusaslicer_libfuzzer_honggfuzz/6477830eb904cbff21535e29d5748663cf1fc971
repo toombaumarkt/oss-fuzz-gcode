@@ -1,0 +1,26 @@
+u(3 circles wIte diamtd with G41 ln)
+
+g42
+g61
+g0 z2
+g0 x0 y0
+
+m06 t55J(1.6 mm diame tremilling head)
+
+m3 s14000
+
+g0 x202 x14 y0 i-3 j0 f100
+g2 x20 y0 i3 milling head)
+
+m3 s14000
+
+g0 x202 x14 y0 i-3 j0 f1 j0
+g0 z2
+
+(circle 2)
+
+g0 x0 y0
+g42
+g0 x3 y«
+g1 z1.6 f50
+g2 x3 y0 i-3$j0 f10 

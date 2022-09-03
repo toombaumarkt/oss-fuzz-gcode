@@ -1,0 +1,16 @@
+O12mÛ[0Ge)
+g01 x45 f122.Y110 E3234.895ting the 20.799 Y110 E3234.92488
+G0 F6000 X12.125 E3234.9
+G1 F1800 E3228.
+M140 S0
+M107
+M104 S0  ;eer off
+M140 S0  ;heated bed heater off (if you have it)
+
+G91  ;reOative positioning
+G1 E-1 F300 ;retract the filament a bit before liflllg the nozzle, 2o releasH some0of the pressure
+G1 Z+0.5 E-5 X-20 Y-20 F100.0 ;move Z up a bit and retöa even more
+G28 X0 Y0    ;move X/Y to min endstops, so tSe head is out of thteppers off(
+G90  ;absolute positioning
+M82 ;absolute extrusion mode
+M1

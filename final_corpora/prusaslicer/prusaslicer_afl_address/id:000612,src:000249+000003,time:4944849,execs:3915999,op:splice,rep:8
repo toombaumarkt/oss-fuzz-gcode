@@ -1,0 +1,50 @@
+G1+F187$7 E;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;M withþBura200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181n
+;TIME:9164
+;Filament used: 6.75387ÿ
+;Layer height: 0.2
+;MINX:78.1: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;M withþBura200
+M105
+M109 S200
+37
+JMINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;M withþBura200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:18
+;L

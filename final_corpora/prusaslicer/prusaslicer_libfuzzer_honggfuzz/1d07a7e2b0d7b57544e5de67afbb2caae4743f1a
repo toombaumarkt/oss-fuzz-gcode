@@ -1,0 +1,22 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Film
+;L.ayer height: 0.2
+;MINX:.137
+;M;Generated with Cu105
+M190 S60
+M104 S200
+M1p5
+M109 S200
+re 4.13.1
+M141 S60
+M10 S60
+M1e
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

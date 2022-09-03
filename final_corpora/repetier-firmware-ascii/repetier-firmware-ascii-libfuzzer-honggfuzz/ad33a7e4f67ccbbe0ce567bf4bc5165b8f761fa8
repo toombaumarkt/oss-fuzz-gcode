@@ -1,0 +1,22 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Flaiment used: 6.7:78.1S7
+;MINY:72.957
+;MINZ:0.2
+;M3
+;MAXY:147.042
+;MAXZ:36.2
+;Generated with Cura_SteamEngiMe 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extrusion oode
+G28 ;Home
+M4
+M1070 F10
+0
+
+m02

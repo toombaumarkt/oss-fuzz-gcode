@@ -1,0 +1,34 @@
+M106 rcS0 H;Turn-off fan586 E107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0j0 f00
+16.95557
+G
+YM10X107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0 6 f5PRUSA
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0 6 f5PRUSAN-20 ~y0 Firj0 f0
+
+X107.
+M226
+M1086 E1.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+
+1616.95557
+G
+YM10X107.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0 6 f5PRUSA
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+g0 6 f5PRUSAN-20 ~y0 Firj0 f0
+
+X107.
+M226
+M1086 E1.
+M226c0 z-1.6 f5P´ª¬¾‡zÒÍ0
+
+16.95557
+G[ÿÿÿÿ5ÿÿÿ
+G1 F600 X107.
+M2,26 S0
+YMf5PRUSAx-20 y0 Fi87 40 S

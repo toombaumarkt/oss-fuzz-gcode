@@ -1,0 +1,41 @@
+(before you can use this file, calling the so100 ca0
+M85
+bqol!ute 0
+
+M84
+FW
+794<(
+G2ll [8] [-8] [3] [3.5] 0 Y0
+M84
+ÿÿM862.1rus0
+M852
+M
+ÿÿM862.1rus0
+M852
+M0 Yrus0
+Q85
+M82 ;abso‡‡‡‡‡‡‡‡‡‡‡‡‡‡ƒ‡‡‡‡‡‡‡[4] [2] 
+g0 x-16 y-16
+g1 z-3.5 f50
+g1 y16
+g1 x16
+g1 y-16
+g1 x-16
+‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡‡qolute 0
+
+M84
+FW
+794<(
+G20 Y0
+M84
+ÿÿM862.1rus0
+M852
+M
+ÿÿM862.1rus0
+M852
+M0 Yrus0
+Q85
+M82 ;abso‡‡‡‡‡‡‡‡‡‡Y0
+M85
+M82
+  y

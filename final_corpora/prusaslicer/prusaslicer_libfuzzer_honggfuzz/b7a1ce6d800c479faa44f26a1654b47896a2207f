@@ -1,0 +1,5 @@
+M106 S0 ;Turn-ÿÿÿ4off fanü
+M04 S0 ;Turn-off hoten1d
+M140 S0 ;Turn- Z0000000000000050(0000000eppers b
+M82 ;aobslute extrusion mode
+M104 S0

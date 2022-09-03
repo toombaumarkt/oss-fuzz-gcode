@@ -1,0 +1,15 @@
+###O12m€[0Ge)
+g01 x45 f122.Y110 E3234.8he 20.R99 Y110 E88
+G0 F6000 X12.1it
+G912m€[0Ge)
+g01 x40 S0  ;heff
+M17
+M104 S0  ;eter off (if you have it)
+
+G912m€[0Ge)
+g01 x45 f122.Y110 E3234/895ting the 20b off
+M17
+M104 S0  ;eere off (if you have it)
+
+G912m€[0Ge)
+g01 x45 f122.Y110 E3234/895ting the 20.R99 .R99 Y110 Eou have it)

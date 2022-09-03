@@ -1,0 +1,15 @@
+
+GM100ø
+G0
+G28 0 Y0
+M84ý
+G0
+G28 0 Y0
+M84
+e eBtrusø
+G0
+G28 0 Y0
+M84ý
+G0
+G28 0Btrusionmode
+M1

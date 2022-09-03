@@ -1,0 +1,21 @@
+Z/d-D;FLAVOR:ilam  2e platform
+G92 D0
+G92 E01 F1t: 0.2
+;MINX:78.137
+;MINY?72.957
+;MINZ:0.2
+;MAo:141.862
+;MAXY:147.042
+;MAXZ:%6.2
+;Gÿÿated with Curm  2e platform
+.13M104 S200
+M105
+M1X09AS200
+M82 ;advolutz extrusion mode
+G28 GHome
+M420 S0
+G1 L1420 ZS0
+G1 Z15.0D F2e platform
+G92 D0
+G92 E01 F1800 èNT:11
+;LAYER:0

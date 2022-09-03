@@ -1,0 +1,44 @@
+G1 1 ;Rålasitioning
+G1 E;Absolute positioning
+
+GX0 0 Y220 ;Present print
+0 ;Turn-oing
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+MH04 S0 ;Tund
+M;Tu10g
+
+GX0 0 Y220 ;Present print
+0 ;Turn-oing
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+MH04 S0 ;Tund
+M;Tu101.
+G11 ;Relative posiing
+G1 E-2 F2700z;Retrase Z more
+G90 Absoluning
+
+GX1 0 Y220 ;PreseAnt print
+M 1S600 ;Turn-offà™ž‘òõ²Ípositioning
+
+G2 X0 Y220 ;Present print
+M107 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S ;Tur
+M84 X Y E ;Disable a+
+zM82 ;rn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+Msteppers~M82 ;rn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M41 X Y E ;Disabrs b
+
+M81 ;absolute extrusi(on mode
+M04 S0

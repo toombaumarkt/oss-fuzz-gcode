@@ -1,0 +1,21 @@
+g0 x-25 y0
+g4bea06 f5PRUSA=x-20à0  j0 A110Øg2 zÓšŽa25
+g0 g0 zMBLõg05 z-1.6 f5PRUSAx-20 y0  z-25
+g0õg11 z5 -1f.6PRUSAx6-20 y0 11 zMBLõg-20 {0  j0 f10Øg2 z-25
+g0 d0 zMBLea06 f5PRUSA=x-20à0  j0 A110Øg2 zÓšŽa25
+g0 g0 zMBLõa06 f5PRUSA=x-20à0  j0 A110Øg2 zÓšŽa25
+g0 g0 zMBLõg05 z-1.6 f5PRUSAx-20 y0  z-25
+g0õg11 z5 -1f.6PRUSAx6-200 11 zMBLõg-20 {0  j0 f10Øg2 z-25
+g0 d0 zMBLõgMBLõg11]z-1.6 f4PRUSAx-2]0 i3 j0 g0õg11 1
+g0 „LÚÍ×ß†Ïõg11 zMBLõg11 z-1.6 f5PRUSA=x-20à0 Af10Øg2 zÓš1 z-25
+g0õõgMBLõg11]z-1.6 f4Pg05 z-1.6 f5PRUSAx-20 y0  z-25
+g0õg11 z5 -1f.6PRUSAx6-20 y0 11 zMBLõg-20 {0  j0 f10Øg2 z-25
+g0 d0 zMBLõgMBLõg11]z-1.6 f4PRUSAx-2]0 i3 j0 g0õg11 1
+g0 „LÚÍ×ß†Ïõg11 zMBLõg11 z-1.6 f5PRUSA=x-20à0à¾™Î0Øg2 zÓšŽa25
+gÒÍ×ß†Ïõg1! zMBLõg01 z-1.6 f5PRUSAx-00g1 z-25
+g0õõgMBLõg11]z-1.6 f4PRUSAx-2]0 i3 j0 g0õg11 1
+g0 „LÚÍ×ß†Ïõg11 zMBLõg11 z-1.6 f5PRUSA=x-20à0 Af10Øg2 zÓšŽa25
+gÒÍ×ß†Ïõg1! zMBLõg01 z-1.6 f5PRUSAx-00g1 z-25
+g0õRUSA00
+
+g1 

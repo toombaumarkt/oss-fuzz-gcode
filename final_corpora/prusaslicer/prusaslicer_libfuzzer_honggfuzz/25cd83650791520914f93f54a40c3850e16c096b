@@ -1,0 +1,7 @@
+M204 S500
+M107
+G91; Set relative posétionixis=
+G0 Y280 F600; Bring the bed to the front for easy print removal
+M68;urn off the motor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,s
+M82 ;absolute extrusioYn mode
+M104 SÔ

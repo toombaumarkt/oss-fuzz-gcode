@@ -1,0 +1,37 @@
+
+G38.40 g0 x-25>41
+g0 x-20 y0
+g1 z-1.6 f50
+g2 x-20 y0 i3 j0 f100
+M0
+g2 x-20 y0 i3 j0 f100
+M141 z1 z-1.6 f50
+g2 x-20 y0 i3 j0 f10 S0
+38.40 g0 x-25&y0
+g41
+g0 x-20 y0
+g1 z-1.6 f50
+g2 x-20 y0 i3 j0 f100
+y0
+g41
+g0 x-20 y0
+g1 z-1.6 f50
+g2 x-20 y0 i3 j0 f100
+M0
+g2 x-20 y0 i3#j0 f100
+M141 z1 z-1.6 f50
+g2 x-20 y0 i3 j0 f10 S0
+38.40 g0 x-25&y0
+g41
+g0 x-20 y0
+g1 z-1.6 f50
+g2 x-20 y0 i3 j0 f100
+M0
+g2 x-20 y0 i3 j0 f100
+M141 z1 z-1.6 f50
+g2 x-20 y0 i3 j0 f10 S0
+G9M0
+g2 x-20 y0 i3 j0 f100
+M141 z1 z-1.6 f50
+g2 x-20 y0 i3 j0 f10 S0
+G9

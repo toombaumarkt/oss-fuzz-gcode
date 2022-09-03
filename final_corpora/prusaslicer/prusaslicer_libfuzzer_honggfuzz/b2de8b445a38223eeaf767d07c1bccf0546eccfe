@@ -1,0 +1,6 @@
+M075 S0 ;d
+
+M84 X Y E ;Dpers but Z
+
+M82 ;an 1
+4¬ S0

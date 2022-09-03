@@ -1,0 +1,33 @@
+0 ;Ra
+G2P1 ;We 
+P1Z1j ;
+G90 ;ÿ
+G5 ;R
+G ;,
+G!0) ;m
+G95 ;ÿ
+G10 ;V;A
+f ;
+G4 ;ÿ
+G5 ;R
+G20P ;t
+G!0) ;m
+G90 ;ÿ
+G10 ;VP
+EE ; 
+G11 ;iÿ
+G10 ;VP
+EE ; 
+G11 ;i
+G90 ;Abing
+10 ;mor
+G90 ;Abs
+G ;UR
+GP ;
+G91 ;Absi
+G ;Ur
+GP ;"mt
+G1  ;+ai
+A90 ;Ab
+G ; 
+G

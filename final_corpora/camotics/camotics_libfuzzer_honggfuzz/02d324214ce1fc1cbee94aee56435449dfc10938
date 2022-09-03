@@ -1,0 +1,10 @@
+; 01G 1Zmore
+G90 ;Absolute posiresent printÿÿÿÿÿÿÿ
+M106 S0 ;Td
+
+M84 X Y E ;Dis
+M41 ;absolutent printÿÿÿÿÿÿÿ
+M1F6 S0 ;Td
+
+M84 X Y E ;Dis
+M82 ;abse extru04 S0

@@ -1,0 +1,8 @@
+Mq40 S60
+M
+M191 S60
+M104 S200
+M12‚‚‚1ÿ- S2 2; AS
+G29 Auto Bed Llli?gagain
+G18 PrinnE0
+G99867 Z0.913 E0.01413

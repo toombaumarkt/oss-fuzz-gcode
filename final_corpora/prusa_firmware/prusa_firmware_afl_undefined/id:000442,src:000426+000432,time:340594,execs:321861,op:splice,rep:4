@@ -1,0 +1,30 @@
+
+M208 SFÿ ² ² M140 S60
+M105
+M190 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusion mode
+G21 ;metrim vsitioning
+M82 ;set extruder to absolute vsitioning
+M82 ;set extr  wihe fan off
+
+G28 ; AutoýHome All ed LePelling
+
+G1 Z15.0 F100.0 ;move the platform down 15mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;gxtr X104.3 of feed stockth again
+G1 F100.0
+-117 Printing...
+G92 E0
+G92 E0
+G1 F1500 E-6
+M107
+M208 SF30 E-6
+M107
+M208 SF00
+G0 F90!0 X104.347 Y106.847 Z0.3 E0
+G1 F1500 E0
+G1 F1800  Y106.847 X104.737 ÿÿÿ.

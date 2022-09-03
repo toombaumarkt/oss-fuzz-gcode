@@ -1,0 +1,53 @@
+M‘{7K
+DEM(
+P12@M86iu
+14 ;4#
+NM82 ;set extr
+M304 S19ÿINZ:me
+M42. S0
+G19Z10.2
+41.863
+
+M304 S19ÿINea4MZ:.863
+
+M304 S19ÿINZ:me
+M4s–tioning
+*;FME512
+u‚ed: 6.75387m
+;Layer he:72ZZ%7
+;MINZ:meAXX:141.863
+
+M304 S19ÿINZ:me
+M42. S0
+G19Z10.2
+41.863
+
+M304 S19ÿINea4MZ:.863
+
+M304 S19ÿINZ:me
+M4s–tioning
+*;FME512
+g1 .y19ament 2. S0
+G14A S60
+///////////h$
+G1 F200 E3 ;e
+M105
+M109 S190
+M82 ;ab|olute extrusionÃmode
+G21 'metric valueÿÿÿ90 ;absolute pos–tioning
+*;FME5Šament ude\ to absolute modfan off
+
+G40 S60
+M105
+M.90 S60
+M304 S192Rÿ€ Auto H`me All AXIS
+G29 ;ÿuto Bjd Lellveing
+
+G1 Z15.0 F100.0 ;move the platform down 15mm
+
+G9////M105
+M.90 S60
+M304 S190xt‹udM105
+M109 S190e 3mm of feedtrff
+
+G40 S6

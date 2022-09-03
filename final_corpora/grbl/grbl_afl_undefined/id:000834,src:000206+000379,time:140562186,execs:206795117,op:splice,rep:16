@@ -1,0 +1,73 @@
+goE92 g  off
+G9
+G61 'f
+G90  ;ab92 g  off
+G9
+G61 'f
+G90  ;absoff
+G90  ;absolut
+G9
+G61 'f 
+G90  ;absoff
+G90  ;absolute posf
+GtepUDx‚ off
+G90  ;absolute posf
+G90e pNsf
+GtepUex‚ off
+G93  ;absolute posf
+G90 soff
+G90  ;absolutè9
+G61 'f 
+G90  ;absoff
+G90  ;absolute posf
+GtepUBx‚ off
+G90  ;absolute posf
+G90e posf
+GtepUex‚ off
+G93 bsoff
+G90  ;absolut
+G9
+G61 'f 
+G90  ;absoff
+G90  ;absolute posf
+GtepUBx‚ off
+G90  ;absolute posf
+G90e posf
+GtepUex‚ off
+G93  ;absolute posf
+G90 soff
+G90  ;absolut
+G9
+G61 'f 
+G90  ;absoff
+G90  ;absolutbsoff
+G90  ;absolut
+G9
+G61 'f 
+G90  ;absoff
+G90  ;absolute posf
+GtepUBx‚ off
+G90  ;abso.ute Mosf
+G90e posf
+GtepUex‚ off
+G93  ;absolute posf
+G90 soff
+G90  ;absolut
+G9
+G61 'f 
+G90  ;absoff
+G90  ÿabsolute posf
+GtepEBx‚off
+G90  ;absolute posf
+G90e posf
+GtepUex‚ off
+G93 bsoff
+G90  ;absolut
+G9
+G61 'f 
+G90  ;absoff
+G90  ;absolute posf
+GtepUBx‚ off
+G90  ;absolute posf
+Gt ;absolute posf
+G90 

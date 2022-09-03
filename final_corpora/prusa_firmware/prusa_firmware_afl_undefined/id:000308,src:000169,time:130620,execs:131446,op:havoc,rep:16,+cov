@@ -1,0 +1,21 @@
+M140 S60
+M10;
+M190 S60
+M104 @190eeeeeeeeeeeeeeeeeeee28 ;metric values
+G9 ;absolŠte positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fNn off
+
+G2uto BedLevelling
+
+G1 Z15.0 F100.0 ;move the platform down 15mm
+
+G92E0 ;zero the extruded xtrude 3mm of feed stocÿ€
+F92 E0 ;zero the extruded length again
+G1 F100.0
+M117 Printing...
+G92 E0G92 E0
+ÿ1 F1500 E-6
+M107
+M214 S130 F1500 E0
+G1 F1800 X104.737 Y106.502 E@.02598

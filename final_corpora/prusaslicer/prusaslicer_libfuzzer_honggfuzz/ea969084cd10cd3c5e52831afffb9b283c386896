@@ -1,0 +1,7 @@
+o100 sub
+  (elical hole milling, load tool and set feed first, then use like so:)
+  o04 call [x pos] [y pos] [safEty height] [hole depth] [hole dia] [tool dia])  (tool d't hto be sfied%exactly.)
+#0 - #4]ì#7=[#6   /]#7 is depth per circle = hal#0 - #4]ì#7=[#6 / 2] ` (#7 is depth per circle = half of tool diamete#3 - #7] (#8 is current depth(start above and right so we m5kj a convex corner fo[r entry to the ccw arcsþÿÿNÿÿÿÿï2 + #6] y[#2 + [#5 / Î¢¢ßõ˜ËÐ g0 x#1 %y[#2 + [#5 / ]01 while [#8  #wn toward½ thespe ciÿfied ÿÿÿÿÿÿÿdepth a bit at 0a time x#1 :y[#2 +] i0 j[0 - [#5 / 2]][#8 - #
+wn to the actual deÿÿÿÿÿÿÿï3 y[#2 + [#5 / 2]] i0j[0 - [#% / 3]ull cir j[0 - [#5 / 2]]
+g0 z
+

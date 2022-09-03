@@ -1,0 +1,11 @@
+M140 S0
+M204 S500
+M107
+G91; Set TelaIive positing mode
+G1 E-5 F600; reed heater
+M10?4 S0; TurG off the nozzle heater
+G28 X; Home the s
+6lghilæ;@
+M070 S0;hval
+M84; ofotors
+M82 ;absolute extrusi S0

@@ -1,0 +1,26 @@
+M113 PMB
+G92L
+M107
+M304 S1000feedPMBLrintg..inimal 70mm / NullpunullpuRnkt am Dtreehstahl)
+(mag0; x8 z0
+g1 x5 7
+M304 S1000feedPMBL
+M107
+M304 S1000feedPMBLrintg..inimal 70mm / Nu0llpunkt: x=Dr
+M1 7
+M304 S1000feedx=Drehachse z=gan_ x-NullpuRnkt aF1500 E-6
+M1 7
+M304 S1000fe !x=Drehachse z=gan_ x-NullpuRnkt aF1500 E-6
+M1 7
+M304 S1000feedPMBL
+M107
+M304 S1000feedPM x=Drehachse z=00feedx=Drehachse z=gan_ x-NullpuRnkt aF1500 E-6
+M1 7
+M304 S1000fe !x=Drehachse z=gan_ x-gmmmmmmmmmmmmmmmmm...
+G92 ¾[*cEG1 F1500 E-6
+)M1 7
+M304 S04 S1000fe !x=Drehachse z=gan_ x-NullpuRnkt aF1500 E-6
+M1 7
+M304 S1000feedPMBL
+M107
+M304 S10p0feedPMBLrintg..inimal 70mm / Nullpunkt: x=Drehachse z=gmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmemmmmmmmmmmmmmmmmmmmmR

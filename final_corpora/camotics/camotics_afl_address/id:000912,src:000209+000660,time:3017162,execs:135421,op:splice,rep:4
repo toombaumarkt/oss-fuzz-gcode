@@ -1,0 +1,12 @@
+O104 (before you c_n to Imake sure that the subroutine file 100.ngc)
+(has been copied to the foìder ->home ->yourusername ->emc2 ->nc-files)
+g2€ g61 f100 g40
+g0 z5
+o1all [-8] [8] [3] [3.5] 3o [3.5] [4] [2 [-8] [+3o [3.5] [4] [2] 
+g0 x-16 y-16
+g1 z-3.5 f50
+g1 y16
+g1 x16
+g1 y-16
+g1 x-1
+g0.z5

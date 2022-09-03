@@ -1,0 +1,32 @@
+
+M200d-D4ê
+iD8
+d-D8
+d-D
+d-D880G.513end
+M14;Retracta [9.405d
+88iG1 F899.3 X1099.3 X102.01 Y86.362 E1360  Y86.362vE7ˇ0
+G91 ;Relative positioning
+Gn-off&hot E1360.05857
+G0 F9000 X101.425 Y86.90.
+M862.±±±±±±±±±±±±±2.01 Y85.62P
+G1 F1500 E1354.08608
+M140 S0
+M107
+G91 ;Relative positioning
+G E-2 F2700 ;Retractract and raise Z
+G1 XJ Y5 F3000 ;Wipe out
+G1 Z=0 ;Rarse Z more
+G90 ;Absolute positionisg
+
+G1 X
+M200d-D4ê
+iD8
+dD8
+d-D
+d-D8S0 ;Turn-13
+G1 F899.3 X101.425 Y87[99.4058
+d-D8
+d-D880Gbit
+G1
+

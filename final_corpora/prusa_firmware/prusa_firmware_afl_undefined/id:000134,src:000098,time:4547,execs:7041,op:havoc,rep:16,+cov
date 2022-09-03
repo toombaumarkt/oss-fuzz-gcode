@@ -1,0 +1,2 @@
+ioff hotM1 hotend
+M140 S140 S40 S0 ;Turn

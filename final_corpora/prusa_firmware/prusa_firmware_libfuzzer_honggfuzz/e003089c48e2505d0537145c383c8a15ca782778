@@ -1,0 +1,12 @@
+m
+
+M208 -09 FÿÿMRG0 X114.381 Y70.055
+G1 F1500 X117.082 Y71.827 EMÌÿÿ%m
+
+M208 -09 FÿÿM309e of the prd retract filament even more
+G28 X0 Y0    ;move X/Y to min endstops, so the head is out of the way
+
+M84  ;steppers off
+G90  ;absolute positioning
+M82 ;absolute extrusion mode
+M104½S0

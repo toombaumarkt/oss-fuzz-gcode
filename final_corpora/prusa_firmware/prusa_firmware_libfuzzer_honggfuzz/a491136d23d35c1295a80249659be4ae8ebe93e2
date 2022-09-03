@@ -1,0 +1,37 @@
+M140 S60
+MA1059
+M190 5!
+M1 mode
+M208 05
+M109 S195
+M82 ;abs ;absoe!
+M1 mode
+M208 05
+M109 S195
+M82 ;absoelt uext90 S60
+M1Ê4 S90 !JM1 
+M1059
+M190 5!
+M1 mod!
+M1 mode
+M208 05
+M109 S195
+M82 ;absoel
+M208 05
+M1mode
+M208 051059
+M190 ;absoe!
+M1 modeM208 05
+M109 S195
+M82 ;absoelt uext90 S60M100 S0absoe!
+M1 mode
+M208 05
+M109 S195
+M82 ;ab4 S90 !
+M1 
+M1mode
+M208 05
+M109 S1ÕïM6ë¤095
+M82g0 x-25 y0
+g40ù
+g0

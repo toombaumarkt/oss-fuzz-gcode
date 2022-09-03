@@ -1,0 +1,69 @@
+M14 5M1 0
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿoff
+
+G28 X0 Y0  ;mˆ‰šß
+t0
+M105 ff
+
+G28 X0 ;Bed
+G2 8X10. Y30  ;move $
+G28 X0 
+;e
+G28 ff
+
+G28 X0 Y0  ;move Xove ff$
+G28 X0 Y0 
+
+G28 X0 Y0  ;move 8 X0 Y0e Xove ff$
+G28 X0 Y0 
+
+G28 X00  ;mo off$
+G28 X0 Y0 
+
+G2S1=05M1 0
+off
+
+G28 X0 Y0  ;mˆ‰šß
+t0
+M105 ff
+$
+G28 X0 Y0  ;Bed
+G2 8X10. Y30 Z0.3 F5000.0 ; MoQe ov X0 Y0 
+
+G28 X0 Y0 0  ;mˆ‰š
+
+G28 X0 Y0  ;Bed
+G2 8X10. Y30
+
+G28 X0 Y0  ;mo off$
+G28 X0 Y0 
+x
+G28 X0 Y0  ;move $
+G28 X0 
+;e
+G28 ff
+
+G28 X0 Y0  ;move Xove ff$
+G28 X0 Y0 
+
+G28 X0 Y0  ;mov
+G28 X0 Y0 
+
+G28 X0 Y0  ;m
+G28 X0 Y0 
+
+G2S1=05M1 0
+off
+
+G28 X0 Y0  ;mˆ‰šß
+t0
+M105 ff
+%
+G28 X0 Y0  ;Bed
+G2 8X10. Y30 Z0.3 F5000.0 ; MoQe ove XG28 X0 Y0e Xove ff$
+G28 X0 Y0 
+
+G28 X0 Y0  ;mo off$
+G28 X0 Y0 
+
+G28 X0 Y

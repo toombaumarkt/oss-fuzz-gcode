@@ -1,0 +1,20 @@
+;FOR:Marlin
+;TIilaused: 687m
+;Ler heGight:@ 0.2
+;YA:X147.042
+;MAXZ:B6.2
+;Generated wra_SteamEngine 4.12
+YM140 S60
+M105
+M198 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolode
+G;28 Home
+M420Í S0
+G F20þÿÿÿMove thorm
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LA

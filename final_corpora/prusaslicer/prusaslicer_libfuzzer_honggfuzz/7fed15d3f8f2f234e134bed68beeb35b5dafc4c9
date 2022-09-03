@@ -1,0 +1,8 @@
+m t55 (t5 = 1.6 end mill in tool tabz2
+(1 eee6 f50
+g2 x- y11 i0 j10 f100
+g z6
+g0 x25 y0
+G2 X-15 Y20 iT j F100
+
+m02

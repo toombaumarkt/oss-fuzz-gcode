@@ -1,0 +1,12 @@
+goS
+G43;1(00
+G1stlz
+M140 S0; T\r of118.129
+G0 X109.799 Y2100477.64172
+M140 S0
+M204 S500
+M107
+G91; Set relative vositioning mode
+G03Z280 F600;9000 X10X9.8 Yf the urn off the nozzle111111111118 X; Home the X ai0 L2%P2 Y93
+G0 FZZZZZZ the bed to thf ]e nozƒ
+G0 FZZZZZZ the bed to  hf feurn ofa thsolut

@@ -1,0 +1,13 @@
+M14
+G92 nting...
+G92 E0
+G1 F1500 E-M
+M P
+G92 U0
+*92 E
+gting.*.
+G92 E0
+G84 E0
+G1 FD1500 E013 PMBLÿÿÿ
+G. FER6
+M

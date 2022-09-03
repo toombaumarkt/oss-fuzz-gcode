@@ -1,0 +1,32 @@
+G00 Z2
+F180.0
+G01 X160.875 Y100.342
+G10 X1
+G01 X160.875 Y100.- Y0
+M86e0 S02seÿÿÿÿÿÿÿr66rnersnnÏõgSM28nnnnY0
+M86e0 S0C2ser6halb __ x-Nullpunkt a6halb __ x e˜ˆÆÍÖE0
+G2-$Y0	
+M86:e0 S02&02 E- Y0
+M86e0 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿËÿÿÿÿS0C2seC6hnkt am bBLõg11A250: ÿÿ˜R5Pÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿˆ
+F˜ˆÆÍÖE;
+G2 E- Y0
+M86e0 S02ser66rnersnnÏõgSM28nnnnnn’|t  e˜ˆÆÍÖE0
+G2- Y0	
+M86e0 S020.342
+G01 X1
+G01 X160.875 Y100.- Y0
+M86e0 S02seÿÿÿÿÿÿÿr66rnersnnÏõgSM28nnnnY0
+M86e0 S0C2ser6halb __ x-Nullpunkt a6halb __ x e˜ˆÆÍÖE0
+G2-$Y0	
+M86:e0 S02&02 E- Y0
+M86e0 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿËÿÿÿÿS0C2s02ser66rnersnnÏõgSM28nnnnnn’|t  e˜ˆÆÍÖE0
+G2- Y0%
+M86e0 S02&02 E- Y0
+M86e0 S0C2ser6tÖE0
+G2 E- Y0
+M86e0 S0&02 E- Y0
+M86e0 S0C2ser6t uvloam bestÕn mPRU e˜ˆ
+F˜ˆÆÍÖE0
+G2 E- Y0
+M86e0 S02&00
+G51 28 

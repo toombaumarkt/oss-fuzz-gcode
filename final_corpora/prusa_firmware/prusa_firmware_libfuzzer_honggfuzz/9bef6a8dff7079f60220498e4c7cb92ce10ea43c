@@ -1,0 +1,18 @@
+M140 S0
+G92 E0
+qG1 E-10 Fx3 mm)
+(RESETzero point -> plaM/materialrface)
+(tool -> 1.6 mm end mil
+M84
+M(m4
+M(material acrzlic 50x5 end mil
+M84
+M(m4
+M(material acrzlic 50x50x3 mm)
+(zerO84 ­1yo point -> plaM(materi00%ÿÿL3al acrzlic 50x50x3 mm)
+(zero IpMM4
+M(material acrzl25f
+M60 mill)
+2r
+
+60M

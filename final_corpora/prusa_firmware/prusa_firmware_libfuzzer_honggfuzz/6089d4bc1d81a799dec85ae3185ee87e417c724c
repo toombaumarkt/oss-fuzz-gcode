@@ -1,0 +1,38 @@
+g
+gllllllllll
+M190  x-g1 Ax5.8IÿÿÿwgD9 z-20
+g1 x3.1 f5ÿg0 M190ÿg0 z-10
+g2 ;Fi
+M190  x-g1 Ax5.8IgD9 0Z x3.³1 f5ÿg0 z-18 f150
+gÉ x3 f15
+3 f05 y0
+g
+M190  x-g1 Ax5.8IÿÿÿwgD9 z-20
+g1 x3.1 f5õg0 z-10
+g2 ;
+g1 x3 f1y3g0
+4dev1 
+9g0f50
+g2 ;Fi
+M190ÿ x-g1 Ax5.8Iÿ z-10
+g2 ;Fi
+M190  x-g1 Ax5.8IgD9 z-20
+g1 x3.Rg0 z-18 f150
+g1 x3 f1550
+g2 ;Fi
+M190  x-g
+3 f15 y1
+9g0f50
+g2 8 f150
+g1 x3 f15
+3 f15 y+X0 Y0
+g41
+à
+4r¬Ï-M9g0f50
+g2 ;/Fi
+M190  x-g0 z-18 f150
+g1
+ x3 f1515
+3 Kf15 y0
+g41
+9gÿ=ÿÿÿÿÿ;Fi

@@ -1,0 +1,7 @@
+M84  ;steppers of S60
+M1B4 S195
+M1ä5
+M(fÿÿÿÿÿÿFANPINTST·¶CIIIøø10.0o62ÿÿÿrÿs9 Y70¶¶¶¶¶¶¶¶“øøÿ/ÿÿÿÿÿÿÿÿÿÿÿ8 S195
+M1Š1
+G117
+M301 YF457lute extrÿs9 Y70¶¶¶¶¶¶¶¶øø10c.0‹É2ÿ/ÿÿÿÿÿFANPINTSTÿ=‘r01rs  off

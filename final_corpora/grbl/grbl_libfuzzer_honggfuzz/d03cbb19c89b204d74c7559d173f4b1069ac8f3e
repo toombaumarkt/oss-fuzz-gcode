@@ -1,0 +1,51 @@
+k1kG28 ;Home
+M420 S0
+G1 2
+G90 
+G9°2
+G90TIGME4
+;Fe pla~fo
+G90TIGME4
+;Fe s
+G90ÿÿÿ2sG1 Z35*0ol90 ;absG2 Z
+G90 ric values
+IGME4
+;Fe p
+G90 es
+G90 ;absG1 Z17.35G1 2
+G90 ÿÿÿÿÿÿÿÿÿÿÿ ;ab
+G90TIGME4
+;Fe pla~form
+G92
+G90 es
+G90 QabsG1 Z
+G90 es
+G90es
+G90 ;absù¢e pla~fopla~form
+G92
+G90TIGME4
+;Fe pla~f
+G90 es
+G90 ;*bsG1 Z35.35G1 2
+G90 ÿÿÿÿÿÿÿÿÿÿÿ ;abN ;Mov$e t¢la~f
+G90 es
+G90 QabsG1 Z
+G90 es
+G90es
+G90 ;absù¢e pla~form
+G92
+G90TIGME4
+;Fe pla~form
+G92
+G90 es
+G90 ;!b ;M$e t¢la~form
+G92
+G90TIGME4
+;Fe pla~foro
+G92
+G90 es
+G90 QabsG1 Z
+G90 es
+G90es
+G90 ;absG1 Z35.0ols
+G82 ;set ext

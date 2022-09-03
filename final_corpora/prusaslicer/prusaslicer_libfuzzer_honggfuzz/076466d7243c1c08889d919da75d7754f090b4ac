@@ -1,0 +1,21 @@
+12 E0
+2 E0
+G1 
+G1 E0.
+G1 E7
+G1 X
+G1  E0
+0 E0
+G1 E0
+G1 
+G1  E0.8
+G1 E71 
+G1 X
+G1 E2
+0 E0
+G1 E0
+G1  E2
+G1 E9
+G1 E0
+G1 E.7
+2R

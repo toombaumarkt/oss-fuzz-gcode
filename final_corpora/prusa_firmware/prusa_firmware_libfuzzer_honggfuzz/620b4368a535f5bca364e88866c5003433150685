@@ -1,0 +1,42 @@
+0
+M85
+^M82 ;absolute 0
+M85
+M82 ;absol)te extrus0
+M85
+M82 ;absolute zxtrusion moe
+M85
+M82 ;absolute extrus28 X0 Y0
+M85
+M82 ;absoluAe extrus0
+M85
+M82 ;absolude85
+^M82 ;abso”lute extrus0
+M85
+M82 ;absolute extrusion  ;absolute extrus0
+M85
+M82 Rx_ 0 Y0
+M85
+M`82 ;abs_ 0 Y0
+M85
+M82 5a0 x4 y0
+g0_ 0 Y0
+M85
+M82 ;absolu mode
+M z5
+g
+M85
+M82 0
+g0_ 0 Y0
+M85
+M82 ;abs_ 0 Y0
+M85
+M82 ;a0 x4 y0
+g0_ 0 Y0
+M85
+M82 ;ab mode
+M z5
+g
+M850M 140 S0Z
+G92 t5
+g0 x4 y

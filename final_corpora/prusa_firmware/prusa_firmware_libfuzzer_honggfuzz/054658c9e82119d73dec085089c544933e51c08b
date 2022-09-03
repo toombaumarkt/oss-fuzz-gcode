@@ -1,0 +1,33 @@
+M84 ff
+GM104ÿÿÿÿff
+G117
+M602rs off
+G1+5
+MôpG0YF2100 E2304.
+M139 S0
+Meofrs +f
+G117
+M602rs offAN
+G1 E-1F020 ;abextrusioo mode
+Mÿÿÿÿÿÿ90.251 YF2ÿÿff
+G117
+M602rs off
+G1+5
+MpG0 X90.2Ä51 YF140 M0e
+Srs
+M602rs off
+G1+5
+MôpG0YF2100 E2304.
+M7
+M602rs offFAN
+G1 E-1F020 ;abextrusioo modÿ
+Mÿÿÿÿÿÿ90.251 YF2ÿÿff
+G117
+M602rs off
+G1+5
+MpF0 X90.251 YF140FANPINTST M0e
+Srs ?ff
+G116
+M602rs off
+G1C5
+MpG0 X9051 YF2100E 32.0432647M1

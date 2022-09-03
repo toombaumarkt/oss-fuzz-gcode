@@ -1,0 +1,9 @@
+;absolute zextruio mode
+G06 ;meta7vaa0ÿ; ÿÿÿbsolute posi5tion@i ;sGtAetruder tNo absolute dmo;estart with the fan off
+G28 ; Auto Some Aáll ABIS
+G29  ;to Bed LjveG*;extrude 3mmfo  bfed stock
+G92;G1 Z1 /150xtrudextruded length
+G ;e3mmfo  bfed stock
+G92;G1 Z1 /150xtrudexxtruded lenotJh aga
+G92
+G92

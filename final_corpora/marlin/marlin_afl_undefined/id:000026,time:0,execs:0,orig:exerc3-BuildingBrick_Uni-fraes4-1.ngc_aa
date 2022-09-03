@@ -1,0 +1,26 @@
+(Buildinproject - Uni-Fraes4 - material: foam 26x26x50 mm, tool: end mill 1.6 mm.)
+(zero point: Y-turning axis, X-rigth end of the material, Z-material surface.)
+(setting zero point: rotate A-axis until surface is even, move the tip of the endmill to the)
+(right end of the foam block, to the middle on Y-axis and)
+(then move down on the Z-axis until you almost touch the material.)
+(now home all axis)
+(turn down the feed override to 40%, then start, after a while you can turn feed override back to 100%)
+g21
+g61
+g0 z2
+g0 a0
+m03 S15000
+g0 x1 y14 (Planen/cleaning surface)
+g1 z-2 f100
+g1 y-14 f250
+g1 x0
+g1 y14
+g1 x-1
+g1 y-14
+g1 x-2
+g1 y14
+g1 x-3
+g1 y-14
+g1 x-4
+g1 y14
+g1

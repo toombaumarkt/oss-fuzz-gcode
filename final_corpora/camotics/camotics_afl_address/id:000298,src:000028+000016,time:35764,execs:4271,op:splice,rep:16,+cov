@@ -1,0 +1,21 @@
+M104 S(3 circles with the same de in one st)(1st without tool c compensation)
+
+g21
+g61
+g0 z2
+g seen in direction of cuttng,ter mil head)
+
+m3 s14000 y0
+g1 z-1. head)
+
+m3 s14000
+
+g00 f100
+g2 x20 y0 i3 j0
+g;0 z2
+
+(circle 2, one f with g42 and g2 -> right side compensa circle)
+
+c0 x0 y0
+g42
+g0ting, t€ore first positioning in of cicle required, then compensation on, then st side c

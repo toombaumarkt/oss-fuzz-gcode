@@ -1,0 +1,6 @@
+M140 S0 ;Turbed
+
+M84 X Y E ;Disablesteppers but Z
+
+M82 ;absolute extrusion mode
+M104 S0

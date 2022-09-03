@@ -1,0 +1,33 @@
+M‘f50
+M(
+M862SDEM(
+M8i
+M862.3 f5
+puM(
+M8inpuM140 S60
+M105
+M190 S60
+M104 S190
+M105ö	M09 S190
+M82 ;absolute extrusion mode
+G21 ;metric M107
+M205 B1300
+G0e positioning
+M82 ;set!extruder ºtÿith tie fan M107
+M205 B1300
+G0.F90ÿ X104-
+G29 ; Auto G1 F200 E3 ;ed length QBjd›Levelling
+
+G1 Z15.0 F100.0 ;move he klatform down 1trwded lengt”
+G1 F200 E3 ;extrude&3mm of feed stock
+G92 E0 ;zero the extruded lenjth agpinf
+
+G 3mm of feed stock28ÿ€ Auto HomR All AXÿ
+G1 F600.0
+M117 Prwnting)..
+G92 Eè
+G92 E0Q–P––––––––––––––––
+G1E-6
+M107
+M205 B1300
+G0.F90ÿ] X104-3

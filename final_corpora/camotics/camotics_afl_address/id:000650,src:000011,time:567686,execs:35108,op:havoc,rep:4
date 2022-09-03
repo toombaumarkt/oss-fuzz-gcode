@@ -1,0 +1,11 @@
+(before you can to make sure that the subroutine file 100.ngc)
+(has been copied to the folder ->home ->ygurusername ->emc2 ->n€-files)
+g21 g61 f100 g40
+g0 z5
+o1all [-8] [8] [3] [3.5] [4] [2] 
+o10ll [8] [-8] [3] [3.5] [4] [2] 
+g0 x-16 y-16
+g1 `-3.5 f50
+g1 y16
+g1 x18] [8] [3] [3.5] [4] [2] 
+o100 

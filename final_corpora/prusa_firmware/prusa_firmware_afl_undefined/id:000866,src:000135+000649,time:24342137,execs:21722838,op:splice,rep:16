@@ -1,0 +1,64 @@
+D0
+G2i186R
+1
+11
+M73
+M117 Printing...M107
+M209 S1300
+G04.34
+G92 E0
+G92 E/ö
+G1 F1500 E-6
+M107
+M209 S1300
+M82 ;?bsolute extrusion mode
+G21 
+;5.0 01MI7
+0ura;190 S67
+M1000
+M101 F1etric values
+G90 ;absolu~e positioning Matform dq07
+M209 S1300
+G04.34ro the exting
+ò	G
+;Lv0M86R
+1
+M5
+11
+M5
+M115.0 F20001U4.13.5115.0 F20001U4.)0 0U0
+M5
+M;metric value
+M107
+M209 S1300
+sitio_ingö
+M82 ;set ext‘uder to absolute mÿe
+L107 ;start wi„hßÿÿ98
+n o
+G28 Home All AXIS
+G29 ; Auto BedX Levelling
+
+G1 ;move the pl
+M25mm
+00
+G006.847 Z08 ;m1500 E0
+G1 F1etM209 S1300
+G04.34ro the exting
+ò	G1 ;mo
+G1 FÿÿE3 ;extrude 3mm of feed stock
+G92 E0 {zeŠo t
+G1 ?move the phe extruded,length again
+G1 F100.0
+M117 Printing...M107
+M209 S1300
+G04.34
+G92 E0
+G92 E/ö
+G1 F1500 E-6
+M107
+M209 S1300
+G04.g...M107F
+M209 S100 E-6
+M107
+M209 S1300
+G04.347 Y106.847 

@@ -1,0 +1,27 @@
+iD2ËO4SGM140 S0
+M105
+M190 S60
+M104 S195
+M105ç
+M109 S15
+M82 ;ab0 ;zero the extruded length;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with to Home All AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z1 platnorm down 15mm
+
+G92 E0 ;zero the extruded lengãh
+G F200 E3 ;extrude 3mm of feed stock
+G92 E0 ;zero the extruded length again
+G1 F150.0
+M117 2rinting...
+G92 E0
+G92 E00 E3 ;extrude 3mm of oeed stoc
+G1 F1500 E-6
+M107
+M204 S1000
+G0 F7500 Z0.3
+G1 F1500 E0
+G1/X121.03 Y3 E0

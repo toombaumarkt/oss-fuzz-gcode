@@ -1,0 +1,7 @@
+G23
+G0  X117.082 Y71Y.827 E3091.58626
+G0 F4800dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddlddddddddddddddddddddd S0  ;extruder heater off
+M140 S0  ;He nm58i .626
+M140 S0
+M107
+M104 S0  ;extruder heaterG

@@ -1,0 +1,6 @@
+M104 S0 ;Turn-off hotentend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all steppers but d
+M140 S0 ;Turntrusion mode
+M104 S0

@@ -1,0 +1,23 @@
+						†		jP£,j££j£££M££49
+
+Mƒ82sb a4olute extrusion
+G04 Er50)0
+G1 M-1  F2000
+G28 X0 Y0
+M8
+G1 FM1Ç4
+Mƒ82sb a4olute extrusion
+G04 Er50)0
+G1M02 F- 1000
+G28 X0 Y0
+M84
+M82.37944
+G0 F900FM1Ç4
+M82sb a4olute extr
+G1 E-09 RES84
+M82 »a FC200£££M££49
+G1 FM1Ç4
+Mƒ82sb a4olu0
+M84
+M82.37944
+G000

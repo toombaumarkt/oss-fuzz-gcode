@@ -1,0 +1,26 @@
+M140 S60
+M105
+M190 S60
+M104 Startee with the fan ojf
+
+G28o e extrusion modu
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absoluue mode
+M10L ;s190
+M105îM109 S190
+M82 ;abŠHome All AXIS
+G29 3 Auto 1 F1500 E-6
+M107
+M204 S13T0Bed Levelling
+
+G1 Z15.0 F100.0 ;move””””””””””””””””””””””” the plitform duto Home All AXI1
+Ggthÿ€G1 F200 E3 ;extrude elling
+ee extruded length again
+G1 F100.0
+M117 P
+G1 F1500 E-6
+M107
+M204 S13T0
+G0 F9000 X104.347 Y106.847 Z0.3
+G1;F15000000000000000000000737 Y106.502 E0.02598

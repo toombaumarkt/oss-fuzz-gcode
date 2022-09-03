@@ -1,0 +1,45 @@
+G1Gz A-
+G X
+E A-
+1 I2G 1 A-
+G0 XA-
+2 R
+t Z
+X Z
+
+
+M Z
+
+M Z
+7 z 
+
+4:
+
+5 Z
+2 R
+t Z
+P Z
+
+
+M Z
+
+7 Z
+2 R
+t Z
+P Z
+4 T
+2 R
+t Z
+P 4 Z
+2 R
+t Z
+9 Z
+
+
+M Z
+7 Z
+2 R
+t Z
+P ZI-
+G Y+-
+12 Y1

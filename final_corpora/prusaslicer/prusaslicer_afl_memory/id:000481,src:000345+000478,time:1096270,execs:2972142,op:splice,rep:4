@@ -1,0 +1,71 @@
+M.4®3 Y000000KK K3 Y K74.
+G0 X539E
+G0KK K3 Y K74.
+GM.453 Y 74.5+9
+G0 X53.000000G@ A
+G01 X35 XRG01 AN
+G01 X             
+G01 X35 X
+G01 AN
+G01 X                    )1 X
+G01 A
+G01 X22220.
+G01 A
+G01 X35 X
+G01 A)1 XY
+G       A
+G01 Xr222B0.
+G01 A
+G01 X35 X
+G01 AN
+G01 X                    )1 X
+G01 A
+G01 X22220.
+G01 A
+G01 X35 X
+         
+G01 X35 X
+G01 AN
+G0)1 X
+G01 A
+G01 X22220.
+G01 A
+G01 X35 X
+         
+G01 X35 X
+G01 AN
+G01 X                    )1 X
+G01 A
+G01 X22220.
+G01 A
+G01 X35 X
+G01 A)1 XYG       A
+G01 Xr2220.
+G01 A
+G01 X35 X
+G01 AN
+G01 X                    )1 X
+G01 A
+G01 X22221 X                    )1 X
+G01 A
+G01 X22220.
+G01 A
+G01 X35 X
+G01 A)1 XYG       A
+G01 Xr2220.
+G01 A
+GI1 X35 X
+G01 AN
+G01 X                    )1 X
+G01 A
+G01 X2222Ê.
+G01 A
+G01 X35 X
+G01 A)1 XY
+G01 A
+G01 X22220.
+G01 A
+G01 X35 X
+GDisable all steppeG01 A)1 XY
+G01 A
+G01

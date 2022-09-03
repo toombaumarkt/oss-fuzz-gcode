@@ -1,0 +1,21 @@
+g1 zq20.59
+25!f60
+g1 x5.8
+g1 z-20
+g17x3.1
+g1z-1A8 f150
+
+g1 x3 f15
+g1 z-20 f150
+g1 x5
+G18
+g3 x4.7 rJg1 x4
+‰3 z-2B
+g1 x3.5
+g2 x3.5 rrrrrrrrrrrrrrrrrrrrrrrrrrrrr2.5 z-20 f8
+g1 x3
+g3 x3 r2.5 z-25 f5
+g1 x5.5 z f150
+g1 x6 z0
+M0M2
+ 

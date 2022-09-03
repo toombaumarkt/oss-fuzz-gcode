@@ -1,0 +1,38 @@
+iun3D0.2
+7
+0ura;M86R
+15
+M115'0˜01U4.13G1 X113.462 Y110.161 E40.26275
+G1 X113.431 Y110.192 E40.26385
+G1 X113.378 Y110.221 E40.26536
+G0 F6000 X113.326 Y110.229
+G0 X113.271 Y110.221
+G0 X113.229 Y110.199
+G0 X113.196 Y110.167
+G1 F1500 E34.26536
+M140 S0
+M204 S500
+M107
+G91; Set relative positioning mode
+G1 E-5 F600; retract filament slightly
+M140 S0; Turn off the bed heater
+M104 S0; Turn off the nozzle heater
+G28 X; Home the X axis
+G0 Y280 F600; Bring the bed tpŒý	D
+
+D5Ax9!ô
+
+D5Œý	D28 X65Õ
+
+D5Ax9!ô
+
+D5Ax7S6pŒý	d28 X65ô
+
+D5Ax96Ax7S6pŒü	d28 X65ô
+
+D5AxAx96Ax7S6pŒý	d28 o the front for easy print removal
+M84; Turn off the motZ-6.86100
+N160.0040
+N******
+**
+16124 X94.5Jors

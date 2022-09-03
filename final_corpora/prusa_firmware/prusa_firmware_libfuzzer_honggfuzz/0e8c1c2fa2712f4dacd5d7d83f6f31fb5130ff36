@@ -1,0 +1,16 @@
+MS
+M82 ;absolu+te extrusion mode
+G21 ;metric val‹šó ;absolutositioningset extuder to absolute mode
+M107 ;start with the fan off
+
+G; AIuto “ome All AXIS
+G29 ; Aut0[B+edevellingZ0 ;move the bevaform down15m4 E0 ;zero the extruðed lengthth
+;eurTtìxde 3mm ofee!d sto*k
+G9 ;zero the extruded length again
+G1 F150.0
+M117.`
+G92 E0
+G92 E0
+G1 F1500 4 S0
+G~1 F30 Z1.3
+G0 64 Y19.SZ0.3

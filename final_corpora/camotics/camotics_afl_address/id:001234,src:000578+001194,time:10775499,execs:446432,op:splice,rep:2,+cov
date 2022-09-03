@@ -1,0 +1,17 @@
+M[MMML[0OK###aÿo100 sub
+Y  (heirst, then use like so:)
+  (] [y pos] ;safety height] [hole depth] [hole dia3] [tool dia])
+  (tool dia doesnIt have to be specified exactly.)
+#4=_0 - #4]
+#7=[#6 / &]  (#7 is depth per circle = half of tool diaz#3
+(start abov00000000000000å000!0000000e and right so we make a convex corner for entry to the ccw arcs)
+g0 ##v:*-  n[L[IHMm[00- mÛ[mÛ[0- -1 and[- -1 and----#5 / 2]]
+o101 e [#8 GT #4q
+(down toward the specified depth a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]# m[L[0[L[0ne[0ne2]] z#8
+#8=[#8 - #7]
+o10le
+(down to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(full zircle at the actual depth)
+g3 x#1

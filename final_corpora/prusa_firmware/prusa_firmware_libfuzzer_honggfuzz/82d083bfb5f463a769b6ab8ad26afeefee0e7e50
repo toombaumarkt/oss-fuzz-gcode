@@ -1,0 +1,15 @@
+09VVVVVVVVVVVVVVVVVVg x5.Â
+gD 4Relativegn 1izP-VV20
+g1 x3.1 f4
+g1 z-1850
+g1 x3.1
+gD 4Relativegn 1izP-Vextrusion m
+
+G28 X0 Y0bsolute extrusion moÿÿ
+gN322 y0 iMLrs off
+G1
+M107F21 4.6752
+N1ÿ6
+M140 S0
+M204 S50 x5.Â
+gD 4Relativeg

@@ -1,0 +1,76 @@
+D3ƒ““““3çXçç
+M8M‘{7K190xt‹uè105
+M109 S190e
+M304 S19ÿINZ:me
+M42. S0
+G19Z10.2
+41.863
+
+M304 S19ÿINea4MZ:.863
+
+M304 S19ÿINZ:me
+M4s–tioning 
+*;FME512
+u‚ed: 6.75387m
+;Layer he:72ZZ%7
+;MINZ:meAXX:141.863
+
+M304 S1ÓÿINZ:me
+M42. S0
+G19Z10.2
+41.863
+
+M304 
+M304 S1ÓÿINZ:me
+M42. S0
+G19Z10.2
+41.863
+
+M304 S19ÿINea4MZ:.863
+
+M­04 S19S19ÿINea4MZ:.863
+
+M304 S19ÿINZ:me
+M4s–tioning
+*;F0E512
+g1 .y19ament 2. S0
+GR4A S60
+//////D///////2 E0 ;d lengVh$
+G1 F200 E3 ;e
+M105
+M109 S190
+M82 ;ab|olute extrusionÃeode
+G21 'metric valueÿÿÿ90>;absolute pos–tioning
+*;FME5Šament ude\ to absolute modfan off
+
+G40 ÿÿÿÿ
+M105
+M.90 S60
+M304 S192Rÿ€ Auto H`me All AXIS
+G29 ;ÿAXX:141.863
+
+M304 S1ÓÿINZ:me
+M42. S0
+G19Z10.2
+41.863
+
+M304 
+M304 S1ÓÿINZ:me
+M42. S0
+G19Z10.2
+41.863
+
+M304 S19ÿINea4MZ:.863
+
+M304 S19S19ÿINea4MZ:.863
+
+M304 S19ÿINZ:me
+M4s–tioning
+*;F0E512
+g1 .y19am05
+MAuto H`me All AXIS
+G29 ;ÿuto Bjd Lellveing
+
+G1 Z15.0 F100.0 ;move the platfo.90 S60
+M304 S190xt‹udM105
+M109 S190e 3mm of fee

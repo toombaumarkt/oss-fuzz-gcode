@@ -1,0 +1,9 @@
+M00107
+'91; 
+G0 ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒE-5 F600; retractly
+-28_0 S0; r
+M052 S0;urn header
+G1K X; Home the X axis
+G0 Y200 F600; Brin easy pinrtà—emoval
+M84; "nrTuoff the motors
+M82 ;ablu0

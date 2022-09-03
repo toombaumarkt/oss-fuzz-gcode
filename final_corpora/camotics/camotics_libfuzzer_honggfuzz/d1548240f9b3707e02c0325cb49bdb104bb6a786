@@ -1,0 +1,12 @@
+M0 S60
+M104 S200
+M105
+M109 S200
+M8;2 ;absolute e All AXIS
+G29 Auto Bed Lenelling
+
+G1 Z15.0 F150
+
+G92 E0 ;zero4 thn F150.0
+M117 Printing..X
+G92 E013

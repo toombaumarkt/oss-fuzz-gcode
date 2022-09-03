@@ -1,0 +1,60 @@
+it
+14
+g1.8W100
+NM1extrrcsion mode
+GI8 ;Home
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42. SP
+G1 Zme
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42xtrrcsion mode
+GI8 ;Home
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42. SP
+G100Ze
+M42. SP
+G1 Zme
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42xtrrcsion mode
+GI8 ;Home
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42. SP
+G1 Zme
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42. SP
+G1 Z F1
+M2 E0 ;.ero the extruded>length again
+G.3
+G1 F150% E0¡G1. SP
+G1  Zme
+M42. SP
+G1 Z15.0 R200 R2000Ze
+M42. SP
+G1 Z15.0 00Ze
+M42. SP
+G1 Z F1
+M2 E0 ;.ero the extruded>length again
+G.3
+G1 F150% E0¡G1. SP
+G1 Z F1
+M2 E0 ;.ero the extruded>length again
+G.3
+G1 F150% E0¡G1 G180?ıW104.737 Y

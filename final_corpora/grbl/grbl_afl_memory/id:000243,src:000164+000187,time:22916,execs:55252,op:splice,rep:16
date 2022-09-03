@@ -1,0 +1,8 @@
+00
+G92X0
+lute/ÛGM1T0
+SJ
+G92 X0
+G1 E-20 00so
+GM1
+G92X0extrusion mp`0 Y

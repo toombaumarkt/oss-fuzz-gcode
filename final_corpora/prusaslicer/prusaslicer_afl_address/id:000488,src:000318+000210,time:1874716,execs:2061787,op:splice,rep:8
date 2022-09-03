@@ -1,0 +1,11 @@
+G1+ FR8M104 4 X Y E ;@isable all steppers;Turn-off bed
+
+M8@isable all steppers;Turn-off bed
+
+M84 X Y E ;Disable all ers;Turn-off bet
+
+M84 X Y E ;Diarusion mode
+4 X Y E <Disable all4 X Y E ;Disable all ers;Turn-off bet
+
+M84 X Y E ;Diarusion mode
+4 X Y E <Disable all steppsteppers but 4 X Y E ;Disable a extbM1

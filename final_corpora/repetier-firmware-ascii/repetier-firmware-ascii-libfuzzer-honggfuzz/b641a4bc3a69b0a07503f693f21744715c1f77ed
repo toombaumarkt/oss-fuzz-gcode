@@ -1,0 +1,5 @@
+(Schaummaterial ca. 24x24mm Länge 50mm, Nullpunkt: Drehachse Werkstück mitte, Werkzeug 0,6mm Fräser, maximale Vorschubübertacktung)
+(Foam material ~24x24mm lengoint on turning axis - material middle, tool 1.6 mm milling pit, maximal feedratA-3240.000
+G01 A-3600.000
+G01 X-7.50000
+G

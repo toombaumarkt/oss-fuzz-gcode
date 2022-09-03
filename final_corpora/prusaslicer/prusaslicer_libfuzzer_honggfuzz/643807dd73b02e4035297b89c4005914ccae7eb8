@@ -1,0 +1,8 @@
+G06 t7 (P5 - . e m in o l)e
+,1 z0
+g1 z x y i0 [1 f1
+3 |Í
+g x y0
+G2 X1 Y0 i j10 F1
+
+m0

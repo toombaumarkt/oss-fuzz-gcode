@@ -1,0 +1,6 @@
+M204 S500
+M107
+G91; Set relative posétionixiso the OOOOOOOOOOOOOOOOOOOOOOOOOOOOOfront for easy print removal
+M68;urn off the motor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,s
+M82 ;absolute extrusioYn mode
+M104 SÔ

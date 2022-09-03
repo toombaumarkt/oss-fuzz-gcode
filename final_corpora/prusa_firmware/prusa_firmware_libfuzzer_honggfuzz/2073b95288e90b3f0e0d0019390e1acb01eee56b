@@ -1,0 +1,74 @@
+M840 ;steppersÿÿs 
+f
+G17
+M602rš off4
+M82 ;a
+M(216
+116
+A250M602rs off04ÿÿ17
+M602f
+1G16-
+M602rs 
+f
+G17
+M602f
+G116
+M602rs M
+116
+M602rs off04ÿÿ17
+M602f
+1G16-
+M602rs 
+f
+G17
+M602C5
+MpG0
+M84
+M82 ;a
+M(216
+M602rs of
+Mers ?ff
+G117
+M602f
+G116
+M602•s o
+f
+G116
+M602rrs of
+Mers ?ff
+G117
+M602f
+G116
+M602S0
+
+M302f
+Mers ?ff
+G117
+M602f
+G116
+M602•sÿ0ÿÿÿÿf3
+G116
+M602rs off04ÿÿ17
+M602f
+1G16-
+M602rs 
+f
+G17
+M602rš off
+G1C5140 S0
+M602rs of
+Mers ?ff
+G117
+M602f
+G116
+M602•sÿ0ÿÿÿÿff
+G116
+M602rFs off04ÿÿ17
+M602f
+1GM602f
+G116
+M602•s o
+f
+G116
+M602alphars M140 S0
+840

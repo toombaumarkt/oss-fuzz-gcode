@@ -1,0 +1,15 @@
+iu
+14
+g
+N164#
+N*;Fament used: 6.75387m
+;Layer 0.2
+MIN
+;MINY:72.957ÿÿNZ:0.2
+;MAXX:141.863
+;MmEngine 4.13.1
+M5
+M115.0 F20001U. S60
+M5
+M190 S60
+M10e 

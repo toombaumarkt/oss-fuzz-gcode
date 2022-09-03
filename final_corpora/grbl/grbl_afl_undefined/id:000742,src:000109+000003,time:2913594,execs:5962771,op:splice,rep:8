@@ -1,0 +1,57 @@
+
+G38.;FLlin
+;TIME:9164
+;Filament used: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;MINY used: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;llllllllllllllllMAXY:147.042
+;MAXZ:36.2
+;Generated with Cura
+;Filament used: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;ode
+G28 ;Home
+M420 S0
+G1 Z15.0 F263
+;MAXY:14_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M00000000000000000000000000000000000000000000000000000G28 ;Home
+M420?S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+01 F1800 E-6
+;LAYÎR_COUNT::72.957
+;MINZ:0.2
+;MAXX:141.863
+;llllllllllllllllllllllllllllllllllllllllllllllllMAXY:147.042
+;MAXZ:36.2
+;Generated with Cura
+;Filament used: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;ode
+G28 ;Home
+M420 S0
+G1 Z15.0 F263
+;MAXY:14_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M00000000000000000000000000000000000000000000000000000G28 ;Home
+M420?S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+01 F1800 E-6
+;LAYÎR_COUNT:181
+;LAYER:0

@@ -1,0 +1,12 @@
+(befèu can to make sure that the subroutine file 100.ngc)
+(has been copied to the folder -
+o1all [-8] [8] [3] [3.5] [4] [2] 
+c-files)
+g21 g61 f100 g40
+g0 4] [2] 
+g0 x-16 y-16
+g1 z-3.5 f50ÿ4,F<
+Mÿ4,F#<3E%-16
+g1 x-16
+g0 z5
+m02

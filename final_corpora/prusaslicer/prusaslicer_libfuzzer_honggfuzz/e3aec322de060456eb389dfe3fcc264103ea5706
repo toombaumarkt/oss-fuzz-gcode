@@ -1,0 +1,5 @@
+M140 S60
+M19 S0600
+ UiGl Aclÿþ UiGl AXIS
+G2< Auto Bed Levelßlin
+#5.0 F150.0

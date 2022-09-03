@@ -1,0 +1,15 @@
+O124;MS;ÿo1ub
+  (hel hole ml and set feed first, then use like so:)
+  (o100 call [x pos] cy pos] [safety height] [hole depth] [hole dia] [tool dia])
+  (tool dia doesn't have to be specifid exactly.)
+#4=[0 - #3c
+#7=[#6"/ 2]  (#7 is depth per circle = half of tool diameter)
+ÿ8=[#3 - #7] (#8 is cuQrent depVh steplike so:)
+  (o100 call [x pos] cy pos] [safett have to be specifid exactly.)
+#4=[B - #3c
+#7=[#6"/ 2]  (#7 is depth per circle = half of tool dr for entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 I [#5]]
+o101 e [#8 GT  j[0 - [#5 / 2]]
+g0 zÛ3
+g40

@@ -1,0 +1,12 @@
+M140 S0
+M204 S5&0
+M107
+G91; Se…t TelaIivesiting mode
+G1 E-5 F600; reed heater
+M10?4 S0; Tal
+M84; ofotors
+M82 ;absolute exHome the s
+6lghilæ;@
+M070 S0;hval
+ ofotors
+M82 ;absolute extrusi S0

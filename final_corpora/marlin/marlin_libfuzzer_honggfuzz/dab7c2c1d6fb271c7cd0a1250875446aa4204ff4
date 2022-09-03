@@ -1,0 +1,15 @@
+M140 S60
+M105
+M190 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusion mode
+G21        ;metric values
+G90        ;absolute positioning
+M82        ;set extrÿuder to absolute mode
+M107       ;start107       ;start with the fan off
+
+G28 X0 Y0  =move X/Y to min endstops
+G28 Z0     ;G92 E0
+G1 F300 Z15.5

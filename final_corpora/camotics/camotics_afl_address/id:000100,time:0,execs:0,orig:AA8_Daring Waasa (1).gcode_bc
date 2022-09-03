@@ -1,0 +1,15 @@
+G0 F6000 X106 Y107.926
+G1 F600 X107.418 Y107.824 E2
+G1 F1500 E16.59
+M140 S0
+M204 S500
+M107
+G91; relative positioning mode
+G1 E-5 F600; retract filament slightly
+M140 S0; Turn off the bed heater
+M104 S0; Tuff the nozzle heater
+G28 X;
+G0 Y280 F600; nt for easy print removal
+M84; ors
+M82 ;absolute extrusion mode
+M104 S0

@@ -1,0 +1,7 @@
+M140 S0
+G92 E0
+G1 E-10 F2000
+G28 X0 Y0
+M84
+M82 ;abse extrusion mode
+M104 S0

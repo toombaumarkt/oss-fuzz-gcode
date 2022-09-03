@@ -1,0 +1,19 @@
+M84! ;steppers oÿÿÿÿÿÿFAN8ממממממממממממBממממממM40 S1y0 0Ji0%
+
+g1 95
+M115.0ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿMMU6REÿ x-2ÿÿÿÿÿÿÿÿÿ1 nƒ‹e Te˜x92 E0
+G2 E-10 F2000
+G2nnn410L0y
+0ÿÿSgM1(ÿ1 95
+M115.0ÿÿÿÿÿÿÿÿÿÿÿÿÿÿMMU6REÿ xÿÿ2 nƒ‹e e˜x900
+G2nnn410L0y
+0ÿÿSgM(1ÿÿÿÿÿÿÿ¢ÿÿÿÿÿÿ(((((((0g5 x-21 y
+y0 
+-RESET i
+g0f5 y0 
+#-RESET i
+g0f5 y0 0 i0%
+
+g1ET i5x-20 y0 
+-RESET i
+g0f5 yממ

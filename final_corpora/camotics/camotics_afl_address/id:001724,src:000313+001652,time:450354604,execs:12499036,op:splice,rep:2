@@ -1,0 +1,17 @@
+M50#OmK###aÿo1ub
+  (hel set feed first,  (o100 call [x M2m-/-- convex corner for entry to the ccw arcs)
+g1 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5]]
+o101 e [#8 GT #4]
+(down toward the specified depth a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1 y[#2 * [#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1 y[#2 * [#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+g[#2 * [#5 / 2]] i0 j[0 * [#5 / 2]]
+g0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1 y[#2 * [#5 / 2]] i0 j[0 -g[#2 * [#5 / 2]] i0 j[0 * [#5 / 2]]
+g0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1 y[#2 * [#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+g[#2 * [#5 / 2]] i0 j[0 * [#5 / 2]]
+g00 j[0 * [#5 / 2]

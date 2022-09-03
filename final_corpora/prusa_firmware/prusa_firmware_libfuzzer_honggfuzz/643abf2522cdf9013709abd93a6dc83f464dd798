@@ -1,0 +1,28 @@
+g0 x-25 yg0 x-25 y0
+g40
+
+g25
+g0๕g11 z-หั6 f5PRUSA0USAx-2x6Langy0 i7 j020ุg125
+g0๕g11 zÜหั6 f5PRUSA0USAx-2x&Langy0 i7 j0 f10SET i3 i3 r40
+25
+g0๕g11 z-หั6 f5PRUSA01USAx-2x6Langy0 i7 j0 f10ุ
+g0๕g11 z-หั6 f5PRUSALangx6Langy0 i7 j0 f10ุ
+g0๕g11 z-หั6 f5PRUSA0USAx-2x6Langy0 i7 j0 f
+M299
+M14ÿÿÿÿTÿÿÿÿÿÿÿ-หั6 f5PRUSA01USAx-2x6Langy0 i7 j0 f10ุ
+g0๕g11 z-หั6 f5PRUSA0USAx-2x6Langx6Langy0 i7 j0 f10ุ
+g0๕g11 z-หั6 f5PRUSA0USAx-2x6Langy0 i7 j0 f
+M299
+M14ÿÿÿÿTÿÿÿÿÿÿÿÿÿÿÿÿÿÿ11 z-หั6 f5PRUSA0USAx-2x6Langy0 i7 j020ุg125
+g0๕g11 zÜหั6 f5PRUSA0USAx-2x6Langy0 i7 j0 f10SET i3 i3 r40
+25
+g0๕g11 z-หั6 f5PRUSA01USAx-2x6Langy0 i7 j0 f10ุ
+g0๕g11 z-หั6 f5PRUSA0USAx-2x6Langy0 i7 j0 f
+M29ÿÿÿÿÿÿÿ50 z-หั6 f5PRUSA0USAx-2x6Langy0 i7 j020ุg125
+g0๕g11 zÜหั6 f5PRUSA0USAx-2x6Langy0 i7 j0 f10SET i3 i3 r40
+25
+g0๕g11 z-หั6 f5PRUSA01USAx-2x6Langy0 i7 0 f10ุ
+g0๕g11 z-หั6 f5PRUSA0USAx-2x6Langy0 i7 j0 f
+M299
+M14ÿÿÿÿTÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0 S0
+MPPPP107P

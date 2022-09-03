@@ -1,0 +1,26 @@
+npY1
+/d-D1G114U M;
+
+M140 S0
+0RM84  ;steppers of S60
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿúrrÿÿÿ7¶hp
+M84
+M84:xxzxx8 Z
+ÿÿÿm
+4 S50007M301 YF45npY1
+/@-D1G114U M;
+
+M140 S0
+0RM84  ;steppers of S60
+ÿÿÿÿÿÿÿÿM84:xxzxx8 Z
+ÿÿÿm
+G1M21SAx-20 {0  j0 f10Ø  S500
+M107F2100 8Ÿ0 04 S50007M3H1 YF45lt7ueextrus9 Y7¶hp
+M84
+M84:xxzxx8 Z
+ÿÿÿm
+G1 F30€ M600
+M11? 
+G11ÿÿÿÿÿÿÿ
+M84
+M84:xxzxx87Z

@@ -1,0 +1,34 @@
+G00 Z2
+F180.0
+G01 X160.875 Y100.342
+G10 X1
+G01 X160.875 Y100.- Y0
+M86e0 S02seÿÿÿÿÿÿÿr66rnersnnÏõgSM28nnnnY0
+M86e0 S0C2—šÉhalb __ x-Nullpunkt a6halb __ x e˜ˆÆÍÖE0
+G2-$Y0	
+M86:e0 S02&02 E- Y0
+M86e0 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿËÿÿÿÿS0C2seC6hnkt am bBLõg11A250: ÿÿ˜R5Pÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿˆ
+F˜ˆÆÍÖE;
+G2 E- Y0
+M86e0 S02ser66rnersnnÏõgSM28nnnnnn’|t  e;ˆÆÍÖE0
+G2- Y0	
+M86e0 S020.342
+G01 X1
+G01 X160.87.342
+G01 X1
+G01 X160.875 Y100.- Y0
+M86e0 S02Y0
+M86e0 S0C2ser6tÖE0
+G2 E- Y0 x-Nullpunkt a6halb __ x e˜ˆÆÍÖE0
+G2-$Y0	
+M86:e0 S02&02 E- Y0
+M86e0 ÿÿÿnersnnÏõgSM28nnnnnn’|t  e˜ˆÆÍÖE0
+G2- Y0	
+M86e0 S020.342
+G01 X1
+G01 X160.875 Y100.- Y0
+M86e0 S02Y0
+M86e0 S0C2ser6tÖE0
+G2 E- Y0
+M86e0 S0&02 E- Y0
+M86e0 S0C2ser6t uvloa 28 

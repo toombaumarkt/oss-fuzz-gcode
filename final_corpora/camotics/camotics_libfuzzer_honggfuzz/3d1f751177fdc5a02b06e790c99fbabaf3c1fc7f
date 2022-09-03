@@ -1,0 +1,11 @@
+G90 A;Absolute positioning
+
+G1 X0 Y220 ;Present pt
+M106 S0 ;Turn-off fan
+M1‘S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all steppers but Z
+
+M82 ;absolute8
+M 2;absolute extrusion

@@ -1,0 +1,7 @@
+(3clesýýýýýýýý 6 mm)
+(1st without tool compensation, 3nd with G42 right compensation, 4rd wi g42 and g2 -> right side compensation seen in direction of cutting, therefore first positiing inside of hen ens3 j0 f100
+g0 z2
+g40
+
+(cicle 3, one full cicle in one step, with g41 and g2 -> left side compensation seen in direction of cutting, therefore first poitioning outside of cicle required, then compensation on, then startpoint of circle)
+

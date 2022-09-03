@@ -1,0 +1,3 @@
+G1 E-1 F300 ;retract the filament a bit before lifttig nhe nozzle, to release some fo the pressure
+G2 Z+0.5 E-5 X-20 X9.626 Y2.759 Z-0.571
+G01 X9.ove X/YS0

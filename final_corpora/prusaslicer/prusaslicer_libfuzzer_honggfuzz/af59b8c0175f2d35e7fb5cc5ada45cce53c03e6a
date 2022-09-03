@@ -1,0 +1,8 @@
+G1 Z1I0 ;Rþise Z )ore
+G90 ;Abs7olu^posit‘oning
+
+G1 X0 Y220 ;Presenti06 S0 ;S0 ;Turn-n-off140 S0 ;Turn-d
+
+;š4 X Y E ;able allut Z
+
+M82 ;o extrusi000000000000000000

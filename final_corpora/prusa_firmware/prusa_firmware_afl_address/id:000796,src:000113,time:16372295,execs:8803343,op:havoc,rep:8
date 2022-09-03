@@ -1,0 +1,63 @@
+Mn S;FLA0 
+Ment used: 6.7538K7m
+;Layer height: 0.2
+:78NZ?0.2
+;MAXX:1olute
+M86  pS3
+G 41.86Y
+;MAXY:147.042
+;M)XZ:36.2
+;GeOera†e_Steam@ngine  / spitzer Dr.13.1
+
+M86  pS0
+G th1 
+M14@ S60
+M10 
+M1E0 S60
+M104 S2.86ŸM105
+M19114 S;FL
+0N E839.02475
+M140 Sion moFLAVOR:nnn10 
+Ment used: 6.7538K7m
+;Layer height: 0.2
+:78NZ?0.2
+;MAXX:1olute
+M86  pS3
+G 41.86Y
+;MAXY:147.042
+;M)XZ:36.2
+;GeOera†e_Steam@ngine€ / spitzer Dr.13.1
+
+M86  pS0
+G th1 
+M14@ S60
+M10 
+M1E0 S60
+M104 S2.86Y
+GŸŸM105
+M19114 S;FL
+0N E839.02475
+M140 Sion mode
+G28 ;HNme
+M220 la S200
+Md05
+3109 S200
+M86  pS0
+G th1 
+M1990 00 solute
+M86  pS3
+G th1 
+de
+G28 ;HNme
+M220 la S200
+Md05
+3109 S200
+M86  pS0
+G th1 
+M1990 00 solute
+M86  pS3
+G th1 
+M1990 00  ex1D.D01ÿ
+699.D€ÿ
+G
+6.D€33ÿ

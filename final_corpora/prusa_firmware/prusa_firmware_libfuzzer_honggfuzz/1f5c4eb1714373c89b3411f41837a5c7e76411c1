@@ -1,0 +1,28 @@
+M84 40 M0e
+Srs
+M602rs off
+G1 E2304.
+M7
+M602r ff
+GM104ÿÿÿÿff
+G717
+M602rs off
+G1+5
+MôpG0YF21YF140 M0e
+Srs
+M602rs off
+G1+5
+MôpG0YF2100 E2304.
+M7
+M602rs offFAN
+G1 E-1F020 ;adÿ
+Mÿÿÿÿÿÿ
+M602
+M602rs ff
+G1 YF2100E 32.043264s offFAN
+G1 E-1F020 ;abextrusioo modÿ
+Mÿÿÿÿÿÿ
+M602rs off
+G1CM602rs off
+G1+5
+MôpG0YF21YF140 M

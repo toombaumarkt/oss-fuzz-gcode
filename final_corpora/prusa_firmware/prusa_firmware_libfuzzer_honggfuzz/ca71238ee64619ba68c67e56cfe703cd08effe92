@@ -1,0 +1,10 @@
+G mo¨de
+M207 S mode
+M207 S0 Z mode
+M207 S0ÿ342
+G0ÿ³42
+G01 F300Ð3RES8
+G01 X16001 3E8.ù27Ø38
+ mode
+M z1.3
+1500 EY5.0950 F

@@ -1,0 +1,18 @@
+O124;MS;ÿo1ub
+  (hele ml ccw acs)
+q0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g0 x#1 y[#2 I [#5]]
+o101 e [#8 GT  j[0 - [#5 / 2]]
+g0 zÛ3
+g40 [tool dia])
+  (tool dia doesn't h+A0LÿO tool diameter)
+ÿ8=[#3 - #7] (#8 is cuQrent depVh steplike he ccw acs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 I [#5]]
+o101 e [#8 GT  j[0 - [#5 / 2]]
+g0 zÛ[2] [#6"/ 2]  (#7 is depth úÂÜÜÜÜÜÜÜÜÜ= hccw acs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 I [#5]]
+o101 e [#8 GT  j[0 - [#5 / 2]]
+g0 zÛ3
+g40

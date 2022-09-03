@@ -1,0 +1,74 @@
+Smode
+~M0,7п38
+ e
+M207 S0 X1 m160RES
+M207 S00Rod7 S0 X138
+ mode
+M207 S00RESm,de
+M207
+M207 S0 R0RES8
+G01*X160RESmode
+M207 S017i.Ы54░3
+
+
+
+
+
+
+
+
+
+
+
+
+
+M207 S0 X1 m160RESmode
+M207 S0 X1 mo
+M207 S0e
+M20mode
+M207 S017p.Ы27п38
+ mode
+M207 S0 X138
+ m{ode
+M207 S00Rod7 S0 X138
+ mode0RESm,d mode
+M207 S0 X1 m160RES.Ы54░3
+
+
+
+
+
+
+
+
+
+
+
+
+
+M207 S0 X1 m160RESmode
+M207 S0 X1 mo
+M207 S0e
+M20mode
+M207 S017p.Ы27п38
+ mode
+M207 S0 X138
+ m{ode
+M207 S00Rod7 S0 X138
+ mode0RESm,d mode
+M207 S0 X1 m160RESmode
+M207 S017p.Ы27п38
+ modeM20mode
+M207 S017p.Ы27п38
+ mode
+M207 S0 X138
+ m{ode
+M207 S00Rod7 S0 X138
+ mode0RESm,de
+M207 S017i.Ы54п38
+ modeЯ╡мо7 S0G01 X460RESmode
+M"07 S0178
+ mode
+M207 60RESmode
+M207 S017.Ы272.46
+D4

@@ -1,0 +1,21 @@
+g1z-25
+g1 x3. f15
+g1 y5 z-60 f1
+g1 x31 z-2 f60
+g1x5.
+8g1 z28
+g1x3.1 f5
+g1 z-18f1
+g1 x3f15
+g1 z-2 f150
+g1 x5G18
+g3 x5 r-2.5z2 f1
+g1 x4.5
+x45r2z0
+g1x4
+g3 x4 r.5 z-25
+g1x3.6g2 x3. r25 f8
+g1 x3
+g3x3 r1.5 z5f5
+g1 x5.0f02
+

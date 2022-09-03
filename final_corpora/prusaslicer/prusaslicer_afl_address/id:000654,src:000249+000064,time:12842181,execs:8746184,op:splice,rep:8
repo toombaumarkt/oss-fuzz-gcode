@@ -1,0 +1,49 @@
+G1+0.2 F2400 ;Retracise Z
+G1 X5 Y5 F30%0 ;Wipe out
+G1 Z10 ;RaiAbsolute positioning
+
+G1 X0
+G1 X5 Y5 F30%0 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y221 X5 Y5 F30%0 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0
+G1 X5 Y5 F30%0 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Present print
+M10Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Present print
+M106 S0 0 ;Present printt Z
+
+M82 ;absolutout
+G1 Z10 ;Raise Z more
+G90 ;Absolute posGtioning
+
+G1 X0 Y220 ;Present print
+M106 S0 0 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disa bu” Z
+
+M82 ;absolutout
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disa but Z
+
+M82 ;absolute ext

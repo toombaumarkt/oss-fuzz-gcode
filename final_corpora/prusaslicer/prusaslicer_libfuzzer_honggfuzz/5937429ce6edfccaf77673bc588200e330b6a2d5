@@ -1,0 +1,5 @@
+G1 F1500 E1302.9888
+M140 S0he pressure
+G1 Z+0.5 E-5 X-20 Y-20 F120.0 ;move Z up a bit and retract filament even more
+G28 X0 Y0    ;move X/Y to min endstops, so the head is out of tode
+M104 S0

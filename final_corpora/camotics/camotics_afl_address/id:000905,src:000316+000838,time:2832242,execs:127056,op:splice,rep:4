@@ -1,0 +1,22 @@
+O124M#K###aÿo100 sub
+  (cal feed first, thenÿÿ like so:)
+  (o100 call [x pia] [tool dia])
+  (tool diatly.)
+#4=_#1 y[#2 + [#5 / 2]d exa.)
+#4=_0 - #4]
+#7=[#6 / &]  (#7 i} depth per circle = ha‚f of tool diameter)
+#8=[#3 - #7] z#3
+((start above and right so we make a convex cor]] z#8
+#8=[#l diatly.)
+#4=r for entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2N]
+o1d1le [#8 GT #4]
+(down toward the specified depth a bit  exactly.)
+#4=_#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101e
+(down to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(full circle at the actual depth)
+g3 x#1 y[#2/ 2]] i/ 2]

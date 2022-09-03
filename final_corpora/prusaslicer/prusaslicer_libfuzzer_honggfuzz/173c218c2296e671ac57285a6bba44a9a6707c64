@@ -1,0 +1,23 @@
+
+G0 bs .;Raise re
+G9.  Z more
+G90n YM2.43
+
+G9. =;sio.677n mod’Œe
+G90 ;Abs
+G90 ;Abs Z10 ;Raise Zore
+G90 ;Absr
+G90;Raise Zgmore
+G90 n;Ab‰ YM2.
+
+G9. =;sio.690 ;Abs Z10`;Raise Z more
+G90 ÿÿGsio.677n modeM
+ß’Œe
+G90 ;Abs
+G90 ;Abs Z10 ;Raise Zore
+G90 ;Absre
+G90;Raise Zgmor
+G90 n;Ab‰ YM2.
+
+G9. ;R1Z10 ;R
+G9

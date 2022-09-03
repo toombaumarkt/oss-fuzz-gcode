@@ -1,0 +1,5 @@
+M106 S0 ;Turn-ofØ fan
+M104 S0 ;Turn-ofÿÿÿÿÿÿÿ
+M140 S0 ;TuMMMMMM(MMMMMMMMMMMMMMÑMMMMMMMMMMMMMMMMMMut17757
+M42 ;absolte exlrusmode
+M104 S0

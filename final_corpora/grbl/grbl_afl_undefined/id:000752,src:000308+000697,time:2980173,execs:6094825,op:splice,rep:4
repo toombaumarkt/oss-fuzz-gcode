@@ -1,0 +1,37 @@
+g2ÿ y2go0y
+G28.1F G28 .1T
+ggo0y
+G28.12 fF
+G28 .1T
+ggcgo .1T
+ggo0y
+G28.12 fF
+G28 .1T
+ggcgo0y
+G28.1B F
+G28 cgo
+G28.12 0y
+G28.1B fF
+G280y
+G28.1B F
+G28 cgo
+G28.12 08.12 fF G28 .1T
+ggo0y
+G28.12 fF
+G28 .1T
+ggcgo .1T
+ggo0y
+G28.12 fF
+G28 .1T
+ggcgo0y
+G28.1B F
+G28 cgo
+G28.12 0y
+G28.1B fF
+G280y
+G28.1B F
+G28 cgo
+G28.12 0y
+G28.1B fFy
+G28.1B fF
+G2

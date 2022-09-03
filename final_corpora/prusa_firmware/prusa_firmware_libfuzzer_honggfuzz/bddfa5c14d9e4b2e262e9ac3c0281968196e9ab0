@@ -1,0 +1,74 @@
+g0 x-2500
+. 25
+M200 ZthXX
+
+M10M1105
+M10
+iM200 Z1“šveu)tolev]U
+el
+`ÄM
+M
+g1õRg0 UAS#0 Zth1“šveu25
+M200 Zthx05
+M10xX
+
+M10M1105
+M10
+M200 Z1“šveu)tolev
+`ÄM
+M
+g1õRg0 UAS#0-2500
+. 25
+M200 Zth1xóõõ×MM1105
+M10
+M200 Z1“šveu25
+M200 Zthx05
+M10
+M200 Z1“šveu)tolev]U
+el
+`ÄM
+M
+g1õRg0 UAS#0ë0Z1
+`ÄM
+M
+g1õRg0 UAS#0-2050
+. 25
+M200 Zthx
+
+M10M1105
+M10
+M200 Z1“šveu25
+M200 Zt5
+M10
+M200 Z1“šveu)tolev]Uel
+`ÄM
+M
+g0õRgU0 AS#0ë01f5125
+`ÄM
+M
+g1õRg0 UAS#0ë0Z0“šveu)tolev]U
+el
+`ÄM
+M
+g1õRg0 UAS#0-200
+. 25
+M200 Zthx
+
+M10M1110
+M200Z1“šveu)tolev]U
+el
+`ÄM
+M
+g2õRg0 0
+g41
+g y0
+0
+g0 z5
+gUAS40
+#0x
+
+M10M11050 x0 y0
+
+m0
+M10
+M200 

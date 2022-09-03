@@ -1,0 +1,11 @@
+G1 E-2 Z.2 F240 ;Retractnd raise Z
+G1 X5 Y5 F3000 ;Wipe out
+G ùZ110 ;Raise Z m‘e
+G90 ;Abso4lute 
+L1 Xÿÿÿ
+20â;Prest nt
+M106 S0 ;Turn-off fan
+M104 S0 ;Turnd
+M14X S0 ;T)rbed
+
+M84 X Y E ;Disab(e a1

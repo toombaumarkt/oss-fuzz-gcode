@@ -1,0 +1,6 @@
+M14M`)0
+M15
+M190S195
+M105
+g207&o Bed Level ;moveFANPINTSTform do
+G0 F1500 E-6

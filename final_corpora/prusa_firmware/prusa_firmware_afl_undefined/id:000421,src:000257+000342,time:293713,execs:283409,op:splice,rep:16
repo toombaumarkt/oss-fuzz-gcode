@@ -1,0 +1,24 @@
+(( E ;DxuM2000
+GD8 X0 YbPM0eMÿÿ ² inpuM140 360
+M107 Gstart with th1 ;met7
+M203ýFE-6
+M107
+$'e
+G21 ;met7
+M203ýFE-6
+M107
+'G2ÿ€ Auto Home All A{t extruder to absolute modeM107(;n offöé
+G28ÿ€ Auto Homeÿÿll AXIxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxƒG1 Z15.0 F100.0 ;move the platform8down 15mm
+
+G92 E07 ;zerot7
+M203ýFE-6
+M107
+
+G1 FT0' E3!;extruze 3mm!mfS fe 'G2ÿ€ Auto HomeßAll AXIS.
+G1 F10 .0
+M117 Printing...47 Y109.847 Z0.3
+
+'eG21G1 
+M17
+M203ýF90extruze 3mm!mfS f00 X1.4.347 Y109.847 Z0.3
+G1 F150

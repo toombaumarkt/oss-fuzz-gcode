@@ -1,0 +1,17 @@
+ %
+Mÿ4,^#<3TG0 8.129
+G99 q118.
+G1 F2100 E177.6
+M140 S0
+M204 S500
+M1G91;atite positioning`Nmode
+G1 E-5 F600;lam,
+Mhtly,
+M140 S0; Turn off the bed heater
+M104,F#<3TG0 8.129
+zer
+G28 X; Hos
+G0 Y280 F600; Brifor easy print rempval
+M84;n
+ohe mo
+M82 ;

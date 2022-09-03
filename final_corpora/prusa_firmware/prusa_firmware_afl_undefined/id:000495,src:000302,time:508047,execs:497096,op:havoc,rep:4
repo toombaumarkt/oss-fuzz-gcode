@@ -1,0 +1,30 @@
+M140 S60
+M10;
+M190 S60!
+M104 @190
+M105
+M109 Y190
+M82 ;absolute ;metricºvalues
+G90 ;absoluth positionint07ùL214 S1300
+G006.847 solute mode
+M107 ›star” with the fan off
+
+G28 ; Auto006.84All #^IS
+G29 ; Auto BedLevelling
+
+G1 Z15.0 F100.0 ;move the platform down 15m7
+M214 S1N00
+G006.84m
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 9999999999999999999999tock
+G92 E0 ;zero the extruded length again
+G1 F100.0
+M117 PriLting...
+G92 E0
+G92 E0
+ÿ1 F.500 E-6M;07
+M214 S1N00
+G006.847 Z0.3
+G1 F1500 E0
+G1 F1800 X106.737 Y106.502 E0.02598

@@ -1,0 +1,6 @@
+M140 S0 ;Turn-o
+
+M84 X Y E rs but Z
+
+M82 ;absÿÿÿ_e extruode
+M104 S0

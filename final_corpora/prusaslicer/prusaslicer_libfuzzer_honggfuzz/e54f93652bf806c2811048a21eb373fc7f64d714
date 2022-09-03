@@ -1,0 +1,6 @@
+M150 S0 ;d
+
+M84 X Y E ;Disablesteppers but Z
+
+M82 ;abse eytvusion m
+M104 S0

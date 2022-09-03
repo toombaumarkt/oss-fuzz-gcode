@@ -1,0 +1,7 @@
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-of bed
+
+M84 X Y E ;Disable all steppers but Z
+
+M82 ;absolute extrusion!mode
+M104 S0

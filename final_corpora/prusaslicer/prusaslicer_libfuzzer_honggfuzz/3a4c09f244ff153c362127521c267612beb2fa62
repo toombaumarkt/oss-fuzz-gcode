@@ -1,0 +1,147 @@
+g1 6
+g1 z-
+1 0
+2 z-
+4 5
+Gj0 x
+g0 
+4 $
+G z
+j1
+G z
+j0 x
+g0 x1
+
+gw 0
+4 z
+G z
+
+g1 6
+g1 z20
+4 5R
+G0 x
+g± 5
+g 6
+g 0
+4 1 z-
+1 0
+2 z-1
+20
+4 5R
+G0 x
+g± 5
+g 6
+% 0
+4 z
+G z
+
+g1 6
+g1 z20
+4 5R
+G0 x
+g± 5
+g 6
+g 0
+4 z
+4 5g1 6
+g1 z-
+1 0
+2 z-1
+20
+4 5R
+G0 x
+g± 5ö˜ßÉ
+g 0
+4 z
+G z
+
+g1 6
+g1 z20
+4 5R
+G0 x
+g± 5
+g 6
+g 0
+4 1 z-
+1 0
+2 z-1
+20
+4 5R
+G0 x
+g±
+g 0
+4 z
+G z
+
+g1 6
+g1 z20
+4 5R
+G0 x
+g± 5
+g 6
+g 0
+4 z
+4 5R
+G0 x
+g± 5
+g 6
+g 0
+4 z
+G z
+j0 x
+g0 
+4 z
+G z
+j1 x
+z
+4 5R
+G0 x
+g± 5
+g 6
+g 0
+4 z
+G z
+j0 x
+g0 
+4 z
+G z
+j0 x
+g0 x1
+g± 6
+R
+G0 x
+g± 5
+g 6
+g 0
+4 z
+G z
+j0 x
+g0 
+4 $
+G z
+j1G0 x
+g± 5
+g 6
+g 0
+4 z
+G z
+j0 x
+g0 
+4 $
+G z
+j1 x
+z
+4 5R
+G0 x
+g± 5
+g 6
+g 0
+4 z
+G z
+j0 x
+g0 
+4 z
+G z
+j0 x
+g0 x1
+g± 6

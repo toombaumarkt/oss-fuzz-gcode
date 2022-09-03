@@ -1,0 +1,30 @@
+M140 S6
+ÿ1 F1500 E-
+M107
+M214 S1
+M105
+M109 Y190
+M82 ;a4bsolute extrusion mode
+G28 ;mc values
+G90 ;absolute positioning
+M82 ;set extruder to€absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Home All AXIS
+G29 ; Auto BedLevelling
+
+G1 Z15.0 F100.0 ;move thepl0atforl down 15mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;extre eude 3mm of feed stock
+G92 E0 ;zero the extruded length again
+G1 F100.0
+M117...
+G92 E0
+G9ÿÿ
+ÿ1 F1500 E-
+M107
+M214 S1300
+G006.15.0 F13
+G1 F1500 E0
+G1 F1800 X104.737 Y106.502 E0.02598

@@ -1,0 +1,12 @@
+G01 X5.Y0
+M86
+G2 JJ~
+G2  J
+
+G2 J
+G2 J
+
+G2 JJ~
+G2 JE#20
+G
+S 

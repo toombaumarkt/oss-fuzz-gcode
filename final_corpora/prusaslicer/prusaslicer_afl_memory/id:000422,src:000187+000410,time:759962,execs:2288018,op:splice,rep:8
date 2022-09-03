@@ -1,0 +1,15 @@
+M.4505
+M109 S190
+M82 ;absolute extrusion m
+G21        ; 7M.453 iM.45:`Y è X274.+.. )       ù  )1X
+8011 X35 X
+G01 ANAN(tract filament even more
+G28 X0 Y0    ;move X/Y to min"endstops, so the head is out of the way
+
+  
+G01 *ÿ            )Þ X
+G01 A
+G01 X22220.ÿ01 A
+G01 X35 X
+G01 A)1 XY
+G01 

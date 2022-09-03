@@ -1,0 +1,47 @@
+gtolev]Í×ß†e                E-00
+G A-102 F000
+G28 X0 Y0
+M42S#00M4ÿ-102 F000
+G28 X((S
+ggg
+D8 Z-2.
+qD8 ZïÿSgg
+D8ÿ-2.ÿÿÿÿÿÿÿS
+g
+gD8 Z-2.
+gD8! Z-
+gD8! Z-.
+G
+M172 point
+
+o pS
+ggg
+D8 Z[o
+
+
+
+g
+gD8 V-Î.g
+D8! Z-.
+G172D8! Z-.
+G
+M172S#00M     ]             
+Mint
+
+o pS
+ggg
+DV-2.
+gM8 Z-2.
+gD842S#R00M42
+gz
+M! Z-.
+G
+L172 point
+
+o pS
+gg82M1
+
+2 4gg
+D8 vzZ-2/
+
+M882

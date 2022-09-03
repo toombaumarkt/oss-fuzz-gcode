@@ -1,0 +1,9 @@
+G1 F1500 EH58.70196
+M140 S0
+6107
+M104 S0
+M140 S0
+G92 E0
+G1 E-O0 F2000
+solmode
+Mrusiof ute e(t104 S0

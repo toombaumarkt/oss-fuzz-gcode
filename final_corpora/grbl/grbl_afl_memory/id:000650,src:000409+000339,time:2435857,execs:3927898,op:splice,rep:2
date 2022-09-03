@@ -1,0 +1,27 @@
+1 0@wg1 z-25g0 x-25 y0
+g41
+g0 x-20 y0
+g1 z-1.6 f50
+g2 x-1 0@wg1 z-25g0 x-25 y0
+g41
+g0 x-20 y0
+g1 z-1.6 f50
+g2 x-20 y0 i5g03 j0 f100
+g0 z5
+g40 z5
+g40
+g0 x0 y
+ j0 f100
+g0 z5
+g40 z5
+g40
+g20 y0 i5g03 j0 f100
+g0 z5
+g40 z5
+g40
+g0 x0 y
+ j0 f100
+g0 z5
+g40 z5
+g40
+g0 xg

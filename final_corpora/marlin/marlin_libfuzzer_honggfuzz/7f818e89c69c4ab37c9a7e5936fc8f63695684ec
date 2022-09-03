@@ -1,0 +1,6 @@
+G1 Y220
+
+M8;teppoff
+G90  ;busa
+M82 ;a
+M108 S0

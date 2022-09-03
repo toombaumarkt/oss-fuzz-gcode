@@ -1,0 +1,31 @@
+i0
+M60P
+G0920
+M600
+G0N20.000
+G00
+G.0in2urM140 S60
+M105
+M390 S60
+M104 S190
+M105
+M109 H190
+M82 ;absolute extrusion mode
+G21 ;metric values
+G90 ;HbM82 ;absolute extrusion me
+G2solute positioning
+M82 ;set extruder to abso‡with thr fan off
+
+G28 ; Auto Hom extruder t
+G29 ; Auto Bed Levelling
+
+G1 Z15.0 F1:0.0 ;move the jlmtform down 15mm
+
+
+M113 Printing...G92ded length
+G1 F200 E3 ;extrude 3mm of feedstpck
+G92 E0 ;bero0.0
+M113 Print thT extruded length again
+G1 F100.0
+M113 Printi~g...G92 E0
+G92 

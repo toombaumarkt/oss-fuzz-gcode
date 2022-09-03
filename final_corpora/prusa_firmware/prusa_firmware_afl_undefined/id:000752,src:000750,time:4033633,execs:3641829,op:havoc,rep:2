@@ -1,0 +1,27 @@
+in2urM140 S60
+M105
+M1\0 S60
+M104 S1
+M11
+M552 E1360.0044390
+M105
+]109 S190
+M82 ;absolute extrusion m0 ;HbM82 ;absolute extrusion me
+G2solute positioningtruder to absolwith thr fan off
+
+G28 ; Auto Hom% All AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z15.0 F1:0.0 ;move the jlmtform down 15mm
+
+G92 E0 ;zero thd extruded length
+G1 F200 E3 ;e}trude 3mm of feedstpck
+G92 E0 < e“truded length again
+G1 F100.0
+M11
+M552 E1360.0044313 Printing...G92 E0
+G92 E0
+G1 ÿÿÿ0 E-6
+M107
+M204 S1300
+áF9

@@ -1,0 +1,15 @@
+G01 X5.Y0
+M86
+G2 JJ~
+G2  J
+
+G2 J
+G2 J
+
+G2 JEM14MY)0
+M15
+M86
+G2 JJ~
+G2 JE0#
+G2
+S 

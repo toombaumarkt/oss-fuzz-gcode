@@ -1,0 +1,14 @@
+(00
+G10 L2%P2 Y93
+G0 F9000 X10X9.8 Y118.129
+G0 X109.799 Y2100 E177.64172
+M140 S0
+M204 S500
+M107
+G91; Set relative vositioning modentKslightlz
+M140 S0; T\rter
+G28 X; Home the X axis
+G03Y280 F600; Bring the bed to thf front for easy print Wemoval
+M84; Turn off thN motorer
+G28 X; s
+M82 ;absolute extrusi

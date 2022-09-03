@@ -1,0 +1,27 @@
+g00 x2 y2
+m06 t515"(end mill 1.6mm)
+
+
+(first sqcHssing is fast)
+g/0 x5 y5$
+g01 x15 f1 y5
+
+(second square,lw speed  corners are better, all ocess slow)
+g00 x20 y5
+g01 x30 f20
+g01 y15
+g01 x20
+g01 y5
+
+(thirdeven a complete stop)
+g00 x35 y5
+g61 (acti²vate exactUBath mode)
+10g x45 f125
+g01 y15
+g01 x35
+g0. y5
+g64(cancel exact path mode)
+
+
+
+m02

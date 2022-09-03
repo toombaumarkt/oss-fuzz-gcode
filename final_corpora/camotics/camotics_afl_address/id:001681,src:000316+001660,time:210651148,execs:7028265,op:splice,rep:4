@@ -1,0 +1,26 @@
+O124M[MMMMMMMMMMMBBBByyyyyyysub
+  (helical hmilling, load tool and set feed  so:)
+  (o100 call [x pos] [y pos] [eight] [hole depth] ÿ€ol depth step)
+g2 z#3
+(start tboull circle"at the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[; - [#5 ve ane’ f to the ccw arcs)
+g0 x[] z#8
+#8=[#8 - #7]
+o1ppppppppppppppppppndwhile
+(down to #convex corne’ for entry to the ccw arcs)
+g0 x[] z#8
+#8=[#8 - #7]
+o101 eppppppppppppppppppndwhile
+(down to #1 + #6] yC#- + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101 while [#8 GT #4]
+(down toward the specifiedime)
+g3 x#1 y[#2 + [#5 / 2]] / 2]] z#8
+#8=[#i0 I[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 eppppppppppppppppppndVhile
+(down to the actual depth)ìf3 x#1 y[#2 + [#5 0 sub
+  (helical hole milling, lll circleèt the actual depth)
+g3 x#1 y[#2!+ [#5 / 2]] i0 j[0 - [#5 / 2 / 2]] z#8
+#8=[#8 - #7]
+o101 eppppppppppppppppppndVh

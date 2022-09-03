@@ -1,0 +1,34 @@
+M03 G100
+G10 L1 P1 R1
+T1 
+G40 
+G01 X30.9999940009 Y118.0
+(01 F9001 X97.1É9 Y101.1 Y101.138ÿÿÿÿÿÿÿÿÿÿP1 R1
+T1 
+G1 F9001 X97.179z-Bg
+gD 4Rive1 z-g
+gD 4Rie1 z-20
+g-2M1:.049 E4498.476g
+gD 4R z7.5
+g1
+gD 4Rive1 z-g
+gD 4Rie1 zF9ive1 z-4498.476g
+gD 4R z7.5-g
+gD 4Rive1 z-g
+gD 4Rie1 z-20
+g-2M1:.049 E4498.476g
+gD 4Rive1 z-g
+gD 4Rive1 z-g
+049
+M204 S15g0 f5$
+gD 4Rive1 z-g
+gD 4Rive1 498.476g
+gD 4Rive1 z-g
+gD 4Rive1 z-g
+049
+M204 S15g0 f5$
+gD 4Rive1 z-g
+gD 4Rive1 z-g
+gD 00
+4R012.049
+M204G01 X061.06ÈÇ073

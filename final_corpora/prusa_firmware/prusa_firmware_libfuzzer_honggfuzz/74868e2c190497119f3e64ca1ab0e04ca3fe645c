@@ -1,0 +1,13 @@
+g0 x-25 x5.D8
+g9 z-2D8
+g9 z-2
+g1 x3 thx
+g1 500 ER0Ôÿ
+M
+G1 F1
+g1 x3 thx
+g1  x5.D8
+g9 z-2D8
+g9 z-2
+g1 x3 thx
+g1 511

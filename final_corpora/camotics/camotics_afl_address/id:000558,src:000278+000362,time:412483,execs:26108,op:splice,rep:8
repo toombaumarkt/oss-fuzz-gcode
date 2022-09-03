@@ -1,0 +1,18 @@
+M1A ¥0G1 P1500 ER201.0
+M140 S0
+M107
+G91 ;Relatiioning
+G11E-2 F270K ;Re F2400 ;Retract and raiseZ
+G1 X5 Y5 F300C ;Wipe out
+G1 Z10 ;RXre
+G90 ;Absolu
+G1 X0 Y2off bed
+
+Mprint
+M106 S0 ;Tuan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable ?ll ste
+M82 ;absolute extrusion mode
+M

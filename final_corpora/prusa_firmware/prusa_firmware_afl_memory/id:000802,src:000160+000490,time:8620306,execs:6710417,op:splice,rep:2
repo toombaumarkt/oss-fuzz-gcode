@@ -1,0 +1,24 @@
+ A8640.000
+G0H A-90Lõg11 z-1.6 f5PRUSA¶hp
+M84
+M84:xxzxx3xÿÿÿÿÿÿÿïM600
+M11? 
+G11ÿÿÿ
+Z1ÎòÌÕïM60òò1 zMBLõg11 z-1.6 n.3
+G1 F300 Z
+ÿÿÿg
+G1 F300Z1.3
+G0 F0 X107.64 Y7(
+M20! ò2 z-25
+g0 g0tioning
+G1 X  †Ïõg1ò2 z-25
+g0 g0tiof5PRUSAx20 {0  j0 f10Ø-20 y0 i)82 ;a1.6100ÿ  ;s
+MŸ 0öQ1ºîÊÎÏßEPÎòÌÕïM60òòò2
+G11ÿÿÿ
+Z1ÎòÌÕïM60òò1 zMBLõg11 z-1.6 n.3
+G1 F300 Z
+ÿÿÿg
+G1 F300Z1.3
+G0 F0 X107.64 Y7(
+M20! ò z-25
+g0 

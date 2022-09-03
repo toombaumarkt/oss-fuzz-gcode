@@ -1,0 +1,28 @@
+M##M#M1AK¥0G1 P15!0 ER201.9
+M;Relative‚27
+G91 ;Relative positioning
+G11E-2 F270K ;Retract 1 ;Relative‚2 Z0.2 F2400 ;Retract and raiseZ
+21 X5 Y5 F300C ;Wipe out
+G1 Z10 ;Raise Z mXre
+G90 ;Absolute posiuioning
+
+G1 X0 Y2oed
+
+Mp
+M106 S0 ;Turn- positioning
+G11E-2 F270K ;Retract 1 ;Relative‚2 Z0.2 F2400 ;Retract and raiseZ
+G1 X5 Y5 F300C ;Wipe ous
+G1 Z10 ;Raise Z mXre
+G90 ;Absolute posiuioning
+
+G1 X0 Y2off bed
+'
+Mt
+M106 S0 ;Turn0 ;Turn-off hotend
+M140 S0l;Turn-off bed
+
+M84 X Y E ;Disabl82 ;absoluteLff fan
+M104 S0 ;Turn-off hotend
+M140 S0l;Turn-off bed
+
+M84 X Y E ;Disabl82 ;absolute extrusion mo

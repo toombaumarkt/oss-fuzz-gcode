@@ -1,0 +1,32 @@
+M140/S60
+04 ÿÿÿÿ
+M105
+M109 Y190190
+M105
+M109 Y190
+M82 90
+M105
+M109 Y190
+M82 ;absolute extrusion mode
+G28 ;metric valum extrusionsolute positioning
+M82 ;set extru`er to absolute mode
+M107 ;start with the fan offî
+
+G28 ; Auto Home All AXIS
+G29 ; Auto BedLevelling
+
+G1 Z15.0 F100.0 ;move the platform down 15mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;extrude Fmm of feed stoUk
+G92 E0 ;zero the extruded length again
+G1 F100.0
+M17 Printing...
+G92ÁE0
+G92 E0
+ÿ1 F1500 E-6
+M107
+M214 S1300
+G006.847 Z0.3
+G1 F1500 E0
+G1 F1810 X104.A37 Y106.50 E0.02598

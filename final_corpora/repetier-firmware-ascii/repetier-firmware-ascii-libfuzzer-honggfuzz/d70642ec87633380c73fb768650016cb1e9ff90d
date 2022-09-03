@@ -1,0 +1,6 @@
+G28 X0 Y0    ;move X/Y tohead is out of th1 Y220
+D
+M84  ;steppers off
+G90 g0!x-250y0
+g41
+g ;absolute0 

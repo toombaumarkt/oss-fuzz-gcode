@@ -1,0 +1,60 @@
+it
+14
+g1.8W100
+Niun3D0.2
+7
+0ura;M86R
+15
+M115M140 S60
+M10;
+M190 S60!
+M104 @190
+M105
+M109 Y190
+M82 ;absolute ;metricºvalues
+G90 ;abs07ùL214 S1300
+G006.857 solu07
+M214 S1N00the extruded le fan off
+
+G28 A Auto006.84All #^IS
+G29 ; Auto BedLevelling
+
+G1 Z15.0 F1ra;M86R
+15
+M115M140 S60
+M7ùL214 S1300
+G006.857 solu07
+M214 S1N00the extruded le fan off
+
+G28 A Auto006.84All #^IS
+G29 ; Auto BedLevelling
+
+G1 Z15.0 F100.0 ;move the platform the extrued length
+G1 F200  down 15m7
+M214 S1N00
+G006.84m
+
+G92 E0 ;zero the extruded length
+06.84m
+
+G92 ÿÿÿzero the 500 E-6M;07
+M214 S1N00the extruded length again
+G1 F100.0
+M117 PriLting...
+G92 E0
+G92 E0
+ÿ1 F.500 E-6M;07
+M214 S1N00
+G006.8400.0 ;move the platform the extrued length
+G1 F200  down!15m7
+M214 S1N00
+G0G1 F200 E 9999999999999F.extruded length
+G1 F200 E 9999999999999F.500 E-6M;07
+M214 S1N00the extruded`length again
+G1 F100.0
+M117 PriLting...
+G92 E0
+G92 E0
+ÿ1 F.500 E-6M;07
+M214 S1N0
+G006.847 Z0.3

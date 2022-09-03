@@ -1,0 +1,21 @@
+M698.X22 Y99.049 EM8g x04 -f5
+g1 zG113
+M601rs
+ig %
+01
+95
+M115.0ÿÿÿÿÿÿÿÿTÿÿÿÿÿÿhh4 
+1G3
+1M602rs off  f150(Schhse 14.7571B48 
+GS113
+M601rs of
+M3g1 z-18  f150(Schh-s17
+M3g1 z-58  f150(Schh4 
+1G3
+1M602rs off  f150(Schhse 14.7571B48 
+GS113
+M601rs off
+G1:17
+M3g1 14.757  A-. 98.483 A-.730 A-
+g
+1 x3 

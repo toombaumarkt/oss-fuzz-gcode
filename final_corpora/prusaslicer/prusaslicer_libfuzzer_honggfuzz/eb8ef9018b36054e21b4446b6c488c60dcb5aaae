@@ -1,0 +1,6 @@
+G91  ;relative posit‡oning
+G1 E-1 F300 ;retract the filament a cit efore li)ftiîg the no0 A78777777777734920.000011010g0Mmm.!6483qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqe some of the pressure
+G1 Z+0.5 E-5 X-20 Y-20 F80.0 ;movÿÿÿÿÿÿÿe Z up a bit and retr]aZt filament even more
+G28 X0 Y0 f
+G90  ;absolute positioning
+M82 ;absolute e²xtion

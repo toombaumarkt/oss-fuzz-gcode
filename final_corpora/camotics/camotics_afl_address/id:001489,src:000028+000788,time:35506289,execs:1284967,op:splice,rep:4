@@ -1,0 +1,17 @@
+M10m[[G1 F2276.4 X135.585 se some of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ; Z up a bit and retract filament evenmore
+G28 X0 à0;move Xthk.3
+G1 X143.668 Y17 the head is out of the way
+G1 Y2
+M84  ;steppers off
+G90  ;abs‹lute positie
+G1 Z+0. ;absolute extrusion m0 ;retract the filament a he nozzle, to release some of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ;move Z up a bit and retract filament evenmore
+G28 X0 à0;move Xthk.3
+G1 X143.668 Y17 the head is out of the way
+G1 Y220
+
+M84  ;steppers off
+G90  ;absolute positie
+G1 Z+0. ;absolute extrusion mode
+M1

@@ -1,0 +1,16 @@
+(material acrzic 50x51x1 x0 ‡ÏÆß™ÇÏùg1 x-0 1 y material surface)
+(tool -ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ> 1.6 mm limeter)
+g61 (path mode)
+g0 z5
+g0 x10  t55 (loading tool  n.o05)
+m3 s14000(spindle ON, 14000 üpm)
+g0 z0.5
+g1 z-1 f30
+g1 x0 ‡ÏÆß™ÇÏùg1 x-10"1 y-18
+g1Kx18
+g1 z-2.2 f30
+g1 ŠÎÇß™ÇÏõg1 x-18
+g1 y-q8
+g1 x18
+g1 z-3.3 f30
+g1 y18 f80

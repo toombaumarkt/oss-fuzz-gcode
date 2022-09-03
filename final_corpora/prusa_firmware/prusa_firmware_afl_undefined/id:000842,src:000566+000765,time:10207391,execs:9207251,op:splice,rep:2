@@ -1,0 +1,85 @@
+iun3D0.2
+7
+0iu
+14
+g1.8W10iu
+14
+g
+N1;MAXX:141.863
+;INZ:me
+M42I S0
+G: 6.75387m
+;Layer he:72.9%7
+;MINZ:me
+M42. S0
+G19Z10.2
+;MD0.2
+7
+0iu
+14
+g1.8W10iu
+14
+g
+N1;MAXX:141.863
+;INZ:me
+M42I S0
+G: 6.75387m
+;Layer he:72.9%7
+;MINZ:me
+M42. S0
+G19Z10.2
+;MAXX:141.863
+;INZ:me
+M42I S0
+G19Z10.2
+;MAXXted wit63
+;INZ:me
+M42I Sh Cur~_SteamEngine 4.13.1
+M1U0
+M5
+MM90 S60
+M104 S200
+M105M109 S200
+M82 ;atrusion mode
+G26 ;Home
+M42ÿ S0
+G1 Z15.0 F2000Z:36.2
+;P{ platform
+G.9%7
+;MINZ:me
+M42. S0
+G19Z10.2
+;MAXX:141.863
+;INZ:me
+M42I S0
+G19Z10.2
+;MAXXted wit63
+;INZ:me
+M42I Sh Cur~AXX:141.863
+;INZ:me
+M42I S0
+G19Z10.2
+;MAXXted wit63
+;INZ:me
+M42I Sh Cur~_SteamEngine 4.13.1
+M1U0
+M5
+MM90 S60
+M104 S200
+M105M109 S200
+M82 ;atrusion mode
+G26 ;Home
+M42ÿ S0
+G1 Z15.0 F2000Z:36.2
+;P{ platform
+G.9%7
+;MINZ:me
+M42. S0
+G19Z10.2
+;MAXX:141.863
+;INZ:me
+M42I S0
+G19Z10.2
+;MAXXted wit63
+;INZ:me
+M42I Sh Cur~_Steam

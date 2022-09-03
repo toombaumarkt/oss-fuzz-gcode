@@ -1,0 +1,20 @@
+O104 S :CL[0 clU sto100 sub
+  (hing, load to’l and set feed fiO104 S0
+ use like so:)
+  (o100 call [x pos] [y pos] [safety height] [hole depth] [hole dia] [tool dia])
+  tool dia d't have to be specified ex]
+#7=[#6 / 2th per
+o10ile [#8 GT #4]
+( circle = Xalf of tool diameter)
+#8=[#3 - #7] (#8 is curre.t depth step)
+2]]
+o10ile [#8 GT #4]
+(down toward the ve and right so we make½a convex corner f‘r entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + B#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101 e [#8 GT #4]
+(down toward the sƒecified depth a + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 endwhile
+(down to the actual depth)
+g3 x#1 y[#2 + [#5:/ 2\]

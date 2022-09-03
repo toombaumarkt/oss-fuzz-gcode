@@ -1,0 +1,41 @@
+M.453 Y 74.5+9
+G0 X53. 0000000004M.453 Y 74.5+9
+G0 X53.00000000004000000773G1 X93.575 Y106.275 E432.97668
+G1 X101.025 Y106.275 E433.22447
+G1 X101.025 Y113.725 E433.47226Y 74.5+9
+G0 X53.00000000004000000773G1 X93.575 Y106.275 E432.97668
+G1 X101.025 Y106.275 E433.22447
+G1 X101.025 Y113.725 E433.47226
+G0 F9000 X100.825 Y113.525
+G1 F1500 E426.97226
+M140 S0
+M107X
+G91 ;Relative positioning
+G1 E-2 F2700 ;Retract a bit
+G1 E-2 Z0.2 F2400 ;Retract and raise Z
+G1 X5 Y5 F3000 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X
+G90 ;Absolute po0 Y220 ;PresentX
+G90 ;Absolute;Turn-off fan
+
+G0 F9000 X100.825 Y113.525
+G1 F1500 E426.97226
+M140 S0
+M107
+G91 ;Relative positioning
+G1 E-2 F270 ;Retract a bit
+G1 E-2 Z0.2 F2400 ;Retract and raise Z
+G1 X5 Y5 F3000 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X
+G90 ;Absolute po0 Y220 ;PresentX
+G90 ;Absolute;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84

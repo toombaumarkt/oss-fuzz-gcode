@@ -1,0 +1,6 @@
+G1 X11e 1it)
+n¨
+G1 E-1 F300 ;retract the f
+G1 Z+0.5 E-5 X-10 Y-20 F80.0 ;m~ove Z up a Çit ¶ëõﬂçöãçact filament even more
+G28 X0 Y0    ;m0  ;Wbsolute positioning
+M82 ;abe f etilament even4 S0

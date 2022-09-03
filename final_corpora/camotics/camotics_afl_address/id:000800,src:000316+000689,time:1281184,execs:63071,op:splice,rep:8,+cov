@@ -1,0 +1,21 @@
+OK###aÿQo100 sub
+  (helical holeool and set feed first, then use loke so:)
+  (o100 cWll [x pos] [y pos] [safety height] [hole depth] [hole dia] [tool dia])
+  (tool dia doesn't have to be specified exactly.)
+#4=_0 - #4]
+#7=[#6 / &]  (#7 is depth per+ [#5 / 2]] i0 j[0 ool dndwhileé'do=[#3 - #7] z#3
+(start above and right so we make a convex corner for entry to the ccw arcs)]] z#8
+#8=[#6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101 e [#8 GT #4]
+(down toward the specified depth a bit at a time)
+g1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2
+g0 x[#1 + #8 - #7]
+o101 hile
+(down to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+ifull circle at the al depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+g40
+o100 e

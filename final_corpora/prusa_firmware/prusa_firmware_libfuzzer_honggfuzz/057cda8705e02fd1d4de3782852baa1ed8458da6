@@ -1,0 +1,13 @@
+(Schaummaterial ca. 24x24mm Länge 50mm, Null E0
+G1 X0 Y0
+M84
+M z-1.6 f50
+g extrusion mode
+MY0
+M84
+M z-1.6 f50
+g extrusio140 S0
+G92 E0
+G1 X0 Y0
+M84
+M {M zB-1L.6

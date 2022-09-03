@@ -1,0 +1,9 @@
+
+G)0
+M84
+M82 ; extäusM(40 S0
+G94 E X0=0
+sM(40 S0
+G)4 X0 Y0
+MS0
+G94 E 4 S

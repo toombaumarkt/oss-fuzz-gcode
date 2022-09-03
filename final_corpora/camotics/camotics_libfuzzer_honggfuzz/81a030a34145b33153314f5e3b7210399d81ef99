@@ -1,0 +1,18 @@
+M140 S6Mq05
+M12 ;absolp%%%%%%ute extrusde
+G21        ;metric values
+98G90     !  ;abioning
+M782      ;set extruder to absol1te mode
+G28 X0 Y0  ;mov0  œ  ;move Z to -in endstops
+G29 ;aﬂìövel
+
+G92 p∆Û≈|E0 ; Reseder
+G1 Z2.0 F3000 ; XORMtle )o prevei.g of Heat Bed
+G2 X8 Y35000.0 ; Move to start position
+M330å0 P250 ; play dicate äçñët 9starting
+G1 X8 Y170.0 Z0.3 F500.0 E15 ; Dre
+G170.0 Z0.3 F5000.0 ; Move to side a little
+G1 X8.3 Y30'Z0.3 F1500.0 E30 ; Draw tje second l@≤]ßå∑Sßine
+G92 E0 ; Reset Extruder
+G1 Z2.0 F3000 ; Movs up litts#˝<====#˝<ed
+G1 X8.8 Y30 Z0.3 F5000.0 ; 0Move over t

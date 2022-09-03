@@ -1,0 +1,7 @@
+88888888888##Ü#-G21 XL[M[MÅWMMÿO<d>L; relative positioning mode
+G1 E-5 ¹600; retraœt filament slightly
+M10;
+TF600 X107.418 Y107.824G21 XL[M[MÅWMMÿO<d>L; relative positioning mode
+G1 E-5 ¹600WMMÿO<d>L; Set refilament slightly
+M10; 07.418 Y107.824 e the X axis
+G0 Y280ßF6

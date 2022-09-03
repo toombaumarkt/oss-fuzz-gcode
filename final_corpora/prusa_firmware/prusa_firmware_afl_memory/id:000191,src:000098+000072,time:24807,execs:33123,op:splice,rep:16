@@ -1,0 +1,18 @@
+inpuG0 F7200 X128 Y99.461
+G1 F1100 Efilament even more
+G28 7
+M104 S0  ;extruder heater off
+M140 S0  ;heated bed heater off (if you have it)
+
+G91  ;relative positioning
+G1 E-1 F300 ;retract the filament a bit MMMMMMMbefore lifting the nozzle, to release some of the pres111111111111111111111sure
+G1 Z+0.5 E-5 X-20 Y-20-F12Ò@0 ;move ute po bit and retract filament even more
+G28 X0 Y0    <move X/Y to min endstops, so the head is out of thX way
+G1 Y220
+
+M84  ;s0 S0
+M1N07
+M1teppers off
+G90  ;abyolZ up asitioning
+M82 ;absoluge extrusion mode
+M104 

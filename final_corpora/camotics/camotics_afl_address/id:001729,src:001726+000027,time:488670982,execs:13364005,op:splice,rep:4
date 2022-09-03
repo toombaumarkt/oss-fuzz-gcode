@@ -1,0 +1,41 @@
+L##<[0*5F**#*5MM
+  (helilling,hen uóe like so:)
+(oepth per ctool diameter)
+#8=[#3 - #7] (#8 h)
+g3 x#1 yZ#2 +[5 /
+g41 g0 x#1 y[#2 + [ wh[#8 GT #5] GT #4]
+(the speche actual dew arcs)
+]] z#8
+#8=[#  #7]o10g0 Ax[#1 + #6]/y[A[#5 / 2]] 
+g41 g0 x#1 y[#2 + [ wh[#8 GT #4] GT #4]
+(I`Œ speche actual depth)
+g3 x#1 yZ#2 +[5 /
+g41 g0 x#1 y[#2 + [ wh[#8 GT #5] GT #4]
+(Ih)
+g3G0 F6000 X10 Y102
+G1 F1X101 Y10 E36
+G0 F6000 X101.Y105.724
+G1 F1800 X106.Y100.876 E3678.51356
+G1 X106.799 Y100.806
+G1 Fg41 g0 x#1 y[#2 + [ wh[#8 GT #5] GT #4]
+(the speche actual dew arcs)
+]] z#8
+#8=[#  #7]o10g0 Ax[#1 + #6]/y[A[#5 / 2]] 
+g41 g0 x#1 y[#2 + [ wh[#8 GT #6
+GT #4]
+(I`Œ speche actual depth)
+g3 x#1 yZ#2 +[5 /
+g41 g0 x#1 y[#2 + [ wh[#8 GT #5] GT #4]
+(Ih)
+g3G0 F6000 X10 Y102
+G1 F1X101 Y10 E36
+G0 F6000 X101.Y105.724
+G1 F1800 X106.Y100.876 E3678.51356
+G1 X106.799 Y100.806
+G1 F2700 E36
+M140 S0
+2700 E36
+M140 S0
+M107
+M104 S0 ;exf
+M14S0 S0     ;eater off (if you have it)

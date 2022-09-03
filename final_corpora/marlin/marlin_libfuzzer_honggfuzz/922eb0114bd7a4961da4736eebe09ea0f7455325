@@ -1,0 +1,13 @@
+G91  ;G21
+G90
+M05
+M09relaG21
+G90
+tive position@ng
+M05
+M09
+G0 E-1 F3
+MM06 T1
+G00 Z1.00Y50.06900 
+G00 Z1.0
+;M03 

@@ -1,0 +1,8 @@
+m06 t55 (Pt55 = 1.6mm e mill in tool le)
+,,,,,,1 z2
+g1 z x y i0 [10 f10
+g0 |Í
+g28 x-1 y0
+G2 X-1. Y20 i5 j10 F100
+
+m02

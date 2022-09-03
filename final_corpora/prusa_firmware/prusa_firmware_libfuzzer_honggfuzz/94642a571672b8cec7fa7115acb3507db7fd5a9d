@@ -1,0 +1,44 @@
+M1XM`)0
+M15
+M190 S60
+M104 S195
+M105
+M109‹SG2ÇßÄß¾Šˆ Bed LevelliÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM107
+M205to Bed Levell5
+M190 S60
+M104 S195ÿÿÿ
+M105
+M109 S195
+M82 ;01dM
+7 ;start with thS60
+M104 S195
+M105
+M109 S19
+M82
+M190 S60
+M104 S195
+M105
+M109‹S195M82 ;ababsolute posiÿÿÿÿÿÿÿM106
+M205to Bed LevelliM
+7 ;start with the f
+G2ÇßÄ5
+M105
+M109‹SG2ÇßÄß¾Šˆ Bed L)velliÿÿÿÿÿÿÿÿÿÿÿÿ20 . S60
+M104 S195ÿÿÿ
+M105
+M109 S195
+M41 ;01dM
+7 ;start with thS60
+M104 S195
+M105
+M109 S195
+M82 ;01dM
+7 ;start with thM14M`)0
+M15
+M190 S60
+M104 S195
+M105
+M109‹S19
+G1 Z1ÿÿÿÿÿÿÿM107ù^Ğ3;a_89
+M2
+ÿÿ

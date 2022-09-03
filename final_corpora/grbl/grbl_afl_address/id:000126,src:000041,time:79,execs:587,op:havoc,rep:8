@@ -1,0 +1,20 @@
+g1 z-25x3.3 f11 z-18 f150)g1 x3 f15
+g1 z-20-25 f60
+g1 x5.8
+g1 z-20
+g1 x ;alute extrus3.1 f5
+g1 z-18 f150
+g1 x3 f15
+g1 z-20 f150
+g1 xG18
+g3 g3 x5 r-2.5 z-25 f10
+g1 x4.5
+g2 x4.5 r2.5 z-2 f150
+g1 x3 f15
+g1 z-20-25  x3.5
+g2 x3.5 r2.5 z-20 f8
+g12 x4.53 x3 r2.5 z-25 f5
+g1 x5.5 z-60 f150
+g1 x6 z0
+M02
+ 

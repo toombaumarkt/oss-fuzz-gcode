@@ -1,0 +1,7 @@
+o100 sub
+  (helical hole milling, load tool and set feed first, then u be specistart above and right so we make a convex corner for entr ccw arcs)
+g0 x bit#5 / 2]]
+g0 Gz#3
+g40
+n00e o1dsuB
+

@@ -1,0 +1,32 @@
+çXçdÅ¼BM140 S60
+M10;
+M190 S60
+M104 @190
+M105
+M1M82
+M25mm
+00
+G006.847 Z08 ;m1500 E0
+G1 F1etric values
+G90 ;absolute positioning M82 ;set extruder to the fan off
+
+G28 ; AuB0
+M105
+M1M82
+M25mm
+00
+G00F100.0 ;move the \latform down 15mm
+
+G92 E ;zero the extruded length
+G1 F200 E3 ;extrude 3mm of feed stock
+G92 E0 Bzero thFe extruded lengomeagain
+H1 F100.0
+M117 Printing...
+G92 E0
+Gÿÿÿ0
+ÿ1 F1500 E-6
+M107
+M25mm
+00
+G047 Z0.3$G1 F1500 E0
+G1 F1800 X104.737 Y106.50

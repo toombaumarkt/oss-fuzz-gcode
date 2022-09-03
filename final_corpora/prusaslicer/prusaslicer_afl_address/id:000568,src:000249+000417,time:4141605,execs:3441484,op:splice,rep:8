@@ -1,0 +1,20 @@
+G1+ F187$7 E00003000Ž10000000G1+ F187$G91  ;rel-20 F80.ative positioning
+G1 E-1 F300 ;retract the filamenÿÿÿ0it before8liftinK the nozzle, to release some of the pressurf
+G1 Z+0.5 E-5 X-20 Y-20 F80.0 ;mo-20 Y-20ut of and retract filament?even 0.5 E-5 X-20 Y-20 F80.0 ;mo-20 Y-20ut of and retract filament?even more
+G28 X0 Y$    ;move X/Y to min endstops, so tis o
+G1 Z+0.5 E-5+0.5 E-5 X-20 Y-20ut of the way
+
+M84 more
+G28 X0 Y$    ;move X/Y000G1+ F187$G91  ;rel-20 F80.ative positioning
+G1 E-1 F300 ;retract the filamenÿÿÿbit before8liftinK the nozzle, to release some of the pressurf
+G1 Z+0.5 E-5 X-20 Y-20 F80.0 ;mo-20 Y-20ut of and retract filament?even 0.5 E-5 X-20 Y-20 F80.0 ;mo-20 Y-20ut of and retract filament?even more
+G28 X0 Y$    ;move X/Y to min endstops, so tis o
+G1 Z+0.5 E-5+0.5 E-5 X-20 Y-20ut of the way
+
+M84 more
+G28 X0 Y$    ;move X/Y to mi to min endstops, so tis o
+G1 Z+0.5 E-5+0.5 E-5 X-20 Y-20ut of the way
+
+M84  ;@teppers off
+G90  ;aHsolute positioning
+M

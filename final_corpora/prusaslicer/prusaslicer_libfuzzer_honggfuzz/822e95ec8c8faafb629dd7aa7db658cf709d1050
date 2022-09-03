@@ -1,0 +1,36 @@
+(material arzlic 50x50x3 mm)
+(ze)
+(tool 
+g21 (Millimeter)
+g61 (path mode)
+g0 z5
+g0 x10 y-10
+m6 t55 (loading t.5
+g1 z-1 f30
+g1 x0 y10 f0
+g1 x-10 y-10
+g1 x10
+g0 z5 y-10
+g1 x10
+g0 z5
+g0 x18 y-18
+g0 z0.5
+g1 z-1.1 f30
+g1 y18 f80
+g1 x-18
+g1 y-18
+g1 x18
+g1 z-2.2 f30
+g1 y18 f80
+g1 y-18
+g1 x18
+g1 z-3.3 f30
+g1 y18 f80
+g1 x-18
+g1 y-18
+g1 x18
+g0 z5
+m5
+g0 x0 y0
+m02 (end of program)
+

@@ -1,0 +1,5 @@
+M106 S0 ;Turn-ofÿ fan
+M104 S0 ;Turn-off otend
+M140 S0 ;TuMMMMMM(MMMMMMMMMMMMMM—MMMMMMMMMMMMMMMMMMut17757
+M42 ;absolute exlrusmode
+M104 S0

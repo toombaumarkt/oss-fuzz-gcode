@@ -1,0 +1,37 @@
+inMY4' ˇÁhBD3
+M22.
+M1ˇ2 D15BDDDgDDDDDBDDDDDD[DDDDDDDDDDDD.ode
+G28 ;metric valèes
+G90 ;aNsolute positioning
+M82 ;set extrudr to absolute mode
+M107 ;starÄˇwith the fan off
+
+G28 ; Auto Home All AXIS107
+M226 SP13
+G1 F200 E3 
+
+G1 Z16.0 F100.0 ;move the platform down 15mm
+
+G92 E0 ;Öe2 D15BDDDgDDDDDBDDDDDD[DDDDDDDDAXIS107
+M226 SP13
+G1 F200 E3 
+
+G1 Z16.0 F100.0 ;move the platform down 15mm
+
+G92 E0 ;Öe2 D15BDDDgDDDDDBDDDDDD[DDDDDDDDDDDD.ode
+G28 ;metric valèes
+G90 ;aNsolute positioning
+M82 ;set extrudr to absolute mode
+M107 ;starÄˇwith the fan off
+
+G28 ; Auto Home All AXIS107
+M226 SPS+30O
+G04.347 Y106.8414 SP13
+G1 F200 Erude 3mm o6
+M10P1300
+G≈0ro the eM107
+ngth aDDDD[DDDDDDDDDDDD.o17 PM209 S+30O
+G04.347 Y106.8414 SP13
+G1 F200 E@ude 3mm o6
+M10P1300
+G≈06

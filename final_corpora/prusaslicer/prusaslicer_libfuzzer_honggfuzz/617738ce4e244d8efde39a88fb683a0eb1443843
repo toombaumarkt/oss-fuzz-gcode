@@ -1,0 +1,11 @@
+M205 S500
+M107
+G91; SetlativeÿÿÿmoGde
+G1 E$-5 F600; retract filament slightly
+M141)G¿ NNAN)00)$off thenozzle heater
+G28 ; Hoe the X a{is
+G0 Y280 F600{ Bri88888888888888888888888888888ng th1ebed to the front foò eM03removal
+M84; Turn off the motorsD1
+8¶ 
+M82 ;Y3absolute!extrusion mode
+M104 S0

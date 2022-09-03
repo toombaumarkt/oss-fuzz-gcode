@@ -1,0 +1,6 @@
+G28 X0 Y0    ;mDve X/Y tohead is out of th1 Y220
+D
+M84  ;steppers off
+G90 g0!y0
+g41
+g ;absolute0 

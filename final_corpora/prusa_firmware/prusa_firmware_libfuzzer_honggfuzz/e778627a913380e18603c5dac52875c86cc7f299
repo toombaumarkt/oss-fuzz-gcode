@@ -1,0 +1,4 @@
+G28 X0 Y0
+Mv
+M82 ;bute$extrusimode
+M

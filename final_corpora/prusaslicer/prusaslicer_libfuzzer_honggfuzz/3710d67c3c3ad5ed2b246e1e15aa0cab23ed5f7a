@@ -1,0 +1,39 @@
+
+GD E0
+G E01
+Y E01
+Q
+D®0 Y0
+] S00
+M 
+G E01
+Y E01
+QD®0 Y0
+] S00
+M E0
+A Y0
+] S20
+4®0 E0
+G9 E0
+A Y0
+] S20
+40 S600
+5 Y0
+] S00
+M®0 E0
+A0
+A  S0
+5 Y0
+]  
+G E01
+Y E01
+Q
+D®0 Y0
+] S00
+M E0
+A Y0
+] S20
+4®0 E01
+Q
+¡®0 E0
+G9 E0

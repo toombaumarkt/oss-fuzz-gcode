@@ -1,0 +1,36 @@
+M113 PMB
+G92L
+M107
+M304 SM00feedPMBLrintg.inimal  92L107
+M304 SM00feedPMBL-6
+
+M304 S1000feedPMBL
+M107
+M304 S10ÿ00feedPmBLrintg..intin@...
+G92 êæ[*cE0
+Gq F1500 E-6
+M1 7
+M304 S1000feFPMBL
+M107;
+M304 S1000feedPMBLrintg..illpunkt am besten mit deernersn1500 E-ˇˇˇˇˇˇˇ
+M304 S1000feedPMBL
+M107
+M304 S1000feedPMBLrintg..inting...
+G91 
+G1 F1500 E-6
+M5 P7
+M304 S1-M304 S1000feedP99
+f150
+õ1 x êæ[*cE0
+G1 F1500 E-6
+M1 7
+M304 S1000feedPMBL
+M107
+M304feedPMBLrintg.cE0
+G1 F1500 E-6
+M1 7
+M304 S1000feFPMBL
+M107
+M304 S1000feedPMBLrintg.feedP99
+G049
+G1R

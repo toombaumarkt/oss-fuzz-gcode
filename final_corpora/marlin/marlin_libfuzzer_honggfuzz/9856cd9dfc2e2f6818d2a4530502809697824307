@@ -1,0 +1,41 @@
+G21
+G9
+` X8te eM28 ;Turn-oflut
+X155.635 Yion m lute eM28 ;Turn-oflut
+X155.635 Yion 9;Turn-oflut
+X155.56
+M82 &;absolute eM28 ;Tu f20
+g01 y15
+g01 x20
+g01 y5
+
+(third squ rn61 5 visits the programusion m Z
+M28 ;Turn-oflut
+X155.56
+M82 ;absolute eM28 ;Turnute extrusion m Z
+M28 ;Turn-oflut
+X Z
+M28 ;Turn-of155.56
+M82 ;absolute eM28 ;flut
+X155.56
+M82 ;absolute eM28 ;Tu f20
+g01 y15
+g01 x20
+g01 y5
+
+(third squ rn,eaormal/fast speed -> G61 - vision m Z
+M28 ;Turn-oflut
+X155.56
+M82 ;absolute eM28 Turn-oflut
+X155.635 Yion m Z
+M28 ;Turn-oflut156
+M82 ;abso
+M28 ;Turn-oflut
+X155.56
+ME2absolute eM28 ;Turn-oflut
+X155.635 Yion m Z
+M28 ;Turn-oflut156
+M82 ;absolute extrusion m Z
+M28 ;Turn-oflužt
+X155.56
+M82 ;absolute eM ;aM10

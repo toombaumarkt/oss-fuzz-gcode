@@ -1,0 +1,14 @@
+(befor cad to maka s0.ngc)
+(hasnsation on, then staes)
+g21 g61 f100 g40
+g0X
+g1 y-16
+g-8] [8] [3] [3.5] [4]ÿÿA 
+o100 call [8] [-8] B3] [] [4] [2] 
+g0 x16
+g1 y-16
+g' x-16
+g0 z5
+m0
+g1 x16z5
+o1all [' x-

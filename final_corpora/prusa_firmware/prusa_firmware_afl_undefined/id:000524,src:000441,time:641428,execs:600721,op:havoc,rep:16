@@ -1,0 +1,27 @@
+iu
+14
+g
+N160.004#
+N*;FME:9;Filament u‚ed: 6.75387m
+;Layer he:72.9%7
+;MINZ:me
+M42. S0
+G19Z10.2
+;MAXX:141.863
+;INZ:me
+M42. S0
+G19Z10.2
+;MAXXted with Cur~_SteamEngine 4.13.1
+M1U0
+M5
+MM90 S60
+M104 S200
+M105M109 S200
+M82 ;atrusion mode
+G26 ;Home
+M42. S0
+G1 Z15.0 F2000Z:36.2
+;G{ platform
+G92 E0
+X92 E0
+G1 F1800 E-6

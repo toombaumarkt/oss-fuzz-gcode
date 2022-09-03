@@ -1,0 +1,30 @@
+D4Yi3 absolute mode
+M10t7 ;star€ÿwthe eM107
+M214 SP1eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeziPin7
+M214 SP13
+G1 F200 EPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP @190
+M105
+M109 Y190
+M82 ;1bsolute extrusion mode
+G28 ;metric values
+G90 ;absolute positionin7
+M214 SP13
+G1 F200 E3 absolute mode
+M10t7 ;star€ÿwthe eM107
+M214 SP1eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeCeeeeePPPPPPPPPPPPPPPPPPin7
+M214 SP13
+G1 F200 EPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP;…erooco theextruded length agaio
+G1 F100.0
+M117 wthe eM107
+M214 SP1eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeezPrinPPP3PPPPPPPPPPPPPin7
+M214 SP13
+G1 F200 EPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP @190
+M105
+M109 Y190
+M82 ;1bsolote extrusion mode
+G28 ;metric values
+G90 ;absolute positionin7
+M214 SP13
+G1 F200 E3 absolute mode
+M10t7 ;star€ÿwthe eM107
+M214 SP1eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeezing...

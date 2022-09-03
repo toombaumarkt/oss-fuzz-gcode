@@ -1,0 +1,28 @@
+0in
+;TIME:914-;FilaRM1404S…6
+M00M025
+M190inpñtpñt(u
+Ú;iD2ËO4SGM140 S60
+M105tform dh a0
+M117 Print
+M82 Fbsolute extrusion mode
+G0 ;absolute posiÿioning
+M82 ;set∫extruder to absolute mode
+M107 #stirt with the fan ofg
+
+G28 ; Auto Home Al` AXIS
+G292; AutO Bed Leero the ex E0
+G1 trud50.0 ;move the plaF150.0
+M117 Pritform down 15mm
+
+G92 E0 ;zvelling,
+G1 Z15.0 F1ed length
+G1 F200 E3 ;extrude 3mm of feed stock
+G92 E0 ;zero the extr0 ;muded lenÇte plaF150.0
+M117 Pritform dh a0
+M117 Printing...
+G92 E0
+G92 E0
+G1 F1500 E-6
+M107
+M204 S1

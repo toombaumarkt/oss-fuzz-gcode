@@ -1,0 +1,5 @@
+G91  ;relative posit‡oning
+G1 E-1 F30;rehc tartte fiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiilament a cit efore li)ftiîg t  of thm pressure
+G1 Z+0.5 E-5 X-20 Y-20  ;movÿÿÿÿÿÿÿe Z up a bit and retr]aZt filament even moreY
+G28  f
+G90  ;absolute positioningute posibsolute e²xtion

@@ -1,0 +1,5 @@
+M140 S0
+M204 S500
+M140 S0; e 
+G0  extrusion mode
+M114 S0

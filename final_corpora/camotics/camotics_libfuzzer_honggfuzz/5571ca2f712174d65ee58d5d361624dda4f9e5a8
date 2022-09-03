@@ -1,0 +1,24 @@
+o100 sub
+  (heù set feed'(firike so:)
+  (o099 call afettool dia])
+  (tdia doesnt have to btly.)
+#4=[0 -#4]
+#7=[#6 / 2]  (#7cle =h aof tool dieter)
+#8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(startcs)
+g0 [#1 + #4] y[#2 + [#5 / 2]] 
+g0 x#1 y[#2 + [#5 / 2]]
+o121 wle [#8 GT #4]
+(down towa#∑ecid depta tie)
+g4x#1 y[#2 + [#5 / 2]] i5 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 e
+(down to tie actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#5
+(full circle at the actuh)
+g#1 y[#2 + [#5 / 2]] i0 j[0 - [#2 / 2]]
+g0 z#3
+g40
+o100 endsub
+

@@ -1,0 +1,17 @@
+g
+gllllllllll
+M190  x-g1 Ax5.8IÿÿÿwgD9 z-20
+g1 x3.1 f5ÿg0 M190ÿg0 z-10
+g2 ;Fi
+M190  x-g1 Ax5.8IgD9 0
+M190  x-g
+3 f15 y1
+9g0f5N0
+g2 8 f150
+g1 x3 f15
+0
+g41
+515
+3 Kf15 y0
+g41
+9gÿ=ÿÿÿÿÿ;Fi

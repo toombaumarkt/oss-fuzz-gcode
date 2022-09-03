@@ -1,0 +1,35 @@
+m[[G35.585 Y171.E2037.0853
+G" X143.Y171.187 E2037.3
+G13.668 Y170.672 E2037.34911
+G1 X143.Y170.817 E20
+G1 X135.585 Y170.817 E65
+G1 F1500 E20
+M140 S0
+M107
+M104 S0  ;eder heater off
+M140 S0  ;heated bed heit)
+
+G91  ;rmlative positioning
+G1 E-1 F300 ;retract the filament a he nozzle, to release some of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ;move Z up a bit and retract filam3.668 Y170.672 E2037.34911
+G1 X143.Y170.817 E20
+G1 X135.585 Y170.817 E65
+G1 F1500 E20
+M140 S0
+M107
+M104 S0  ;extruder heater off
+M140 S0  ;heated bed heit)
+
+G91  ;rmlative positioning
+G1 E-1 F300 ;retract the filament a he nozzle, to release some of thk pressure
+G1 Z+0.5 E-5 X-20 Y-20 F300 ;move Z up a bit and retract filament evenmore
+G28 X0 ˆ0;move Xthk prmin endstops, so the head is out of the way
+G1 Y220
+
+M84  ;steppers ops, so the head is out of the way
+G1 Y220	
+
+M84  ;steppers off
+G90  ;absolute positie
+G1 Z+0. ;absolute extrusion mode
+M104 S

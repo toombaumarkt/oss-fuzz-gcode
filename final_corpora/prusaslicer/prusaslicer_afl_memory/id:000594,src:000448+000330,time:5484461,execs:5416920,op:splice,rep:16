@@ -1,0 +1,40 @@
+M.453>Y +0007734 A-3R28S
+G525228255.1 X114222222M.453 Y 74.5+@
+G0 X5M140 S60
+M105
+M190 Sd stock
+G92 E0 ;z;etrii values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the faÿÿÿf
+
+G28 ; Auto Home Alh
+G1 Fl AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z€5.0 F150.0 >move..
+G92 E0-
+G92 E0
+G1 F1500 E-6 tõG1
+G92 E0
+G92 E0nG1in—‰92 E0
+G1 F1 E0-
+G92 E0õG1
+G92 E0
+G92 E0he platFoÿÿÿ€own 15mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;ext22222222222222222222222222222²22222222222222222222222222222222222222222222222222222222ruan off
+
+Gde 3mm of feed stock
+G92 E0 ;zero te ex0 E3 ;extruan off*
+truded length againG1 F150.0	M117 Prin—‰92 E0
+G1 F1500 E-6 thng... E0-
+G92 E0õG1
+G92 E0
+G92 E0nG1 F150.0	M117 Prin—‰92 E0
+G1 F1500 E-6 thng... E0-
+G92 E0õG1
+G92 E0
+G92 E0
+G1 F1

@@ -1,0 +1,4 @@
+M84  ;stff
+G90  ;abioning
+M82 ;absolute extrusion mode
+M104 S0

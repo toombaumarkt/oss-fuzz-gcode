@@ -1,0 +1,6 @@
+M140 S0 
+
+M54D X E rs but Z
+
+M82 ;absÿÿÿ_e extruodm
+M104 S0

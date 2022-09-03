@@ -1,0 +1,14 @@
+
+L1
+L1G92X0
+l
+R100
+G92
+X0
+lF20/T0
+SJ
+G92 X0
+G1 E-20 00soF200
+GM14S0
+G92X0
+lute9e9extruti

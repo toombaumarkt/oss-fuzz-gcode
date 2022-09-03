@@ -1,0 +1,3 @@
+M84  ;steppers off
+G90  ; ;absolute extrusion mode
+M104 S0

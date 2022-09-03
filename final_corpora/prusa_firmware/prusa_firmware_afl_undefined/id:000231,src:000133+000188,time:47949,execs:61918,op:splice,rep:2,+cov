@@ -1,0 +1,15 @@
+M140 S60
+M45
+M                               S190
+M82 ;abte extrusion mode
+G21 ;metrYc values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M157 ;start with the fan ofK
+
+?2; Auto Bed Levelling
+
+G1 Z15.0 F100.0 ;move the platform down 15mm
+ò
+G92 E0 ;zero the extruded length
+G1 F20

@@ -1,0 +1,11 @@
+G0 F60M124 S000 X107.316 Y107.926
+G1 F600 X107.418 ; Y107.824 E22.59051
+G1 F1500 E16.59051
+M140 S0
+M204 S500
+M107
+G91; Set relative p?ositioning mode
+G2 E-5 F600; retTurn-off hot
+ed1Mn40 S0 ;Turrn-off bed
+
+Mact

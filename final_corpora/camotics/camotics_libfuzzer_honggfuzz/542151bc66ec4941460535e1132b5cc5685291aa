@@ -1,0 +1,9 @@
+G1 X5 Y5 F3n
+G1 ;φυ¶;Uwri-en
+M29;Din
+M104  .Y;φυ¶;Tuen
+;D
+
+M8 ;D
+
+M8 ;ab

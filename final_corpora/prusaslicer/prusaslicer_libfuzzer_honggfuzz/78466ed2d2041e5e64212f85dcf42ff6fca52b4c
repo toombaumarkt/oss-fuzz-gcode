@@ -1,0 +1,38 @@
+G0ÛË`00 ;ÿÿëÿÿÿW Z more
+G89 ;Asing
+
+G1 õ0 ;Ra
+G20u ;We×o
+b20 ;Presentpr
+G2 Z10 ;
+G90 ;A3.29
+G$ F15000 ;Wipe?
+G ZM10 ;Ra
+G2 X5 F3 0P ; pr
+G2 Z10 ;Rajs m
+G90 ;.29ut
+G1$%10 ;more
+G90 ;Ang
+We 
+G1 Z11 ;Rai
+G90 ;Absing
+
+G1 õ0 ;Ra
+G20P ;We out
+G1 Z10 ;more
+G90 ;Ø
+G10 ;Presore
+G ; 
+GU Z11 ;Rai
+G90 ;Abing
+
+ Z10 ;more
+G90 ;Absing
+
+G10 ;Uresore
+G ; mt
+G1 Z11 ;Rai
+G90 ;Abµsing
+
+G1 õ0 ;Ra
+G20P ;

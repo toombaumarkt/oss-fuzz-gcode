@@ -1,0 +1,27 @@
+Moff
+
+G28 X0 Y0 0 Z0
+
+G28 X0 Y0  ;mov0e Xove ffCÿ
+G28 X0 Y0 
+
+G28 X0 Y0  ;mo off-$:
+G28 X00Y
+G28 X0 ;moff
+
+G28  X0
+
+G28 X0 ;moff
+
+G28 X0 Y0  ;BeZ0
+
+G28 X0 Y0  ;move ff$
+G28 X0
+G
+G28 X0 
+
+G28 X0 Y0  ;m m0e Xove$
+G28 X0 Y0 
+
+G28 X0 
+G28 X0 

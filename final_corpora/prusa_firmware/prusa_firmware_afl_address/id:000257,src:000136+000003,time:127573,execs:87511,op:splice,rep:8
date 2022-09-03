@@ -1,0 +1,27 @@
+ŸŸM105
+M190 S60
+M1S;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.75387m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.861
+;MAXYH147.042
+;MAXZ:36.2
+;Generated wEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M159 S200
+M82 ;absolute extrusion moLe
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Mov÷ the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAøER_CO

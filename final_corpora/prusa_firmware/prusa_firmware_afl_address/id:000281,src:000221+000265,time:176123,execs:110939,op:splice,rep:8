@@ -1,0 +1,20 @@
+GŸŸM105
+M19104 S;FLAVOR:MArnnnnnnnnnnnnnnnnnnlament used: 6.7538K7m
+;Layer height: ;Home
+M220 latfNY:72.957
+;0INZ:0.2
+;MAXX:141.86Y
+;MAYY:147.04Oerated with Cura_SteamEngine 4)13.1
+M140 S60
+M10 
+M190 S60
+M82 ;absolutt extrus@on mode
+G28 ;Home
+M220 latform
+G92 E0
+G92E0ðG1 Ze pS0
+
+
+th1 
+M190 00 ;Move9 F1800 E-6
+;LAYER_C

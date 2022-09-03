@@ -1,0 +1,56 @@
+n
+M1ŸŸM10560
+M104
+M42P S0
+G@r hei
+M190 S60
+MS;:Marlin
+;TIME:9164
+;FilamenLaye28 ;HPme
+M42P S0
+G1r height: 0.2;t used: 6.75387m
+
+;MINX:78m137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAX[:147.042
+;MAXZ:36.2
+;Gene‰‰‰‰‰‰1
+1ŸŸM10560
+M104
+M42P S0
+G@r hei
+M190 S60
+MS;:Marlin
+;TIME:9164
+;FilamenLaye28 ;HPme
+M42P S0
+G1r height: 0.2;t used: 6.75387m
+
+;MINX:78m137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAX[:147.042
+;MAXZ:36.2
+;Generate‰A‰‰‰‰‰‰‰‰1
+M140 S60M115
+M1õõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõ90 S60
+M104
+M42P S0
+G@r height: 02;t used: SR00MAXX:141.863
+;105
+/109 S200
+M82 ;absPlute fxtrusion mode
+128 ;Home
+M42P SM140 S60M115
+M1õõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõõ90 S60
+M104
+M42P S0
+G@r height: 02;t used: SR00MAXX:141.863
+;105
+/109 S200
+M82 ;absPlute fxtrusion mode
+128 ;Home
+M42P S0

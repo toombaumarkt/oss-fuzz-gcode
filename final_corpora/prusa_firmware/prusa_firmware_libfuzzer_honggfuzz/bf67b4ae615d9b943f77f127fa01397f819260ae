@@ -1,0 +1,61 @@
+G2892 olevel
+M45.5
+M45.5olevel
+M45.70 5.tolevel
+M45.56
+M45.56
+G92 E152O
+F0G;3* 1.2527
+/1 F300 5.tolevel
+Mevel
+M45.56
+GY143.203
+lM45G1 F3100X1u#tolevel
+M45.56
+ X1utolevel
+M45.56
+GY143.203
+lM45.56M45.56
+GY143.203
+lM45.56
+G92 E1527û
+G1 F203el
+M45.56
+G93 5.tolevel
+M45.70 45.tolevel
+M45.56
+G92 0 X1utolevel
+M45.5olevel
+M45.70 tol7û
+G1 F203el
+M45.56
+G93 5.tolevel
+M45.70 45.tolevel
+M45.56
+G92 0 X1utolevel
+M45.5olevel
+M45.70 tolevel
+M45.56
+G92 0 X1utolevel
+M45.56
+Mevel
+M45.56
+GY143.203
+lM45.56
+G92 E1250
+G123 F0el
+M45.56
+G93 5.tolevel
+M45.70 5.tolevel
+M45.56
+G92 0 X1utolevel
+M45.5ole.tolevel
+M45.70 5.tolevel
+M45ÊÊÉò
+G92 0 X1utolevel
+M45.5olevel
+M45!45.560mtole5vel
+M45.56
+G92 E3054
+G.1 5
+!45.560N mFa

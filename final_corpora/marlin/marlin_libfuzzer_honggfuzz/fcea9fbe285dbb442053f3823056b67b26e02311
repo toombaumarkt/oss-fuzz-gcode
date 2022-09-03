@@ -1,0 +1,13 @@
+G1 X167 Y80.487 E1770.42412
+G1 X165.348 Y80.158 E1770.51585
+G1 X159.7 Y80.149 E1770.82342
+G1 X119.536 Y80.149 E1773.01058(3 circles with the same diamter 6 mm)
+(1st without tool cçççççççççççççççççcompensation, 3rd with G41 left compensation)
+
+g2M1101
+g0 z2
+g0 x0 y0
+
+m06 t55 (1.6 mm diameter milling head)
+
+mpensation, 3rd with G4

@@ -1,0 +1,9 @@
+G1 F<500 E1
+M140 S0
+M107
+M10L
+G1 0 S0
+M107
+G X0X0 Y0M85
+M82 ;ab;solute }xtruson €ode
+M+04 S0

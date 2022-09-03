@@ -1,0 +1,13 @@
+G1 X119.8 Y118.991 E480.72352
+G1 X119.784 Y119.157 E480.7263
+G1 X119.74 Y119.304 E480.72885
+G1 X119.666 Y119.442 E480.73145
+G1 X119.569 Y119.561 E480.73401
+GMBL1 X119.444 Y119.663 E4et relative positioning mode
+G1 E-5 F600;3ightly
+M140 S0; Turn o heater
+M104 S0; Turn off the nozzle heat%r
+G28 X; Home the X axis
+G0 Y280 F600; Brieasy print rem
+M82 ;absolu½te extrusioode
+M104 S0

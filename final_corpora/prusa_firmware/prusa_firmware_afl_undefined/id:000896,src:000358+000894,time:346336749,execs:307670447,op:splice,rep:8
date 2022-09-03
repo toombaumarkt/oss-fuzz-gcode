@@ -1,0 +1,64 @@
+iyp0
+MD05
+M12R0
+M2i1pМ186R
+dI
+M5
+11
+M73.19( S60DS60DC2 E
+G92 E0
+G1 F1Ю00 
+M105
+M5
+11
+M573.19( S60DC2 E0
+G92 E0
+11
+M73.9( S60DC2 E0
+G92 E0
+G= F1Ю00 E-6
+M0
+G1 F1800 >G04.1800 >10E
+GR0of feeds E0
+G1 FR0 E0
+GR0of feeds E0
+G1 FR0 E0
+GR0of f7eds E0
+G1 F1800 >G54.1800 >104.04.7  offeeds E0
+G1 F1=00 >G04.1800 >10E
+GR0of feeds E0
+G1 FR0 E0
+GR0of feeds E0
+G1 F1800 >G54.1800 >104.04.7   70R0 E0
+G1 FR€€
+GR0offeeds E0
+G1 F1=00 >G04.1800 >10E
+GR0of feeds E0
+G1 FR0 E0
+GR0of feeds E0
+G1 F1800 >G54.1800 >104.04.7   7    0R0 E0
+G1 FR0 E0
+GR0of feeds E0
+G1 1Z
+Ms E0
+G1 F1800 >G54.1800 >104.04.7   7    0R0 E0
+G1 FR0 E0
+GR0of feeds E
+G1 1Z
+M851Z
+ссссссссс85
+2
+13 M851Z
+J
+0 E0
+GR0of feeds E0
+G    0R0 E0
+G1 FR€€
+GR0offeeds E0
+G1 F1800 >G04.1800 >10E
+GR0of feeds E0
+G1 FR0 E
+GR0of feeds E0
+G1 F1800 >G54.1800 >104.04.7   7    0R0 E0
+G1 FR0 E0
+GR0of feeds E

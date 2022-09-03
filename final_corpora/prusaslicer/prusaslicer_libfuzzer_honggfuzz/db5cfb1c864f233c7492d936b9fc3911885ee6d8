@@ -1,0 +1,9 @@
+g1 x-18
+g1 y-18
+g1 x18
+g0 z5
+m5
+g0 x0 y0
+m01 (end of proam)
+
+

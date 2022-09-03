@@ -1,0 +1,61 @@
+
+G10x-16ÿ1 0@wg1 z-25
+g1 „3g z-25
+g1 x3
+g91
+g3
+g3  x3.1 xx5
+Gg1 x4.5
+g2 x4.5g00 x2 4.5
+g2 x4.5g00 x2 y 1g1Gg1 x00 x2
+Gg1 x4.5
+g2 x4.5g00 x2 y 1g1Gg1 x4.5
+g2 x4.5g00 x2 y 1g1
+g91
+g3
+g3  x3.1 xx5
+Gg1 x4.5
+g2 x4.5g40 x2 00 x2 y 1g1 x1 y z-5
+ z-25
+g1 x3
+5
+g91
+g3
+g3  x3.1 xx5
+Gg1 x4.5
+g2 x4.5g00 x2 00 x2 y 1g1 x1 Œ z-5
+Gg1 x4.5
+g2 x4.5g0
+g1 „3g z-25
+g1 x3
+5
+g91
+g3
+g3  x3.1 xx5
+Gg1 x4.5
+g2 x4.5g00 x2 4.5
+g2 x4.5g00 x2 y 1g1Gg1 x00 x2 y 1g1 x1 y z-5
+Gg1 x4.5
+g2 x4.5g00 x2 y 1g1Gg1 x4.5
+g2 x4.5g00 x2 y 1g1
+g91
+g3
+g3  x3.1 xx5
+Gg1 x4.5
+g2 x4.5g40 x2 00 x2 y 1g1 x1 y z-5
+ z-25
+g1 x3
+5
+g91
+g3
+g3  x3.1 xx5
+Gg1 x4.5
+g2 x4.5g00 x2 00 x2 y 1g1 x1 Œ z-5
+Gg1 x4.5
+g2 x4.5g0 x2 00 x2 y 1g1 x1 y z-5
+Gg1 x4.5
+g2 x4.5g00 x2 y 1g1Gg1 x4.5g1Gg1 x4.5
+g2 x4.5g00 x2 x2 00 x2 y 1g1 x1 y z-5
+Gg1 x4.5
+g2 x4.5g00 x2 y 1g1Gg1 x4.5g1Gg1 x4.5
+g2 x4.5g00 x2 y 1g1 x1 y 8z-18t-25

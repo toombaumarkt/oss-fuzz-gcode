@@ -1,0 +1,31 @@
+M140 S60
+MAXIS
+G29 ; A
+M104 S195
+M105
+M109 S195
+M82 ;absolute extrusion mode
+G21 ;metric vRlues
+G90 ;abssitioning
+M104 S195
+M105
+M109 S195
+M82
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Home All 105
+M190 S60uto Bed Levelle platform down 15mm
+
+€92 E0 ;zero the extruded length
+U1 F200 E3 ;extrude 3mm of feed stock
+G92 E0 ;zded length again
+G1 F150.0
+M117 Printing...
+G92 E0
+G92 E0
+G1 F1500 E-6
+M107
+M204 S1000
+G0 F7500 X120.54 Y96.857 Z0.3
+G1 F121.03 Y96.983 E0.02524

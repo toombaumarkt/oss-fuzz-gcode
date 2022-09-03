@@ -1,0 +1,20 @@
+g1z-2
+g1 x3. f15
+g1 y5 60 f1
+g1x31z-2 f60
+g1x0.
+g1 z8
+g1x.1 f5
+g1 z-18f1
+g1 x3f15
+g1 z-2 f10
+g1 x5G18
+g3 x5 r-25z2 f1
+g1x5
+x5r2z0
+g1x4
+g3 x4 r.5 z2
+g1x3Z.6g2 x3. r25 f8g1 x3
+g3x3r1.5z5f5
+g1 x5.0f02
+

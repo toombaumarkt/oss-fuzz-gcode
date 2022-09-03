@@ -1,0 +1,28 @@
+Smode
+~M207 S0ÿÍËÍú
+G07Ð38
+ mode
+M207 S0 X160RES8
+G01 X160RESmode
+M207 S017i.ù27Ð38
+ mode
+M207 S0 X1 m160RESmode
+M207 S017pd
+M207 S0 X1 m160RESmod27Ð38
+ mode
+M207 S0 X1 Ð38
+ mode
+M207 S0 X1 mo X1 Ð38
+ mode
+M207 S0 X1 mode
+M207 S0 X320REÄÄÄÄS$
+G01 Xole
+~M207 S0ÿÍËÍú
+G07Ð38
+ mode
+M207 S0
+ mode
+M207 S017.ù27Ð38ò
+ mode
+M2046
+D4

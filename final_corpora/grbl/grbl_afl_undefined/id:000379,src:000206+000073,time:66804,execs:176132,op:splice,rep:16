@@ -1,0 +1,9 @@
+g  off
+G9
+G61 'f
+G90  ;absoff
+G90  ;absolute posf
+GtepUex‚ off
+G90  ;absolute posf
+G90 *rab
+Mn

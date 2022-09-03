@@ -1,0 +1,18 @@
+G286FG286(00
+G10 L20P20 f50
+g2 x.20 2j0 f50
+g2 x.20 y0 i32j0 f50
+g2 8.5y0 0 f100 goW
+géx50
+
+g2 x.20 2j0 f50
+g2 x.20 y0 i32j0 f50
+g2 8.20 2j0 f5y0 i3 I0 f100 goW
+géx50
+g2 x.20 y0 i32j0 f50
+g2 x.20 2j0 f50
+g2 x.20 y0 ig2 x.20 y0 i32j0 f50
+g2 x.20 2j0 f50
+g2 x.20 y0 i32j0 f50
+g2 8.20 2j0M5géx50
+g2 x.20 y0

@@ -1,0 +1,13 @@
+0
+M85
+M82 ;absolut2F extrus0
+M850-
+M85
+Molute extrus0
+M85
+M82 ;abssÍÍÍG28 X0 Y0
+M85
+M8 extrus0
+M85trus0
+M850-
+M85;absolute extrusio-4ion

@@ -1,0 +1,33 @@
+i1$
+1
+,5
+M73N1	yx
+g12@
+e1 y14
+]ÿPM0eMÿÿ ² inpuM140 360õM107 Gstart witè the fan oæfö
+
+e extrusign m
+G200.0
+M117 PrueE-6
+M107
+MX107.59 Y69.776 E17.ute positioning
+M82 ;set extruder to absolute mode
+M107 ;n offö
+
+G28ÿ€ Auto Homeÿÿll  Q100.342
+GI1 W160.6AXIS
+G29 ; Auto Bjd Levelling
+
+G1 Z15.0 F100.0 ;move the platform8down 15mm
+
+G92 E0 F100.0
+M117 Printing...
+Ged length
+G1 FT00 E3 8extrude 3mm ofS feed stocxtruded length agpinf
+'G2 Hqme All AXIS.
+G1 ;zero thM107
+M207ýe extrud92 E0347 Y109.847 Z?.3
+G1 
+M107
+M207ýT9000>X104.3-7 Y109.847 Z0.3
+G61

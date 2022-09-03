@@ -1,0 +1,4 @@
+G1 Z+0.5 E-5 X;move bit and retract filament even more
+X0 Y0    ;move X/Y to min endstops, soway
+G1 Y2204  ;steppers
+G90  ;absolute positioning(M82 ;aGsol%ute extrusKion¸mode

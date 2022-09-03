@@ -1,0 +1,5 @@
+G1 F1500 X96.136 Y111.47 E2618.12621
+G0 F9000ZX95.57 Y111.47
+G1 F1500 X95.305ng mode
+G1 E-5 e heateÿÿÿÿÿÿÿÿÿÿÿtrusion mode
+M104 S0

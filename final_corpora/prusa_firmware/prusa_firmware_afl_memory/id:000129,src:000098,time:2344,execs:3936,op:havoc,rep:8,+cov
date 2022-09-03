@@ -1,0 +1,5 @@
+20115204 F2000y
+G04 S0
+M140 S0
+G92 E0i8 X; Home)me)the Xaxis
+G Ynput

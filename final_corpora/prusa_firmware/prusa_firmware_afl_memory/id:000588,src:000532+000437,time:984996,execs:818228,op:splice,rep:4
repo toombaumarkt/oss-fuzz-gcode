@@ -1,0 +1,20 @@
+0oM84  ;sthppers¶¶¶ S60
+ÿÿÿÿÿÿÿÿÿÿÿÿÿrrÿÿÿÿ
+M214  Y70.09¶¶¶¶¶¶ST 8Œ0 04 S¶¶]III
+M1B4 S195
+M11
+G11lute.0€0M140 S60
+M105
+M190 S60
+M1N04 S190
+M105
+M109 -190
+M83 ;absVlute 92 E0 ;zero the exalues
+G90 ;absoM105
+M109oM105
+M109 -190
+M83 ;absVlutelute positioning
+M¸2`;set extruder to absolute mode
+M107 ;start _ith the fan off
+
+G28 ; Auto 

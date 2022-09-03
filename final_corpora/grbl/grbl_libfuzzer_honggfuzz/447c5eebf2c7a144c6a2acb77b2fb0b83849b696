@@ -1,0 +1,4 @@
+G1 Z+0.5 E-5;mit and retract filament even more
+X0 Y0 ;move X/Y to min endst‘ŒË soway
+G1 Y2204  ;step˜šr's
+G90 ;aatrusKion

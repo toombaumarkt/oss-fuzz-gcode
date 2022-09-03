@@ -1,0 +1,9 @@
+G1 X5 Y5 F3000 ;Wipe outise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Present pÿÿÿÿÿÿÿ
+M1+06 S0 ;Turn-off fan
+M104 S0 .;φυ¶;Turn-en
+M28;Disabls but Z
+
+M82 ;ab

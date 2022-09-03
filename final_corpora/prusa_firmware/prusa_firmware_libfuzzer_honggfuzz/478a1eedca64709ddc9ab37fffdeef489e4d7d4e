@@ -1,0 +1,7 @@
+G90 ;Absolute positioninguY220 ;PreseFANPINTSTM10ST  ;06urn-off fM104 S0 ;Turn-off hotend
+M140 S0 ;T$urn-off bed
+
+M84 X Y E ;Disable allA steppers but Z
+
+M82 ;absol
+M104 S0

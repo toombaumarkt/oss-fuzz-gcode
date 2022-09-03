@@ -1,0 +1,23 @@
+o100 sub
+  (elical hole milling, load tool and ç°t feed first, then use like (o101 call [x pos] [y pos] [safety height] [hole depth] [hole dia] [tool dia])
+  (tool dia doesn't have to be specified exactly.)
+#4=[0 - #4]
+#Ö7=[#6 / 2]  (#7 is depth-  per circle = half of tool diameter)
+#8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(start above and right so we make a convex corner for entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o10 while [ #8GT #4]
+(5 / 2]] ôœﬂï[0 - [#5 /. 2]] z#4
+(full circle at the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#2 + [#5 / 2]]
+o10 while [ #8GT #4]
+(5 / 2]] ôœﬂï[0 - [#5 /. 2]] z#4
+(full circle at the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]]]
+g0 z##5 / 2]]]
+g0 z#3
+g40
+o100 endsub
+

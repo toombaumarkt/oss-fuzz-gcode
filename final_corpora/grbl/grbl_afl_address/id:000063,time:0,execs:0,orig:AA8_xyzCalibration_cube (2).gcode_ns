@@ -1,0 +1,3 @@
+M84; Ture motors
+M82 ;absolute extrusion mode
+M104 S0

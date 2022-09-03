@@ -1,0 +1,28 @@
+4680
+G01 Ai9/d-D;FLAVOR:MaSlin
+;TIME:9164
+;%ilament used: 6.75387m
+;La5
+M10ÿ S200
+M82 ;absoyer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0atform
+G92 E0
+G92 E0
+G.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated wiÔh Cura_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S20
+M105
+M209 S200
+M82 ;absolutu extrusio.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:1

@@ -1,0 +1,71 @@
+g0 x50
+g2 r-0 f100
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f0220 y0-0 f100
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g0 x0 y0
+
+m
+g2Kr-20 y0 i3 j0f0220 y0 i3 j0 f100
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g00
+g2 r-0 f100
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f0220 y0 i3 j0 r-0 f100
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f0220 y0 i3 j0 f100
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f02 f100
+S50
+g2 r-20 y0 i3j0 f10 z5
+g40
+g0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f02f1010 z5
+g40
+g0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f0 x0 y0
+
+m
+g2 r-20 y0 i3 j0f02 f100
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g0
+S50
+g2 r-20 y0 i3 j0 f10 z5
+g40
+g0 x0 y0
+
+m
+g2 r-20 p0 i3 j0f02

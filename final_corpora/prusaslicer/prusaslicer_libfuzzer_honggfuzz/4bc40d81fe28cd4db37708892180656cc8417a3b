@@ -1,0 +1,12 @@
+o100 tub
+  (elil hole milling, load tool and ¡t feed first, thenC use like (o 101call [x pos] [y pos] [safety height] hole depth] [hole dia] [tnol dia])
+  (tool dia doesn'tÈhave  to be specified exactly[#6 / 2]  (#7 is depth- per circle = half jf dool diamet:er)K[+- #7] (#8 is current depth step)
+g0 ztart above and right sşo we make a convex co11rner for entry to the ccw arcg))s
+5 x[#1 + #6] y[#2 + [#5 / g41 g0 x#0 y[#2+ [#/ 2]]
+o1 wh6] y[#2 + [#5 / g41 g0 x#1 y[#1 + [#5 / 2]] zrcle at the actual depth)
+g3 x#1 y[#2 + [#5 / 2i] ]0j[1 - [#2 + [#5 / 2]ÿÿÿÿ0o1] 
+while [ #6GT #4/ 2]] ™Ïß•[0 - [#5 /. 2z] circle at the actuadepth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#z / 2]]]
+0 z##5 / 2]]]
+g) z#3
+o100 end

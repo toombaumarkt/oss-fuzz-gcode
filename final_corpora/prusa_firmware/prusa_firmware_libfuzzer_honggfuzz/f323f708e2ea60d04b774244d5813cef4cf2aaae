@@ -1,0 +1,25 @@
+;FLAVOR:Marlin
+;TI:9164
+;Filament used: 6.7538
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Gener
+M140 S60
+M105
+M190 S60
+M104 S200
+M105M91
+S 2000
+M82 ;absolute extrusion mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the pl92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

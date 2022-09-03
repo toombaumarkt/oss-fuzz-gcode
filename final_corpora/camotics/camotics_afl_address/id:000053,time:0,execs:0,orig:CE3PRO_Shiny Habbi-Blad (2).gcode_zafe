@@ -1,0 +1,18 @@
+M140 S0
+M107
+G91 ;Rela
+G1 E-2 F2700 ;a bit
+G1 E-2 Z0.2 F2400 ;Retracise Z
+G1 X5 Y5 F3000 ;W
+G1 Z10 ;Raise Z more
+G90 ;Abso
+
+G1 X0 Y220 ;print
+M106 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all steppers but Z
+
+M82 ;absolute extrusion mode
+M104 S0

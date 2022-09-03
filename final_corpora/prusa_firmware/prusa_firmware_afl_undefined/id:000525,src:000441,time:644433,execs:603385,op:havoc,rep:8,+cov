@@ -1,0 +1,24 @@
+iu
+14
+g
+N160.004#
+N*;FME:9;FilameNt used: 6.75387m
+;Layer height: 0.2
+;MINX:78/137
+;\INY:72.957
+;MINZ:0
+;MI.2
+;MAXX:141.863
+;MAXY:147. enerated w0 S60
+Mÿÿÿ90 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+GI8 ;Home
+M42. SP
+G1 Z15.0 R2000Z:36.2
+;G{ platform
+G92 E0
+G92 E0
+G1 F1800 E-6

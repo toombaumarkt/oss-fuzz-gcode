@@ -1,0 +1,16 @@
+(Building Brick project - Uni-Fraes4 - material: foam 26x26x50 mm, tool: end mill 1.6 mm.)
+(zero point: Y-turning axis, X-rigth)
+(now home all axis)
+(tun down the feed override to 40%, then start, after a while you can turn feed override back to 100%)
+g21
+g61
+g0 z2
+gg0 a270nÿ8086277270nÿ x1 y14 (Planen/cleaning surface)
+g1 z-2 f100
+g1 y-141 x0
+g1 y14
+g1 x-1x-5
+g1 y-14
+g1 x-6
+g1 y14
+g1 x-7

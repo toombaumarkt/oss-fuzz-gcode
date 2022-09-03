@@ -1,0 +1,81 @@
+
+MG1 @15J E15196
+L140 S0G«ŸM105
+M19104 S;FLAVOR:1 @15J E15196
+L140 S0G«ŸM105M19104 S;FLAVOR:nnnnnnnnnnr eeight: 0.2
+:78.137
+;MIN3.1
+M14@ S60
+M10 
+M1E0 S.86Y
+;MAXY:147.d05
+M109 S200
+M82 ;absoluSteam@ngine*4.13.1
+M14@ S60
+M10 
+M1E0 S60
+M104 S200
+Md05
+M109 S9 S200
+M82 ;absolu20 la S200
+Md%5
+M109 S200
+M82  innHm2M201pS0 S200
+Md05
+M109 S
+te dxtrusion modeGM8 ;Home
+M20 la S200
+Md%5
+M109 S200
+M82  pS0 S200
+Md05
+M109 S
+G th1 
+M19200
+M82 ;a„solute extrusion modeGM8 ;Home
+M220 la S200
+Md%5
+M109 S200
+M82  pS0 S200
+Md05
+M109 S
+G th1 
+M19<nnnnnnnnnnr eeight: 0.2
+:78.137
+;MIN3.1
+M14@ S60
+M10 
+M1E0 S.86Y
+;MAXY:147.d05
+M109 S200
+M82 ;absoluSteam@ngine*4.13.1
+M14@ S60
+M10 
+M1E0 S60
+M104 S200
+Md05
+M109 S9 S200
+M82 ;absolu20 la S200
+Md%5
+M109 S200
+M82  innHm2M201pS0 S200
+Md05
+M109 S
+te extrusion modeGM8 ;Home
+M20 la S200
+Md%5
+M109 S200
+M82  pS0 S200
+Md05
+M109 S
+G th1 
+M19200
+M82 ;a„solute extrusion modeGM8 ;Home
+M220 la S200
+Md%5
+M109 S200
+M82  pS0 S200
+Md05
+M109 S
+G th1 
+M19

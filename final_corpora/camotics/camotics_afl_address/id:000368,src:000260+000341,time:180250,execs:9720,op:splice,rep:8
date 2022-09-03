@@ -1,0 +1,18 @@
+M1A ¥00M10g1 x-23
+g11 x-25
+…………………………………………………………………
+g1 x-
+g0 x1 y0 (Mittellinie/center line)
+g1 z-4 f100
+g1 x-26 f250
+g1 x-20 y0/7 (Nop eihe 1/nops line 1)
+g2 x-20 y7.3 iK j3.3
+g2 x-20 y0.7 i01 x-12
+g1 y0.7
+g2 x-12 y7.3 i0 j3.3
+g2 x-12 y0.7 i0 j26
+g1 y14
+g0 z04
+g1 y0.7
+g2 x-4 y7.3 i0 j3.3
+g2 x-4 y0.7g1 x-20 y i0 j/nops li

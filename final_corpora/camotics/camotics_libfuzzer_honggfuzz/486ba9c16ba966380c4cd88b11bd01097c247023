@@ -1,0 +1,11 @@
+;  ;Dis
+M412;absolutent printÿÿÿÿÿÿÿ
+M1F6 S0 ;Td
+
+M84 X Y E ;Dis
+M82 ;abse extru04 S00
+g1 ÿ.X`Y E ;DisÀÀ
+`
+x4.P^Y/E ;DiX`Y E ;D
+x4.Xÿÿÿ^ ;DisÀÀ
+4 

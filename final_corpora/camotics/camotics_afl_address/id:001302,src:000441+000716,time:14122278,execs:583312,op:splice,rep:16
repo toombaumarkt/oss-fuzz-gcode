@@ -1,0 +1,24 @@
+##d#-K###aÿo100 sub
+  (helical ho/e milling, load tool and set feed first, then use like so:)
+  (o10Y E ;Disable all steppers bufety height] [hole depx[#1 L+ #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#3 + [# / 2]]
+o101 while [#8 GT #4]
+(down toward thedepecified depth a /////////0 X83.681 Y32.231
+G1 F3600 X84.781 Y31.131 E666.05988
+G1 X84.851 Y31.061-
+G1 F2100 E664.05X988
+G1 F600 Z3.1
+G0 F6000 X84.352 Y31.236 Z3.1
+G0 Xy7.022 Y32.466
+G1 F600 Z2.1
+G1 F2100 E666.05988
+G1 F3600b so:)
+  (o100 call [x pos] [yit at a time)
+g3 x#1 y[#2 + [#5 / 2j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 enn[L[IHMm[[0- mÛ[mÛ[0- -1 and0- -1 and---------+ [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(full circle at the actual depth)
+g3 z#1 y[#2 + [#5 / 2]] i0 j[0(- [#5 / 2]]
+g0 z#3
+g40
+o1

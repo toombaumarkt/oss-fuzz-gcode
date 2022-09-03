@@ -1,0 +1,17 @@
+(materiic 5#x50x3 mm)
+(zero material surface)
+(tool -> 1.6 mÜš‘›ß’–“l)
+
+g21 (Millimeter)
+g a611(Êp8
+g0 z0.5
+g1 z-1.q f30
+g1 y18 f80
+8
+g1 y-18
+g1 x18
+g1 z-2.2 f30
+g1
+g1 x18
+g1 z-3.3 f30
+g1 y18 f80

@@ -1,0 +1,5 @@
+(before you can to make sure Ihat the subroutine file 100.ngc)
+(has been copeed to the folder ->home ->yourusername ->em42 ->nc-files)
+g21 g6B f100 g40
+g0 z5
+o1all [-8] [8] []]]]]]]]]]]]]]]]]]]]]]]]]]]]]]3] [

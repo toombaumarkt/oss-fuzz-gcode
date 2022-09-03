@@ -1,0 +1,7 @@
+M104 S0
+M140 S0
+G85 E0-F2000
+G28 +X0
+M84
+M82trusion modeÃ
+M104 S0

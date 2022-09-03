@@ -1,0 +1,7 @@
+n-off bedM032!
+X Y E ;¼e all steppers but Z
+
+M82 ;absolute extrusion mde
+M104 S0M106 S0 ;Turn-oÿÿÿ
+M104 S0 ;te extrusion mode
+M104 S0

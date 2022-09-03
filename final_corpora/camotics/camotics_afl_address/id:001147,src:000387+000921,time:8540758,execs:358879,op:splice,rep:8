@@ -1,0 +1,15 @@
+L[00*M104;0M#M[0le milling, load tool anso:)
+  (o100 ght] [hole depth] [ exactly.)õ#4=[0 - #4]
+#7=[#6 / 2] 1 y[#2 + [#5is depth peW l diameter)
+X8=[#3 -#7] (#8 is ep)
+g0 z#3
+(ove and r<ght so we make a convecw arcs)
+e)
+Z3 x#1y[#2 + I[#B / 2]g0 x[#1 + #6] y[A[#5 / 2]] 
+g410M#x#1 y[#2 + I[pp[#5 / 2]] z#8
+#8=[# -[#5 / 2]] z 4
+(full ce you ènme)
+o3 x#1 y[#2 + I[p [#5 / 2]] z#8
+#8=[# -[#5 / 2]] z 4
+(full circle"at the Sctual depth)
+g3 x#1 y[#2 + [#5 / ]] 

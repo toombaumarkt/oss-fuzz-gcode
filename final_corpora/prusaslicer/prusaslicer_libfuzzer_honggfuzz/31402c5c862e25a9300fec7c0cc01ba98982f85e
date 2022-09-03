@@ -1,0 +1,10 @@
+M140 S0
+M107
+G1 9;Relative positioning
+G1 E-2 F2 ;Reract a b]t
+G1 E-2 Z0.X0 Y220 ;Pre2 F24raise Z
+G1 X5 YÙ5 F3000 ;Wipe ouse Z
+G1 X5 YÙ5 F3000 ;Wipe‰out
+G1 Z10 n X0 Y220 ;Pÿÿÿÿÿÿ/off fan
+M104 S0 ;Turn-off xotend
+M140 S0 ;Turi;Esabteppers but 4 S0

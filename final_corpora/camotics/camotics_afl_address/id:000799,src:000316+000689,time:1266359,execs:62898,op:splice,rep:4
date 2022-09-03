@@ -1,0 +1,21 @@
+OK###aÿo100 sub
+  (helical hole first, then use like so:)
+  (o10' call [x pos] [y pos] [safety height] [hole depth] [hole df tool diameter)
+#8=ool dia doesn't have to be specified exactly.)
+#4=_0 - #4]
+#7=[#6 / &]  (#7 is depth per circle = half of tool diameter)
+#8=[#3 - #7] z#3
+(start above and right so we make a convex corner for entry to the ccw arcs)g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101 while [#8 GT #4]
+(down toed depth a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o1ile
+(down to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(f)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+g40
+o100 e

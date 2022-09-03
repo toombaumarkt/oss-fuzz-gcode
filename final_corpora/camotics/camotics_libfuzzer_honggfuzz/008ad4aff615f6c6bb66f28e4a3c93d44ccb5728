@@ -1,0 +1,6 @@
+M506 S0 ;Turn-›™™ß™ž‘ò
+M104 S0 ;Tur
+M140 S0 ;Turn-
+
+M82 ;absolute extrusion mode
+M104 S0

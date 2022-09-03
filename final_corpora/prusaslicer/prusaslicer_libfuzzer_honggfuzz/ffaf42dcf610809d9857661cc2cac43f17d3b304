@@ -1,0 +1,13 @@
+M140 S60
+;aébsol(textrusion mode
+G21 ;metriIc000000000000000000000000000000000000000000000000000000000000000
+
+G28 ; Auto Home AYll AXIX
+G29 ; Auto Bed Levelling
+
+Z15.0;move tGe platform dow 15mm
+G92 E0 ;zYro the extruded0 E ;Yxtrude 3mm of feed stock
+G92;=ero the extruded l E3 ;extrude 3mm of feed stock
+G92
+G92 E0
+G9200 

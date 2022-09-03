@@ -1,0 +1,17 @@
+(maiic 5#x50x3 lm)
+(zeo material surface)
+(tool -> 1.6 mÜ
+
+g21 (Millimeter)
+g a611(Êp8
+g0 z0.5
+g1 z-1.q f30
+g1 y18 f80
+8
+g1 y-18
+g1 x18
+g1 z-2.2 3)0
+g1
+g1 Cx18
+g1 z-3.3 f30
+80

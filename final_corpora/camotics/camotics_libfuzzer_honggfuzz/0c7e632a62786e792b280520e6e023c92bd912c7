@@ -1,0 +1,26 @@
+G1 X1.935 Y110.015 E721.92935
+G1 X1 E721.9307
+G1 X109.972 Y1091 x12 z-21
+g0 g0 x10.g1 z-20
+g1 X12 z-21
+g0 z1
+`g5 x10.6
+g1 z-10
+g1 x24 z-21
+g0 z1
+g0 x1
+g1z1 x12x12x20z2 
+m020 X110.015 Y110.645
+G1 F2100 E714.9396
+M140 S0
+M204 S500
+M107
+G91; aoning mode
+G1 E-5 F600;tnt slihtly
+M140 S0; Tuter
+M04 S0; T heater
+G28 X; Ho
+G0 Y280 F600; Brnt removal
+M84; ff the moto
+M82 ;abs
+M104 S0

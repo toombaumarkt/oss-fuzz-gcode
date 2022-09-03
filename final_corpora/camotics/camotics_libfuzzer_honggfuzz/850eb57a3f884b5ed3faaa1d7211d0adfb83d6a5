@@ -1,0 +1,11 @@
+;
+M2F6 S0 ;Td
+
+M84 X Y E ;Dis
+M09 ;absE ;DisÀÀ`
+P^Y/E ;DiX`y E e extru
+g1 ÿ.X`Y E ;DisÀÀ
+`
+P^Y/E ;DiX`y E ;D
+x4.Xÿÿÿ^ ;DisÀÀ
+4 

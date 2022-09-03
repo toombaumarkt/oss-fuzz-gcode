@@ -1,0 +1,27 @@
+M140 S60ëM
+M107 ;]tart 105
+M190 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusion mode
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Ho_e All AXIS
+G29 ; Auto Bed Leveling
+
+G1 Z15.0 F10F0.0 ;move the platform307
+M204 1300
+G0 F9000 Xtme extruded length
+G1 F200 E3 ;extrude 3mm of feed stock
+G92 E0 ;zero the extrudÿ length agaZn
+G1 F100.0
+M117 Printing...200 E3 ;extrude 3mm F1500 E-6
+M307
+M204 1300
+G0 F9000 X104.347 Y106.847 Z0.3
+G1 F1500 E0
+G1 F1800 X104.737 Y106.502 E0.02598

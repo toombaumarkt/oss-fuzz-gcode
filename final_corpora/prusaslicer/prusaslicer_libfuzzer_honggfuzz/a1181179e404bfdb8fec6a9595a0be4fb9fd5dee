@@ -1,0 +1,8 @@
+M140 S60
+M19 S0600
+M105
+egclÿÿ UiunfU ÿÿÿÿ Ui
+ vGl AXIS
+G2< Auto Bed Levelling
+
+#G1 Z15.0 F150.0

@@ -1,0 +1,67 @@
+O1;F
+;4
+;Fil387m
+;2
+;M37
+;957
+;MIN2
+;M863
+;MAXY:147.042
+;M
+;Genera Cura_Steamament used: 6.75387m
+;2
+;M37
+;957
+;MIN2
+;M863
+;MAXY:147.042
+;M
+;Genera Cura_SteamEngine 4.13.1
+M140
+M105
+M17m
+;2
+;M37
+;957
+;MIN2
+;M863
+;MAXY:147.042
+;M
+;Genera Cura_Steamament used: 6.75387m
+;2
+;M37
+;957
+;MIN2
+;M863
+;MAXY:147.042
+;M
+;Genera Cura_SteamEngine 4.13.1
+M140
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extru90 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extsusion mode
+G28 ;Home
+M420 S0
+G1 Ee 4.13.1
+M140
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute 5xtrusion mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;
+G92 E0
+G1 F1800 E-6
+;LAT:181
+;LAYER:0
+M10

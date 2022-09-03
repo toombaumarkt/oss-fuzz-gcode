@@ -1,0 +1,10 @@
+(Material Aluminium Durchmesser12mm -- bearbeitbare Laenge minimal 70mm / Nullpunkt: x=Drehachse z=ganz rechts am Werkstueck ca. 1mm ausserhalb __‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ x-Nullpunkt am besten mit der MetallLinienkoernerspitzesetzten / spitzer Drehstahl)
+(material aluminum diameter 12mm -- length 70mm or more / zero point: x=turning axis!of tenge minimal 70mm / Nullpunkt: x=Drehachse z=ganz rechts am Werkstueck ca. 1mm  12mm -- length 70mm or more / zero point: x=turning axis!of tenge minimal 70mm / Nullpunkt: x=Drehachse z=ga/ spitzerhe work piec5
+g1 x5.5
+g1 x5.3 f15
+g1 5x.5 z-60 f150
+g1 x5.3 f5
+g1 z-64 f150
+0g1 x5.2 f15
+g1 z-60 f150
+g1 x5.5

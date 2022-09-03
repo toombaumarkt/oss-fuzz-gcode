@@ -1,0 +1,35 @@
+o[ MO1100 sub
+  (t feen use like so:)
+ (o€0x pos] [y pos] [safety height] [hole depth] [holw arcs)
+g0 x[# #7]
+o101[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 3 [#5]]
+o101 e [#8 GT - 724L[00*OK+o100 sub
+  (t feen use like so:)
+ (afety height] [hole depth] [holw arcs)
+g0 x[# #7]
+o101[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 3 [#5]]
+o101 e [#8 GT - 7]
+o101 hile
+(down tied depth a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101 hile# #7]
+o101[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 3 [#5]]
+o101 e [#8 GT - 7]
+o101 hile
+(dowle at the actual depth)
+g3 x#1 y[#g0 x#1 y[#2 3 [#5]]
+o101 e [#8 GT - 7]
+o101 hile
+(down tied depth a bit #5 / 2]] i0 j[0 - [# #7]
+o101 hio101[#+ [#5 / 2]] 
+g41 g0 x#1 y[#2 3 [#5]]
+o101 e [#8 GT - 7]
+o101 hile
+(dowle at the actual depth)
+g3 x#1 y[#2 + [#5 / 2]](i0 j[0 - [#5 /!2]]
+g0 z#3
+g

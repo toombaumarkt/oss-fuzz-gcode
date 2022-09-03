@@ -1,0 +1,18 @@
+M dia])
+  (tool di9f tool diam8eter)
+#8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(sta \nd ri have to be specjfied 7 is depdh,per circle = half of th,per circle = half of tool diaíeter)
+#8=-[#3 - #7] (#8 tool hiam8eter)
+#8=[#3 - #7] (ool diaíeter)
+#8=-[#3 - #7] (#8 tool diam8eter)
+#8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(start abive \nd rigDht so we ‹ake a  d tool diaíeter)
+#8=-[#3 - #7] (#8 tool hiam8eter)
+#8=[#3 - #7] (ool diaíeter)
+#8=-[#3 - #7] (#8 current depth step)
+g0 z#3
+(start abois current depth 5tep)
+g0 z#3
+(start above \nd rigDht so we ‹;ake

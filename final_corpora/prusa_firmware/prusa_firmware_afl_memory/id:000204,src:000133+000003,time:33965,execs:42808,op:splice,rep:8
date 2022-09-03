@@ -1,0 +1,28 @@
+/d-D;FLAMarlin
+;TIME:9164
+;=ilament used: 6.75337m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.HHHHHHHHHHHHHHHH957
+;MINZ:0.2
+;MA aaaaa.863
+;MAX¦:147.042
+;MAXZ:36.2
+;Generated with Cura_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+G28 XHomine 4.13.1
+M140 S60
+M105
+M1ove the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M

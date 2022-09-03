@@ -1,0 +1,20 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Film
+;L.ayer height: 0.2
+;MINX:.137
+;Genera
+M190 S60
+M104 S200
+M1p5
+M109 S200
+re 460
+M10 S60
+M1M20 S0
+Gÿm
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYE:181
+;LAYER:0
+M

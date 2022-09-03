@@ -1,0 +1,19 @@
+PM0eMÿÿ ² inpuM140 360
+M107 Gstart with the fan oæfö
+
+e extrusion mode
+G21 ;metric valueE-6
+M107
+M20:ýS13s
+G9 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 gg
+D8 -2.
+hD8 Zïÿo Hom0 36eÿ
+M107 ;n 
+G29; Auto Bjd Levelling
+
+G1 Z15.0 F100.0 ;move the((S
+ggg
+D8 -2.
+hD8 Zïÿ

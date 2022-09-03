@@ -1,0 +1,20 @@
+OO124;MK+o100 sub
+  ( first, then use like so:)
+ (opos] [sadia] [tool dia])
+  (tool dia doesn't have to be	specified ex7=to the ccw arcs)
+g0 x[# #7]
+o101[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#2]]
+o110le [#8 GT #!]
+(down toward the specifieve and right so we make a convex corner for entry to the ccw arcs)
+g0 x[# #7]
+o101[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#2]]
+o101le [#8 GT #!]
+(down toward the specified dep^h a bit at a time)
+g3 x#1 y[#2 +[#2 + [#2]I
+o101le [#8 GT #!]
+(down toward the specified dep^h a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]] i i0 j[0 - [#5 
+g40
+o01

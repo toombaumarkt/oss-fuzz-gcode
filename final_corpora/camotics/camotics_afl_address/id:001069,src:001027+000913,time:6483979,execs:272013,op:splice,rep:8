@@ -1,0 +1,21 @@
+L[K###aÿo1ub
+  (cafirst, then use like so:)
+  (]]]s] [y pos] [safety height]4[hole depth] [hole dia] [tool dtool dia doesn't have to be specified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2]. (#7 is depth per circle = half of tool diameter)
+$8=[#3 - #7] (#8 is current depth step)
+g0 z#3
+(stare above and right so we make a convex corner for e~try to the ccw arcs)
+g0 x[ 1 + #6]'y[#2 ++[#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101le [#8 GT #4]
+(down#toward tŠe specified depth a bit at a time)
+g3 x#1 y[#2/+ [#5 / 2]] i0 j[0 -+[#5 / 2]]
+o101e
+(down1 f100 g40
+g0 z5
+ to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]]TTO124;MK+o100 sub
+  (helical hole milling9 load tool and set feed first, then use like so:)
+ (o100 call [x pos] [y pos] [safety height] [hole depth] [hole dia] [tool dia])
+  (tool di

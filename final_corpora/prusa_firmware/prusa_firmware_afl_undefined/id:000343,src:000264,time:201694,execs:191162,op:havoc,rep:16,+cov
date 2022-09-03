@@ -1,0 +1,27 @@
+PM0eMÿÿ ² inp}M140 360
+M107 Gstart with the fan oæfö
+
+e extrusion mode
+G21 ;metric valueE-6
+M107B
+M203ýS13s
+G90 ;absolute positionfng
+M82 …et extruder to absolute mode
+M107 ;n offö
+
+G58ÿ€ Auto Home Låvelling
+
+G1 O15.0 F100.0 Omove the platform8down 15mm
+
+G92 E0 ;zero t0åvelling
+
+G1 O15.0888888stocxtruded length agpinf
+'G28ÿ€ Auto Home All AXIS.
+G1 F100.0
+M117 Printing...
+G92 E0.47 Y109.847 Z0.3
+G1 
+M107
+M206ýF9000 X104.347 Y109.847 Z0.3
+G1 F1500 E0
+G1 F1800 X104.737 Y106

@@ -1,0 +1,9 @@
+M S0
+MG1 9;Rlative pmsitning
+G1 E-2 F21 ;Rerac a ]t
+G2 E-2 Z0.0 Y220 ;Pşe Z
+G2 X5 YÙ5 F3000 ;Wipe Z
+G1 X5 YÙ5 F30`0 ;Wipe‰ot
+G1 Z1 Y22Pÿÿÿÿ/o~ff fan
+M104 S0 Turn-off xotend
+M140 S0 ;Turi;EsabtepLer0

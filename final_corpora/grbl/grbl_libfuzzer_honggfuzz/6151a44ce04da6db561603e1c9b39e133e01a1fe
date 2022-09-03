@@ -1,0 +1,6 @@
+g0 z4
+g1 z2 f5
+g2 x1 y0 i0 j10f1
+g0z2
+g0 y 0
+G2 S1 Y2 i4 j1 F1m2

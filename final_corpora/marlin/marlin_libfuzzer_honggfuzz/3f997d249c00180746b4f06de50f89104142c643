@@ -1,0 +1,17 @@
+G1 X-X0 Y-20 F30 ;move Z ue head is out of the way
+
+M84     ÿÿÿÿÿÿÿÿÿÿÿÿÿ    ;m the way
+
+M84                         ;steppers off
+G90                         ;absolute positioning
+M82 ;absolute 
+MG1 X-X0 Y-20 F30 ;move Z up a bit and retract filament even more
+G28 X0 Y0            ;move X/Y to min endstops, so the head is out of the way
+
+M84                  of the way
+
+M84                         ;steppers off
+G90                         ;a~solute positio    ;absolute positioning
+M82 ;absolute extrusion mode
+M104104 S0
+-

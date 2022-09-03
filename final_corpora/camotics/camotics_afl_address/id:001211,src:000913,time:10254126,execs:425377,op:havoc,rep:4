@@ -1,0 +1,24 @@
+O124;MK+o100 sub
+  ( first, then use like so:)
+ (o1[y p[safety height] [hole depth] [hole dia] [tool dia])
+  (tool dia doesn't have to be	s ex7=to the ccw arcs)
+g0 x[# #7]
+o101[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#2]]
+o110le [#8 GT #!]
+(down to we make a convex corner for entry to the ccw arcs)
+g0 x[# #7]
+o101[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#2]]
+o101le [#8 GT #!]
+(down toward the specified dep^h a bit at a time)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[#8 - #7]
+o101e
+(down to the actual depth)
+g3 x#1 y[#2.+ [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(full circle at the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+g40
+o010

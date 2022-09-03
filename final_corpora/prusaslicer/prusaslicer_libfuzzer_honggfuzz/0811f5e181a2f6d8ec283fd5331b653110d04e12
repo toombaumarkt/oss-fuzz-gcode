@@ -1,0 +1,9 @@
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+ ;Pre¨sent prÿÿÿÿÿÿÿ6 S0 ;Turn-off fan
+M104 S0 ;ff bed
+
+M84 X Y E ;Dable all ptspees but Z
+
+M82 ;absolute extrusion mode

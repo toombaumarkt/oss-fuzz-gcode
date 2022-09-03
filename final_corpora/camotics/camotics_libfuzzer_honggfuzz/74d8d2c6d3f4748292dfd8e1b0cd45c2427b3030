@@ -1,0 +1,12 @@
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Present printÿÿÿÿÿÿÿ
+M106 S0 ;Td
+
+M84 X Y E ;Dis
+M82 ;absolutent printÿÿÿÿÿÿÿ
+M106 S0 ;Td
+
+M84 X Y E ;Dis
+M82 ;abse extru04 S0

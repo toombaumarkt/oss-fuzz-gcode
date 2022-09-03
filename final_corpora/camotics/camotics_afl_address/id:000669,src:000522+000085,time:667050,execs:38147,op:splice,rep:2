@@ -1,0 +1,29 @@
+m[[[[0-[[[[0-M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;lute extrusion mode
+
+G28 ;Home
+G1 Z15.0 F2000 ;Move the platform
+G0 X0 Y25 F9000 ; Go to front
+G0 Z0.15 ; Drop to bed
+G92 E0 ; zero the extruded length
+G1 X70 E50 F500 ; Extrude 25ÿ of filament in a 4cm line
+G92 E0 ; zero the extruded length
+G1 E-1 F500 ; Retract a little
+G1 X80 F4000 ; Quickly wipe away from the filament line
+G1 Z0.3 ; Raise and begin printing.
+G92 E0
+G92 E0
+G1 F1500 E-6.5
+M107
+G0 F6000 X66 Y90 Z0.18
+G1 F1500 E0
+G1 F900 X67 Y89.86 E0.0
+G1 X67.65 Y89.E0.0
+G1 X68.512 Y0 ; Retract a littl X70.484 Y88.545 E0.11659
+G1 X71.096 Y88.301 E0.13
+G1 X71.Y88.

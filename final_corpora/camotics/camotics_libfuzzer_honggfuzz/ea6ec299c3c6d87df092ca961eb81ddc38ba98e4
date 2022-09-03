@@ -1,0 +1,7 @@
+G1 X5 Y5 F3000 ;Wipe outiseitionin
+G1 M104 S0 .;φυ¶;Turn-en
+M28;DisabS0 ;Turn-off fan
+M104 S0 .;φυ¶;Turn-en
+M28;DisablLTbut Z
+
+M8 ;ab

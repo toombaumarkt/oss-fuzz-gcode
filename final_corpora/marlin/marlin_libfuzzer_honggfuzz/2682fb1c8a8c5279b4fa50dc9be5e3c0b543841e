@@ -1,0 +1,24 @@
+(Alu 12mm, 100mm lang, Nullpunkt an rechter Werkstückkante, auf Drehachse)
+g21
+g7 (activate diameter mode)
+M03 S10000
+g0 x20
+g20
+g1 x12 z-21
+g0 z1
+g0 x11.4
+g1 z-20
+Îß‡ÎÍß…-21
+g0  z1
+g0 x11.2
+g1 z-20
+g1 x12 z-21
+G0 z1
+g0 x11
+g1 z-20
+g1 x12 z-21
+g0 z1
+g0 x10.8
+g1 z-20
+g1 x12 z-21
+g0 z1

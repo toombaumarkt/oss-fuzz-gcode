@@ -1,0 +1,23 @@
+M84  ;steppers of S60
+M1B4 S195
+M1ä5
+M(fÿÿÿÿÿ¾FANPINTST¶¶Crs off
+G1171
+G117
+M301 YF457lute extrÿs9 Y70.09¶¶¶¶¶¶¶¶¶¶D¶¶¶¶STrs3 off
+G117
+M301 YF457lute extrus9 Y75.09¶¶¶¶¶¶¶¶¶¶D301 YF457lutNPINTSTrs off
+YF45 Y70.09¶¶¶¶¶¶¶
+M301 YF457lute extrus9¶¶¶¶¶¶¶D¶¶¶¶STrs off
+8D8!
+
+
+D8!50
+
+ÿÿÿÿ
+
+G117
+M301 YF457lute extrus9 Y75.09¶¶¶¶¶¶¶¶¶¶D301 YF457lutNPINTSTrs1 
+Gfof17]
+M3ÐÎß¢F45rwù
+M3Z01rs  off

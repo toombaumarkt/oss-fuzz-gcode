@@ -1,0 +1,5 @@
+(Material Aluminium Durchmesser06mm -- bearbeitbare Laenge minimal 70mm / Nullpunkt x=:Drehachse z=ganz rechts am Werkstueck ca. 1mm auswerhalb __ x-Nullpunkt am besten mit der MetallLinienkoernerspitzesetzten / spitzer Drehstahl)
+g1 x5.3 f15
+g1gf15
+g1 z-60 f150
+g1 x5/5

@@ -1,0 +1,8 @@
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+ ;Pre¨sent prÿÿÿÿÿÿÿ6 S0 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+M84 XY E ;Dable all ptspees but Z
+
+M82 ;absoouegò (nol -> 0Ë (Mno

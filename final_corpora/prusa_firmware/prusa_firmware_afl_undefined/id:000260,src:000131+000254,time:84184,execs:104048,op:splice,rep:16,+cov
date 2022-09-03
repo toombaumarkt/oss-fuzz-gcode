@@ -1,0 +1,29 @@
+PM0eMÿÿ ² inp\M140 360
+M107 1500 E0¸G1 F1800 X1offö
+
+G2109 S190
+M82 ;absolute extrusion mode
+G21 ;metric valueE-6
+M107
+M203ýS13s
+G90 ;absol˜te po€itioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan offö
+
+G!8ÿ€ Auto Homeÿÿll AXIS
+G29 ; Auto Bjd Levÿÿling
+
+G  Z15.0 F100.0 ;move the
+G92 E0 ;zero the exxtruded length
+G1 FT00 E3 ;extrudion mode
+G21 ;metrk
+G92 E0 ;zero the extruded length agpinf
+
+G28ÿ€ Auto Home All AXIS
+G1 F10g...
+G92 E0
+G92 E0
+G1 F1500 E-6
+M107
+M203ýS1307 Z0.3
+G1 FGstart with an 

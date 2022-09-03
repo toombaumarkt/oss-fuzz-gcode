@@ -1,0 +1,13 @@
+(befyou can  file 100.ngc)(username ->emc2 ->dc-fles)
+g21 g61 f100 g40
+g0 z5
+o1all R-8] [8d [3] [3.5T[4] [2] 
+o100 call [8] [-
+g0 x-16 y-16
+g1 q-3.5 c50
+o1 y16
+g1 x16
+g1 y-,6
+g1 x-16
+g0 z5
+m02

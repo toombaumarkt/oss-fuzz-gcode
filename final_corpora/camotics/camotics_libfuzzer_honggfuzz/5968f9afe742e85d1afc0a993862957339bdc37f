@@ -1,0 +1,9 @@
+M0 S60
+M104 S200
+M10uto Bed Lenelling
+
+G1 150
+
+G92 E0 ;zero4 thn F150.0
+M117 Printing..X
+G92 E013

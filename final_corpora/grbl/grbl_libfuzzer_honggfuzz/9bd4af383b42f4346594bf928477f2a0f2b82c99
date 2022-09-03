@@ -1,0 +1,48 @@
+M14 5Mf$
+G28 X0 Y0 
+x
+G28 X0 off$
+G28 X0 Y0 G28 X0 Y0  ;move 
+G28 X0
+G28 X0 Y0 
+
+G28 X0 Y0  ;m
+ov
+G28 X0 
+G28 X0 Y0 
+ X$
+G28 X0
+off
+
+G28 X0 Y0 
+G28 X0 Y0  ;Bed
+G2 8X10. Y30
+G28 X0 Y0 0  ;mˆ‰
+G28 X0 Y0  ;Bed
+G2 8X10. Y30
+
+G28 X0  ;mo off$
+G28 X0 Y0 G28 X0 Y0  ;move 
+G28 X0
+G28 X0 Y0 
+
+G28 X0 Y0  ;m
+ov
+G28 X0 Y0 
+
+G28 X0 Y0%
+G28 X0 Y0  ;Bed
+G2 8X10$
+G28 X0 Y0 
+
+G28 X0;mo offM$
+G2
+G28X2
+G28 X0 
+G28X1 
+G28 X08 X0 2 X0 Y
+G28 X0 
+G2
+8X0Y2
+G28 X0 
+G28X1 

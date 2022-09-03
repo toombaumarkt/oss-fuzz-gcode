@@ -1,0 +1,12 @@
+; 01G 1Zmore
+G90 ;Absolute posi…–‘ing
+
+G1 X0 Y220 ;Present printÿÿÿÿÿÿÿ
+M106 S0 ;Td
+
+M84 X Y E ;Dis
+M41 ;absolutent printÿÿÿÿÿÿÿ
+M106 S0 ;Td
+
+M84 X Y E ;Dis
+M82 ;abse extru04 S0

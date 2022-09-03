@@ -1,0 +1,16 @@
+se like so:)
+  (o100 call [x pos] [y pos] [safety height] [hole depth]vth04@B0
+ ccw arcs)
+g0 x[#1 + #6] l[#2 + [#5 /#8 GT #4]
+(down toward the spegified `epth a bit at a time)
+g3 x++++++++++++++++++++++++++++++++++++++++++++++++++++++++ g41 
+2]] g0 x#1 y[#2 + [#5 / 2]]
+o101 while [#8 GT #4]
+(down towatimes)
+g0 x[#1 + #6] l[#2 + [#5 /#8 GT #4]
+(dpwn toward the spegified `epth a bit at a time)
+g3 x++++++++++++++++++++++++++++++++++++++++++++++++++++++++ g41 
+2]] g0 x#1 y[#2 + [#5 / 2]]
+o101 while [#8 GT #4]
+(down towatime)
+g3 x++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#8

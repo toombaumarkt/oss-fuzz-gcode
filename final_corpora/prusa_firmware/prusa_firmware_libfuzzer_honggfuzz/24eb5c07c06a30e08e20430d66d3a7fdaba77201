@@ -1,0 +1,77 @@
+G1 Y
+G1 
+
+M84 X X0ออออออ1ฮ Y8
+
+M84 X ๐ÿÿÿÿÿ1 
+
+M84 X X0ออออออ1ฮ Y8
+
+M84 X ๐ÿÿÿÿÿÿÿ135-ovf obe
+
+M84 X YF9000 X1035-ofอ5 
+M84 X Y86
+G 471
+
+M84 X YF9000 X10อ.ออ20ออวออ1 Y8
+
+M84 X ๐ÿÿoff bed
+
+M84 X Y
+7
+G1 
+
+M84 X Yf9000 \102.0อออออออ1Y8
+
+M84 X ๐ÿÿÿÿÿÿÿÿÿÿ135-off bed
+"
+M84 X YX9 ๐ÿÿÿÿÿÿÿÿ5-o๎fอ5 Y86.9
+G 471
+
+M84 X bed
+
+M84 X Y29000 X1อ1 Y8
+
+M84 X0๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 M2alphX Y29000 X102.01HY85.62 stepX YF9000 ี102.0ออออ1 Y8
+
+M84 X ๐ÿÿÿÿ1Ý35-off bee
+
+M84 X YF9000 X102.09๗๗๗๗๗๗151 Y85.62 stepper]sÿÿ135-ovf obe
+
+M84 X YF9000 X1035-ofอ5 
+M84 X Y86
+G 471
+
+M84 X YF9000 X10อ.ออ20ออวออ1 Y8
+
+M84 X ๐ÿÿ$๘ÿÿ
+
+M84 X Y0
+
+7
+G1 
+
+M84 X Yf900R0 \102.0อออออออ1Y8
+
+M84 X ๐ÿÿÿÿÿÿÿÿÿÿ135-off bed
+"
+M84 X YX9 ๐ÿÿÿÿÿÿÿÿ5-o๎fอ5 Y86.9
+G 471
+
+M84 X bed
+
+M84 X Y29008 X1อ1 Y8
+
+M84 X0๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 M2alphX Y29000 X102.01 Y85.62 stepX YF9000 ี102.0ออออ1 Y8
+
+M84 X ๐ÿÿÿÿ1Ý35-off bee
+
+M84 X YF9000 X102.09๗๗๗๗๗๗151 Y85.62 stepper]sion mode
+absod
+
+M8 S0
+2 `S1

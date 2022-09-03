@@ -1,0 +1,16 @@
+Z84 40inp–ÿÿFANPIN_40#ShÄÿ0
+M301 YF457l
+0ÿÿFANPI0 E-00
+ÿßÿÿrrÿÿÿì
+M214 s500ÿÿFANPI0 E-odˆ
+M10RM84  ;steppers of'S60
+ÿÿÿÿÿÿÿÿÿÿÿÿÿrrèÿÿ
+M214 4500ÿÿFANPINTET 8Œ0 04 a50007
+M1î
+M1B4 S195
+M11
+G117H
+M301 YF45l€ÿÿÿeextru¶¶¶R¶¶sssssÿÿÿÿÿFANPIN_40#SÛÄÿ0
+M301 YF457l
+G117
+M301 YF45

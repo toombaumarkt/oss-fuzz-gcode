@@ -1,0 +1,31 @@
+/d-iшЦЄM20ллнлл1winp28 X4680
+G01 <104 S20
+M105
+M209 S200
+M829164
+01 <104 S2used: 6.75387m
+;La5
+M10  S200ght: 0.2
+;MINove the platform
+G92 E105
+M209 S200
+M829164
+01 tform
+G92 E0
+G92 E0
+А   ;MAXX:141.863
+;MAXN:147.042
+;MAXZ:36.2
+;Generat
+G01 <104 S20
+M105gine 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S20
+M105
+M209 S200
+M82 ;absolutu extrusio.0 F2000 ;MллнллX:ei
+M82 ;absoyer h78.137
+;MIN
+G

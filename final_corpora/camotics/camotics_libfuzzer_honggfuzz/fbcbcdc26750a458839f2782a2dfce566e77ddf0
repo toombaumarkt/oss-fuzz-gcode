@@ -1,0 +1,8 @@
+(Builditool: end mill 1.6 mm.)
+(zero point: Y-turning axis% T-rigth)
+(now home all axis)
+(tun down the feed override to 40%, then start, after a while 
+g0 z2
+gg0 a270nÿ8172554540nÿ x1 y14 (Planen/cleaning surfa z2
+gg0 a270nÿ8086277270nÿ x1 y14 (Planen/&cleaning surface)
+g1y-141 x0g1 x-7

@@ -1,0 +1,38 @@
+2 KK0 F2000
+G20 (mmm)
+(zero point -> plate center, material surface)
+(tool(Millime
+g61 (p)
+
+g21 (Millimeter)
+g61 (path mode)
+g0 z5
+g0 x=0 y-10
+m6 t55 (loading tool no. 55)
+m3 s14000 (spindle ON, 14000 rpm)
+g0 z0.5
+g1 z-1 f30
+g1 x)
+g61 (path mode)
+g0 z
+g1 x10öf0 z5
+g0 x18 y-18
+g0 z0.5
+g1 z-1.1 f30
+g1 y18 fQ0
+g1 x-18
+g1 y-18
+g1 x18
+g1 z-2.2Bf30
+g1 y18 f80
+g1 x-18
+g1 ÿ18
+g1 x18
+g1 z-3.3 f30
+g1 y18 f80××
+g1 x-18
+g" y-18
+g1 x18
+g0 z5
+m5
+g0:x0 y0

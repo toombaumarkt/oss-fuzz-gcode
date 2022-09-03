@@ -1,0 +1,7 @@
+M140 S0; Turn off the bed heater
+M104 S0; Turn off the nozzle heater
+G28 X; Ho axis
+G0 Y280 F600; Brifor easy print removal
+M84; Turn off the motors
+M82 ;absolute extrusion mode
+M104 S0

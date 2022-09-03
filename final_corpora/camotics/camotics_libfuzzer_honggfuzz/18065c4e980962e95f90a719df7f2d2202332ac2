@@ -1,0 +1,39 @@
+(rial acrz)
+0 z5
+
+(to mill)
+
+g2M1 (Meter)
+g61 (ðath mole)
+g0 z5
+g0 x10x--10
+g1 3x10
+g0 z5
+g0 `2x--10
+g1 x10J
+g0 z5
+g0x14 y-18
+g0g1 x-18
+e1 y-18
+g0 x1
+g1 z-2.é2 f30
+g1 yû18 f80
+g1 x-18
+g1 y-180 z5
+g0ae)
+(to mill)
+
+M1 (Meter)
+g61 (path mole)
+g0 z5
+g10
+
+g1 x14
+g1 z-30
+g1 y18 f80
+g-18
+g1 xÆ8g0 z0
+m5
+g0 =====x0 y0
+m02 (fm)
+

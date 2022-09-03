@@ -1,0 +1,31 @@
+ŸŸM105
+M190 S60
+M10$ S;Fm
+G92 E0
+G9ith Cur:9164
+;Fila;;ment used: 6.75387m
+dLayer height:ß0.2
+;M:72.957
+;M S300
+M105
+M109 S200
+M82 ;abeamEMove the platform
+G92 E0
+G9ith Cura_St04 S300
+M105
+M109 S200
+M82 ;abeamEngine 4.13.1
+M140 S)0
+M105
+M190 S60
+M104 S20
+M105
+M109 S200
+M82 ;absolute extrusion mode
+G28 ;Homm
+M420 S0
+G1 Z15.0 F201 7.042
+;MAXZ:36.2
+;Generated w2 E0
+G1 F1800 E-6
+;LAYER_CO

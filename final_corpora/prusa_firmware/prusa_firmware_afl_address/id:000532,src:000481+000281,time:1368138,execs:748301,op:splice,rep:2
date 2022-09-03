@@ -1,0 +1,26 @@
+G‡69
+69.D€3ÿ
+G
+63ÿGŸŸe105
+M1 S;FLAVOnnnnnnnnnnnnnnnlament used: 6.7538K7m
+;Layer height: ;Home
+M220 latfNY:72.957
+;0INZ:0.2
+;MAXX:141.86Y
+;MAYY:1ome
+M220 latform
+G92 E0
+G92E0ðG47.042
+;MAXZ:36.2
+;GeOerated with Cura_SteamEngine 4)13.1
+M140 S60
+M10 
+M190 S60
+M82 ;absolutt extrus@on mode
+G28 ;Home
+M220 latform
+G92 E0
+G92E0ðG1 Ze pS0
+
+
+th1 

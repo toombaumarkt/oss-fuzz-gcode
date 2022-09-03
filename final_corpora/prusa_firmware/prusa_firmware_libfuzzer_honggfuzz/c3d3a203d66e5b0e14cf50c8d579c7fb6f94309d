@@ -1,0 +1,11 @@
+MS
+M8 ;abso.lu+te extrusigggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg5gggggggggggggggggggggggggggggg
+
+G; AIuto “ome All 29 ; Aut0[B+edevelling;move the bevaform down93m4 E0 ;zern gggggthe extruðed len:::::::::::::::::::;zero the extruded length agcin51 GF1
+0.0
+M117
+)92 E0
+G92 E0
+G1 500 4 S0
+G~1 F30 .3
+G0 64 Y19.SZ0.3

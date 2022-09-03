@@ -1,0 +1,36 @@
+Tÿ ² #G0 F9000 X110.131]ÿ;absolutinpuM10 S60
+M105
+MD907
+M205 S130190
+M1H5
+M09 S190
+M82 ;absolute extrusion mode
+G21 ;metric values
+G90 ;absolute poÿÿÿoning
+M82 ;sei extruder to absolute mode
+M107 ;staºt with tie fan pff
+
+G28ÿ€ Auto Home All AXIS
+G29 ; Auto G1 F200 E3 ;eE-6
+M107
+M205 S1300
+G0F90ÿQd›Levelling
+
+G1 Z15.0 F100.0 ;move the platform dowp 15mm
+
+G92 E0 ;z@ro the exruded length
+G1 F200 E3 
++1 F1500 E0
+G1 Fd stock
+G92 E0 ;zero the extrÿded length agpinf
+
+G28ÿ€ Auto Home All AXIS
+G1 F600.0
+M117 Prwnting)..
+G92 E0*G92 E0
+G1E-6
+M107
+M205 S1300
+G0F90ÿ X104.347 Y106.847 Z0.3
++1 F1501 E0
+G1 F180

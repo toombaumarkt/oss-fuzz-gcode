@@ -1,0 +1,80 @@
+M140 S60
+M105
+M	11 Z15.0 F
+M117 Prinping...
+G92 E02
+G92 E0
+G1 F1500 E-6
+M1ga2 E0
+G92 E0
+G1 F1in
+G1 F150.0
+M117 PrintAUTO..
+G92 E0(
+
+
+
+
+
+
+
+g
+4D8!
+
+
+
+
+
+
+
+G92 E0
+G0 F1500 E-nozzle6
+M107
+M117 PMBLrinting...
+G92 E0
+G92 E0
+G1 F1500 E-6
+M1E0
+G92 E0
+G100
+
+G92 E0
+G92 E0
+G1 F15
+M304 E0
+G92 E0
+G100
+G1 F300 Z1.3
+G0 F7gain%
+G8 F150.0Æ
+M117 Printing...
+G1 F300 Z1.3
+G0 F7gain%
+G8 F150.0Æ
+M117 Printing...
+G9
+M117 PMBLrinting...
+G92 E07
+M
+G92 E0
+G1 F1in
+G1 F150.0
+M117 Printing...
+G92 E0
+G92 E0E0
+G92 E0
+G1 F1in
+G1 F150.0
+M117 Printing...
+G92 E0(
+
+
+
+
+
+s
+
+g
+4D8!
+
+íz

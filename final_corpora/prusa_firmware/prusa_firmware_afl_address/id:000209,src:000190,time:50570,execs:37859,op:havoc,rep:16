@@ -1,0 +1,9 @@
+GS0
+M17
+M Z0
+$1 E-10 F2000
+G28 104 S0 S0$G92 Z0
+$1 E-10 F2000
+G28 X984ÿÿÿ Y0M82 ;abso[ute ewtsusi„n ’odKe
+MÿÿÿS07
+M Z0

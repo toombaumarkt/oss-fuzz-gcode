@@ -1,0 +1,16 @@
+c0x1.7
+g1 z2
+g1 x2z-21
+g0 z1
+g0 x0.4
+g1z1 x2 z-21g0 
+g0x1.g1 z-20
+g1 X2 z-2
+g0 z1
+g5x0.6
+g0 z0
+g1 x1z21
+g0z1
+g3 x1
+g1z1 x2x12x2z2
+m02

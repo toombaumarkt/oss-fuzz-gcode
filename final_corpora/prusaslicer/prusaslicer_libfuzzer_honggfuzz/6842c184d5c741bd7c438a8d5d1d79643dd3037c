@@ -1,0 +1,19 @@
+;P:
+;TIilaused: 687m
+;LGight:@ 0.2
+;YA:042
+;MAXZ:B6.2
+;GenamEe 4.12
+YM140 S0
+M18 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolode
+G;28 Home
+M420Í S0
+G F2@0þÿÿÿm
+G92 E0
+G92 E0
+G1 F1ol0 E-6
+;LA

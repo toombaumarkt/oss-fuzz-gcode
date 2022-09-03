@@ -1,0 +1,62 @@
+M1 extrusIonKaÿÿÿÿBÿM106
+M205to Bed&LevelliM
+ÿÿÿÿÿÿÿvelliM
+ÿÿÿÿÿÿÿ
+M205to Bed Ll5
+M205to B
+107
+M205to Bed Level
+G1 Z1ÿÿÿÿÊò
+M205to Be107
+M205to Bed Level
+G1 Z1ÿÿÿÿÊò
+M205to Bed Level
+M205to B
+107
+M205to B1ÿÿÿÿÊò
+M205to Bed Level
+G1 Z1ÿÿÿ6ÿÿÿM107
+M205.0 .bsolute p8to Bedel
+
+ºBed ÿÿÿÿÿ3ÿM106
+M20
+M205to Bed Ll5
+M205to B
+1°7
+M205to Bed Level
+G1 Z1ÿÿÿÿÊò5to Bed Level
+G1 Z1ÿÿÿM205.0 .sltIuco ep5to Bedd Level
+M205to B
+107
+M205to B1ÿÿÿÿÊò
+M205to205to B
+107
+M205to Bed Level
+G1 Z1ÿÿÿÿÊò
+M205to Be107
+M205to Bed Level
+G1 Z1ÿÿÿÿÊò
+M205to Bed Level
+M205to B
+107
+M205to B1ÿÿÿÿÊò
+M205to Bed Level
+G1 Z1ÿÿÿ6ÿÿÿM107
+M205.0 .bsSlute p8to Bedel
+
+ºBed ÿÿÿÿÿ3ÿM106
+M20
+M205to Bed Ll5
+M205to B
+1°7
+M205to Bed Level
+G1 Z1ÿÿÿÿÊò
+M205to Bed Level
+G1 Z1ÿÿÿM205.0 .sltIubo eb04p5to Bedd Level
+M205to B
+107
+M205to B1ÿÿÿ:to Bed L4vell5
+M205lo Bel Levelling
+
+Gosng
+M82 ;s^t extruder ;o abs1

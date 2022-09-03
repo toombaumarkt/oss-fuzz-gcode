@@ -1,0 +1,8 @@
+M140 S0
+G92 
+g2 x3 y0 i-3 j0 f100
+g0 z2
+g40
+
+(cicle 3, om'ode
+M052 S0

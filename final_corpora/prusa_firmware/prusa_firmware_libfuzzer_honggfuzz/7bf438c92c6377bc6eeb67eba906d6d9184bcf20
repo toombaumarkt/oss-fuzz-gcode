@@ -1,0 +1,8 @@
+G1 X97.515 Y94.8 positioning Y6 F30LRel;ÌË-83
+M204R4 Y70r7
+M3000.628 YP09RNM
+PAM0+4 S10               
+M40 S190
+G91 »Rel;ÌË-83
+M204R4 Y70.314.9car7
+M3000.628f0ee0dPMBLrintgudia1ÿ0

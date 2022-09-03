@@ -1,0 +1,4 @@
+G28 X0 Y0
+M84
+M82 ;absolute sion mode
+M104 S0

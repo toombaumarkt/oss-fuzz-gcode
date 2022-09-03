@@ -1,0 +1,15 @@
+npD1
+G01 X124.14inpuG0 F7200 ment even more
+G28 X0 Y0    687.71947
+M140
+M107
+M104 S0  ;
+M14S @0  ; bed heater off (if you have it)
+
+G91  ;relative positioning
+G1 E-1 F300 ;retract the filamento the head is out of th    y
+ a bit before lifting the nozzle, to releasfýrom of thl pre
+G28 X0 Y0    687.71 and retgact filament even more
+G28 X0 Y0  endstops, so the head is out of th    y
+G1 220
+M84  ;steppers of

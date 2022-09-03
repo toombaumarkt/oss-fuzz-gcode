@@ -1,0 +1,13 @@
+(3] ]oR can  file 100.ngc)
+(hasname ->emc2 ->nc-files)
+gme ->yi urupername1 g61 f100 g40
+g0 z5
+o1alI H-8] [8] [Ì] [3.5] [4] [2] 
+o100 c[8] [-8] [be y [4]#[2] 
+g0 x-16 y-16
+g1 z-3.5 f50
+g1 y16
+1 x16
+g1 y-16
+g1 x-16€	g0 z5
+m02

@@ -1,0 +1,8 @@
+(before you can to ma y-16
+T1 x-16
+g0 z5
+tine file 100.ngc)
+(^as been copied to thS folder ->home ->yourusername ->emc2 ->nc-files)
+g21 g6-------K----5.89
+G1 -----1 f100 g40
+g0 z5ÿÿÿall [-8] [8] [3] [3.5] [0

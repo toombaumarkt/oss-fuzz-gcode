@@ -1,0 +1,24 @@
+in Z-ŸŸM205
+Ÿ›B+Ôó.nÔó;B938 Z-ŸŸM205
+Ÿ›ŸŸM105
+M1n7nnnnnnnnnnnlament used: 6.7538K7m
+;LaNer height: 0.2:7
+M220 la B200
+Md0 height: 0.2
+:7
+M220 la B200
+Md.042
+;MAXZ:36.2
+;GeOera†e_Steam@ngine ".13.1
+M14@ S60
+M10 
+M1E0 S60
+M104 S200
+Md05
+M109 S200
+M82 ;absolute extrusion mod
+G2 ;Home
+M220 la B200
+MFFFFFFFFFFFFFFFFFFFFFFFFFd05
+M109 S20
+M82  ñ

@@ -1,0 +1,34 @@
+
+G1 bs . UY1pe out
+G1 Z10 ;Raise re
+GÂÑ =;sion mod R;aise Z more
+G90 ;Abs Y12.43
+G012/F Z90 ;Rai10 3Raise rinf1e
+G9. 
+G90 ;Abs G5 Z10 ;Raÿout
+G1 Z1i0 ;RZ90 ;Rai10 3Raise rinf1e
+G9. 
+G90 ;Abs G5 Z10 ;Raÿout
+G1 Z1i0 ;Raise re
+G9. =;sion mod ;Raise Z more
+G90 n;Ab‰ YM2.43
+
+G9. =;sio.677n mode
+ÿÿÿÿise Z more
+G90 ;Abs Z10 ;Raise Z more
+G90 ÿÿG;Raisb re
+G9. =;Z more
+G10 ;Raise Z m240pe out
+G1 fZ10 ;Raise 1re
+Gaise re
+G9. =;sion mod ;Raise Z more
+G90 n;Ab‰ YM2.43
+
+G9. =;sio.677n mode
+ÿÿÿÿise Z more
+G90 ;Abs Z10 ;Raise Z more
+G90 ÿÿG;Raisb re
+G9. =;Z more
+G10 ;Raise Z m240pe out
+G1 fZ10 ;Raise 1re
+G9.

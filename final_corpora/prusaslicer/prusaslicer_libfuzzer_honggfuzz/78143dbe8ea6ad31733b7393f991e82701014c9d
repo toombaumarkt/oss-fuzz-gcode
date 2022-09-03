@@ -1,0 +1,7 @@
+M140 S0
+M204 S500
+M107
+G91; Set }}}}}}}}ightly
+M140 S0; e X axis
+G0  extrusion mode
+M104 S0

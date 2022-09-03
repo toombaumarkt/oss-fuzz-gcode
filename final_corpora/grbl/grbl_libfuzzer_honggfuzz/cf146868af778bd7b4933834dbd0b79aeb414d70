@@ -1,0 +1,29 @@
+;F
+G28ni:
+G92
+G90
+G90  ;absopla~form
+G92
+G90 a~fo,rm
+G92
+G90
+G90 ;abFe plaes
+G90 ;absG1 Z35.0ol90 ;absG2 Z
+G90orm
+G92
+G9G38.5
+,rm
+G92
+G90 es
+G90 ;anw
+M7orm	<G92
+G90 es
+G90 ;anM7orm	<G92
+G90  ;ab
+G90 ;abFe pla~forl
+G9$2
+G90  ;ab
+G90 ;abFe pla~forl
+G9$2
+G90 es
+-25M

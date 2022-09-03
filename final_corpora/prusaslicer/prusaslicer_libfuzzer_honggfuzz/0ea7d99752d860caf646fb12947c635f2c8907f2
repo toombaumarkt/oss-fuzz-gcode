@@ -1,0 +1,9 @@
+M;aŽbsol(textrusion mode
+G21;metriIc000000002000000ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ000000000000ÿÿÿÿÿÿÿ0000000000000000.000000000000
+G28 ; Auto Home AYll AXIX
+G29
+G92;zYro the extrude;d0 E ;Yxtrude 3mm of feed stock
+G92;=ero the extr:ded l Eå ;extrude 3mÿÿÿg feed stock
+G92
+G92 
+G

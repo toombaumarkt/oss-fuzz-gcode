@@ -1,0 +1,23 @@
+/d-D;FLA            7538: 0.INX:78.137
+;MINY?72.957
+;MINZ:0.2
+;MAX:141.863
+;MAXY:147.042
+;MAXZ:%6.2
+;Gÿÿated with Cura_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;adsolutz extrusion mode
+G28 ;Home
+M420 S0
+G1 L1420 ZS0
+G1 Z15.0D F2e platform
+G92 )0
+G92 E01 F1800 E-6
+;LAYER_COUNT:11
+;LAYER:0
+M

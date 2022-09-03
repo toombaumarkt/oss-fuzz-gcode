@@ -1,0 +1,19 @@
+;FLCR:Marlin
+;:9164
+;Film
+;L.ayer e:hthg i0.2
+;MINX:.(37
+;Genera
+M190 S60
+M104 S200
+M1pM109 S200
+re 460
+M10 S60
+M0 S0
+Gÿm
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYE:18)
+;LAYER:0
+M

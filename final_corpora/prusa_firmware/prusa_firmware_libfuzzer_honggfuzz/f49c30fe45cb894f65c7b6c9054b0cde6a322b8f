@@ -1,0 +1,19 @@
+M84  ;steppers of S60
+M1B4 SЕ195
+M1д5
+Mpers offrs off
+€€€wG1172;int
+M%6 S0 ;Tnt
+M81 ;i
+G90 ;pout Z
+
+M82 ;int
+M%2
+G90 ;poutК Z
+
+M82 ;int
+M%6 S0 ;
+M81 ;int
+ SI ;T304.3€€€€€№№№№№№№№№№№№№№№№№№№№№№оs offrs off
+G1172304.3€€€ѓ€7€€€€€€€€€€€€€€€€€€€€€FAN8оCоооооооооооооооооооооооооMН403 S1y0 0 i€€€€€€€'пEEEEEEEg1 95€€€€€
+G€€0(((1

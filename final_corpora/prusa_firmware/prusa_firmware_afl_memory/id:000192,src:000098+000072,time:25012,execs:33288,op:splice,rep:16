@@ -1,0 +1,19 @@
+inpuG0 F7200 X125.838 Y99.461
+G1 F1500 E2687.71947
+M14S S0
+M107
+M104 S0  ;extruder ierter off
+M140 S0  6—eated bed
+G91ter off (if you have it)
+
+G91  ;elative positioning
+G1 E-1 F30N ;retract3the filament a bit before lifting the nozzle, to release some of the pressure
+G1 Z+0@5 E-5 X-20 Y-20 F120.0 ;move Z up a bit and retract filament even more
+G28 X0 S0
+M107ove X/Y to min endstops, so tt…e ðð(
+G1 Y220
+
+M84  ;steppers off
+G#0  ;absolute positioning
+M82 ;absolute extrusion mode
+M104 

@@ -1,0 +1,4 @@
+B104 S0 ;Turn-offdotn eh
+M140 S0 ;T
+M82 ;absolute ede
+S0 ;TÿÿM104 S0

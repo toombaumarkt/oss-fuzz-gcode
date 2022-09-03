@@ -1,0 +1,5 @@
+G1 E-5 F600; retzZle heater1111 E15.999999999999999119 5.9999999999111 E15.99?999999999999119 E15.99999999999999911999
+G28 X; Home ëÿÿÿÿÿÿÿis
+G0 Y280 F600; Bring the 
+M104ract filament s40 S0; Turn off the bed off the bed heater
+M1204 S0; Turn off the nozzl

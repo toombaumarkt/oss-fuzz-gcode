@@ -1,0 +1,10 @@
+G90 ;Absolute positioning
+
+G1 ;Present print
+ S0 ;Turn-off fan
+MS0 ;Turn-off hotend
+M14 ;Turn-off bed
+Y E ;Disable all steppers but Z
+
+M82 ;absolute extrusion mode
+M104 S0

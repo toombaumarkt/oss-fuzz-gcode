@@ -1,0 +1,53 @@
+M‘f50
+M(
+M862SDEin2urM140 S60
+M105
+M1\0
+M104 S190
+M105
+0
+Mè2 ;on m0 ;HbM82 ;ab me
+G2solute positioningtruder touto Bjd Levellinglling
+
+G1 Z15.0 F1:0.0 ;move the jlmtform domm
+
+G92 E0 ;zero thd extruded length
+G( F200 M1 S6pŒý	D28 X65ô
+
+D5Ax9!ô
+
+DCŒý	D28 X65Õ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+65ô
+
+D5Ax96Ax7S6pŒü	d28 X65ô
+
+D5AxAx96Ax7S6pŒý	0
+G1 ÿÿÿ0 E-6
+M107

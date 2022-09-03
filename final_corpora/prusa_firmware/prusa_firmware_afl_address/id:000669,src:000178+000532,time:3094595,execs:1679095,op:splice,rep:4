@@ -1,0 +1,25 @@
+ÿÿýÿÿÿÿÿCÿÿÿÿÿÿG‡69.D01ÿ
+M220 la2 E0
+G969.D01ÿ
+69.D€3ÿ
+G
+69.D€3ÿGŸŸe105
+M19104 S;FLAVOR:MArnnnnnnnnnnnnnnnnnnlament used: 6.7=38K7m
+;Layer height: ;Home
+M220 latfNY:72.957
+;0INZ:0.2
+;MAXX:141.86Y
+;MAYY:1ome
+M220 latform
+G92 E0
+G92E0ðG47.042
+;MAXZ:36.2
+;GeOerated with Cura_Ste‚mEngine 4)13.1
+M140 S60
+M10 
+M190 S60
+M82 ;absolutt extrus@on mode
+G28 ;Home
+M220 latform
+G92 E0
+G92E0ðG

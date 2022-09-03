@@ -1,0 +1,12 @@
+0R3M84  ;steppers of S60
+ÿrrÿÿÿÿ
+M214 S)500ÿÿFANB4 S195
+M11
+G117
+M301 YF45l€ÿÿFA8PINTSTrs off
+G€17
+PRÿÿÿeextrus9 Y70.09¶¶¶¶¶¶¶¶¶¶D¶¶¶¶R¶¶¶D¶¶¶¶¶CIIIøø10.0o6ÿÿÿ]2ÿÿÿÿÿÿÿÿÿÿÿÿFANPINTSTrs off
+G€17
+PRNM_40#SÛÄÿ0
+M301 YF457lute extrus9 Y70.09¶¶D¶–¶¶¶¶¶¶¶¶¶¶R¶¶¶D¶¶¶¶¶¶¶¶¶¶¶¶¶CIIIøø30.0o62ÿÿÿÿÿ!þÿÿÿFANPINTST STÿ=‘rrrrrrrrrrrrrrúÿ4ÿÿÿÿÿÿÿÿÿÿÿÿÿrrÿÿÿÿ
+M214 S500ÿÿÿÿÿÿÿ=‘rrrrrrrrrrrrrÿÿÿ@

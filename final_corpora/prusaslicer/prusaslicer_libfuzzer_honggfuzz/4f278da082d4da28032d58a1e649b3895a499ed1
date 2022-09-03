@@ -1,0 +1,6 @@
+M140 S0 ;d
+
+M84 X Y E ;Disablesteppers but Z
+
+M82 ;abse eytrusion mode
+M104 S0

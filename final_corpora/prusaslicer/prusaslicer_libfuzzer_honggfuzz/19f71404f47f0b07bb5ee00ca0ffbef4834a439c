@@ -1,0 +1,6 @@
+G1 Y220
+
+M84  ;f]
+G90  ;Ÿ‹ute postioni7
+M82 ;a o
+M28 S0%

@@ -1,0 +1,7 @@
+M104 S0 ;Turn-off h2otend
+MS0 .;Tu-of bed
+
+M84 X Y E ;Disable all steppers but Z
+ÿ
+M82 ;absolute extrusion!mode
+M104 S0]

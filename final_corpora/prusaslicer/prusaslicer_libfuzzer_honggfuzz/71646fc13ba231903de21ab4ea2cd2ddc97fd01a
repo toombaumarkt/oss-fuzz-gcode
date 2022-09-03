@@ -1,0 +1,3 @@
+G1 F1500 E1302.9888
+M140 S0he pressure
+G1 Z+0.5  F603.0 ;mov0

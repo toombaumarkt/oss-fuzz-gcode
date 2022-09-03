@@ -1,0 +1,6 @@
+G28 X0 Y0      ;move X/Y out of the way
+
+M84     ;
+G9  ;aing
+M82 ;absolute extrusion mode
+M104 S0

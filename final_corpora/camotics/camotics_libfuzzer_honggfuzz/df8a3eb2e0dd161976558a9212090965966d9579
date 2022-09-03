@@ -1,0 +1,9 @@
+ A;Ab
+
+G1 X0 Y22;P0 resent M SÏ
+Ô S0 ;TurTn-off Mfa
+S0 ;Tu¡r-o h›tend
+M40 ;Turn X Yg E ;Disable all steppers but Zÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+
+M82 ;absolute<8
+M 2;absolute extrusion

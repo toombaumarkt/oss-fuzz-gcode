@@ -1,0 +1,38 @@
+()
+((>ero l)
+
+g21 (Millir)
+g61 (e)
+ z5
+ x1 (l5)
+m3 s14000 (spil0 pm)
+f0 z0
+f30
+g1 x0 f8
+g1 x-1
+g1x10
+g0 z5
+g0 x18 y-18
+g0z0.5
+g1 z-1.1 30
+g1f80
+g1 x-18
+g1 y-18
+g1 x18
+g-0
+g1 
+g1 x-18
+g1 y-18
+g1 
+)
+g21 (e)
+ z5
+80
+g1 x-18
+g1 y-18
+g1 x18
+g0 z5
+m5
+x0 y0
+m02 (eof program)
+

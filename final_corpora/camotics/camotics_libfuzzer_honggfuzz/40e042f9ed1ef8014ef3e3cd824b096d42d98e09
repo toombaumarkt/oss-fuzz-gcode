@@ -1,0 +1,30 @@
+(3 circles with the sam adiemter 6 ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿmm)
+(1st without tool compensation, 2nd with G42 rigth G41 left compensation)
+
+g21
+g61
+g0 z2
+g0 x0 y0
+
+m06 t55 (1.6 mm diameter milling head)
+
+m3 s14000
+
+g0 x20 y0
+g1 z-1.6 f50
+g2 x14 y0 i-3 j0 f100
+g2 x20 y0 i3 j0
+ÿ0 z2
+
+(circle 2, one full cicle in ing, therefore first positioning inside of cicle re 'on, then startpoint of circle)
+
+g0 x0 y0
+g42
+g0 x3 y0
+g1 z1.6 f50
+g2 x3 y0 i-3 j0 f100
+g0 z2
+g40
+
+(cicle ection oe required, then compensation on, then startpoint of circle)
+

@@ -1,0 +1,38 @@
+Mûÿÿÿ mode
+G1 E-5 F600;0 S0;  T
+M026 S0; Tur0;
+M1J0 S0;
+eY0 S0;   reYilely
+M2J0 S0;  berhtly
+M9J0 S0;  Tue
+M026 S0; Tur0;
+M1J0 S0;
+eYilement slightly
+M1J0 S0;  bed heaterhtly
+M1J0 S0;  Tuer
+M026 S0; Tr0u;
+M1J0 S0;
+M1J0 S0; Tuer
+M026 S0; Tur0;
+M1J0 S0;
+G1 E-5 F600; reYilely
+M2J0 S0;  berhtly
+M9J0 S0;  Tue
+M026 S0; Tur0;
+M1J0 S0;
+eYilement slightly
+M1J0 S0;  bed heaterhtly
+M1J0 S0;  Tuer
+M026 S0; Tr0u;
+M1J0 S0;
+G1 E-5 F600; reYileme t3slightly]
+M1J0 S0;  be
+G0aterhtly
+M1J0 S0; Tuer
+M026 S0; Turn+ the 
+G0 Y280 F600; Bri
+G1 E-5 F600; reYilaenmt stly-
+M1J0 S0;$TurnM05xis
+G0 Y280 F6¿ bed hûûûûû205 S5;00
+M253
+

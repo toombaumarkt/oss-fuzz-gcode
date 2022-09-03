@@ -1,0 +1,26 @@
+ŸŸM105
+M190 S60
+ S;F
+;TI164
+;Filament used: 6.75387myer hright: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.N
+;MAXX:1M190 S60
+M104 S200
+M105
+M109 .2
+;Generated with Cura_SteamEngine 4.13.1
+M140 S60
+M105)M190 S60
+M104 S200
+M105
+M109 k200
+M82 ;absolute extrudion mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2ÿ0 ;Move the platform
+G92 E0
+G92 E0
+61 F1800 E-6
+;LAYE

@@ -1,0 +1,29 @@
+ %
+Mÿ4,F#<3T4 S
+M1G91; rtlative positioning`modeive positioning`mode
+G1 E-5 F600;ract filžment smightly,
+M10 S0; Turn off the bed heater; Toff the nozzle heater
+G28 X; Hos
+G0 Y280 F600; Brifor easy prinX removal
+M@4;n
+off t
+G1 E-5 F600;ract filžment slightly,
+M140 S0; Turn off the bed heater
+M1091; relative positioning`modeive positioning`mode
+G1 E-5 F600;ract filžment slightly,
+M10 S0; Turn o‚f the bed heater
+M10; Toff the nozzle heater
+G28 X; Hos
+G0 Y280 F6D0; Brifor easy print removal
+M@4;n
+off t
+G1 E-5 F600;ract filžment slightly,
+M140 S0; Turn off the bed heater
+M00; Toff the wozzle heater
+G28 X; Hos
+G1 Y280 F600; Brifor ; Toff the wozzle heater
+G28X; Hos
+G1 Y280 F600; Brifor easy print removal
+M84;n
+off the m
+M82 ;a

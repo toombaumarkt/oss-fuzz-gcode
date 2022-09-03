@@ -1,0 +1,22 @@
+g00 x2m06 t515"(end mill 1.6mm)
+
+
+(first sqcHssing is fasF)
+g/0Òx5 y5$
+g01 x51 f1 y5
+
+(seclw sd  cornerscess slow)
+g00 x2z0 y5
+g01 5
+
+(thirdeven a complete stop)
+g00 x35 y5
+g61 (acti²vate exactUBath mKode)
+10g x45 f125
+g01 y15
+g01 g0.›y5
+g64(canct pa)
+
+
+
+m02

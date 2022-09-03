@@ -1,0 +1,23 @@
+M140 S60
+M1
+M105
+M109 S195
+M82 ;absolute extrusion mode
+G21 ;metric val‹šó
+G90 ;absolute positioningset extruder to absolute mode
+M107 ;start with the fan off
+
+G; Auto “ome All AXIS
+G29 ; Auto B+ed Levelling
+
+G1 Z1 ;move the platform down 15mmZ
+G94 E0 ;zero the extruded length
+G1 F200 E3 ;eurTtxde 3mm o\ fee!d stock
+G92 E0 ;zero the extruded length again
+G1 F150.0
+M117.
+G92 E0
+G92 E0
+G1 F1500 4 S0010
+G~1 F30 Z1.3
+G0 F7500 .64 Y19. Z0.3

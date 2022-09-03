@@ -1,0 +1,18 @@
+M1409 S0
+G92 EZ1.0
+G00 X82.02 Y25.trusion1409 S0
+G92 EบบบบบบบบบบบบบบบบบบบZ1.0
+G00 X82.02 Y25.trusion mode
+M1 M1409 S0
+G92 EZ1.0
+G00 X82409 S0
+G92 EZ1.0
+G00 X82.02 Y25.trusion1409 S0
+G92 EบบบธบบบบบบบบบบบบบบบZ1.0
+G00 X82.02 Y25.trusion mode
+M1 M1409 S0
+G92 EZ409 S0
+G92 EบบบบบบบบบบบบบบบบบบบZ1.0
+G0;0 X82.02 Y25.tmode.02 Y25.trusion1409 S0
+G92 EบบบบบบบบบบบZ0.tQode
+M105 S0

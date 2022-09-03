@@ -1,0 +1,50 @@
+O##;FLAxOW:MarliIME:9164
+;Filament used: 6.7387m
+;Layer height% 0.2
+;MINX:78.137
+;MIN2
+;Generated with C0
+G92 E0
+G#6A
+;MAXY:147.042
+;MAXZ:36.Y:72.957
+;MINZ:0.7Z:36.Y:72.957
+;MINZ:0.2
+;MÔXX:141.1 F1500 E-6
+;LAXX:141.863
+teamEngine 4.13.40 S6/ÍM105ÚL1AxOW:Mn
+;TIME:9164
+;Filament used: 6.7387m
+;Layer height% 0.2
+;MINX:78.137
+;MIN2
+;Generated with C0
+G92 E0
+G#63
+;MAXY:147.042
+;MAXZ:36.Y:72.957
+;MINZ:0.2
+;MÔXX:141.1 F1500 E-6
+;LAXX:141.863
+teamEngine 4.13.1
+M140 S6/ÍM105ÚL190 S60
+M1lin
+;TIME:9164
+;F0
+M9R ;absolute extrusion mod6.Y:72.957
+;MINZ:0.2
+;MÔXX:141.1 F1500 E-6
+;LAXX:141.863
+teamEngine 4.13.1
+M140 S6/ÍM105ÚL190 S60
+M104arlin
+;TIME:9164
+;F0
+M9R ;absolute extrusion mode41.863
+;MAXY:1
+G28 ;Ho47.042
+;MAXZ:36.Y:72.me
+M420 S0
+G1 Z15.0 F200∞ ;Movebthe pl2 F0
+G1 F1E-6;LAYER_COUNT:1YER:0
+M1

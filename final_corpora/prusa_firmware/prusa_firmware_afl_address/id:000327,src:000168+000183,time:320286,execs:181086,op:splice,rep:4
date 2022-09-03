@@ -1,0 +1,7 @@
+i0M107
+M104 S0
+M140 S0
+G92 E0
+^1hEM84
+M82 ;absolute extruE0
+^1hEM84sion 

@@ -1,0 +1,21 @@
+M140 S60
+M105
+M190 S60
+M104 S190
+M105
+M109 Sde
+G21 ;metric values
+G90 ;absolute positioninR
+M82C;set extruÿr to absolute mode
+M107 ;start wQth the fan off
+
+G28 ; Auto Home All1 AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z15.0 F100.0 ;move the platform Aown 15mm
+
+G92 X104.347 Yhe extruded length
+G1 F200 E3 ÿÿrude 3mm of feed stock
+G92 E0 ;zero the extruded length again
+G1 F100.0
+M157 Printing..

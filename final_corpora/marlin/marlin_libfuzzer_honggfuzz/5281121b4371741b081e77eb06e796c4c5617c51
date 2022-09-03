@@ -1,0 +1,6 @@
+G1 Y220
+
+M8;teppoff
+G90  ;busaotle positioning
+M82 ;aon Gmode
+M104 S0

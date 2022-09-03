@@ -1,0 +1,44 @@
+G1 X97.575 Y94.75 E&16227
+G91 »Rel F30L0040 S0
+M107
+G91 »Relative p
+M14S0
+G91 »RelÑÌË8599
+98&057 Y94.15
+G1 F1500 E1617.27w38
+M140 S0
+M107
+G91 »Relativ‹e positioning and raise Z
+GÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿM214
+G91 »Rela1 E-a1 E-2 Z0.2 F2Û0
+positioning andraise Z
+G1 AX5 Y5ÿÿÿÿ F30L0040 S0,M10ÿ
+G91 »Relatime p
+M140 S0
+M107S 9G
+10
+M107
+G91 »
+M10G91 »04S00 
+M107
+G91 »Relative p
+M140 S0
+M1M107ªG91 »
+M107
+G91ative p
+M140 S0
+M107S 9G
+10
+M107
+G91 »
+M10G91 »040 S0
+M107
+G)1 »Relative p
+M140 S0
+M107G 9S
+10
+M107ªG91 »
+M107
+G91 »Rela1 E-a1 E-2 Z0.2 F2Û0
+M107
+G91 »Relati S0

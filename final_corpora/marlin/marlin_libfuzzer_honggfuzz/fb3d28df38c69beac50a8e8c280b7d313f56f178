@@ -1,0 +1,16 @@
+G21
+G9
+ Z
+M28 ;Turn-oflut
+X155.56
+M82 ;absolute eM28 ;Turn-oflut
+X155.on m Z
+M28 ;Turn-oflut156
+M82 ;absolute extrusion m Z
+M28 ;Turn-oflut
+X155.56
+M82 ;absolute eM28 ;Turn-oflut63) Yion m Z
+M28Z
+M28 ;Z
+M28 ;Tu‘n-oflut
+X984.635 Y93.882

@@ -1,0 +1,31 @@
+M140 S100
+M10*7
+G91;Set Ýrel=tive posivioning m/G 961X.80      40S SY00F
+100.3
+M204D`4Relativegn 0izP-VV20
+g1 [4Â
+gD 4              0        ut eextÿÿÿÿÿÿÿ00F
+10P.3
+M204D`4Relativegn 1izP-VV20
+˜Îß‡0Relativ-~VVVV e119
+g1M204¼ŸË°tivegn 1izP-VV20
+g1 x000
+G28 X2
+g1 z-185X.80      40S SY~0F
+100.3
+M204D`2Relativegn 0izP-VV20
+g1 [4Â
+gD 4              0      ÿÿÿÿÿ00F
+100.3
+M204Degn 1izP-VV20
+g1 x0Relativ-~VVVV;e119
+g1M204D`4Rtivegn 1izP-8VV20
+g1 x000
+G28 X2
+g1 z-1850
+g1 x1.1gR40F
+100.3
+M204D`4Relati.egn 1izP-VV20
+g1 x000
+G28IX2
+100þÿÿÿ204D`4RelativeS51 xò

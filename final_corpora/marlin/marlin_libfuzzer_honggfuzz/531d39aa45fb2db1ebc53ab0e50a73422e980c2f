@@ -1,0 +1,5 @@
+G91  ;moveQYX  /o tmin endstops84  ;steppers off
+G9;0  a1‰bsolute6siti 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999 	
+8; a2˜òõ¸Aßº-1 M  ;moveQYX  /o tmin endstops84  ;steppers off
+G9;0  a1‰bsolute6siti  	
+8; a2˜òõ¸Aßº-1 M110 etract

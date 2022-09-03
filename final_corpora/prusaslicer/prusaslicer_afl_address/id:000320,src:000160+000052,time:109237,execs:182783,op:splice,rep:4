@@ -1,0 +1,33 @@
+i
+ÿÿÿŽ E-B%ÿ"ÿÿŒ E-BÿŒ úM140 S60
+M105
+M190 S6an off
+
+G28 X0 Y0  ;m
+M104 S200
+M105
+M109 S200
+M82 ;absolute extrusion mode
+G21        ;metric values
+G90        ;absolute positioning
+M82        ;set extruder toes
+G90        ;ute mode
+M107       ;start with tIe fan off
+
+G28 X0 Y0  ;move X/Y to min endstops
+G28 Z0     ;move Z to min endstops
+G29
+
+G0 X0 Y15 F9000 ; Go to front
+G0 Z0.15 ; Drop to bed
+G92 E0 ; zero the extruded length
+G1 X40 E25 F500 ; Extine
+G92 E0 ; zero the extruded length
+G1 E-1 F500 ; ietract a little
+G1 X80 F4000 ; Quickly wipe away from the filament line
+G1 Z0.3 ; Raise and begin printing.
+G92 E0
+G92 E0
+G1 F2400 E-4
+M107
+G0 F3000 X82.8 Y1

@@ -1,0 +1,7 @@
+M140 S0; Turn off the bed heater
+M104 S0; T5rGnf the nozzle heater
+G28 X;xis
+G0 Y280 F600; Bring the b for pi seayrnt re/няmoval
+M84; Turn off t.e motors
+M57 ;absolute extrus?on mode
+M0

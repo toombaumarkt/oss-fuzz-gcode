@@ -1,0 +1,35 @@
+PM0eMÿÿ ² i40 360
+M107 Gstart with the fahe
+M203ýS1300
+ro the extruded  fan offö
+
+G2 09 190
+M82 ;aNsolute extrusion mode
+G21 ;metric valueE-6
+M107
+M203ýS13s
+G90 ;absolute position0
+M117 Print extruder to absolute ÿode
+M107 ;start with the fan offö
+
+G28è€ Auto Homeÿÿll AXIS
+G29 ; Auto Bjd Levelling
+
+G
+G2109 S190
+M82 ;absolute1 Z1agpinf
+
+G28ÿ€ Auto Ho;me All Awn 15mm
+
+G92 E0 ;zero the extruded length
+G1 FT00 E3 ;extrude E-6
+M107
+M203ýS1300
+ro the extruded length 5.0 F100.0 ;move the platform8doXIS
+G1 F100.ing
+Ð82 ;seting...
+G907
+M203ýS1300
+G0 F9000 X104.347 Y109.847 Z0.3
+G1 F1500 E0
+G1 F1800 X104.737 Y

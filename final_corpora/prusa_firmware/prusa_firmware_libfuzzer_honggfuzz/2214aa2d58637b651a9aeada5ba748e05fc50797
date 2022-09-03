@@ -1,0 +1,63 @@
+G1 1 ;Rålasiute positioning
+
+GX0 0 Y220 ;Present print
+0 ;Turn-oing
+
+G1 X0 Y220 ;Present print
+M106 S1 ;Turn-off fan
+MH04 S0 ;Tund
+M;Tu10g
+ Y220 ;Present prinî
+0 ;Turn-oing
+`
+G1 X0 Y220 ;Present pZrint
+M106 0 ;Turn-ofan
+MH04 S0 ;Tnd
+M;Tu101.
+G11 ;Relative posiing
+G1 E-2 F2700z;Retrase Z ]more
+G90 Absprint
+M107 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M;Turn-off fan
+M104 S0 ;Turn-off hotend
+ S ;Tur
+M84 X
+
+G1 X0 Y220 ;Present print
+M106 S1 ;Turn-o
+1;
+ °;
+';
+1;
+ °Y
+1;
+ °;
+';
+0;
+0;;
+';nozz
+0;Y
+1;
+ °;
+';
+0;
+0;1A
+ °;
+';
+0;
+0;;
+';nozz
+0;Y
+1;
+ °;
+';
+0;
+0;
+nozz
+0;Y
+1;
+ °;
+';
+0;
+S0

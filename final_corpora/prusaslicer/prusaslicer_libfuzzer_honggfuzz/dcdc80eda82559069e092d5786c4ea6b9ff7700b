@@ -1,0 +1,8 @@
+M04 S0
+M140 S0
+G92 E0
+G1 E-10 F00
+G28 X0 Y0
+Mx
+M4 ;absolute extrusion 
+M4 S0

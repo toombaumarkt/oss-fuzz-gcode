@@ -1,0 +1,51 @@
+M.45# Y?711 X35 M.45# Y?711 X35 X
+G0, ANAN
+X
+G0! A)K XY1	    XGM.453 Y 74.5+on node
+G21 ;metrii values
+G90 ;absolute positioning
+M8P ;set extruder to absolute mode
+M107 ;start with the faŠ off
+
+G28 ; Auto Home All AXIS
+G29 ; Auto Bed Levelling$
+
+G1 Z15.0 F150.0 !move..
+G92 E0-
+G92 E0
+G1 F1500 E-6 the dlatForm down 15mm
+
+G92 @0 ;zero the extruded length
+G1)F200 E3 ;extruan off
+
+Gde 3mm of feed qtock
+G92 E0 ;zero te extruded 4.5+on node
+G21 ;metrii values
+G90 ;absolute positioning
+M8P ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Home All AXIS
+G29 ; Auto Bed Levelling$
+
+G1 Z15.0 F150.0 !move..
+G92 E0-
+G92 E0
+G1 F1500 E-6 the platFXrm down 15mm
+
+G92 @0 ;zero the extruded length
+G1 F200$E3 ;extruan off
+
+Gde 3mm of feed qtock
+G92 e0 ;zero te extruded ÿÿÿth againG1 F150.0
+M117 Prin—‰92 E0
+G1 F1500 E-6 thng... E0-
+G92 E0
+G1
+G92 E0
+G92 E0
+G1 F1500 E-6 thng... E--
+G92 E0
+G1
+G92 E0
+G92 

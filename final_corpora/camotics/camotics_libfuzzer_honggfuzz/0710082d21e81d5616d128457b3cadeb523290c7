@@ -1,0 +1,9 @@
+G90 A;Absolute positioning
+
+G1 X0 Y22;P0 resent M SÏ
+Ô S0 ;Turn-off Mfa
+S0 ;Tu¡r-o h›tend
+M140 ;Turn X Y E ;Disable all steppers but Z
+
+M82 ;absolute8
+M 2;absolute extrusion

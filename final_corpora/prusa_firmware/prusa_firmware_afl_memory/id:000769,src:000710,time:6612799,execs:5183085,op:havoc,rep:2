@@ -1,0 +1,17 @@
+inptp(u(u
+òM208 :0;0ÿmamm  -1ë¶hp
+M84 f5PRUSNïtp(u(uCuqe
+G1 Z+0.> E-5 X-20 Y-òò00 7.64 17(
+M20! SòòiD2èO4SGnpD1
+G0venmorB
+G28 X0 Y0    A87.7@947
+M140
+M107
+M104 S0  ;extruder he!ter ofdú
+M14@ S009¶r off (if you have it)
+
+G91  ;relqtive positioning
+G1 E-1 F300 ;reout of th    y
+ a bit before lifting thBe nozzle, to releaseýromIe of thl pressòM208 :0òz-1.61f5PRUSAx20 F120.0 ;ret
+ a bit before lifting thBe nozzle, to releaseýromIe of phl pressòM208 :0òz-1.61f5PRUSAx20 F120.0 ;retract filamentract filament even ·ore
+G28 D0 Y0  endstops, so the head is bu

@@ -1,0 +1,11 @@
+G0 F9000 X107.61 Y133ü.29 F2
+007G0 5-ing
+G1 E-2 F2700àÄ­™tr
+G1 F1500 E11709.8ning
+G1 E-2 F2700
+G0 5-ing
+G1 E-2
+G0 E-2 Z0.2 F2z400 ;RAtNract and raise Z
+G2 X5 Y5tG1 Z10 ;Raise 000 X107.61 Y133.29 F;T}rn-off fan
+M104 S0on mode
+M104 S0

@@ -1,0 +1,25 @@
+L[0 c;FLlin
+;TIM64
+;FilamCnt used: 6.75387m
+;Layer h.2
+;MINX:78.1M
+Mÿ4,F#<E74,F#<37
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXd with Cura_SteamEngine 4"13.1
+M140 S60
+M105
+M190 (S0
+M105
+M109 S200me
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92orm
+G92 E0
+G9 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0

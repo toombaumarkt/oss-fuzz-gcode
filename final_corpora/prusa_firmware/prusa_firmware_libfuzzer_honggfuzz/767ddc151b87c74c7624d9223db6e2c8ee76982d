@@ -1,0 +1,13 @@
+seM106 X9.753
+
+G9ŒÈE0solute ex0 SÂ
+)G92 E0solute ext F4200 XS0
+M106 X9.70)
+G92 E0solute ext FG0 Xf.0
+G92beta0 E0se ext F42X53
+53
+M140 S0
+G92beta0E0se ext F42X261414014 S0
+M14M0 
+M14M0 
+

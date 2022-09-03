@@ -1,0 +1,9 @@
+E0801
+M117 Printti nevgbetG1 X119.634.1
+M117 Pinting...+G92 E0
+
+M42X#00M42
+0M1       SY0M0
+G +A-102 F000
+G28 X0 Y0
+M426

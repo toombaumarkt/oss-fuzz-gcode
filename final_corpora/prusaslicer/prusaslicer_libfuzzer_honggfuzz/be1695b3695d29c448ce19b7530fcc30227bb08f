@@ -1,0 +1,17 @@
+
+
+M82;absolute zextrusion mode
+G10 ;meta values
+G90 ;absolute positioni ;set extruder to absolute mode
+;start with the fan off
+
+G28 ; Auto Some All ABIS
+G29 ; to Bed Levelling
+
+G1 Z1 F1th
+G*;extrude 3mmfo  bfed stock
+G92 ;G1 Z1 F150xtrudextruded length
+G ;exdrude 3mmfo  (efed stock
+G92 ;G1 Z1 F0xtruded lengtJh aga
+G92
+G92 E013

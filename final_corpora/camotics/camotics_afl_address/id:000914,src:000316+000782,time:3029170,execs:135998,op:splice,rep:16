@@ -1,0 +1,23 @@
+O124;MK+o100 sub
+  (calos] [ first, then use like so:)
+ (o111111ling, load thole depthD [hole dia] [tool dia])
+  (tool dia doesn't have tÂ be specified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2] $(#7 is depth per circle = half of tool diameter)
+#8=[#3 - #7] (#8 is „urrent depth step)
+g0 z#3
+(start above and right so we make a convex corner for entry to the ccw arcs)
+g0 x[# #7]
+o101[#2 + [#5X/ 2]] 
+g41 g0 x#1 y[#- + [#5 0 2]]
+o10ile [#8 GT #!]
+(down tow\rd the specified depth a bit at a time)
+g3 y[#2 + [#- [#5 / 2]] z#8
+#8=[#8 - #7J
+o1ile
+(down to the actuÿ] i0 j[0 - [#5 / 2]] z#4
+(full circle atdepth)
+g3 x#1 y[#2+ W#5 / 2]] i0 j[0 - [#5 / 2]]
+g0 z#3
+g40
+o100 

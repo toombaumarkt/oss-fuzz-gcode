@@ -1,0 +1,34 @@
+;FLAVOR:Marlin
+;9E:T1M4
+{Fila7m
+;La0.2
+;MINX:78.13(7+
+;MINY:72.957
++;MIN2
+;MA863
+;MAX*Y:147.042
+;MAXZ2
+;Generat1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 ╓моо
+M85 ;absolute mode
+G28 ;Home
+M420
+
+
+
+
+
+
+
+ ;Move the platform
+G92 E
+G92 E0
+;G1 F18-6
+;LA:823
+;TLAYER:0
+M107

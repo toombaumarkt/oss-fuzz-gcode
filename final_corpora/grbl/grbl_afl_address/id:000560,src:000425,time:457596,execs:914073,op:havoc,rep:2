@@ -1,0 +1,10 @@
+g0 x50
+g2 r-20 y0 i3 j0 f100
+S50
+g2 r-2y0 i3 j0 f100
+S50
+g2 rg0 x50
+g2 r-20 y0 i3 j0 f100
+S-20 y
+m
+g2 r-20 y0 i3 j0f02

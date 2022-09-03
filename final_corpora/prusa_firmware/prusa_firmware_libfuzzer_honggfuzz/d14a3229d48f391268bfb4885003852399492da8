@@ -1,0 +1,45 @@
+G1 F899.3 X1 ;Relative positioning
+G1 E-2 F2700 ;Retract a bit
+G0 E-2 Z0.2~ F2400 ;RZ
+G1 X5 Y5 F3000 ;Wipe out
+…¼…………………………………………………………………………………………G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+GX0 0 Y220 ;Present print
+0 ;Turn-oing
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+MH04 S0 ;Turn-off hotend
+M;Tu101.
+G11 ;Relative posiing
+G1 E-2 F2700z;Retrase Z more
+G90 ;Absoluning
+
+GX1 0 Y220 ;Present print
+M 1S600 ;Turn-off fan
+M1positioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S ;Turn-off bed
+FAN
+M84 X Y E ;Disable all steppers but Z
+
+zM82 ;rn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+Msteppers but Z
+
+~M82 ;rn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all steppers b
+
+M81 ;absolute extrusi(on mode
+M104 S0

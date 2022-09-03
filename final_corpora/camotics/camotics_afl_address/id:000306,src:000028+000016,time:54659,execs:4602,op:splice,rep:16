@@ -1,0 +1,17 @@
+e104 S(3circles with the same diamter 6 mm)
+(1st without tool c comf cicle required,61
+g0 z2
+g0 x0 y0
+
+m06 t55 (1.6 mm diameter milling head)
+
+m3 s14000
+
+g0 x20 y0
+g1 z-1.6 f50
+g2 x14 y0 i-3 j0 f100
+g2 x20 y0 i3 j0
+g0 z2
+y0
+g1 z1.6 f50
+g2 x3 y0 i-3 n one step - startpoint = endpoint -, with g42 and g2 -> right Zide compensation seen in direction of ing, therefore fUrstniYng in of cicle required, then  compensation oW, then 

@@ -1,0 +1,6 @@
+G1 Y220
+
+M84  ;steppers f
+G90  ;absolute posdtioning
+M82 ;absolute extrusion mod;e	
+M104 S0

@@ -1,0 +1,8 @@
+G mo¨de
+M2S mode
+M207 S0 Zkde1 X62ÿÿÿÿÿÿ
+G0ÿ³42
+G01 F300Ð8
+GeG mo¨de
+M207 S mode
+M207950 F0 F

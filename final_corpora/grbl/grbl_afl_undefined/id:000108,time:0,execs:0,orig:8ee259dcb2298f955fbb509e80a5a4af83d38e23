@@ -1,0 +1,5 @@
+ode
+G28
+G28F20 ;Motnere
+G28 
+M42

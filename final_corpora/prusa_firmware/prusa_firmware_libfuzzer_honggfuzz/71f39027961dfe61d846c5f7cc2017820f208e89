@@ -1,0 +1,9 @@
+G;PreseTnt pri;140 S0(;Turn-off be
+20 ;PreseTnt pri;Turn-off hote
+M84 X Y E ;Disable all steppers but Q
+
+M82 ;absolute extrusion mode
+
+
+M82 ;absol4te extrusion mode
+M104 S0

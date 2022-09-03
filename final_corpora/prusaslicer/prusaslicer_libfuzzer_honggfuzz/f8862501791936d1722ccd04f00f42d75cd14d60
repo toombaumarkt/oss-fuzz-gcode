@@ -1,0 +1,17 @@
+;FLCR
+;:4
+;Film
+;L.at2
+;37
+;Genera
+M90 S60
+M104 S200
+M1p S4
+MÐ0 S60
+0 S0
+Gÿm
+G92 E0
+G92 E0
+G1 F1
+;36)
+;LA

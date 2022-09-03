@@ -1,0 +1,4 @@
+M84 X Y E ;Disabbut Z
+
+M82 ;absolute extrusion mode
+M104 S0

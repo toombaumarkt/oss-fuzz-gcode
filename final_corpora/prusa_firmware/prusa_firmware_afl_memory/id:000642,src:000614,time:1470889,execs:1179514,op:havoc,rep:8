@@ -1,0 +1,36 @@
+
+M200d-D4
+iD8
+d-D8
+d-D
+d-D880G[99.4D880G[9.405d
+iD8
+d-D8
+d-D
+d-D880GGGGGGGGGGGGGGGGGGGGGGGGGGGGG88iG1 F899.3 X1099.3 X102.01 Y86.362 E1360  Y86.362€E1ÿ0.
+M862 Eoff fan
+M104 S0 ;Tur -off&hot E1360.05857
+G0 F9000 X101.425 Y8m.947
+G1 F83.142 Y86.362 E1370.
+M862.486Έ0 F9000 X102.01 Y85.623
+G1 F1500 E1354.08608
+M140 S0
+M107
+G91 ;Relative positioning
+G1 E-2 F2700 ;Retracta bit
+G1 E-o Z0.ract and raise Z
+G1 X5 Y5 F3000 ;γγγγγγγγγγγγγγγγq Z more
+G90 ;AX0 80
+M85
+M2bsolute positionisg
+
+G1 X
+M200d-D4
+iD8
+d-D8
+d-D
+d-D8S0 ;Turn-13
+G1 F899.3 X101.425 Y87.513end
+M14;Retracta bit
+G1
+

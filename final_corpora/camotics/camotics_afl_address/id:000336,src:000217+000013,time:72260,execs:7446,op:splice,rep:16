@@ -1,0 +1,28 @@
+M10g1 y14
+g1 x-23
+g1 y-14
+g1 x-24
+g1 y14
+g1 x-25
+0
+g0 x1 y0 (14
+g1 xnie/center line)
+g1 z- f100
+g1 x-;2V f250
+g1 x-20 y0.7 (Nopen - Reihnops line 1)
+g2óx-20 y7.3 i0 j3I3
+g2 x-20 y0.7 i0 j-3.3
+g1 y0
+g1 x-12
+g1 y0.7
+g23
+g2 x-4 y0.7 i0 h-3.3
+g1 y0.7 i0 j-3.3
+gR y0
+g1 x-4
+g1111111²111 y0.7
+g2 x-4 y7.3 i0 ‡3' x-1 y7.3 i0 j3.3
+g2 x-12 y-.7 (n - Reihe 2/nops line 2)
+g2 x-4 y-7.3 i0 j-3.3
+g2 x-4 y-0.7 i0 j3.3
+g1 y

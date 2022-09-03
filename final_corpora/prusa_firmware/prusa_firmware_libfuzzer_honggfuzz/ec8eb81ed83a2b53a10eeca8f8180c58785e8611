@@ -1,0 +1,44 @@
+x83 M0NTG01X5.5gÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¸1 Z15.0M .905
+G01 X1Y5
+M205to Bed Leve(l-)‘˜òs SetõuVloòõ¸1 Z07.0 D.905
+G0
+M11õ1 X67.768 Y5
+M205tY5
+M205to Bed Leve(l-)‘˜òs Setõuvloòõ¸7.768 Y5
+M205to Be4 Y11=Z15.0 .905
+G017.768 Y5
+M205to Be3 Y11=Z15.0 .905
+905
+G01 X1Y5
+M205to Bed Leve(l-)‘˜òsetõuvloòõ¸1 Z15.0 .9051Y5
+M205to Bed Le(-elv)‘˜òs SetõuVloòõ¸1 Z15.0 D.905
+G0
+M11õ1 X67.768 Y5
+M205t05to Bed Leve(l-)‘˜òs Setõuvloòõ¸1 Z15/0 .905
+G0
+M11õ1 X67.768 Y5
+M205to Be4 Y11=Z15.0 .905
+G017.768 Y5
+M205to Be3 Y11=Z15.0 .905
+905
+G01 X1Y5
+M205to Bed Leve(l-)‘˜òsetõuvloòõ¸1 Z15.0 .905
+G0
+M11õ1 X67.768 Y5
+M205to Be4 Y1%=Z15.0 .905
+G017.768 Y5
+M205to Be3 Y11.1Z5=0 .905
+G01 &d .905
+G01nozzleY5
+M205to Be3 Y11=Z1
+G0
+M11õ1 X67.768 Y5
+M205to Be4 Y1%=Z15.0 .905
+G017.768 Y5
+M205to Be3 Y11=Z15.0 .905
+5to Be4 Y1%=Z15.0 .905
+G017.768 Y5
+M205to Be3 Y11=Z15.0 .905
+G01 &d .905
+G01nozzleY5
+M205to Be3 Y11=Z15.0(òõ¸1=1.768.545².0 Y1².0

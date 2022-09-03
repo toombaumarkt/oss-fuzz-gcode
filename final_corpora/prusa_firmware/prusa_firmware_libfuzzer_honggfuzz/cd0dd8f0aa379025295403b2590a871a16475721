@@ -1,0 +1,30 @@
+M84  ;sts!off
+G11 ;steppers off
+G117
+M30
+M1+5
+MpG0 X90.250 YF2900 »Ë37F2100 E
+ÿ]M2
+DV
+
+
+g
+gD9? V-2AÌ
+gD! Z-.
+ÿÿÿÿÿÿÿÛ;
+ggg.2VgD
+DV
+
+DV
+
+
+g
+gD;? V-2Ì
+gD! Z-.
+ÿÿÿÿÿÿÿÿÿ;
+êt3
+ggg
+D89000 X16.500ç
+G055ÆÏbss
+M104 .32S0
+6437F2

@@ -1,0 +1,28 @@
+M140 S60
+M1053mm of feed stock
+G
+M105
+M109 S195
+M82 ;absolute extrusion 3mode
+G21 ;metric val‚esG90 ;abslute positioning
+M82 ;set extruder to absolute mode
+M107<;ff
+
+G28 ; Auto Home All AXIS
+G29 ; Auto Bed Levelling
+
+>1 Z15.0 F150.0 ;move the platform dowL 15mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;extrude 3mm of feed stock
+G92ÿÿ0 ;zero the extruded length again
+G1 F150.0
+M117 Printing...
+G92 E0
+G92 E0
+G1F150.0
+M117 F1500 E-6
+M107M204 S1700
+G0 F7500 X120.54 Y96.857 Z0.3
+G1 d1500 E0
+G7 X121.03 Y96.983 E0.02524

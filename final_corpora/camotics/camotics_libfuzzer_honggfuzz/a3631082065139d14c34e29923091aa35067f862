@@ -1,0 +1,24 @@
+G1 X.9 Y150.E 15
+G1 X1 E721
+G1 X1.Y$y12 z-21
+g0 g0 x10.g1 z-20
+g1 X12z-21
+g0 z1 x10.6
+g1 z-10
+g1 x24 z-21
+g0 z1
+g0 x1
+g1z1 x12x12x20z2 
+m020 X115 Y1105
+G1 F2100M.4E396
+T40 S0
+M
+g0 z1
+g0 x1
+g1z1 x12x12x20z2 
+m020 X5 Y1105
+G1 F2100M
+M84; 
+g0 x1
+g1z1 xf
+M8N2 M6.

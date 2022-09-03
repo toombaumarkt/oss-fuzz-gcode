@@ -1,0 +1,16 @@
+5 F01;z.
+G0 Y0;r
+G E-51;lk
+M S0;T
+r0 S5;e
+G1b S0;
+MJ0 S5;e
+G6 R9;=
+C0 S0;
+G1 F609;9
+1 S0;
+G F60;c
+G0 S0;.
+3( Y0;
+G E-5;;
+T S0; 

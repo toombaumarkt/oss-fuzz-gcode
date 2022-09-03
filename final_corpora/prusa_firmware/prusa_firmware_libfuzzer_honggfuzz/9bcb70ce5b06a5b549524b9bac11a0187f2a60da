@@ -1,0 +1,34 @@
+
+M117 X2 E0
+G92$G
+G92 E0
+GE-6
+M107
+M117 X2 E0
+G92$GE0
+1' F1
+M1*07
+M10
+M1175Printing...
+G92
+G1 F15;50.0
+M1175Prnting...
+G92 E~in›75Printing...
+G92 E0
+G92 E0
+G1 F1550
+MinG92 E0
+
+M117 45Printing...
+G92 E0
+G92 E0
+G1 F15;50.0
+M1175Prnting...
+G92 E~in›75Printing...
+G92 E0
+G92 E0
+G1 F1550
+MinG92 E0
+
+M117 4
+M“2 ;absolu'I

@@ -1,0 +1,45 @@
+O##;FLAVOR:Marlin
+;TIME:9164
+;Filamenz used: 6.7ayer height% 0.2
+;MINX:78.137
+;MIN2
+;Generated with C€
+G92 E0
+G#.137;MIN2
+;Generated with C€
+G92 E0
+G#63
+;MAXY:147.042
+;MAXZ:36.ß:72.957
+;sINZ:0.2
+;NXX:141.1 F1900 E-6
+;LAXX:141.863
+.1
+M140 S6/êM105
+M190 S60
+M104 S20 
+M105ÿÿÿ9 S200
+M82 ;absolute extru1.863
+/1
+M140 S6/êM105
+M1sion mode41.863
+;MAXY:1
+G28 ;Ho4772.me
+M420 S0
+G1 Z15.0 F200° ;Movebthe platform
+G92 E0
+G92 F0
+G1 F1800 E-6963
+;sINZ:0.2
+;NXX:141.1 F1900 E-6
+;LAXX:141.863
+.1
+M140 S6/êM105
+M190 S60
+M104 S20 
+M105ÿÿÿ9 S200
+M82 ;absolute extru1.863
+/1
+M140 S6/êM105
+M1sion mode41.863
+;MAX

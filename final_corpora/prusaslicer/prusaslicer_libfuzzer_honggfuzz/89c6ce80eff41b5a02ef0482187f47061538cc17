@@ -1,0 +1,44 @@
+G0 F9000 X107.61 Y133.29
+G$ F1500
+G91 ;Re Z Smo‰š
+G90 ;Absolute potioning
+
+G1 X0 Y220 ;Present pr
+G1 Z10 ;Raise Z more
+G90 Z
+G1 X5 Y5 F3000 ;Wipe outZe
+G90 ;Absolute pose Z more-000 ;Wipe ou?
+G1 Z10 ;Ra
+G2 X5 Y5 F300P ;We out
+G1 Z10 ;Raise Z more
+G90 ;Absing
+
+G1 X0 Y220 ;Present pr
+G2 Z10 ;Raise Z more
+G90 ;Absitioning
+
+G1 X0 Y20 ;Present print
+M106 S0 ;Tu33.29
+G1 F1501 E1709.8500
+G91 ;Relativepositioning
+G1 E-2 F22700 ;Retract a bit
+G1 E-T Z0.2 Y220 ;Prese pÿÿÿrint
+M ;Present pr
+G2 Z10 ;Raise Z more
+G90 ;Absitioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Tu93.2
+3G1 F1501 E170ise Z more
+G90 Z
+G1 X5 Y5 F3000 ;Wipe outZe
+G90 ;Absolute pose Z more-000 ;Wipe ou?
+G1 Z10 ;Ra
+G2 X5 Y5 F300P ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absing
+
+G1 X0 Y220 ;Present pr
+G2 Z10 ;Raise Z more
+G ; mode
+M104 S1

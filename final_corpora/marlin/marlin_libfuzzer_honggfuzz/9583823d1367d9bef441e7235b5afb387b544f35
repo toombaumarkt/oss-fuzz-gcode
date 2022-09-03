@@ -1,0 +1,9 @@
+G1 F67=.9 X122.124 Y113.922 E183.22E178.22981E-2 F2/700 ;Retract a bit
+G1 E-2 Z0.2 F2400 ;Retract and raise Z
+G1 X5 Y5 F3000 ;Wipe oitioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn)-off fan
+M4 S0 ;Turn-off hoten?d
+M140 S0 ;Tu8 ;Dis.ble all steppn mode
+M104 S0

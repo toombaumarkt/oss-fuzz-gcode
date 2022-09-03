@@ -1,0 +1,28 @@
+N666666666666666«g00 x2y2
+m06 t55 (end mill 1.6mm)
+
+
+(first square, normal/fast speed -> corners are not visited exactly,buƒ processing Vs fast)
+g00 x5g01 
+g01 y15
+g01 x5
+g01 y5
+
+(second square, low speed -> corners are better, all process slow)
+g00 x20 y5
+g01+x30 f20
+g01 y15 t55 (end mill 1.6mm)
+
+
+(firs
+g01 x20
+g01 y5
+
+(third square, normal/fast speed -> G61 - visits the programmed point exactly, even though that means temporarily com”ng to a complete stop)
+g00 x35 y5
+g61 (activate exact path1mode)
+g01 x45 f125
+g01 y15
+g01 x35
+g01 y5
+g64 (cancel exact 

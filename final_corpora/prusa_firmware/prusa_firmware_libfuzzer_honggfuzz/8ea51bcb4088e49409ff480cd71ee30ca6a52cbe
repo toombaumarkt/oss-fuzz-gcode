@@ -1,0 +1,18 @@
+M84  ;steppers off
+Þ120S1ÍMš2ÙMBGngng
+F¨²22Í6
+FXM29Í6°ÜLBL2F.L¶BL2FFirnLng0 Y0
+794<(
+G00(Y0
+M84
+ÿÿM862.494P7
+3
+Þÿ2S0 1ÍMš2ÙFXM29Í6°ÜLBL2FL¶BL2FFirnLng0 Y0
+794<(
+G00(Y0
+M42
+ÿÿ650M117o**-.
+G******-.
+G
+M117oM862.494P7
+3 ´F8ÿM862.379x*.‡

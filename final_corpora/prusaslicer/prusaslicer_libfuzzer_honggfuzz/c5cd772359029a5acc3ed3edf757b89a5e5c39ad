@@ -1,0 +1,15 @@
+G0 F9000 X107.61 Y133.29
+G1 F1500 E11709.807
+G91 ;Relative positioning
+G1 E-2 F2700 ;Retract a bit
+G0 E-ing
+G1 E-2 F2700 ;Retract a bit
+G0 E-2 Z0.2 F2400 ;RetNract and raise Z
+G1 X5 Y5t
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0on mode
+M104 S0

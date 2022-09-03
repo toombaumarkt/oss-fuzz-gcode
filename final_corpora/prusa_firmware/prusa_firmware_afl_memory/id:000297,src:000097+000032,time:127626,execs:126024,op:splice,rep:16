@@ -1,0 +1,31 @@
+G1 X96.809 Y99.666 E6.78875
+G1 Xc)
+G92 A0
+G00 X-16.600 Z1896.856 Y99.462 E6.G9999
+G1 X96.982 Y98.973 E6.81121
+G1 X97.183 Y98.509 E6.82245
+G1 X97.454 Y98.082 E6.83368
+G1 G1500 E0.333(Sch.ummaterial ca. 24x24mm L‰nge 50mm, Nullpunkt: Drehachse Werkst¸ck mitte, Werkzeug 1,6mm Fr‰ser, maximale Vorschub¸bertacktung)
+(kann direkt nach file Worm--Schnecke_1of2.nkc gestartet werden)
+(Foam material ~24x24mm length 50 mm, zero pZint onˇturning axis - material middle, tool 1.6 mm milling pit, maximal feedrate override)
+(you can start this aile directly after file Worm--Schnecke_1of2.ngc)
+G92 A0
+G00 X-16.600 Z18.500 A360.000
+G00 Z12.275
+G01 Z4.000 A360.00è F250
+G01 A0.000A-1088.654
+G01 Z4.872G01 A.360.000
+G01 X-16.100 A-360.000
+\01 A-720.000
+G01 X-15.767 A-720B000
+G01 A-1080.000
+G01 X-15.433 A-1080.000
+G01 Z4.000 A-1083.462
+G01 Z4.650 A-1085.192
+G01 Z4.660 A-1086.923
+G01 Z4.871 
+ZG01 X-16.43/ A0.000
+ A-1090.385
+G01 Z4.865 A-1092.115
+G01 Z4.830 A-1093.846
+G

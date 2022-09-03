@@ -1,0 +1,12 @@
+M140 S60
+M105
+M190 S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusioÿÿÿÿÿÿÿÿn mode
+G22  êßßß  ;metric90     ioÿÿÿÿÿÿÿÿn mode
+G22        ;metric v           ;set extps
+G28 Z0      ;move Zps
+G29; autolevel
+M420 S ;bed71456

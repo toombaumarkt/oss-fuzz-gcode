@@ -1,0 +1,13 @@
+
+g3 x3 r3.2g 20 f801x3.
+
+g3 x3 r2g  20 f8s3
+g3 x3 r3.2g0 20 f80g3 x3 r3.2g  20 f82
+g3x3 r3.2g 20 f80g3 x3 r3g20 f852g3 x3 r3g  20 f8
+
+g3x3 r3g  20 f80g3 x3 r3.2g  20 f8s3g3 x3 r3g  20 f83
+g3 x3 r2g  20 f81s3
+g3 x3 r3g 20 f7
+g3 x3r6.2g 20 f80g3x3r3.2g  20 f8
+g3 x3 r32g 20 f8s3
+g3 x3 r3.g 20 f641

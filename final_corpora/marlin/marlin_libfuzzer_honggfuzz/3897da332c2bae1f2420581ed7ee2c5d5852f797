@@ -1,0 +1,14 @@
+(Alu 12mm, 100mm lang, Nu
+M03 S10000
+g0 x20
+g20
+g1 x12g1 x12 z-21
+G0 z1
+g0 x11
+g1 z-20
+g1 x12 z-21
+g0 z1
+g0 x10.8
+g1 z-20
+g1 x12 z-21
+g0 z1

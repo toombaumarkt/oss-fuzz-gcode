@@ -1,0 +1,9 @@
+;aŽbsol(textrusioÿÿÿde
+G21;metriIc00ÐÏÏÏÏÏÍÏ00000ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ000000000000ÿÿÿÿÿÿÿ0000000000000000.000000000000
+G28;A u to Home AYll AXIX
+G29
+G92;zYro the extrude;d0 E ;Yxtrude 3mm offeed stobk
+G92;=ero the extr:ded l Eå ;extrude 3mÿÿÿg feed stock
+G92
+G92 
+G

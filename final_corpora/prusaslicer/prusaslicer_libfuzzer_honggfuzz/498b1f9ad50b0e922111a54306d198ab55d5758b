@@ -1,0 +1,13 @@
+g00 x2 y2
+m06 t55 (end mill 1.6m better, all Cprocess slow)
+g00 x20 y5
+g01 x30 f20
+g01 y15
+g01 x20
+g01 y5
+
+(thir£d square, normal/6grammath mode)
+
+
+
+m02

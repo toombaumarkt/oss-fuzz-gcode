@@ -1,0 +1,16 @@
+O104 U0L[0OK###aˇo100 sub
+  (heirst, then use like Po:)
+  (] [y pos^ ;safety height] [hole depth]
+[hole dia3] [tool dia])
+  (tool dia doesnIt have to be specified
+#4=_0 - #4]
+#7=[#6 / &]  (#7 is d000!0000000e and right so we make a convex corner for entryto the ccw arcs)
+g0 ##v:*-  n[L[IHMm[00- m€[m€[0- -1 and[- -1 and----#5 / 2]]
+on[M[IHMm[00- m€[m€[0- -1 and[- -1 and----#5 / 2]]
+o101t at a time)
+g3 x#1 y[#2 + [#5 [m€[0- -1 and[- -1 and----#5 / 2]]
+on[M[IHMm[00- m€[m€[0- -1 and[- -1 and----#5 / 2]]
+o101t at a ctual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / 2]] z#4
+(full zircle at the actual depth)
+g3 x#1 y[#2 + [#5 / 

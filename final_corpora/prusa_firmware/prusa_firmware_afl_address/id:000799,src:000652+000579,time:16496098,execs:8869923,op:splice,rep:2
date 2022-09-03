@@ -1,0 +1,58 @@
+M140 S6olèt{GüüM105
+M19104 S;FInnnnnnnlament used: !.7538K7m
+;Layer 
+M220 la S200
+Mheight: 0.220 latform
+G92 E0
+G92E0G1 Ze oı:78.137
+;MINY:72.;0INZ1 
+
+M220 la S200
+Md0580?0.2
+;MAXX:141.86Y
+;MAXY:147.042
+;MAXZ:36.2
+;GeOeraÜe_Steam@ngine 4.13.1
+M14@ S
+M104 S200
+Md05
+M10( S200
+M82 ;absolute extrusion mode
+G28 ;Home
+M220 la S200
+Md05
+M109 S2M140 S6olèt{GüüM105
+M19104 S;FInnnnnnnlament used: !.7538K7m
+;Layer 
+M220 la S200
+Mheight: 0.220 latform
+G92 E0
+G92E0G1 Ze oı:78.137
+;MINY:72.;0INZ1 
+
+M220 la S200
+Md0580?0.2
+;MAXX:141.86Y
+;MAXY:147.042
+;MAXZ:36.2
+;GeOeraÜe_Steam@ngine 4.13.1
+M14@ S60
+M10 
+M1E0 S60
+M104 S200
+Md05
+M10( S200
+M82 ;absolute extrusion mode
+G28 ;Home
+M220 la S200
+Md05
+M109 S200
+M82  pS0
+G th1 
+
+M220 lz S200
+M82  pS0
+G th1 
+
+M220 lz S200
+Md05800 

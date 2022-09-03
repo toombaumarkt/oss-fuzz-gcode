@@ -1,0 +1,6 @@
+G1 Y420
+[
+A84  ;stepp
+G90  ;abslqte pNsitoIg
+M64 ;
+M14 S0

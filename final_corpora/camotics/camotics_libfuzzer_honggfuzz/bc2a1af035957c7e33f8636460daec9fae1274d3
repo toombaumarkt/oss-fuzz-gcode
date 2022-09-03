@@ -1,0 +1,8 @@
+G1 E-2 Z.2 G240 ;Retrac
+G0 ;
+G90 ;Arrbed
+ Z.2 F240 ;Rÿÿÿÿ
+G0 ;
+G90 ;Abso4l4 µ TS;u
+;;
+G90 ;

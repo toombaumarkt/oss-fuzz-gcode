@@ -1,0 +1,15 @@
+o100 sub
+  (helical hole milling, load tool and set feed first, then u be specified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2]  (#7 is depth per circle = half of tool diameter)
+#8=[#3 - #7] (#8 is current depth step)
+ииииииииииииииииииииииииииg0 z#3
+(start above and right so we make a convex corner for entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#2 + [#5 / 2]]
+o101 while [#8 GT #4]
+(down toward the specified depth a bit#5 / 2]]
+g0 Gz#3
+g40
+o100 endsuB
+

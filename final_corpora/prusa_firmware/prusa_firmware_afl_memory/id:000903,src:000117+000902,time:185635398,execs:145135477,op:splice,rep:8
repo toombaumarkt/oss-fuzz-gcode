@@ -1,0 +1,10 @@
+D3 A8640.00 A8640.000
+G0H A-90Lõg11 z-1.6 f5PRUSA0.00(Material Aluminium Durchmesser12mm -- bearbeitbare La„nge minimal 70 
+g1 x5.3 f15
+g1 z-20 f150
+g1 x5.8
+g1 z-25
+g1 x5.5
+g1 x5.3 f15
+g1 x5A5 z-60 f150
+g1 x

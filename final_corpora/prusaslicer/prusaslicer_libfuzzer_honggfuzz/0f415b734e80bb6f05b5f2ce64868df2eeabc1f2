@@ -1,0 +1,4 @@
+G1 Z+0.ü5 E-5 X-20 Y-20 F80.0 ;move Z up a bit and retract filament even more
+G28 X0 Y0    ;move X/Y to msitioning
+M82 ;absolute extrusion mode
+M104 S0

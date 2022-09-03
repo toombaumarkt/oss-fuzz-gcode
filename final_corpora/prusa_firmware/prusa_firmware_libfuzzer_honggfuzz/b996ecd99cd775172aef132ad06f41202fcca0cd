@@ -1,0 +1,4 @@
+G28 X0Y0
+Mv
+Mb8 eu;t2$extrusimode
+M

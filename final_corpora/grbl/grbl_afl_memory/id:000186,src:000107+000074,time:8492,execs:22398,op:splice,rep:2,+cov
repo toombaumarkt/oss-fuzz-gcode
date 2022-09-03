@@ -1,0 +1,8 @@
+
+GM140 S0
+G92 E0
+G1 E-10 F
+G28 X0 Y0
+2 4
+M8M8;aute extrusion mode
+ S0

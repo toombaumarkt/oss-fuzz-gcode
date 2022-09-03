@@ -1,0 +1,19 @@
+G1 F1500 E1201.0
+M140 S0
+M107
+G91 ;Relatiioning
+G1 E-2 F2700 ;Rebit
+G1 E-2 Z0.2 F2400 ;e Z
+G1 X5 Y5 F3;Wipe out
+G1 Z10 ;Rore
+G90 ;Absoluioning
+
+G1 X0 Y220 ;Print
+M106 S0 ;Tuan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all steppers but Z
+
+M82 ;absolute extrusion mode
+M104 S0

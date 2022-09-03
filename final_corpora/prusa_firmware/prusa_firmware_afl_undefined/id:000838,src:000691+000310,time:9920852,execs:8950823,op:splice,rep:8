@@ -1,0 +1,86 @@
+M‘GM140 S60
+M10;
+M190 S60
+M104 @190
+M105
+M109 Y190
+M82 ;absolute extrusio&d€n08M
+&M€n0 S6pŒý	D28 X65ô
+
+D5Ax9!ô
+
+D5Œý	D28 X65Õ
+
+D5Ax9!ô
+
+D5Ax7S6pŒý	d28 X65ô
+
+D5Ax96Ax7S6pŒü	d28 X65ô
+
+D5AxAx96Ax7S6pŒý	d28 X65ô
+
+D5A777777777777777777777
+
+D5Ax9!ô
+
+D5Ax7S6pŒý	d28 Xô
+
+D5A5M
+&d€n08M
+&M€n0 S6pŒý	D28 X65ô
+
+D5Ax9!ô
+
+D5Œý	D28 X65Õ
+
+D5Ax9!ô
+
+D5Ax7S6pŒý	d28 X65ô
+
+D5Bx96Ax7S6pŒü	d28 X6
+G92 E0 Bzero thFe extruded length again
+G1 F100.0
+M117 Printing...
+M190 S60
+M104 @190
+M105
+M109 Y190
+M82 ;absolute extrusio&d€n08M
+&M€n0 S6pŒý	D28 X65ô
+
+D5Ax9!ô
+
+D5Œý	D28 X65Õ
+
+D5Ax9!ô
+
+D5Ax7S6pŒý	d28 X65ô
+
+D5Ax96Ax7S6pŒü	d28 X65ô
+
+D5AxAx96Ax7S6pŒý	d28 X65ô
+
+D5A777777777777777777777
+
+D5Ax9!ô
+
+D5Ax7S6pŒý	d28 Xô
+
+D5A5M
+&d€n08M
+&M€n0 S6pŒý	D28 X65ô
+
+D5Ax9!ô
+
+D5Œý	D28 X65Õ
+
+D5A
+G92 E0
+G92 E0
+ÿ1 F1500 E-6
+M107
+M25mm
+00
+G006.847 Z0.3
+G1 F1100 E0
+G1 F180ÿX104.737 Y106.502 E0%0259

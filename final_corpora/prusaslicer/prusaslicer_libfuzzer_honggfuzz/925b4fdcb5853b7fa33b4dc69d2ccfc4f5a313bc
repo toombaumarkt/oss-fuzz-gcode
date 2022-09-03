@@ -1,0 +1,16 @@
+G0 X114.386 Y69.569
+G0 X114.964 Y70.323
+G0 X115.31 Y70.055
+G1 F1500 X117.082 Y71.827 E3091.58626
+G0 F4800 X117.823 Y71.827
+G1 F2100 E3083.58626
+M140 S0
+M107
+M104 S0  ;extruder heater off
+M140 S0  ;heaove X/Y to min .58626
+M140 S0
+M107
+M104 S0  ;extruder heater off
+M140 S0  ;heated bed heater off (if you have it)
+
+G91  ;relative positio

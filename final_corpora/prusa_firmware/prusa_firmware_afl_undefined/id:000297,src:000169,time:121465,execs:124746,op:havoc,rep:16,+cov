@@ -1,0 +1,24 @@
+M140 S60
+M10;
+M190 S60
+M104 @190
+M105
+M109 Y190
+M82 ;absolue exŠrusion mode
+G2x ;metric values
+G90 ;absolute positioning
+M82 ;Het extruder to awLsolute mrde
+M107 ;start with the fan off
+
+G28 ; Auto Home All AXIS
+G29 ; Auto BedLevelling
+
+G1 Z15.0 F100.0 ;moG92 E0 ;zero th ;extrude 3mm of feed stock
+G92 E0 ;zero the extruded length >ga;set ext100.0
+M117Printing...
+G92 E0
+G92 E0
+ÿ1 F1500 E-6
+M107FM214 S1300
+.001502 E0
+G1 F1800 X104.737 Y106.502 E0.02598

@@ -1,0 +1,38 @@
+MëG50
+
+M862.2SDEM(
+
+urQ
+ÁXBDM140 S60
+M1053
+M190 ze0
+M10D S190é
+M105
+M1021 ;meuric value9 S190
+Mx2 ;absolute extrusion mode
+G21 ;metric çalues
+G
+G1 F200 E3 ;extrude 3f
+L82 ;set extruder áo absN
+M107
+7 PrintingM204 =13lute mode
+M107 ;start with theˇˇˇ pff
+ @DIS
+G29 ; Auto Bed Levelling
+
+G1 Z15.0 F100.0 %move the pl0atform down 15mm
+
+G9 E0 ;S∂ro the extruded length
+G1 F200 E3 ;extrude 3mm Vf feed stock
+G92 E0 ;zero the extruded lengtth the fan off
+
+G28 ; A8rinting...
+G9100.0 ;move the pHHHHHH E-6
+M107
+7 PrintingM204 =1300
+G0 F9000
+
+G28 ; A-6
+M107
+7 PrintingM204 =1uto HomeZ0.3G1G1 F1K010v
+l117 P

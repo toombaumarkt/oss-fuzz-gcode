@@ -1,0 +1,27 @@
+M104 S(3 circles with the same diamter 6 mm)
+(1st without tool cpensation, 3rd with G4er millinmpensation)
+
+g21
+g61
+g0 z
+g0 x0 y0
+
+m06 t55 (1.6 mm diamet1 Neft cog head)
+
+m3 s14000
+g0 x20 y0
+g1 z-1.6 f50
+g2 x14 y0 i-3 j0f100
+g2 x20 y0 i3 j0
+g0 z2
+Ù(circle 2, one full cicle in one step - startpoint = endpoint -, with g42 andle in one step -start g2 -> right side compensatio00
+g0 z2
+g40
+
+(cion of cutting, therefore first positioning inside of ciclerequired, then    8           , then startpoint of circle)
+
+g0 x0 y0
+g42
+g0 x3 y0
+g1 z16 f50
+g2 x3 y0 i-3 j0 f1n seen in directicle 3, one full cicle in one> left side coèpensation seen in direction of cug, therefore first p

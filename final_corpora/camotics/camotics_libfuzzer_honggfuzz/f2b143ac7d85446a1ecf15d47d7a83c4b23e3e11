@@ -1,0 +1,21 @@
+g1 z0 f50
+g1 x4.f5
+g1 z-2f1
+g1x5.
+g5 z1 x55
+g1 z-4f1
+g1x5
+g0 z1 x5.
+g1 x5
+g0 z1 x.5
+g1 
+g1 z-2f1
+g1x5
+g0 z1 x5.
+g1 x5
+g0 z1 x.5
+g1 x4.z-25 f69
+g4 f5
+g1 z
+g1 z6f0
+g1 x4.f1P

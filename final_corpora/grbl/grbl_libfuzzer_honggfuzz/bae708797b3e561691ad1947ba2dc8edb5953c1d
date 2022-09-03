@@ -1,0 +1,18 @@
+g6
+g1 z-10
+g1 x12 z2
+g0 z1g0 x1
+g1z-26
+g1 z-20
+g1 x12 z21
+g0 z1
+g0x1
+g1 z1
+g0 x1
+g1 z-90
+g1 x1 z1
+g0 z-8
+g0 x11.8
+g1 z3
+g0 x12f20 z2
+m0

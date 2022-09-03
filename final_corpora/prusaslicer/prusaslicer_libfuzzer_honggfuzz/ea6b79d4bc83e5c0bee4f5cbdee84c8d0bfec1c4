@@ -1,0 +1,19 @@
+M140
+
+M82;absolute extrusion mode
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Some All AXIS
+G29 ; Auto Bed Levelling
+
+G1 Z1 F150.0 ;move the plat frmodown 15mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;extrude 3mmfo  efed stock
+G92 ;zero the extruded length aga
+G92
+G92 E0
+G1 AF13

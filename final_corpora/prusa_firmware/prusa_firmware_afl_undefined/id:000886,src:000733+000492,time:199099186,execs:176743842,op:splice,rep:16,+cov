@@ -1,0 +1,23 @@
+inMY4' ˇÁhBD3
+M22.
+M1ˇ1 D15BDDDgDDDDDBDDDDDD[DDDDDDDDDDDDDode
+G28 ;metric valèes
+G90 ;aNsolute positioning
+M82 ;set extruder to absolute mode
+M107 ;starÄˇwith the fan off
+
+G28 ; Auto Home All AXIS107
+M226 SP13
+G1 F200 E3 
+
+G1 Z16.0 F100.0 ;move the platform down 15mm
+
+G92 E0 ;Öero the eM107
+ngth agaio
+G1 F100.0
+M117 PM209 S+30O
+G04.347 Y106.8414 SP13
+G1 F200 Erude 3mm o6
+M107
+M214 SP1300
+G≈06

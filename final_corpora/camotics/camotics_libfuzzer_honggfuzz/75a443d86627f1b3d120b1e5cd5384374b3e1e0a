@@ -1,0 +1,28 @@
+g1 x-12
+g1 y-0.7
+g2 x-12 y-7.3 i0 j-3.g2 x-12 y-0.7 i0 j3.3
+g1 y0
+g1 x-20 
+g1 y-0.7
+g2 x-20 y-7.3 i0 j-3.3
+g2 x-20 y-0.7 i0 j3.3
+g1 y0
+g1 x-15.8 (Resl/cps)
+g1 y-14
+g1 y14g1 x-16.2
+g1 y-14
+g1 x-7.
+g1 y14
+g1 x-8
+g1 y-14
+g1 x-0.55
+g1 y14
+g1 x-23.6
+g1 y-14
+g1 x-24.8 (sschneiden/outside conture)
+g1 z-6 f100
+g1 y-8 f250
+g1 x0.8
+g1 y8
+g1 x-24.8
+g1 y-9

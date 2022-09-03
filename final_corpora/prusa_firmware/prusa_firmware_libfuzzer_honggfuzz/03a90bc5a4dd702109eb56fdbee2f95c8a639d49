@@ -1,0 +1,35 @@
+g0 x-25 y0Iÿÿÿwªªªªª]UUUUUUUªªªgD9 z-20
+g1 x3.1 f5ÿg0 z-10
+g2 ;Fi
+M190  x-g1 Ax5.8IgD9 zyg
+3041 
+9g0f50
+g2 ;Fi
+M190  x-g1 Ax5.8IÿÿÿwªªªªªªªªªªªªªªªªgD9 z-20
+g1 x3.1 f5ÿg0 z-10
+g2 ;Fi
+M190  x-g1 Ax5.8IgD9 z-20
+g1 x3.1 f5ÿg0
+g41
+9g0f50
+g2 ;Fi
+M190  x-g1 Ax5.8IÿÿÿwgD9 z-20
+g1 x3.1 f5ÿg0 z-10
+g2 ;
+g1 x3 f1yg
+3041 
+9g0f50
+g2 ;Fi
+M190ÿ x-g1 Ax5.8IÿÿÿwgD9 2z-20
+g1 x3.1 f5 y+X0 Y0
+g41
+à
+4r¬Ï-M9g0f50
+g2 ;/Fi
+M190  x-g-1 -20 f150
+g5ÿg0 z-18 f150
+g1
+ x3 f1515
+3 f125'0g41
+9g0f50
+g2 ;Fi

@@ -1,0 +1,47 @@
+W[0;M[0K+o100 sub
+  (helical hong, load tool and set feed first,1then use like so:)
+  (o100 ght] [hole depth] [hole ia] [tool dia be specified exactly.)
+#4=[0 - #4]
+#7=[#6 / 2]  (#7 #1 y[#2 + [#5is depth peW l diameter)
+#8=[#3 - #7] (#8 is current depth step)Þg0 z#3
+(start above and r<gNht so we make a convxcw arcs)
+e)
+g3 x#1 y[#2 + I[#5 / 2]g0 x[#1 + #6] y[AAAAA[#5 / 2]] 
+g410M#0 g0 x#1 y[#2 + [#5 / 2]]
+o101 whiSe [#8 GT #4]
+(down toel dep‚h a bitÀat a time)
+g3 x#1 y[#2 + I[#5 / 2]] i0 j[0 - [#5 / 2]] z#8
+#8=[# - #7]
+o101 endwhile
+(down to the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ j[0 -S[#5 / 2]] z 4
+(full circle"at the actual depth)
+g3 x#1 y[#2 + [#5 / 2]] i0 j[0 - [#5 / ]]
+g0 z#3
+g40
+o10

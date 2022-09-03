@@ -1,0 +1,7 @@
+(before you can ush this file, calling the subroutine, you have to make sure that the subroutine file 200.ngc)07
+M104 S0
+M140 S0F2000
+G28 X0 Y0
+Mttttttttt0
+g0 z5
+o100 call [-8] [8] [3]t t[

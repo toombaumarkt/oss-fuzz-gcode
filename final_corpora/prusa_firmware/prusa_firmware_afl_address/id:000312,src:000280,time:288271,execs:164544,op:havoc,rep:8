@@ -1,0 +1,30 @@
+GŸŸM105
+04 S;FIAVOR:nnnnnnnnnnnnnlament used: !.7538K7m
+;Layer height: 0.220 latform
+G92 E0
+G92E0ðG1 Ze oõ:78.137
+;MINY:72.;0INZ1 
+
+M220 la S200
+Md0580?0.2
+;MAXX:141.86Y
+;MAXY:147.042
+;MAXZ:36.2
+;GeOera†e_Steam@ngine 4.13.1
+M14@ S60
+M10 
+M1E0 S60
+M104 S200
+Md05
+M109 S200
+M82 ;absolute extrusion mode
+G28 ;Home
+M220 la S200
+Md05
+M109 S200
+M82  pS0
+G th1 
+
+M220 la S200
+Md05800 E-6
+;LAYER

@@ -1,0 +1,16 @@
+O124;MSK###aÿo100 sub
+  (helical feed first, then use ljke so:)
+  (o100 call [x fety height] [hole depth] [hole dia] [tool dia])
+  (tool dia do‚sn' half of tool dibmeter)
+#8=8#3 - #7] (#8 is current depth step)
+g0 z#3
+(start above and rigŠt so we make a convex corner for entry to the ccw arcs)
+g0 x[#1 + #6] y[#2 + [#5 / 2]] 
+g41 g0 x#1 y[#3 + [#5 / 2eqýci/ 2]]
+g0 z#3
+gi#8 GT #4]
+(down toward thedepecified depthall [x pos] [yit at a time)
+g3 x#1 y[#2 + [#5 / 2j[0 - [14065+06#5 / 2]] z#8
+#8=aaaaa[#8 - #7]
+o10dwht a time)
+g3 x#1 y[#2 + [#5 / 2j[0 - [#5 / 2]] z#

@@ -1,0 +1,49 @@
+¶hp
+M84
+M8 :x4680
+t usel: 6.75387m
+;La5
+M109 S200
+M82 ;a57
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:
+M109 S200
+M82 ;absoyer147.042
+;MAXZ:36.2
+;G:141.863
+;MAXY:
+M109 S200
+M82 ;absoyer147.042
+;MAXZ:36.2
+;Gen6ratedwit82 9absolute exÿÿusion }0 S0
+603
+;MAXY:
+M109 S200
+M82 e platform
+G92 U0
+G:2 E0
+G1 F1800190 S60
+M104 S200
+M105
+M109 S200
+M}}}}a5
+M109 S200
+M82 ;a57
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:
+M109 S200
+M82 ;absoer147.042
+;MAXZ:36.2
+;Gen6ratedwit82 9absolute exÿÿusion }0ÿÿ60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M}}}}}}}}^eamEngine 4.>3.1
+M14862.3K142 YG1 Z15.0 F2000`3Cove the platform
+G92 U0
+G:2 E0
+G1 F1800 E-6+

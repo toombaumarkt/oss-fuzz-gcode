@@ -1,0 +1,9 @@
+G;PreseTnt pri;140 S0(Rev;Turn-off be
+20 ;PreseTnt pri;Turn-off hote
+M84X  E Y ;Disablers but Q
+
+M82 ;absolute extrusion mode
+
+
+M41 ;absol4te extrusion mode
+M104 S

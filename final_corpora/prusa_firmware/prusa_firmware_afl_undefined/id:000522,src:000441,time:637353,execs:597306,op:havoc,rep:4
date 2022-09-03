@@ -1,0 +1,27 @@
+iu
+14
+g
+N160.004#
+N*;Fament used: 6.75387m
+;Layer height: 0.2
+;MINX:78/237
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY8 ;Home
+M42. S0
+G1 ZCura_SteamEngine 4.13.1
+M1U0 S60
+M5
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;absolute extrusionmode
+G28 ;Home
+M42. S0
+G1 Z15.0 F2000Z:36.2
+;G{ platform
+G93 E0
+G92 E0
+G1 F1800 E-6

@@ -1,0 +1,21 @@
+M10##Ü#-G21 XL[M[0MMÿO<d>LhhhhhhhhhhhhhhhhhhhhhhG0 F9000 X109.8 Y118
+G0 X109 Y118.192
+G1 F2100 E17
+M140 S004 S7
+G91; trbct filament slightly
+M140 S0; Turn off the bed heater
+M104 S0; zl2
+M140 S0
+M204 S500
+M107
+G91; relative=positioniig mode
+1 XL[M[0MMÿO<d>LhThhhhhhhhhhhhhhhhhhly; xis
+G0 Y280 F600; Bring the bedozzle heater
+G28 X;axis
+G00Y280 F6MWMMÿO<d>LhhhhhhhhhhhhhhhhhhhhhhG0 F9000 X109.8 Y118.029
+G0 e heater X; Home the X axis
+G0 Y280 F6MWMMÿO<d>LhhhhihhhhhhhhhhhhhhhhhhhhhG0 F9000 X1 Y118.129
+G0 X109.799 Y118.192
+G1 F2100 E177.6
+M14A S0
+M204 posi|ion pri Tur

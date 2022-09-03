@@ -1,0 +1,6 @@
+G1 Y220
+
+M84  ;steppers f
+G90  ;abolute posdtioni
+M82 ;absolute eion mod;e	
+M104 S0

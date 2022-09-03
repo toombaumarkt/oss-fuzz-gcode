@@ -1,0 +1,10 @@
+G0 Y7055
+GF F1500 X117.082 Y71.827 E3091.58626
+G0 F4800 X117.823 Y71.8Ã»........................G1 E-1 F300 ;retract the filament a bit before lifting the nozzle, to releavvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvse some of the pressure
+G1 Z+0.5 E-5 X-20 Y-20 F80.0 ;move Z up a bit and retract filament even more
+G28 ÿ0 Y0    ;move X/Y to min endstops, so the head is out of the way
+
+M84  ;steppers off
+  90G;absolute positioning
+M82 ;absolute extrusion mode
+M104 S0

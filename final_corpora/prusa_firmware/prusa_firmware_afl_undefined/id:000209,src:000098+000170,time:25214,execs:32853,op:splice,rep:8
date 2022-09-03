@@ -1,0 +1,31 @@
+)npuM140 S60
+M105
+M190&S60
+M104 S190
+M105
+M109 S190
+M82 ;absolute extrusion mode
+G21 ;metric values
+G90 ;absolute positioning
+M82 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28ÿ€ Auto Home All Aelling
+
+G1 Z15.0 F100.0 ;move the platform down 1°mm
+
+G92 E0 ;zero the extruded length
+G1 F200 E3 ;extrude 3mm of feed stock
+G92 E0 ;zero the exwruded length aUpinf
+
+G28ÿ€ Auto Home All AXIS
+G1 F100.0
+M117 Printing.. E0
+G1 F1500 E-6
+M107
+M204 S1300
+G0 F9000 X104.347 Y106.847 Z0.3
+G1 F1500 E0
+G1 F1800n off
+
+G28ÿ€ Auto H.025

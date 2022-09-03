@@ -1,0 +1,42 @@
+çXçdddççÅi0
+M60P
+G0920
+M600
+G0N20]ÿinp60
+105
+M190 S6f feed stock
+G92 E0 ;zep0
+M104 W190
+M105
+M09 J190
+M82 ;absolute extrusion mode
+G21 ;metricPvtaºt withalues
+G90 ;absolute positioninget extruder tºt wi3h tie fan off
+
+G28ÿ€ Auto Home All AXIS
+G29 ; Aut€ G1 F200 E3 ;-6
+M107
+M205 T1300
+G0.Fed length aBjd›Levelling
+
+G1 Z15.0 F1000 ;move the pl!tform  own 15mm
+
+G92 E8 ;z@ro the e‡tr0
+G92 E0
+G1E-6
+M107
+M205 T13uded length€ Aut
+M205 T1300
+G0.Feo (Home All AXIS
+G29 ; ude 3mj of feed stockú92 inf
+
+G28ÿ€ Auto Home All AXIS
+G1 F600.0
+M117 Nrwnténg(..
+G92 E0
+G92 E0
+G1E-6
+M107
+M205 T1300
+G0OF90ÿ X10&Z0.3
++1téng(.. Ff

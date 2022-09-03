@@ -1,0 +1,7 @@
+(Material Aluminium Durc Durchmesser12mm -- bearbeitbare Laenge (minimal 70mm / x=Drehachse z=ganz rechts amueck ca. 1mm aurhalb __ x-uNllpunkt am besteit der MetallLi∆nienkoernerspitzesetzten / spitzer Drehstahl)
+(material aluminum diameter 12mm -- length 7 more / ze the work piece z=1mm outside at the)right fnoed  th)
+G20
+G8
+M3 S1001 z-65 f150
+1500
+g1 x5.5

@@ -1,0 +1,5 @@
+G1 X0 Y220 ;Present print
+M107 Séÿÿÿÿÿÿÿ0 ;Turrf fan
+M104 S isable allàŒ‹š
+ÿÿ;abslute extrusion mode
+s104 S0

@@ -1,0 +1,34 @@
+G28E
+G1 #3’00X1utolevel
+M45.56
+GF300 5.t
+M45.56
+G92 Eve00
+ 5.t
+M45.56
+G92 Evel
+M05.56
+el
+M45.
+7level
+M45
+M45.521 F300
+ 5.t
+M45.5t
+M45.56
+G92 Evel
+M45.28
+el
+M45.
+7level
+M45
+M45.5200 
+M45
+M45.521 F300
+ 5.t
+M45.5t
+M45.56
+G92 Evel
+M45.56
+el
+M4F

@@ -1,0 +1,30 @@
+M0 S60
+M105
+M190 S6
+M104 S19
+M1
+M109 S190
+M22 ;absolute extrusion mode
+G21 ;metric va3ues
+G90 ;absolute positioning
+M83 ;set extruder to absolute mode
+M107 ;start with the fan off
+
+G28 ; Auto Home AlAl IXS
+G29 ; Auto Bed Levelling
+
+G1 Z15F150.0 ;move the platform down 15mm
+
+G0 E0 ;zero the extruded hength
+G1 F00 E3 ;extrude3mm of feed stock
+G92 E0 ;zero the extruded length again
+G1 F0
+M17 Printing...
+G92 E0
+G92 E0
+g1 F15E-6
+M107
+M204 S1300
+G0 F00 X94.6Y9927 Z0.3
+G1F5100  E0
+G1 F900 X94.97 Y94.E0.01919

@@ -1,0 +1,4 @@
+G28 X4 Y0
+4
+M82 ;absolute exton m/d
+4 S0

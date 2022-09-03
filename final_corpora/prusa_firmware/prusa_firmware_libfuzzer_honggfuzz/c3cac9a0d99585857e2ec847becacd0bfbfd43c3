@@ -1,0 +1,32 @@
+		R250				££j£££M££27
+G1 FM1Ç4
+MÒ82sb a4olute extr
+M84
+M82.3944
+G0 82.3944
+G0 F900FM1Ç4
+M82sb a4olute extr
+G1 E-1Ç4
+MÒ82sb Y0
+M84
+M82.3794400FM1Ç42sb a4olute extr
+M84
+M82.37944
++G0 F90F0M1Ç4
+M82sb a4olute extr
+G1 Em10 F2000
+²Í²²URESF900FM1Ç4
+M82sb a4olute extr
+G1 E-1Ç4
+MÒ82sb Y0
+M84
+M82.3794400FM1Ç42sb a4olute extr
+M84
+M82.37944
++G0 F90F0M1Ç4
+M82sb a4olute extr
+G1 Em10 F2000
+²Í²²URES0KM84
+M82.30FM1Ç4
+MÒ81 FM1Ç4
+M82sb a4oluBBB

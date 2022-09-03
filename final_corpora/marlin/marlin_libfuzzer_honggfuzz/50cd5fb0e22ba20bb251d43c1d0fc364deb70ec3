@@ -1,0 +1,5 @@
+M140 S0
+M107ng
+G1 E-2 F2700 ;Retract a bit
+G1 E-2 Z0.2 F2400 ;Retract and rabsolute extrusion mode
+M104 S0

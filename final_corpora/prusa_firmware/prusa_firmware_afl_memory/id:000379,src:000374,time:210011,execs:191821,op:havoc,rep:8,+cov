@@ -1,0 +1,13 @@
+0RM84  ;steppers of S60
+ÿÿÿÿÿÿÿÿÿÿÿÿÿrrÿÿÿÿ
+M214 S500ÿÿFANPINTET 8Œ0 04 S50007
+M1î
+M1B4 S195
+M11
+G117
+M301 YF45l€ÿÿÿeextru¶¶¶R¶¶¶D¶¶¶¶¶CIIIøø0.0o6ÿÿÿ]2ÿÿÿÿÿÿÿÿÿÿÿÿFANPINTSTrs off
+G€17
+PRNM_40#SÛÄÿ0
+M301 YF457l
+G117
+M301 YF45lu•e extrus9 Y70.09¶¶¶¶¶¶¶¶¶¶D¶Iøø30.0o62ÿÿÿÿ!şÿÿÿÿÿÿFANPINTSTÿ=‘rrrrrrrrrrrrrrúÿ4ÿÿÿÿÿÿÿÿÿÿÿÿÿ=‘rrrrrrrrrrirrÿÿÿ@

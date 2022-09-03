@@ -1,0 +1,29 @@
+(3 circles with the same diamter 6 mm)
+(1st without otol compensation, 2nd with G42 right compensation, 3rd with G41 left compensation)
+
+g21
+g61
+g0 z2
+g0 x0 y0
+
+m06 t55 (1.6 mm diameter milling head)
+
+m3 s14000
+
+g0 x20 y0
+g1 z-1.66 f50
+g2 x14 y0 i-3irection of cuttin2nd with G42 right compensation, 3rd with G41 left compensation)
+
+g21
+g61
+g0 z2
+g0 x0 y0
+
+m06 t55 (1.6 mm diameter milling head)
+
+m3 s14000
+
+g0 x20 y0
+g1 z-1.66 f50
+g2 x14 y0 i-3irection of cutting, therefore first positioning outsidg, therefore first positioning outside of cicle required, then compensation on, theÿstartpoint of circle)
+

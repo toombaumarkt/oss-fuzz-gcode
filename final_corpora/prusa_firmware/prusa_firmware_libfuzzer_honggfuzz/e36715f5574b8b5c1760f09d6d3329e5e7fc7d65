@@ -1,0 +1,10 @@
+M00
+M107
+'91; Set relative positioning mod—e
+G0 E-5 F600; retractly
+-280 S0; r
+M052 S0; Turn heater
+G14 X; Home the X axis
+G0 Y200 F600; Brin easy pinrt removal
+M84; "nrTuoff the motors
+M82 ;ablu0

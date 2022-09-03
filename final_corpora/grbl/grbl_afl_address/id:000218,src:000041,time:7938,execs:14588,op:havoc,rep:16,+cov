@@ -1,0 +1,22 @@
+g1 z-25
+g1 x3.3 k15
+g1 x5.5 z-0 f
+g1 x3.1 z-25 f60
+g1 x5.8
+g1 z-20
+g1 x3.1 f5
+g1 z-18 f15=
+g1 x3 
+g3 x5 r-2.5 z-25 f10
+g1 f15d
+g1 z-20 ÿ502.5 z-25 f10
+g1 x4Ñ5
+g2 ·4.5 r2.5 z-20
+g1 x4
+g3 x4 r2.5 z-25
+g1 x3.AÊ
+g2 x3G91; Set relative po.5 r2.5 z-20 f8
+g1 x3
+z3 t3 r2.5 z-25 f5
+g1 x5.5 z-60 f15
+ 

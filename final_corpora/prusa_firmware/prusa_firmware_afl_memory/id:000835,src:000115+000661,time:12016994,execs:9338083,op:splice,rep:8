@@ -1,0 +1,62 @@
+iá
+4òM 0á
+4ò0  -1I /d/d'D;FZ15.0 F2000 ^Move the platflameit used: 6.75387m
+;Lbber he„ght: 0.2
+;MINX:78.13ÿ
+;MINY:728957
+0
+G1 F0
+M105
+M109ÿR200
+M;MINZ:0.2
+;MAXX:141863
+;MA
+M109ÿR200
+M82 ;abso2
+;Generated WitH CurÿSteamngine B.13.1
+M140 S60105
+M190ßS6H
+M104 S200
+M105
+M109ÿR200
+M82 ;absolute extrus^onmode 0.2
+;MINX:78.13ÿ
+;MINY:728957
+0
+G1 F0
+M105
+M109ÿR200
+M;MINZ:0.2
+;MAXX:141.863
+;MA
+M109ÿR200
+M82 ;abso2
+;Generated WitH CurÿSteamngine B.13.1
+M140 S60105
+M190ßS6H
+M104 S200
+M105
+M109ÿR200
+M82 ;absolute extrus^onmode
+G28 ;Home
+²420 C0
+G1 LAVOR:Marlin
+;TIME:9164
+;Fiorm
+G92 E0 G92 E0
+G14F0
+M105
+M109ÿR200
+M821800 E-6
+
+G28 ;Home
+²420 C0
+G1 LAVOR:Marlin
+;TIME:9164
+;Fiorm
+G92 E0 G92 E0
+G14F0
+M105
+M109ÿR200
+M821800 E-6
+;L6YER

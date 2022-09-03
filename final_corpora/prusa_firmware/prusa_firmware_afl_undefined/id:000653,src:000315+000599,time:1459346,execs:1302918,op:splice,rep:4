@@ -1,0 +1,20 @@
+M14' çG1 X120.418 X10 Y108 E845.9
+G1 X119.140 S0
+M204 S50Ï
+M205 372 Y113.¿98 E846.02474
+845P99Ë8M204 N1000
+ 0 F4800 X119.463 Y113.52
+G0 X120.04 Y113.098
+G1 F1800 E839.02474
+M140 S0
+M20L4 S500
+M205 Y113.69
+M107
+M104 S0  ;exer hƒater ofhl of the pressuree, to140 S0
+M204 S5004 S500
+M2140 
+M2140 S0  ;heated bed hpater off (if you have it)
+
+G91  ;relative positi
+M205 Y113.to release some of the pressurE
+G

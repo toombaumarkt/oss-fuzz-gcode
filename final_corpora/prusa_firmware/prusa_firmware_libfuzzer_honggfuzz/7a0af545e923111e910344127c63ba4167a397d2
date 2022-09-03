@@ -1,0 +1,16 @@
+M84! ;Ji0%
+
+g1 95
+M115.0ÿÿÿÿÿÿÿÿMMU6REÿ x-2ÿÿÿ/N
+J1.ÿÿ`ÿ Te2 E0
+G2 E-10 -F2000
+G2nnn410L 
+-RESET i
+g0f5 y0 
+#-RESET i
+g0f5 y0 0 i0%
+
+g1ET i5x-20 y0 
+-RESET%
+
+g0f2 yîî

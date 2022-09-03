@@ -1,0 +1,41 @@
+G1 F899.3 Y103.142FY86.362*
+M84 X Yf9000 X102.0อออออออ1 Y8
+
+M84 X ๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 X YF9000 X102.01 Y85.62 steppers but Z
+
+M20 ;อ X ๐ÿÿÿÿÿÿÿ135-ofอ5 Y86.9
+G#250
+
+M84 X YF9000 X102.0อออออออ1 Y8
+
+M84 X ๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 X YF9000 X102.01 Y85.62 stepX YF9000 X102.0อออออออ1 Y8
+
+M84 X ๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 X YF9000 X102.01 Y85.62 steppers but Z
+
+M82 ;absolute eออออออออออออออ5 Y86.947
+G1 
+
+M84 X Yf9000 X102.0อออออออ1 Y8
+
+M84 X ๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 X YF9000 X102.01 Y85.62 steppers but Z
+
+M20 ;อ X ๐ÿÿÿÿÿÿÿ135-ofอ5 Y86.9
+G 471
+
+M84 X YF9000 X102.0อออออออ1 Y8
+
+M84 X ๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 X YF9000 X102.01 Y85.62 stepX YF9000 X102.0อออออออ1 Y8
+
+M84 X ๐ÿÿÿÿÿÿÿ135-off bed
+
+M84 X YF9000 X102.01 Y85.62 ste

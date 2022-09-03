@@ -1,0 +1,31 @@
+G0 Y107.4Mÿÿÿ-107Y
+M																#											†		2Pjj£££££££M££49
+G1 FM10Ë
+M82sb a4olute extrusion
+G84 E0
+GÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔÔ1 M-10 F2000
+G28 X0 Y0
+M84
+M82.3794Ë
+G0zF899FM1Ç4
+M82sb a4olute /xtr
+G1 E-10 F2000
+G28 X0 Y0M82sb a4olute extr0 F2004
+
+M82sb a4olute extrusion
+G84 E0
+G1 E-10 F1Ç4ÿÿÿ
+M82sb a4olute extr0 F2004
+
+M82sb a4olute extrusion
+G84 E0
+G1 E-10 F2000
+G28 X0 Y0KM84
+M82794
+GFANJINTST000ÑËÂG28 X0 Y0
+M49
+G1 FM1Ç4
+M82sb alute extrusion
+G84 E X11 extrusion
+G84 E0
+GFANP9.5INTST3006 Y~80.149 E1773.~1

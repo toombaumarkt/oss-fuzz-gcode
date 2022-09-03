@@ -1,0 +1,21 @@
+M11
+
+
+
+
+
+
+
+
+
+%3 PMB
+G
+M304 S1000feedPL
+X107
+M304 fe0e00`1dPM
+M1 7ì
+M304 S1000fEFPMBL
+M107ÿÿÿÿÿ
+M304 S
+G049
+G1R

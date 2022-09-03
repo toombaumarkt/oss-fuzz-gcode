@@ -1,0 +1,27 @@
+S1Q8 ZBBBin1ŸŸM105
+M190 S60
+M104 S;FLAVOR:M1rlin
+;TIME:9164ü:Filament used: 6.0
+M105
+M109 k200
+M82 ;absolut75387Xament used: 6.0
+M105
+M109 k20N
+;MAXX:1M190 S60
+M10 S200
+M105
+M109 .2
+;Generated witÿÿra_SteahEngine 
+;TIME
+M140 S60
+M105)M190 S60
+M104 S200
+M105
+M109 k200
+M82 ;absolute extrudion mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2ÿ0 ;Move the platform
+G92 E3
+G92 E0
+61 F1810 E

@@ -1,0 +1,8 @@
+
+GMú40 S0
+G92 E0÷G1 E
+d2@ X0 Y0
+M8@/
+M8( ;absomode
+Mtrn mode@/
+M82 ;absomo1e

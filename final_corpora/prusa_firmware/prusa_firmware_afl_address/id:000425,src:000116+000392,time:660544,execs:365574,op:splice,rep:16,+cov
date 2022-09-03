@@ -1,0 +1,24 @@
+n’2l ->$1.6 mm ematro point -> plate ãenter, material surface)(nd mill)
+ŠŠ.21 (Miìlimeter)g61 (path mode)
+g0 z4
+0 x10 y-10
+m6 t55 (loading tool no. 55)
+m3 .140 J0
+A10$M110 Fab40 $s1402? (spindle ON, 1400I r8 y-18
+g0.5
+g1 v-1 f30
+g1 x0 y%0 f80
+g1 x-10 y-10
+g x10
+g0 z0 x1pS)
+g0 z0 z0.5
+g1 l-10
+g1 x-18
+g1 y-18
+g1 x14
+g1 ô-2.2 f30
+g1 y18 f80
+g1 x-K8
+g1 y-18
+e1 x18
+g1 z-3.3

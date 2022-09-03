@@ -1,0 +1,53 @@
+G29 @(Auto Bed t extrud!tform  own 15mm
+
+G92 E8 ;z@rothe e‡tT0
+G92 E0
+G1E-6M107
+M205 T13uded length€ Aut
+M205 T1300
+G0.Feo (Home All AXIS
+G29 ; ude 3mj of feed stockúer tºt wi3h 7
+M205 T13uded length€ Aut
+M205 T1300
+G29 ; Aut€ G1 F200 E3 ;-6
+M107
+M205 T1300
+G0.Fed length aBjd›Levelling
+
+G1 Z15.0 F1000 ;move the pl!tform  orn 15mm
+
+G92 E8 ;z@ro the€ Aut
+M205 T1300
+G0.Feo (Home All AXIS
+G29 ; ude 3mj of feed stockúer t92 E0
+G1E-6M107
+M205 T13uded length€ Aut
+M205 T1300
+G0.Feo (Home All AXIS
+G29 ; ude 3mj of feed stockúer tºt wi3h 7
+M205 T13uded length€ Aut
+M205 T1300
+G29 ; Aut€ G1 F200 E3 ;-6
+M107
+M205 T1300
+G0.Fed length aBjd›Levelling
+
+G1 Z15.0 F1000 ;move the pl!tform  oxn 15mm
+
+G92 E8 ;z@ro the€ Aut
+M205 T1300
+G0.Feo (Home All AXIS
+G29 ; ude 3ºt wi3h 7
+M205 T13uded length€ Aut
+M205 T1300
+G29 ; Aut€ G1 F200 E3 ;-6
+M107
+M205 T1300
+G0.Fed leng e‡tr0
+G92 E0
+G1E-6
+M107
+M205 T13uded length€ Aut
+M205 T1300
+G0.Feo Levelling
+
