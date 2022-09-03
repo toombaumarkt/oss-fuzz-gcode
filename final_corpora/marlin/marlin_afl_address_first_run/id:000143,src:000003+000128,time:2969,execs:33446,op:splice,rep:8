@@ -1,0 +1,37 @@
+;n
+;TIME:9164
+;Filam7FLAVOR:Marlin
+;TIME:914
+;Filam7m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141)))))).863
+ÿ147.042
+;MAXZ:3642
+;Generated withe 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;ab mode
+G28 ;Home
+M4;FLAVOR:Marlin
+;TIME:9164
+;/ilam!m
+;Layr heig:0.2
+;MAXht: 0.2
+;MINX:78.137
+;Milam7m
+;Layer height: ANY:72.957
+;M0
+M109 S200
+R82 ;ab mode
+G2INZ:0.20 S60
+M14 S200
+M105
+M10
+;M

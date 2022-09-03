@@ -1,0 +1,28 @@
+          ;F92 E0
+G9— E0
+G1 F1800 E-6
+;LAYERLAVORèar€in
+;TIMeight: 0*2
+;MINX4
+;Fi@amen9
+64
+;Filament used: 6.75387m
+;Layer hE:rlin
+;TIME:916:78.137
+;MINY:72.95AXY:147.042
+;MAXZ:36.2
+;Generated with Cura_S[eamEngine 4.13.1
+M140 S60
+M105
+M19$ S60
+M104 S200
+M1olute extrusio82 ;abs05           1M10. S200
+Mn mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G9— E0
+G1 F1800 E-6
+;LAYER_COUNT2181
+;LAY

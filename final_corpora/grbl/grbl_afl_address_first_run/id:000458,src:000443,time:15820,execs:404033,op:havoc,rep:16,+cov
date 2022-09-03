@@ -1,0 +1,16 @@
+;NLA953
+
+;MA
+M9 Y6.ÿ
+G 
+G2 X71A-5.0 F22 zD;MA
+M9 Y6.ÿÿ1 
+G2ÿÞ(2 z0
+GG1 
+G2 X.1I15.0 F2000 ;Mpla105
+M1ode
+G2) ;Hnmf
+M422 1 
+G2X71Z15.0 F201
+;>AYER:J
+X107

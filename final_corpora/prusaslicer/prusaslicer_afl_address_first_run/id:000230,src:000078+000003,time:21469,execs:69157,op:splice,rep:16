@@ -1,0 +1,24 @@
+ F2000 ;Move the platform
+G92          ;FLAˇˇˇ6: 6.75387m
+;Layer height7
+;MI200
+M1
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;GeneSteamEngG92 E0
+G92 E0
+G1 F180105
+M190 S60
+M104 SNZ: .205
+M109 S200
+MZ2 ;ab‚oluteCextrusioè mode
+G28 ;Ho
+892 E0
+G1 F180105
+.190 S6me
+M420 S0
+G1 Z15.0 F2000 ;Move the platfE0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;

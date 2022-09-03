@@ -1,0 +1,34 @@
+GE0
+$1        ;FLAVOR:Marlin
+;TI164
+;Filamen
+;ayer h.2; pmatform
+G92 E0
+G92 E0
+G1MI7
+;MINY:72.957
+;
+;MAXX:141.86orm
+G92 E0
+G92 G1   F1800 3
+;MAXY:147.042
+;MXZ:36.2
+;GenerUted witrusion mode
+G28 ;Home
+²520 S0
+G1 Z15.0h Cura_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M10olute extrusion mode
+G28 ;Home
+²420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+ ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_G1 F1800 E-6
+;ÿAYER_COUNT:181

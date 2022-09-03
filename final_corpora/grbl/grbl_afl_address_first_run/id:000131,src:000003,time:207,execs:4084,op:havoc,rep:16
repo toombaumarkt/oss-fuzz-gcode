@@ -1,0 +1,25 @@
+;FLAVOK:Marlin
+;4
+;Filam7m
+;Layer heighr: 0.2
+;MINX:78.137
+;MINYL72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.04
+G0Movu the €latform
+G92 S60
+M104 S200
+M105orm09 S platf
+M1
+G92 E0
+G92 ;Home
+M@20 S0
+G1 Z15.0 F2000";Move the200
+ME0
+G82 ;ab mode
+G28 E0
+G1 F18O0 E:6
+;LAYER_COUNT:181
+;LAYER:0
+M107

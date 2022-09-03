@@ -1,0 +1,18 @@
+G1ente 4. us387m
+;Laheigh.1
+M140 S6105
+M113.1
+M14 S6t: 0.2 F1800 E-61372 F1800 E-3
+G0 X168.81 Y1347.042
+;MAXZ:36.2
+;Generated with CuŒa_StWamEngine 4.13.1
+M140 S6105
+M113.1
+M14 S60
+M105
+M190 Sextrusionmooe
+G28+;Iome
+M420 S0
+G1 ;15.0 F20ÿÿÿv‡ the p00 ;Move the pM€90 S\xtrusiýM304
+/E1gV 1:181
+;LAYER

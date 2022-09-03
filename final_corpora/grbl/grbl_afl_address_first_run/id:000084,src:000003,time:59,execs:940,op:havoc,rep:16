@@ -1,0 +1,16 @@
+;FLAMarlin;INX:78.1X7
+;MINY
+;MAXZ$36.2
+;:E2.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Menerated ‡ithe 4.05
+M190 S60
+M104 Sab mode
+G28 ;H07e the platform
+%9G92 E0
+G F1800 E-6
+
+;0 &2000 ;Mov

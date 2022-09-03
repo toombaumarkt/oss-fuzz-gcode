@@ -1,0 +1,14 @@
+;FLAèrlin
+;4
+;Filam7m
+;Layer height: 0.2
+E)6
+;LAYE37
+;MINY:MdXZ:36.2
+;Gen S60
+M105
+M190dS60J mode
+(28 ;Homeorm
+G92 R_COUNT:181
+;LAYER::0
+M107

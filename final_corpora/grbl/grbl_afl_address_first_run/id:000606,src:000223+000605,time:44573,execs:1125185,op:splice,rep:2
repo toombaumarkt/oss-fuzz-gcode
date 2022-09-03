@@ -1,0 +1,16 @@
+7
+;MRNYE
+;4
+TFiÿight: 0.
+;MINX:€ÿin
+;0
+M82 ;ab mode
+G20Y147.e
+G20Y147.0;FLA: 0.2 E00
+G30.1
+0; E00
+G30.1
+M47.04ám e  E0,G12
+;Mrm
+G92 E00
+G30.1

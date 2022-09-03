@@ -1,0 +1,46 @@
+4
+G0 X1¢  F.9N9989930 ]16(1 E infil1
+G1 X165(mater7 E infil1
+G1 X165.3
+Gmater7 E infil1
+G1 X165.3
+G.4990
+G1 F F30 ]16(mater7 E infil1
+G1 X165(mater7 E infil1
+G1 X1ter7 E infil1
+G1 X165.3
+G.4990
+G1 F,387 E177à.4241
+G1 X165.3
+F30 ]16(1 E infil1
+G1 X165(mater7 E infil1
+G1 X.3
+Gmater7 E infil1
+G1 X165.3
+G.4990
+G1 F F30 ]16(mater7 E infil1
+G1 X165(mater7 E infil1
+G1 X1"5.3
+Gmater7 E infil1
+G1 X165.3
+G.4990
+G1 F,387 E177à.4241
+G1 X165.3
+F30 ]16(1 E infil1
+G1 X165(mater7 E infil1
+G1 X165.3
+GmaGæ F30 ]16.3
+G.4990
+G1 F,38X165.3
+Gæ F30 ]16(1 E infil1
+G1 X165(mater7 E infil1
+G1 X165.3
+Gmater7  infil1
+G1 X165.3
+G.4990
+G1 F,387 E177à.4241
+G1 X165.3
+Gæ F30 ]16.3
+G.4990
+G1 F,38X165.3
+Gæ F30 

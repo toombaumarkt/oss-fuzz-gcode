@@ -1,0 +1,20 @@
+;fLAin
+;4
+RFilam m
+;>
+;M0
+M10.2
+;MAX3
+;MS60
+M105
+M190
+M104 S200
+M105
+M109 .957
+;ode
+G28 ;Home
+M420 S!
+G1 Z15.0 92 E0
+G92 E0
+G1 F1800 ÿ-6
+;LA:INZ:07

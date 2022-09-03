@@ -1,0 +1,16 @@
+;FLAVOR:Marlin
+;4
+;Filam7m
+;Laye:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.2
+;Gen S60
+M104 S20
+G28 ;Hom92 420 0.2
+;MAXX:141.8632 EORZMarlin
+;4
+;Filam7m
+;Layer181
+;LAYER:0
+M107

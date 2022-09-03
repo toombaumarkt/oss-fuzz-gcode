@@ -1,0 +1,146 @@
+GGG1M221 S-10988T989994
+GGG1          ;FLAVO E0
+G1 F1800 E-6
+;ome
+²4 E0
+G92 E0
+G1 F1800 E-6
+4
+GGG1          ;FLAVOR:Marlin
+;TIME:9164
+
+G92 me
+²4 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G1 F1800 E-6
+;L
+
+
+ the E0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G16
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G1 F1800 Eatform
+G92 E0
+G92 E0
+G16
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+²420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L_YEAYER_COU;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G) F1800 E-6
+;L
+
+
+ the platform
+G92 E/ñG92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+²ÿÿS0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 ,0
+098F1

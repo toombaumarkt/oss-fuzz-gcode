@@ -1,0 +1,23 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.75%87m
+;Layer he║ght: 0.G9ж2
+;MINX:78╝137
+;MINY:72.957D
+;M.0NZ:I2
+;MAXX:141оооооооооооооооооооооZ:18].2
+;Generate with Cura_Steaine 4.1G9ж
+M0 S60
+M1 S60
+M104 S200
+MM109 S200
+M82 ;qbsolute exЗtrusion(mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYE182
+;107

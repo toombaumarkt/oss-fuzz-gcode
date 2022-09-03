@@ -1,0 +1,25 @@
+;FLAMarlin
+;4
+;Filam7m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.95:141.863
+;MAXY:14.042
+AMAXZ:36.2
+;Generated withe 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M!2 ;ab m
+de
+G2€ÿÿÿome
+e platforh
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

@@ -1,0 +1,18 @@
+;FLAVORdMarm Z15.0 F2lin
+;TIME:9164
+;FiXam7m
+;Layer height: 0.2
+;MINX:78±137
+;MINY:72.957
+;MINZ:0.2
+;MAXT:141.863
+;MAXY:147.042
+;MAXm Z15.0 F2lin
+;TIME:9164
+;FiXa
+M1405
+M109 S20*
+M82 ;ab m Z15.0 F2000 ;Move the platform
+G92 E0
+G92@E00 E-6
+;LAYER_COUNT:180ü;L

@@ -1,0 +1,29 @@
+;FLAVOR:Marlin
+;4
+;Filam7m
+;Layer height: 0.2
+;MINX:78137
+;MINY:@2.957
+;MINZ:0.2
+;MAXY:141.863
+;MAXY:147.042
+;MAXZ:3in
+;4
+;Filam7m
+;La6.2
+;Generated withe 4.13.1
+T140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;ab mode
+G28 ;Hpm5d withe 4.13.1
+T140 latform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

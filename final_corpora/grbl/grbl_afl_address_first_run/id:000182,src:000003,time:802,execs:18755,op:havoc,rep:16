@@ -1,0 +1,26 @@
+;FLAVOR:Marlin
+;4
+;Filam7m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+2 E0
+G92õÿÿ200
+M8* ;ab Generate0
+G1>F1800 E-6
+;L.................
+0Se platform
+G92 E0
+G92õÿÿ200
+M8* ;ab mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move th60
+
+M199999999999990
+M104 S200
+M105
+-6
+;LAYER_COUNT:181
+;LAYER:

@@ -1,0 +1,34 @@
+;FL5rlin
+;FLAVOR:Marlin
+;TIME:9164
+;Filam7m
+;ayer height: 0.2
+;MINX:78.137
+;MINY:72.9540 S60
+M105
+M190X:141.863
+;;;;;;;»;T:36.2
+;Ge
+M140 S60
+M105
+M190 S6nerated withe 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M.1
+M140 SU0
+M105
+ÿ€90 m60
+ab mM105
+M190 S60
+M104 S200
+M105
+M10ode
+G28 !!!!!!!!!!!!!!!!!!!!!0 F2000 ;Move t666666666666he platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAY

@@ -1,0 +1,14 @@
+R:'
+X10
+
+M9 Y6/69
+G(2 z0
+GJ 0 F200ü ;M}v0
+G92 z0pla105
+M1ode
+G2 X 0I15.0 F2000 ;M}v0
+G92 z0pla105
+M1ode
+G
+G2 X 0I15.0 F2000 ;M}v0
+G92 20,9€37

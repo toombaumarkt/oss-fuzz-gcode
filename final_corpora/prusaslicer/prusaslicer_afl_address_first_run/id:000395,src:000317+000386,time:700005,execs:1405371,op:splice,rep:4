@@ -1,0 +1,45 @@
+GG1M221 S-1Gyer height: 0.2
+;MIN;Filament used: 6.75387m
+;Lay.2
+;MAXX:141.863
+;MAXY:1ura_SteamEngineeamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;abdolute  4.13.1
+M140 S60
+M105
+M190 S60
+M47.042
+;MAXZ:36.2
+;Generated with Cura_SteamEngineeamEngine 4.13.1
+M140 S60
+M105
+M19 S60
+M104 S200
+M105
+M109 S200
+M82 ;abdolute  4.13.1
+M140 S60
+M10;
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;abdolute extrusion mode
+G28 ;Home
+M420 S0
+G1 00
+M82 ;abdolute  4.13.1
+M140 S60
+M105
+M190 S60
+M47.042
+;MAXZ:36.2
+;Generated with Cura_SteZ15.0 F2000 ;Movd the platform
+G92 E0
+G93 E0
+G

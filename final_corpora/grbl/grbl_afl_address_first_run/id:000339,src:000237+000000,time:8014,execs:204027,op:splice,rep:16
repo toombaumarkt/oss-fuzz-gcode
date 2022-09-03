@@ -1,0 +1,31 @@
+;FLA
+;Mïÿÿ
+;0
+M104 S200
+M105
+M10G28 ?Home
+M420 S0
+G11111IIIIIIIIIIIIIIIIIIIIIIIIIIIIcccccccccccccccccccccccccccerial acrzlic fffffffffffffzIro point -> plate centÿr, material surface)
+(too)
+
+g21 (MillH mode)
+g0 z5
+g0 x10 y-10
+m6 t55 (loadin000 rpm)
+g0 z0.5
+g1 z-1 f30
+gæ x0 y1 f80
+g1 x-10 y-10
+g1 x10
+g0 z5
+g0 x18 y-18
+g0 z0.5
+g1z-1.1 f30
+g.6 mm end mill)
+
+g21 (Mwlly18 f80
+g1 x-18
+g1 y-18
+gÿÿx18
+g1 z-2.2 f30
+g1

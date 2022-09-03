@@ -1,0 +1,27 @@
+;FLAMarlin
+;4
+;Filam7m
+;Laye:82.957
+;MINZ:0.2
+;MAX00 E-6
+;LAT:18X:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated withe 4.13.1
+M140 S60
+M105
+20 S0
+G1 Z15.0 F2000 M190 S60
+M1ode
+G28 ;Home
+M420 S0
+G1 2 ;ab mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the†„latform
+G92 E0
+G92 E0
+H1 F1800 E-6
+;LAYER_COUNT:181
+;LAY5R:0
+M107

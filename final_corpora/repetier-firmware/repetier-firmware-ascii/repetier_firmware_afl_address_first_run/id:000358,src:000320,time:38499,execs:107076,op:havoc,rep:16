@@ -1,0 +1,22 @@
+G;FLAVOR:Marlin
+;TIME:918
+M104 S200
+M20ht: 0 E-6
+;LAYEeamEngine 
+M11 Cura_SteamEngine 4.13R:0
+M40 `60
+M105
+M190 S607m
+;Layer deig5
+M109 S200
+T82 ;absNlute extrusionNX:78MG28 ;Home
+M422 S0
+G1 [15.0 F2000
+;Move the platfoXm
+G92 E0
+G92 E0
+G1 Fq800.2
+;MI mode
+13G1 F1800 E-6ZR:0
+M40!`60
+²tR_Cwith Cÿÿa_S.13:0erated with07

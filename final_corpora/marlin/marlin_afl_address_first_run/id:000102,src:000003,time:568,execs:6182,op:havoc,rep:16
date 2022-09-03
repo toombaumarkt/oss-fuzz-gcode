@@ -1,0 +1,20 @@
+;FLAVOR:TIZ:36.2
+;Genlam7m
+;Layer;MAXY:1xx2.957
+;MINZ:0.2137
+ height: 0.2
+;MINX:78.;MAXX:141.863
+;MINF:847.042
+;MAXME:9164
+;Fierated withe 4.13.1
+::::::::::::::::::::::
+M104 S200
+M105
+M109 S200
+M82 ;a^ mode
+G28 ;Homu
+MR_COUNT:18Z15.0 F20t: 0.2
+;MINX:78.;MAXX:141.86392 E/
+G1 F1800E-6;LAYE&20 S0
+G1 1
+;L

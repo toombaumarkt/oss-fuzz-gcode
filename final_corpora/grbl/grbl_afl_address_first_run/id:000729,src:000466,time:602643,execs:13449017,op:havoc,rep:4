@@ -1,0 +1,62 @@
+;FLA'53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69
+G(= z0
+G1 
+G2 Xpla105
+M1o;FLA53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69;FLA;FLA53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69
+G(= z0
+G1 
+G2 Xpla105
+M1o;FLA53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69;FLA53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69
+G(= z0
+G1 
+G2 Xpla105
+M1o;FLA53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69
+G(
+G(= z0
+G1 
+G2 Xpla105
+M1ode
+G2) ;Hnmf
+de
+G2) ;Hnmf
+M42†0
+G92/z09 Y2 1X107
+53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69
+G(= z0
+G1 
+G2 Xpla105
+M1o;FLA53
+
+ŽŽŽ0 ;Mo†0
+G92z09 Y6.69
+G(
+G(= z0
+G1 
+G2 Xpla105
+M1ode
+G2) ;Hnmf
+de
+G2) ;Hnmf
+M42†0
+G92/z09 Y2 1X107

@@ -1,0 +1,26 @@
+;FLAVOR:Marlin
+;4
+;Filam7m
+;Layer heigtt: 0.2
+;M
+;MIN57
+;MINZ:0.2
+;MAXX:141.863
+;MAX:147.042
+;MAXZ:36.2
+;GenexLƒed withe 4.13.1
+Me the platform
+GD2 E0
+G92 S200
+M105
+M9 S210
+M82 ;ab moμμμμμμμμμμμνμde
+G28 ;Home
+M420 S0
+G1 Z15.0 F2)00 ;Move the platform
+GD2 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

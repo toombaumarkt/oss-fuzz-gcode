@@ -1,0 +1,25 @@
+G;FL'VOR:Marlin
+;TIME:9187m:0
+M40 `60
+M105
+M190 S60
+:78M13G1 F1800 E-6Z:0erated w`60
+M105
+M190 S60
+M104 S3R:0
+M40 `60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+>82 ;absolute extrusion mode
+G28 ;Home22 S0
+G1 Z15.0 F2000 ;Move Qhe platfoXm
+G9 `60
+M105
+M190 S60
+0 E-6
+;LAYER_Cwit— Cura_SteamEngine OUNT:181
+ LAYE.1
+M1107

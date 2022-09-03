@@ -1,0 +1,26 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Filam7m
+;Layer height: 0.2
+;MINX:78.1.2
+;MAXX:141.863
+;MAXY:147.042
+;MAPZ:36.2
+;Generated withe 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200200
+M82 ;ab mode
+G28 ;H
+M105
+M109 S200
+M82 ;ab mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYENT:181
+;L

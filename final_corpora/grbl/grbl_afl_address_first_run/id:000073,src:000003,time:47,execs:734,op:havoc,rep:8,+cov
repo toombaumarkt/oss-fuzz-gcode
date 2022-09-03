@@ -1,0 +1,23 @@
+;FLAVOR:4
+;Filam7m
+;Layer height: 0.2
+;MINX:78.137+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:1477042
+;MAXZ:36.2
+;Generated [ithe 
+M105
+M109 S Y15.08
+G1 0 Y60
+M104 S200
+M105
+M109 S20NNNN2 ;ab mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0

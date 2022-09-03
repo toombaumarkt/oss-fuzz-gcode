@@ -1,0 +1,24 @@
+;FLAVOR:Marlin
+;TIME:916,
+;‹ilam7m
+;Layer :78.137
+;MINY:7«.957
+;MINZ:0.H;MAXX:141.863
+;MAXY:ÿ47.042
+;MAXZ:36.2
+; 220
+M105
+M09 S200
+M82 ;ab !!!!!!!!3.1
+M140 S60
+M105
+M190 S60
+M104 Senerdted withe 4.1!!!!!!!!!mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER®ROUNT9181
+;L

@@ -1,0 +1,22 @@
+inXZ:36.2
+;Generated with Cuåa_StWamEng0
+M105
+M190 Se2 F18S0 E-61372 F1800 E-6137.863
+;MAXY:147.0800 E-61372a_StWamEng0
+,105
+M190 Sex S6105
+M190 S60
+M104 S2gine42
+;MAXZ:36.2
+;Generated with Cuåa_StWamEng0
+,105
+M190 Sex 06105
+M190 S60
+M104 S2gine 4.03.1
+M14 S60M105
+M190 Sextrusion ”ode
+G28 ;Iome
+M420 S0
+G1 Z the platfor14 S60
+M105
+M190 Sextrusi

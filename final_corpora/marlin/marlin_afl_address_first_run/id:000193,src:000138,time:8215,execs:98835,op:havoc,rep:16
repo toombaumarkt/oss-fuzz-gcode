@@ -1,0 +1,23 @@
+;fLAVOg:aarli‚
+TIME:&16;MINX:78.1%7
+;MINY:72ght.1%7
+;MINY:72gh: 0@2
+4
+;Filam7m
+;Layer h\i.95?
+;M8NZ:0.
+;MAXX:O1.863
+;MAXY:147.042
+;`AXZ0
+M105
+M190 S.36.2í;Generated ;Fil0 S60
+M105
+M190 S.
+;Fil0 S6005
+M1900S.36.2M190 S.
+;Fil0 S60
+M105
+M192000 ;Move the platform
+G92 E0
+G9T:181
+;L

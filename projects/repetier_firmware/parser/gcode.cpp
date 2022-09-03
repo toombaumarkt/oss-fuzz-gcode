@@ -121,6 +121,7 @@ Second word if V2:
 - L : Bit 9 : 32-Bit float
 - O : Bit 0 : 32-Bit float
 */
+#if FUZZ_TARGET==1
 uint8_t GCode::computeBinarySize(char* ptr) // unsigned int bitfield) {
 {
     uint8_t s = 4; // include checksum and bitfield
@@ -379,7 +380,7 @@ bool GCode::parseBinary(uint8_t* buffer, fast8_t length, bool fromSerial) {
     formatErrors = 0;
     return true;
 }
-
+#endif
 #if DEBUG_OUTPUT
 /** \brief Print command on serial console */
 void GCode::printCommand() {
@@ -746,6 +747,7 @@ void GCode::readFromSerial() {
             #endif
         } // first byte detection
         if (sendAsBinary) {
+            #if FUZZ_TARGET==1
             if (commandsReceivingWritePosition < 2)
                 continue;
             if (commandsReceivingWritePosition == 5 || commandsReceivingWritePosition == 4){
@@ -782,8 +784,10 @@ void GCode::readFromSerial() {
                 //Com::writeToAll = lastWTA;
                 return;
             }
+            #endif
         } else // ASCII command
         {
+            #if FUZZ_TARGET==0
             char ch = commandReceiving[commandsReceivingWritePosition - 1];
             if (ch == 0 || ch == '\n' || ch == '\r' || !GCodeSource::activeSource->isOpen() /*|| (!commentDetected && ch == ':')*/) // complete
                                                                                                                                     // line read
@@ -831,6 +835,7 @@ void GCode::readFromSerial() {
                 if (commentDetected)
                     commandsReceivingWritePosition--;
             }
+            #endif
         }
         if (commandsReceivingWritePosition == MAX_CMD_SIZE) {
             if (GCodeSource::activeSource
@@ -1030,7 +1035,7 @@ void GCode::popCurrentCommand() {
         bufferReadIndex = 0;
     bufferLength--;
 }
-
+#if FUZZ_TARGET==0
 /**
   Converts a ASCII GCode line into a GCode structure.
 */
@@ -1258,41 +1263,13 @@ bool GCode::parseAscii(char* line, bool fromSerial) {
         formatErrors = 0;
     return true;
 }
-
+#endif
 GCodeSource* GCodeSource::activeSource;
 
 GCodeSource::GCodeSource() {
     lastLineNumber = 0;
     wasLastCommandReceivedAsBinary = false;
     waitingForResend = -1;
-}
-
-DummyGCodeSource::DummyGCodeSource() : GCodeSource() {
-    //dummy
-}
-
-void DummyGCodeSource::close() {
-    //dummy
-}
-
-void DummyGCodeSource::writeByte(uint8_t byte) {
-    // dummy
-}
-
-bool DummyGCodeSource::isOpen() { return false;}
-bool DummyGCodeSource::supportsWrite() { ///< true if write is a non dummy
-                                         ///< function
-    return false;
-}
-bool DummyGCodeSource::closeOnError() { // return true if the channel can not
-                                        // interactively correct errors.
-    return false;
-}
-bool DummyGCodeSource::dataAvailable() { // would read return a new byte?
-    return false;
-}
-int DummyGCodeSource::readByte() {
-    return 1;
 }
 
 FuzzingGCodeSource::FuzzingGCodeSource(const uint8_t * Data, size_t Size) : GCodeSource() { 

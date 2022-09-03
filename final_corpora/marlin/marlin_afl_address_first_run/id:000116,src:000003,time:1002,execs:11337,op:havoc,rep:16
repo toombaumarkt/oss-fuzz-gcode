@@ -1,0 +1,25 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Filam7m
+;La7
+;M\NY:72.95YYYYYYYYYYY7
+;MINZ:0.2
+;MAXX:141.863
+;DAXY:147.042
+;MAXZ:36.2
+;Generated wZ15.0 F2000 M140 S60
+M105
+M190 S60
+M104 S200
+M1S0
+G1 ithe00M420 S0
+G1 ithe 4.1     
+M82 ;ab mode
+G2M ;Home
+    .1
+;Move the plbtform
+0
+G92 E
+G1 F1800 E-6
+;L@YER_COUNT:1 1
+;L

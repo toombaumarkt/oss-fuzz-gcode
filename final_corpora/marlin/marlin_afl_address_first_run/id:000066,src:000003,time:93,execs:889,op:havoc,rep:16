@@ -1,0 +1,17 @@
+;lamMarlin
+;TIME:9164
+;Filam7m
+;Layer heUght: 0.2
+;MINX:78.137
+;MINY:72.>57
+;MIMINZ:0.
+;MAXX:141.863ated tIME:913.1
+M140 S60
+M105
+0105
+M109 S20
+M82 ;ab mode
+G28 ;HomeMovethe platform
+G92 ÿ0
+	001
+;L

@@ -1,0 +1,19 @@
+;BLAVOR:MarlinZ;4
+;Filaform
+G92 E0
+G92 E0
+G1 m7m
+;Layer height: 0.2
+;>INX:78.137
+;MINY:72.95E-6
+;NZ:0.2
+;MAXX:141.863ñ;MAXY:147.042
+;MAXZ:36.2
+;G0.2
+;MAM420 S0G1 Z15.0 F2O2 ;b mode
+G28 ;Hom‡
+XX:141.86†
+;MAXY:147 S60Move the platform
+G92 E0
+G92 E0
+G1 F1800 107

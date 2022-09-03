@@ -1,0 +1,33 @@
+;FL07
+µ;;MIN2rm
+G94 S200M10G2
+;
+M104 S200
+M10G;FLAi’
+;20;FLA37
+;957
+3MI±5.4 F20002
+;Mïÿ;FLAVmRorZ:0;0
+G1.2
+;MAX\:14
+G9 0
+G1.2
+;MAXX:14ì@ìììììatform7m
+ÄLayer heighG92 E0
+GMINÿ:78.137
+;MINK:72.957
+;MIN 0
+G1.2
+;MAXX:14ìììììììatforZ:0;MAX\:14
+G9 0
+G1.2
+;MAXX:14
+G9 0
+G1AF180P E-6
+;LArE36.2
+;Generated S60
+M114 S200
+M105
+M109ooooooooooooooooooooooo S200AX_:14
+Grrrrrrrrrrrrrrrrrrrÿ S0
+G0 Z15.4 F2000 ;Move the p;

@@ -1,0 +1,163 @@
+4
+GGG1          ;FLAVOR:Marlin
+;TIME:9164
+;Fila8m
+;ayer height: 
+
+
+
+
+
+
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+G92 E0
+G1 F1800 E-6
+4
+GGG1          ;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.7538m
+;ayer height: 
+
+
+
+
+
+
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+²4 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+²420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYEAYER_COU;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+²4²0 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYEAYER_COU

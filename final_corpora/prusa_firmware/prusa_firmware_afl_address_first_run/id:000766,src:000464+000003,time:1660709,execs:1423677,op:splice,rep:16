@@ -1,0 +1,17 @@
+G1ent us387m
+;Laheight: 0.2 F1800 E-61372 F1800 E-6137.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated with Cuåa_StWamEngine 4.13.1
+M140 S6105
+M190 S60
+M104 S2gine 4.13.1
+M14 S60
+M105
+M190 Sextrusion mode
+G28 ;Iome
+M420 S0
+G1 Z15.0 F20 ;Move the p00 ;Move the platfor14 S60
+M105
+M190 Sextrusion modYER_COUNT:181
+;LAYER:

@@ -1,0 +1,23 @@
+;FLAVOR:Marlin
+;4
+ÄFi:0
+7m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:7Z:0.2
+;MAXX:1I.863
+;MAXg:147.042
+;MAXZ:36.2
+;Generated withe 4.13.1
+M140 S6
+XX:14 E0
+G1 F1800 E*6
+;LA105
+M1K9 S200
+M82 ;ab mod
+G1 Z15.0 F200  ;Move the platform
+G92 E0
+G9210
+G1 Z15.0 2p200
+MYEK_COUNT:181
+;LYERlamM107

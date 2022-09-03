@@ -1,0 +1,60 @@
+]FLA
+;Mïÿÿ
+;MA;1I15.0 ov0
+G93 ;Mov0
+G93 z0
+G1 
+G2 X71G93 z0
+G1 
+I15.0 ov0
+G93 ;Mov09 Y6.69
+I15.0 F
+;MA
+M9 Y6.6;Mïÿÿ
+;MA;1I15@0 ov0
+G93 ;Mov0
+G93 z0
+G1 
+G2 X71G93 z0
+G1 
+I15.0 ov0
+G93 ;Mov09 Y6.69
+I15.0 F
+;MA
+M9 Y6.69
+GG(2 z0
+G;Hnmf
+M422 1 
+G2 X71R15.0 F2019
+GG(2 z0
+G;Hnmf
+M422 ;Mïÿÿ
+;MA;1I15.0 ov0
+G93 ;Mov0
+G93 z0
+G1 
+G2 X71G93 z0
+G1 
+I15.0 ov0
+G93 ;Mov09 Y6.69
+I15.0 F
+;MA
+M9 Y6.6;Mïÿÿ
+;MA;1I15.0 ov0
+G93 ;Mov0
+G93 z0
+G1 
+G2 X71G93 z0
+G1 
+I15.0 ov0
+G93 ;Mov09 Y6.69
+I15.0 F
+;MA
+M9 Y6.69
+GGB2 z0
+G;Hnmf
+M422 1 
+G2 X71R15.0 F2019
+GG(2 z0
+1 
+G2 X71R15.0 F201

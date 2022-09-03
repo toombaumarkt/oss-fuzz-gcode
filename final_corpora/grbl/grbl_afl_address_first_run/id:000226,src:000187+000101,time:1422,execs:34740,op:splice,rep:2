@@ -1,0 +1,29 @@
+;FLAMarlin
+LM420 S0
+G1 8 ;Home
+M420 S04
+;;FLAVOR:Marlin
+;4
+;Filam7m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:Marlin
+;4
+;Filam7m
+
+;MAXX:141.863
+;MAXY:14;Generated withe 4.13.1
+M140 S60
+M105
+M190 S60
+M109 V200
+M82 ;ab mode
+G28 ;Home
+M420 S0
+G1 8 ;Home
+M420 S0
+G1 Z15.0 tform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LA

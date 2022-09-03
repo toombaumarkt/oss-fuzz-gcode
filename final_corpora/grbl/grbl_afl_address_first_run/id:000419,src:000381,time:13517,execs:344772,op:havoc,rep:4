@@ -1,0 +1,25 @@
+;FLAMarlin
+LM420 S0
+G1 8 ;Home
+M420;Filam7m
+èa9er height: 0.2;4
+;Filam7m
+
+;MAXX:14me
+M1.863
+;MAXY:14;Generated withe 4.13.1
+M140 S60
+M10Ê
+M190 S60
+M109 V200
+M82b mode
+G28 ;Home
+M420 S0
+G1 8 ;ab mode
+G2C ;Home
+M420 S0
+G1 8 ;Horlin
+LM420 S0
+G1 8 G92 E0
+G E-6
+;L

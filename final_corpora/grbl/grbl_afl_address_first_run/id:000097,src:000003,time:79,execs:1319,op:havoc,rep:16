@@ -1,0 +1,16 @@
+;[LAVOR:MarGen
+;4
+;Filam7l÷;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:41.863
+;MAXYÿÿÿ.0.2
+;MAXZ:36.2
+;Generated witxe 4.13.12222222222M109S200
+M8 ;ab mode
+G28 ;HomeèM420 SÿG1 Z15.0 F200žžž˜žžžžžžžžžžžž0žžž˜žžžžžžžžžžžž0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

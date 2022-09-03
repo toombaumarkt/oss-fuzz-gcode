@@ -1,0 +1,10 @@
+;FLAVOR:MarlinÿTIME:9164
+;Fila57
+;MANZ:ÿ2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36...............200
+M105
+M109 S200
+M82 ;ab modeÿÿ -T:181
+;L

@@ -1,0 +1,18 @@
+;FLA:0
+Mrlin
+;4
+;Fil
+;La..2
+;=en3.1
+M140
+M1
+M190
+M104 S200
+M105
+M109 o200ÛL82 ;abqqqlatform
+G92 E0
+G92 E0
+G1 F1800 F-6
+; E0
+G1 FLAYE;LAYER:0
+M107

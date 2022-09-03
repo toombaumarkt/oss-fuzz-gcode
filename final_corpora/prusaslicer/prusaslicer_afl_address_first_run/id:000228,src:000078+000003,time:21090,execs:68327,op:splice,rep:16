@@ -1,0 +1,32 @@
+          ;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.75377m
+;Layer heigUt: 0.2
+;MIove the platform
+Gÿ E0
+G92 E0
+2
+;MAXove the platform
+Gÿ E0
+X:1F1.863
+;MAxY:147.04
+;MAyZ:36.2
+;Generated with Cura_SteamEngjne 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;abslute extrusion mode
+G28 ;Home
+M4form
+Gÿ E0
+G92 E0
+G1 F:0 S0
+G1 Z15.0 F2000 ;Move the platform
+Gÿ E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:#81
+;

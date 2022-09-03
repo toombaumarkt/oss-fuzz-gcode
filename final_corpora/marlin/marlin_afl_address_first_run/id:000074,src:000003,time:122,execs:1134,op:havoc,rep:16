@@ -1,0 +1,27 @@
+;FLAVOR:7m
+;Layer heinht: 
+G1 Z15.0 F2000 ;Move the p57
+;MINZ:0.2 4.160
+M41.863
+;MAXY:14.042
+;MAXZ:36.2
+;Generated withe
+:M0
+M101111113.1
+M14R:Marl:141.in
+;0 S60
+M105
+M190 S60
+M104 S201
+M105
+M109 S200
+M82 ;ab mode
+G28 ;Home
+M422.9Z>36.2
+;Generated wit÷e 4.13latform
+G92 E0
+G92 E0
+pit÷e 4.13latform
+G92 E0
+G981
+;L

@@ -1,0 +1,25 @@
+;FLAVOR:Marlin
+;hhhhhhhhhhhhhhhhhhhh2
+;MINX:789 ÿ=00
+M47.04.957
+;MINZp‰atform
+G92 E0
+G92 E0
+G+@@2
+;MAXX141.863
+;MAXY:182 ;ab mode
+G28 ;Home
+Mrated withe 4.420
+M140 SÉ0
+M101
+M190 S60
+M104 S200
+M105
+M109 ÿ
+G1 Z15.0 F2000 ;Move the p‰atform
+G92 E0
+G92 E0
+G+@@@@@@@@@@@@@@@@@@@@@@@@1 F1800 E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

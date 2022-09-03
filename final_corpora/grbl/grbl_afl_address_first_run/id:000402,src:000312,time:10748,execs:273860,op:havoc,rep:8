@@ -1,0 +1,20 @@
+;F+%in
+;957
+;MIN2
+;Mÿÿ
+; 2, ;Home0
+G49S2N0
+M105
+M11MAm10
+M
+M100;Hom0
+G49S200
+d10;
+M10G:, 2, ;Home0
+G49S2N0
+M105
+M111ÿÿ111AYtme
+M420 S0
+G4tme
+ S20
+7

@@ -1,0 +1,25 @@
+;FLAMarlin
+;4
+;Filam7m
+;La2iiiiiiiiiiiii\iiiiY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated withe 4.13.1
+M140 S60
+M105
+M190 S60
+M09 S200
+M8H ;abmode
+G28 ;Hme
+M4mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 @-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

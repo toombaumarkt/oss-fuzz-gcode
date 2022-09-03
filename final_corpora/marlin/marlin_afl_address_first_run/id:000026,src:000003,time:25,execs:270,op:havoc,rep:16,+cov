@@ -1,0 +1,25 @@
+;FLAVOR:MSrlin
+;4
+;Filbm7m
+;Layer hight:g1 yÿÿÿ80
+g1 x-18
+g1 y-18 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.0.13.1
+M140 S60
+k105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;ab mode
+G2 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G97 E0
+G92 Eÿ€G1 F18\0 E-6
+;LAYER_COUNT6181
+;L

@@ -1,0 +1,26 @@
+;FLAVOR:Marlin
+;TIME:91
+M140 S60
+M105
+M10
+M105
+M109 S164
+;Filz0.x6
+;LAYE7
+;Mmmmmmmmmmmmmmmmmmmmmmmmmmm1.863
+;MAXY:147.042
+;MAXZ: 4.13.1
+ÿÿÿ€ S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;ab mode
+G28 ;Home
+M420 ¼ 4.13.10 e 4.13.M140 S60 M140 S60 ;Move the platf rpm)
+g0 z0.5
+g1 z-1 f30
+g1 x6
+;LAYER_COUNT:181
+;L

@@ -1,0 +1,21 @@
+;FLAVOR:Marlin
+;TIME:9164
+;Filam7m;Layer height:00.2
+;MINX:78.137
+;MINY:72.957
+;MIiZ:0.2
+;MAXX:141.86
+;MAXY:147.042
+;MAXZ:36.2
+;Generated withe 4.13.1
+M140 S60
+M105
+05
+M109 L200
+ersion = 19\\n\\n[values]\0 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1F1800 E-6
+;LAYER_COUNT:181
+;L

@@ -1,0 +1,53 @@
+Fõ1 Y94
+G0 Xn
+;laG9€ E0
+G9— E0
+G1 F1800 E-6
+;LAYlin
+;TIM;MINYa_S_eamEng€ÿe 4.13.1M14
+M105
+M19$ S60
+M104 S200
+M1olute extrusio82 ;abs05           1M10. S20€ÿME0
+G1 F180( E-6
+;M20 S0
+GR Z15.0 F2Ý00 ;Mov Šhe platform
+G9€ E0
+G9— E. S20€ÿME0 ;Move Šhe platform
+G9€ E0
+G9— E. S20€ÿME0
+G1 F180( E-6
+;5.0 F2000 ;Move the M20 S0
+GR Z15.0 F2Ý00 ;Move Šhe platform
+G9€ E0
+G91";FL2432! X1
+G X1207042.;G100p— R Z15.0 F2000 ;Move the platform
+G9€ E0G9— E0
+G1 F165.66 YG16¢¢¢£¢¢   ;      ;F92 E0
+G9— O0
+G1 F1800 E-6
+;LAYERLAVOR³ar€in
+;TIMeightlaG9€ E0
+G9— E0
+G1 F1800 E-6
+;LAYlin
+;TIM;MINYa_S_eamEng€ÿe 4.13.1M14
+M105
+M19$ S60
+M104 S200
+M1olute extrusio82 ;abs05           1M10. S20€ÿME0
+G1 F180( E-6
+;M20 S0
+GR Z15.0 F2Ý00 ;Mov Šhe platform
+G9€ E0
+G9— E. S20€ÿME0
+Ý00 ;Move Šhe ~latform
+G9€ E0
+G9— E. S20€ÿME0
+G1 F180( E-6
+;5.0 F2000 ;Move the M20 S0
+GR Z15.0 F2Ý00 ;Move Šhe platform
+G9€ E0
+G9— R!Z15.0 F2000 ;Move the platform
+G9€ E0G9— E0
+G1 F

@@ -1,0 +1,20 @@
+          ;FLAVOR:MQrlin;Filament used: 6.75387m
+;LaX:78.137
+;MINY:7rlin
+;TIME:9164
+;Filament used;MAXY:147.042
+;MAXZ:36.2
+;Generated with Cura_SteamEnxine 4.13.1
+M140 S60
+M105
+M190 S60
+5,0 F2000 ;Move the platfS60
+;absolute ex rusion mode
+G28 ;Home
+M420 S0
+G1 Z1M104 72ngine 4.13.1
+M140 orm
+G92924E0
+G1 F186
+;S60
+R_CO¼NT:181;LAY

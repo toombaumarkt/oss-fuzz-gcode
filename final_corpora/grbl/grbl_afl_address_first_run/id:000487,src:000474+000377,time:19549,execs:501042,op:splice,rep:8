@@ -1,0 +1,27 @@
+;1I15.0 od0
+G93 z0
+Gz0
+G1 ðF2 ö0#;Mov0;FLAMarlin
+;4
+;Filam0
+G4P0 S0
+G1 [15.0 F;M7m
+;Laye:)0.2
+M:72.
+;Lay;MINY:¯¯¯¯¯¯¯¯72.9ÿ6141.863
+;MAXY:147.042
+;MAXZ:36.2
+,G.13.1
+Me uhe platfore
+G9ilam0
+G4P0 S0
+G1 [15.02 E0
+G4P0 140 S60
+M1F5
+M190 S60
+M2.957
+;MIJZ:0.2
+2000 ;Move the platform
+G92 E0
+G4P0 S0
+G1 [15.0 F;MAXX:141.8

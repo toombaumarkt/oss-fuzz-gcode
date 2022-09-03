@@ -1,0 +1,30 @@
+;FLAVOR:Marlin
+;4
+;FilLaye0 S60
+M105
+M190 S60
+M104 7
+;MI7
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:14OOOOO
+;MAXZ:36.2
+;GeneratedHome
+M4".13.1
+M140 S60
+M105
+M190 S¥0
+M104 S200
+M105
+M1;9 J200
+M8!;ab mode
+z28 ; withe 40m7m
+;Lawer height: 0.2
+ S0
+G1 Z15.0 F2000 ;Mtform
+ E0
+G1 F1ove thf platform
+ E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;L

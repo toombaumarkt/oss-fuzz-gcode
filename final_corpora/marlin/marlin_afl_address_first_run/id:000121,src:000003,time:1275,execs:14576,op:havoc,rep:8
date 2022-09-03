@@ -1,0 +1,24 @@
+;FLA00 E-6
+*3AYER:Marlin
+;TIME:9164
+;Filam7m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:<6.2
+;Generated withe 4.4 S2005M105
+M109 S200
+M82 ;ab mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F        M109 S200
+M82 ;ab mode
+m
+G92 E0
+G92 E0
+G1 F1800 E-6
+;3AYER_COUNT:181
+;L

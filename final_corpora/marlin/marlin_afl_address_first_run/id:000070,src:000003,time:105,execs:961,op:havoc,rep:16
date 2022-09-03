@@ -1,0 +1,21 @@
+;QL52000 ;
+;TIME:9164
+;Filam37
+;MINY:72...............
+MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.@
+;Generated withe 4.13.1
+F’
+;LayeLAVOR:Ma9999999999999999999999999999999rlin
+;
+M104....................
+M82 ;ab mode
+G28 ;Home
+M420 S0
+G1 Z1AVO5:MarlinMove the platforF
+G92 E0
+G92 E0
+G1 F1800 E6O
+;LAYERvCOUNO:181
+;L

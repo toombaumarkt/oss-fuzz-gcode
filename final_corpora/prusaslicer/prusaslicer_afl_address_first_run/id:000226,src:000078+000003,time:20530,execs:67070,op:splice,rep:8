@@ -1,0 +1,23 @@
+          ;FLAVOR:Marlin
+;TIer height: 0.2;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.86orm
+G92 E0
+G92 E0
+$1 F1800 3
+;MAXY:147.042
+;MXZ:36.2
+;GenerUted with Cura_SteamEngine 4.13.1
+M140 S60
+M105
+M190 S60
+M10olute extrusion mode
+G28 ;Home
+²420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;LAY

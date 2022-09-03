@@ -1,0 +1,19 @@
+G;FL:Marlin
+;TIME:9187m
+;Layer deight: 0.2
+;MINX:78M13G1 F1800 E-6ZH4erated with Cura_SteNmEngine 4.13R:0
+M40 `60
+M105
+M190!S60
+M104>82 ;absmode
+G28 ;Home
+M422 S0
+G1:Z15.0 20R_Cwith  ;absoCura_Stea
+G92 E0
+G92900(Move the platfoQmmEngine OU0 E0
+G1 F1800 E-6
+;LAYER_Cwith Cura_Stea
+G92 E0
+G929 S+0NT:181
+ LAYE.1
+M11M

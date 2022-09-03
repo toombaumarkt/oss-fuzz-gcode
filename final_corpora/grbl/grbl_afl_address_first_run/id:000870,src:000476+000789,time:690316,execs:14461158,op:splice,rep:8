@@ -1,0 +1,126 @@
+;FbA;FLÿÿÿÿ
+
+;MA
+-9 9
+G(2^z0
+G1 ;FLAi’
+;200
+M105
+M10G2M420 S0
+G57
+
+Lÿÿÿÿ
+
+;MA
+-9 9
+G(2^z0
+G1 ;FLAi’
+;200
+M105
+M10G2M420 S0
+G57
+
+;200
+M105
+M10G2M420 S0
+G57
+;MIN2
+;8 ;HomS0
+G57
+;MIN2
+;Mïÿÿ
+;MAm10
+M104 M1;MIN2
+;8 ;Homee
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+;MAm10
+M157
+
+Lÿÿÿÿ
+
+;MA
+-9 9
+G(2^z0
+G1 ;FLAi’
+;200
+M105
+M10G
+G57
+
+;200õM105
+M10G2M420 S0
+G57
+;MIN2
+;
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+;MAm10
+M104 M1;MIN2
+;8 ;Home5555;HoMe
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+;MAm10
+M104 M111111form
+G9E0
+G1;200êL105
+M10G2E420 S0
+G S0
+G57
+;MIN2
+;8 ;HomeG28 ;Home
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+;MAm57
+;MIN2
+;8 ;HomeG28 ;Home
+M420 S0G57
+;MIN2
+;Mïÿÿ
+;MAm10
+M104 M1;MIN2
+;8 ;HomeG28 ;Home
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+04 M111111form
+G9E0
+G1;200êL105
+M10G2E ;Home
+M420 S0
+G57
+;M420 S0
+G S0
+G57
+;MIN2
+;8 ;HomeG28 ;Home
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+;MAm57
+;MIN2
+;8 ;HomeG28 ;Home
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+;MAm10
+M104 M1;MIN2
+;8 ;HomeG28 ;Home
+M420 S0
+G57
+;MIN2
+;Mïÿÿ
+;MAm10
+M104 M111111form
+G9E

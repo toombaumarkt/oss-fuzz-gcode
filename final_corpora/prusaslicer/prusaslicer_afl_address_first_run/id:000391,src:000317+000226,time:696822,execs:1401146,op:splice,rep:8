@@ -1,0 +1,43 @@
+GG1          ;FLAVOR:Marlin
+;TIME:9164
+;Filamÿÿÿused: 6.75387m
+;ayer heigh
+;MAXX:141.86orm
+G92 E0
+G92 E0
+$1th Cura_SteamEngine 4.13.1
+M142 S60
+M105
+M190 S60
+M10olute 3.1
+M140 S60
+M10extrusion mo
+Mt: 0.2;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXX:141.86orm
+G92 E0
+G92 E0
+$1th Cura_SteamEngine 4.13.1
+M142 S60
+M105
+M190 S60
+M10olute 3.1
+M140 S60
+M10extrusion mo
+M105
+M190 S60
+M10olute extrusion mode
+G€8 ;Home
+;GenerUted with Cura_SteamEngioe 4.13.1
+M140 S60
+M105
+M190 S60
+M10olute extrusion mode
+G28 ;Home
+²420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_COUNT:181

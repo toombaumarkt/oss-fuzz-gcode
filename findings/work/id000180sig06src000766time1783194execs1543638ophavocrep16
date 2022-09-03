@@ -1,0 +1,17 @@
+G1ent us387m
+;LaheiGht: +.2 F1800 E-61372 F1800 E-6137.863
+;MAXY:147io5
+M1.2
+M104 S2gineerated with Cuåa_StWamEngine <.13.1
+M140 ?6105
+M190  ;Iome
+M420 S0
+GEngive 4.13.1
+M140 1!Z151
+M14 S60
+M,0n mode
+G28S60
+;Gen 4.13..0 F0 ;Move the p00 ;Move the platfor14 S60
+M105
+M190 Sextrusion mo YER_COUNT:181
+;LAYER:

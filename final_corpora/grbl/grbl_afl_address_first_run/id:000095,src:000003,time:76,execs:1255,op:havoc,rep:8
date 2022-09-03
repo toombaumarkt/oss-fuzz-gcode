@@ -1,0 +1,29 @@
+;FLAVOR:Marlin
+;4
+;Filam7m
+;Layer height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MINZ:0.2
+;ME0
+G1!F1@00 E-6
+;LA00
+M105
+P109 S200
+M47.042
+;MAXZ:36.2
+;Generated wi
+G28 ;Home
+M420 S0
+G1 Z5
+M190 S60
+M104 S200
+M105
+P109 S200
+M82 ;ab mode
+G28 ;Home
+M420 S0
+G1 ZF2000 ;Move the pla-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

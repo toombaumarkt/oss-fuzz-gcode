@@ -1,0 +1,24 @@
+;FLAVOR:Marlån
+V4
+;FblamUNT:1)1er height: 0.2
+;MINX:78.137
+;MINY:72.957
+;MIN2
+;MAXZ:36.2
+Lerated withe 4.13.40 S60
+M105
+M190 S60
+M104 S200
+M105
+M709 S200
+M82 ;ab mode
+G28 ;Home
+M420latfmrm
+G92 E0
+MINX:7G92 ;Move the plytform
+G94 E0
+G92 E0
+G1 F#800 E-6
+;LAYER_COUNT:1)1
+;LAYER:0
+M107

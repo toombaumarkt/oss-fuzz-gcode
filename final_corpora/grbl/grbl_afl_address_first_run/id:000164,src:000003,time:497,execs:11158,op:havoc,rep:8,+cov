@@ -1,0 +1,28 @@
+;FLAVOR:Marlin
+;4
+;Filam7m
+;Laye: 0.2
+;MINX:78.137
+;MIN2
+he platf|rm
+G92 E0
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Genera82 ;ab mo}e
+G28 ;Xome
+M40
+M105
+M1M0 S60
+M104 S200
+M105
+M109 S200
+M82 ;ab mode
+G28 ;Home
+M Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800!E-6
+;LAYER_COUNT:181
+;LAYER:0
+M107

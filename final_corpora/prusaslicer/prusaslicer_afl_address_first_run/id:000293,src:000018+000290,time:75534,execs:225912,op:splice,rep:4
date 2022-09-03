@@ -1,0 +1,24 @@
+6 YG16¢¢¢£¢¢          ;F92 E0
+G9— O0
+G1 F1800 E-6
+;LAYERLAVORèar€in
+;TIMeightlaG9€ E0
+G9— E0
+G1 F1800 E-6
+;LAYlin
+;TIM;MINY:72.95AXY:147.042
+;MAXZ:36.2
+;Gener with Cur6
+;LAYERLAVORèar€in
+;TIMea_S_eamEng€ÿe 4.13.1M14
+M105
+M19$ S60
+M104 S200
+M1olute extrusio82 ;abs05           1M10. S20€ÿME0
+G1 F1800 E-6
+;M20 S0
+GR Z15.0 F2000 ;Move the platform
+G9€ E0
+G9— E0
+G1 F1800 E-6
+;LAYER_

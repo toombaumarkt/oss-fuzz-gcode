@@ -1,0 +1,55 @@
+4 S0GE0
+$1        ;FLAVOR:Marlin
+;TIME:9164
+_COeamenˆ used: 6.75387m;ayer height: 0.2; pmatform
+G92 E0
+G92 E0
+G1MINX:78.%37
+;MINY:72.9&7
+;MINZ:0.2
+;MAXX:141.86ormG92 E0
+G92 G1   F1800 3
+;MAXY:147.042
+;MXZXZG28 ;Home
+²520 S0
+G1 Z15.0h Cura_St Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+ ;Move the olatform
+G92 :36.2
+;GenerUted witrusion mode
+rm
+G92 E0
+G92 E0
+G1MINX:78.%37
+;MINY:72.9&7
+;MINZ:0.2
+;MAXX:141.86ormG92 E0
+G92 G1   F1800 3
+;MAXY:147.042
+;MXZG28 ;Home
+²520 S0
+G1 Z15.0h Cura_St Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+ ;Move the platform
+G92 E0
+L92 E0
+G1 F1800 E6
+;LAYER_G1 F1800 E-6
+;ÿAYER_COeamEngine 4.13.1
+M140 S60
+M105
+M190ßS60
+M10olute extruZion mode
+G28 ;Hobe
+²420 S0
+1 Z15Ñ0 F2000 ;Move the platform
+G92 E0
+G92 E0
+ ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_G1 F1800 E-6
+;ÿAYER_COUNT:

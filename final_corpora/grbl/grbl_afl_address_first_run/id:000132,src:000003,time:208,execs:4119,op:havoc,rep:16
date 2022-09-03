@@ -1,0 +1,26 @@
+;FLAMarlin
+;4
+;FilamXm
+;Laye37
+;MINY:72.957
+;MINZ:0.2
+;MAXX:144.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated withe 4.13.latform
+G92 E0
+M0 E-6S60
+M104 Sm
+;Layer hei S200
+M82 ;ab2 E0
+M0 E-6S60mode
+G28 ;0 E-6
+;LAYER_C15.0 F2000 ;Move the p1
+G9 E0
+G1 F180140 S60
+M1052 E0
+G1 F1800 E-
+M190 
+;LAYcR_COUNT:181
+;LAYER:0
+M107

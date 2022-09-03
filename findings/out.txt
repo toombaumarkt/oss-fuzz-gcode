@@ -1,0 +1,25 @@
++ FUZZER=prusa_firmware_libfuzzer_address
++ shift
++ '[' '!' -v TESTCASE ']'
++ TESTCASE=/testcase
++ '[' '!' -f /testcase ']'
++ export RUN_FUZZER_MODE=interactive
++ RUN_FUZZER_MODE=interactive
++ export FUZZING_ENGINE=libfuzzer
++ FUZZING_ENGINE=libfuzzer
++ export SKIP_SEED_CORPUS=1
++ SKIP_SEED_CORPUS=1
++ run_fuzzer prusa_firmware_libfuzzer_address -runs=100 /testcase
+/out/prusa_firmware_libfuzzer_address -rss_limit_mb=2560 -timeout=25 -runs=100 /testcase -dict=prusa_firmware_libfuzzer_address.dict < /dev/null
+Dictionary: 37 entries
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 2129884767
+INFO: Loaded 1 modules   (941 inline 8-bit counters): 941 [0x661238, 0x6615e5), 
+INFO: Loaded 1 PC tables (941 PCs): 941 [0x5f7408,0x5faed8), 
+/out/prusa_firmware_libfuzzer_address: Running 1 inputs 100 time(s) each.
+Running: /testcase
+Executed /testcase in 11 ms
+***
+*** NOTE: fuzzing was not performed, you have only
+***       executed the target code on a fixed set of inputs.
+***

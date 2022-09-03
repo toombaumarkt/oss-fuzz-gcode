@@ -1,0 +1,29 @@
+;FLAVOR:M`rlin
+;4
+;Filam7m
+;Layer hiight 0.2
+;MINX:78.13.0 F20MINX:78.137
+;Mx141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Gen1
+M140 withe 4.1E0
+G92!E0
+G1 F180
+M190 S60
+ÿÿÿ S200
+M105
+M109 S200
+M82 ;ab mo withæææe 4.1E0
+G92!E0
+de
+G28;Hme
+M420 S0
+G1 Z157
+;ÿÿÿ:72.957
+;MINZ:0.2
+;MAXXI E0
+G92!E0
+G1 F1800 E-6
+;LAYER_COUNT:181
+;L

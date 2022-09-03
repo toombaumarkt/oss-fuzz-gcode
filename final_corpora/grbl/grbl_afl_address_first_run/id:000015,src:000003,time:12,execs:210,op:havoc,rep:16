@@ -1,0 +1,28 @@
+;FLAVJR:Marmin
+;4
+;Filam7m
+;Laye: 0.2
+;MINn:78.137
+;MIN5
+M109 S200
+gZ:-6
+;LAYER0.2
+;MAXXz141.863
+;MAXY:1O8.042
+;MAXZ:36.2
+;@enerated withe 4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M10Y:72+957
+;MIM82 ;ab mode
+G28 ;Home
+M420 S0
+G1 Z15.0 2000 ;Move the pNatform
+G92 E0
+G92 E0
+G( F1800 E)6
+;LAYER_C1UNT:181
+;LAYER:0
+M107

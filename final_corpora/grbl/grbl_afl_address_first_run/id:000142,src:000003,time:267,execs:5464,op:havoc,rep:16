@@ -1,0 +1,30 @@
+;FLAVOR:NarliZ:36.2
+;Generated witheiShR: 0.2
+;MINX:@8.137%;MINY:72.957
+;MINZ:0.2
+;MAXX:141.863
+;MAXY:147.042
+;MAXZ:36.2
+;Generated witheC4.13.1
+M140 S60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+M82 ;abR:Narlin
+;4
+;Filam7m
+RLayer  mode
+G28 ;Home
+M420er heiSht: 0.2 S0S200
+M82 ;ab mode
+G28 ;Home
+M420
+G1 Z15.0 F200 ;Move the platform
+G92E0
+G94
+;Filam7eiSht: m
+RLayer mode
+G28 ;T:181
+;

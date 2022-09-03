@@ -1,0 +1,153 @@
+GG1          ;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6.75387m
+;ayer height: 0.
+;MAXX:141.86orm
+G92 E0
+G92 E0
+$1 F1800 3
+;MAX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+²420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+²420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYEAYER_COUNT:181

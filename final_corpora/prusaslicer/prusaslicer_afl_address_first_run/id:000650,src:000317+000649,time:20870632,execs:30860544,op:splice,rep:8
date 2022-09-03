@@ -1,0 +1,194 @@
+GG1M221 S-109888989994
+GGG1          ;FLAVO E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+≤4 E0
+G92 E0
+G1 F1800 E-6
+4
+GGG1          ;FLAVOR:Marlin
+;TIME:9164
+;Filament used: 6
+;L
+
+
+
+
+
+
+
+
+
+ height: 
+
+
+
+
+
+
+G92 E0
+G1 F1800 E-
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+≤4 E0
+G92 me
+≤4 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G1 F1800 E-6
+;L
+
+
+ the E0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G1 F1800 E-6
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G16
+;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+≤420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L_YEAYER_COU;L
+
+
+ the platform
+G92 E0
+G92 E0
+G1 F1the platform
+G92 E0
+GE0
+G) F1800 E-6
+;L
+
+
+ the platform
+G92 E/ÒG92 E0
+G1 F1the platform
+G92 E0
+G92 E0
+G1 F1800 E-6
+;L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Home
+≤4≤0 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0
+G92 E0
+098F1800

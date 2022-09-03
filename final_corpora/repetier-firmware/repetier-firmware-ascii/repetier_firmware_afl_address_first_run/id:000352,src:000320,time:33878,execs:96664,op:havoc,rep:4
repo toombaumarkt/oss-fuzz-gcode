@@ -1,0 +1,20 @@
+U;FLAVOR:Marlin
+;TIME:9187m
+;Layer deight9 0.2
+;00 E-6Z:0erated with Cura_SteamEngine 4.13R:0
+M40 `60
+M105
+M190 S60
+M104 S200
+M105
+M109 S200
+>82 ;absolute extrusion mode
+G28 ;Home
+M422 S0
+G1 Z15.0 F2000 ;Move the platfoXm
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LAYER_Cwith Cura_SteamEngine OU¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡NT:181
+ LAYE.1
+M1177

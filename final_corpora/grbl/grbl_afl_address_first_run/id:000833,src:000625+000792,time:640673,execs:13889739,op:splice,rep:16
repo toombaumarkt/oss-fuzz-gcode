@@ -1,0 +1,95 @@
+INX:ode
+G20K00
+7105
+M
+M1S@
+G4 S200
+M@ÿFÿ
+G4 S30ÿÿ€	3,GG%9S20000
+M15
+5
+M
+M1S0
+G4 S300
+G49S200(
+M
+ÿve0
+G7, ;Home0
+GG%in
+;200
+7105M
+M1S0
+G4 S200
+M
+ÿFÿ
+G4 S30ÿÿ€ 3, ;Home0
+GG%in
+;200
+M105
+M
+M1S0
+G4 S200
+G49S20000
+M15
+MFÿ
+M105
+M
+M1S0
+G4 S200
+G49S20000
+M15
+MFÿÿÿ€ 3, ;Home0
+GG%in
+;200éM105
+M
+M1S0
+G4 Sqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqin
+;200
+M105
+M
+M00
+G49S20000
+M15
+5
+M
+M1S0
+G4 S300
+G49S200(
+M
+ÿve0
+G7, ;Home0
+GG%in
+;200
+7105
+M
+M1S0
+G4 S200
+M
+ÿFÿ
+G4 S30ÿÿ€ 3, ;Home0
+GG%in
+;200
+M105
+M
+M1S0
+G4 S200
+G49S20000
+M15
+MFÿ
+M105
+M
+M1S0
+G4 S200
+G49S20000
+M15
+MFÿÿÿ€ 3, ;Home0
+GG%in
+;200éM105
+M
+M1S0
+G4 Sqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq300
+GQ9S200(
+M
+ÿe0
+G49S00e0
+G49

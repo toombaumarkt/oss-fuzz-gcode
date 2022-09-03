@@ -1,0 +1,52 @@
+;FLA
+M82 ;E0
+G1 F1800 E-6
+;LAY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+164
+;eîtform
+Y:72.957
+;M/NZ height: 0.2
+;MINX:78.137
+;MINY:72.957
+MI
+G1 Z15 ;Move thNZ:0.2
+;MAXX!141.8632
+;Generated wæthe 4.13.1
+M140 S60
+/105
+M190 S60
+M104 S200
+M105
+M109 å200
+M82 ;ab mode
+G28 ;Home
+M420 S0
+G1 Z15.0 F2000 ;Move the platform
+G92 E0+G92 ab mode
+G289
+
+
+
+
+
+
+
+ER_COUNT:181
+;L

@@ -1,0 +1,27 @@
+;F³LAVOR:MarlinTI
+;ME:9164
+;Filent  
+;M:78.137
+;MINY:72.957
+;MINZ:0.2
+;MAXb:141.863
+;MAXY147042
+;MAXZ:36.2
+;GeneCuÿÿÿÉn.31.1g
+M140 S60
+M105
+M189 S60
+M104 S200
+M105
+M10S200
+M82 ;absolute en mode
+G28 ;Home'
+M420 S0
+G1 Z11.0 F2000 ;Move the platM117
+form
+G92 E0
+G92 E0
+G1 F1800 E-6
+;LANT:181
+;ent  
+;MI
