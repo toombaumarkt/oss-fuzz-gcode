@@ -324,6 +324,9 @@ QVector3D GcodePreprocessorUtils::convertRToCenter(QVector3D start, QVector3D en
 
     double h_x2_div_d = 4 * R * R - x * x - y * y;
     if (h_x2_div_d < 0) { qDebug() << "Error computing arc radius."; }
+    #if defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
+    if(hypot(x, y) == 0) { return center; }
+    #endif
     h_x2_div_d = (-sqrt(h_x2_div_d)) / hypot(x, y);
 
     if (!clockwise) h_x2_div_d = -h_x2_div_d;

@@ -30,7 +30,7 @@ zip -r $OUT/candle_$FUZZING_ENGINE\_$SANITIZER\_seed_corpus.zip $SRC/seed_corpus
 #     $LIB_FUZZING_ENGINE /path/to/library.a
 
 export QTDIR="/usr/local/Qt-5.15.5"
-
+cp -r /usr/local/Qt-5.15.5 /out/usr/local
 # METHOD 1: use qmake to compile --> leads to dynamically linked libraries which are not present in the base-runner container
 cd parser
 $QTDIR/bin/qmake -makefile

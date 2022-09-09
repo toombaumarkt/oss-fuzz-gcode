@@ -11,7 +11,7 @@ for file in ./$path_to_crashes/*
 do
    touch out.txt
    python3 ../infra/helper.py reproduce $project $target $file > out.txt
-   if grep -q "ERROR" out.txt; then
+   if grep -q -e 'ERROR\|WARNING\|AddressSanitizer\|MemorySanitizer\|UndefinedBehaviourSanitizer' out.txt; then
       ((amount_of_crashes = amount_of_crashes + 1))
       crashing_files="${crashing_files}\n${file}"
    fi

@@ -544,7 +544,7 @@ def docker_run(run_args, no_print=False):
   stdout = None
   if no_print:
     stdout = open(os.devnull, 'w')
-
+  print(command)
   try:
     subprocess.check_call(command, stdout=stdout, stderr=subprocess.STDOUT)
   except subprocess.CalledProcessError:
