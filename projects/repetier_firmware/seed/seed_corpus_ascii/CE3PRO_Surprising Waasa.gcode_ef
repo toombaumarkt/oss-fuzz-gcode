@@ -1,0 +1,27 @@
+G1 X110.062 Y110 E563.55292
+G1 F1500 E558.55292
+G0 F300 X110.062 Y110 Z19.8
+G0 F9000 X110.018 Y109.968
+G1 F1500 E563.55292
+G1 F805.4 X109.964 Y110 E563.55448
+G1 X110.018 Y110.032 E563.55603
+G1 X110.037 Y110 E563.55696
+G1 F1500 E558.55696
+M140 S0
+M107
+G91 ;Relative positioning
+G1 E-2 F2700 ;Retract a bit
+G1 E-2 Z0.2 F2400 ;Retract and raise Z
+G1 X5 Y5 F3000 ;Wipe out
+G1 Z10 ;Raise Z more
+G90 ;Absolute positioning
+
+G1 X0 Y220 ;Present print
+M106 S0 ;Turn-off fan
+M104 S0 ;Turn-off hotend
+M140 S0 ;Turn-off bed
+
+M84 X Y E ;Disable all steppers but Z
+
+M82 ;absolute extrusion mode
+M104 S0

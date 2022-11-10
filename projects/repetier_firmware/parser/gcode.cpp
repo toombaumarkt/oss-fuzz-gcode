@@ -267,7 +267,7 @@ bool GCode::parseBinary(uint8_t* buffer, fast8_t length, bool fromSerial) {
         if (hasString())
         #if defined(FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION)
         // fixing bug related to line 376
-            textlen = *p++;//RMath::min(80, *p++ + 1);
+            textlen = RMath::min(80, *p++ + 1);
         #else
             textlen = *p++;
         #endif
